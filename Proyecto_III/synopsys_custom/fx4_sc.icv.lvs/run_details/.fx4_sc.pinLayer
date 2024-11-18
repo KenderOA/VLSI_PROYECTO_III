@@ -1,0 +1,4 @@
+DEVICE_COUNT 3
+0 1 ne ne.polygonlayer.0006 4 GATE ne.polygonlayer.0006 SRC ndiff.polygonlayer.0114 DRN ndiff.polygonlayer.0114 BULK bulk.polygonlayer.0130
+1 6 p_dnw p_dnw.polygonlayer.0005 2 ANODE bulk.polygonlayer.0130 CATHODE nwtrm.polygonlayer.0128
+2 1 pe pe.polygonlayer.0006 4 GATE pe.polygonlayer.0006 SRC pdiff.polygonlayer.0102 DRN pdiff.polygonlayer.0102 BULK nwtrm.polygonlayer.0128

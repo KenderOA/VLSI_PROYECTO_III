@@ -1,0 +1,7 @@
+# Master Broadcast File
+time 1731720345
+pid 392647
+log /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/pwdp_jobs/saeSession0_defaultSimulation_cdpl.3.392647/logs/master.redhatclon.392647.log.gz
+tcp 172.21.8.8:43993
+wlog /dev/null
+status done

@@ -1,0 +1,27 @@
+11/17/2024 19:21:04 (icv) Updating license package priority based on cached license status
+  Previous value: ICValidator-Base,ICValidator-Elite,ICValidator-Apex
+  New value:      ICValidator-Apex,ICValidator-Base,ICValidator-Elite
+11/17/2024 19:21:04 (icv) Licensing related environment variables:
+
+  SNPSLMD_LICENSE_FILE = "27020@172.21.99.41"
+
+11/17/2024 19:21:05 License manager initialized. (Time=0:00:00)
+11/17/2024 19:21:05 Using license file: 27020@172.21.99.41
+11/17/2024 19:21:05 (icv) Pre-Checking (ICValidator2-GeometryEngine/2022.12)
+11/17/2024 19:21:05 (icv)   ICValidator2-GeometryEngine license is installed. (Time=0:00:00)
+11/17/2024 19:21:14 Requesting (ICValidator-Manager-Apex/2022.12)
+11/17/2024 19:21:14   27020@172.21.99.41: ICValidator-Manager-Apex license obtained. (Time=0:00:00)
+11/17/2024 19:21:14 
+11/17/2024 19:21:14 Obtained 1 total ICValidator-Manager-Apex license.
+11/17/2024 19:21:14 This will allow up to 4 engine processes to run.
+
+11/17/2024 19:21:14 (pydb_server) ICValidator2-GeometryEngine license is available.  (Cached)
+11/17/2024 19:21:14 (icv_engine 0) Requesting (ICValidator2-GeometryEngine/2022.12)
+11/17/2024 19:21:14 (icv_engine 0)   27020@172.21.99.41: ICValidator2-GeometryEngine license obtained. (Time=0:00:00)
+11/17/2024 19:21:14 (icv_engine 1) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+11/17/2024 19:21:16 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+11/17/2024 19:21:18 (icv_engine 1) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+11/17/2024 19:21:23 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+11/17/2024 19:21:28 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+11/17/2024 19:21:32 Releasing all licenses
+11/17/2024 19:21:33 License manager shutting down. (Time=0:00:00)

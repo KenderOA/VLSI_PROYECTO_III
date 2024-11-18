@@ -1,0 +1,56 @@
+[19:00:58.69] /o 
+              /c                    PrimeWave Design Environment
+              /c 
+              /c            Version U-2023.03-SP2 for linux64 - Aug 24, 2023 00:53:01 
+              /c 
+              /c                     Copyright (c) 2000 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9117514 compiled on Wed Aug 23 10:56:58 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/bin/primewave_st -gui 0 -log pw_shell_session0_job2 -libDefFile /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs
+              /c Execution time: Wed Oct 30 19:00:54 2024
+              /c Host: redhatclon
+              /c 
+[19:00:58.72] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[19:00:58.72] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[19:00:58.72] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[19:01:03.40] /r giShowFrameTabs true
+[19:01:03.40] /r giWindowId 1
+[19:01:03.41] /r giWindowGeometry 1040x800
+[19:01:03.50] /i ::sa::_backgroundSaeShell::signalProcessReady 1730336452 521699
+[19:01:03.50] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 11
+[19:01:04.09] /i ::wf::viewerExited
+[19:01:22.01] /i ::wf::viewerExited
+[19:01:23.47] /i ::wf::updateViewerLicense 2
+[19:01:49.55] /i ::wf::viewerExited
+[19:05:15.01] /i ::wf::viewerExited
+[19:05:16.54] /i ::wf::updateViewerLicense 2
+[19:05:54.48] /i ::wf::viewerExited
+[19:05:59.20] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[19:05:59.20] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[19:05:59.20] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[19:06:04.79] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:06:04.90] /i ::sa::_backgroundSaeShell::parentRunning
+[19:06:04.90] /o false
+[19:10:25.12] /i ::wf::viewerExited
+[19:10:26.80] /i ::wf::updateViewerLicense 2
+[19:11:00.61] /i ::sa::_backgroundSaeShell::exit
+[19:11:00.61] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[19:11:02.83] /o Shutdown time: Wed Oct 30 19:11:02 2024
+[19:11:02.83] /o Elapsed session real time: 10.08 minutes
+[19:11:02.83] /o Session terminated. Log is at /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/logs/primewave.ORTIZ_ARIAS.2024_10_30_190054_522975.log
+[19:11:04.85] /o signal number = 15
+              /c Information: Received "Terminate" signal. Sending  PID: 522826 UID: 1150 Process name: "". Process is terminated.

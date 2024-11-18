@@ -1,0 +1,297 @@
+[17:59:23.40] /o 
+              /c                                 Custom Compiler™ 
+              /c 
+              /c                Version U-2023.03-SP2 for linux64 - Aug 25, 2023 
+              /c 
+              /c                     Copyright (c) 2004 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9128410 compiled on Fri Aug 25 11:03:32 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/cdesigner -loadAll true
+              /c Execution time: Wed Oct 30 17:59:18 2024
+              /c Host: redhatclon
+              /c Working directory: /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III
+              /c 
+[17:59:36.09] /m Information: Registering ICV PERC package...
+[17:59:36.35] /o 
+[17:59:36.35] /o <> -------------------------------------------
+[17:59:36.35] /o <>
+[17:59:36.35] /o <> Loading XFAB PDK components
+[17:59:36.35] /o <>  basic                            O.K
+[17:59:36.37] /o <>  exports                          O.K
+[17:59:36.39] /o <>  custom                           O.K
+[17:59:36.39] /o <>  cdf                              O.K
+[17:59:36.40] /o <>  netlisting                       O.K
+[17:59:36.46] /o <>  useability                       O.K
+[17:59:36.46] /o <>  synopsys                         O.K
+[17:59:36.51] /o <>  pcellkit                         O.K
+[17:59:36.57] /o <>  trigger_callbacks                O.K
+[17:59:36.57] /o <> Loading XFAB PDK preferences
+[17:59:36.83] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[17:59:36.85] /w Warning: Preference 'xtStarTcadGrdFile' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[17:59:36.86] /o <> Loading Calibre presets for XFAB PDK
+[17:59:36.86] /o <> Loading .xfabrc user script
+[17:59:36.86] /o <>
+[17:59:36.86] /o <> -------------------------------------------
+[17:59:36.86] /o <>
+[17:59:36.86] /o <> Technology     xt018
+[17:59:36.86] /o <> Version        v12_1_1_1
+[17:59:36.86] /o <> LibCode        1243
+[17:59:36.86] /o <> Core           LP 1.8V
+[17:59:36.86] /o <> Metal          Thin4
+[17:59:36.86] /o <> TopMetal       METTP&METTPL
+[17:59:36.86] /o <>
+[17:59:36.86] /o <> -------------------------------------------
+[17:59:36.86] /o 
+[17:59:37.21] /r giShowFrameTabs false
+[17:59:44.63] /# gi::executeAction {deRecentFile_clk_clkx0x4_schematic_schematic_Editing} -in [gi::getWindows 0]
+[17:59:44.63] /a de::open clk/clkx0x4/schematic -readOnly false
+[17:59:44.69] /m Information: Feature 'SynopsysCustomLayout' checked out. (LICENSE-003)
+[17:59:44.84] /r giWindowId 1
+[17:59:44.84] /r giWindowGeometry 1632x947+5+55
+[17:59:45.17] /o oa:0x42b94530
+[17:59:45.43] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]] -value 290x818
+[17:59:49.49] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]] -value false
+[17:59:52.30] /i gi::executeAction {seShowConsoleForWindow} -in [gi::getWindows 1]
+[17:59:52.34] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[17:59:52.37] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[17:59:52.37] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[17:59:52.46] /r giWindowId 2
+[17:59:52.48] /r giWindowGeometry 600x500
+[17:59:52.61] /r giWindowGeometry 600x500
+[17:59:52.75] /m Information: Launching Background pw_shell Server Process "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III && primewave_st -gui 0  -log pw_shell_session0_job1 -libDefFile /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs"
+[17:59:52.92] /m Information: Launching Waveform Viewer "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom &&  /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_iwwu0F -unique_string 6083d30b881aa403920fb9049262422141d71a20029f362b96d0a7b23157bcd7992cf8041bbc5c63 -lic_type 2    > /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/viewer.log 2>&1"
+[17:59:52.96] /m Information: Launching Result Viewer "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom &&  /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -log rvcmd.log -ptype rv -k -cdesigner -parent_cc_pid 508659 -spxkey /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/waveform/sae.spxkey -unique_string 6083d30b881aa403920fb9049262422141d71a20029f362b96d0a7b23157bcd7992cf8041bbc5c63 -lic_type 2    > /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/rviewer.log 2>&1"
+[17:59:53.30] /i db::setAttr geometry -of [gi::getFrames 2] -value 600x517+5+55
+[17:59:55.61] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[17:59:55.61] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 2]]
+[17:59:57.27] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[17:59:57.27] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 2]]
+[17:59:58.56] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[17:59:58.56] /r giMenuAccess db::getNext [gi::getMenus saVariablesMenu -from [gi::getWindows 2]]
+[17:59:59.56] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[17:59:59.56] /r giMenuAccess db::getNext [gi::getMenus saConsoleOutputsMenu -from [gi::getWindows 2]]
+[17:59:59.62] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[17:59:59.62] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 2]]
+[18:00:01.55] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[18:00:01.55] /r giMenuAccess db::getAttr menu -of [db::getNext [gi::getActions saNetlistCascade -from [db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 2]]]]]
+[18:00:04.40] /m Information: Received ready-for-commands signal from background job 'pw_shell_session0_job1' after 12 seconds.
+[18:00:07.04] /i gi::setCurrentIndex {outputsTable} -index {0,1} -in [gi::getWindows 2]
+[18:00:07.04] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[18:00:08.86] /i sa::selectOutputs -outputIndex 0 -useCustomColors true -window 2
+[18:00:08.92] /i gi::setField {outputsTable} -index {0,1} -value {} -in [gi::getWindows 2]
+[18:00:08.93] /i gi::setCurrentIndex {outputsTable} -index {1,1} -in [gi::getWindows 2]
+[18:00:08.93] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[18:00:18.26] /# gi::executeAction {deAddPoint} -in [gi::getWindows 1]
+[18:00:18.26] /i de::addPoint {4.33125 1.3} -context [db::getNext [de::getContexts -window 1]]
+[18:00:20.24] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[18:00:22.51] /i sa::selectOutputs -outputIndex 1 -useCustomColors true -window 2
+[18:00:22.61] /i gi::setField {outputsTable} -index {1,1} -value {} -in [gi::getWindows 2]
+[18:00:22.61] /i gi::setCurrentIndex {outputsTable} -index {0,1} -in [gi::getWindows 2]
+[18:00:22.61] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[18:00:24.61] /# gi::executeAction {deAddPoint} -in [gi::getWindows 1]
+[18:00:24.61] /i de::addPoint {4.3125 1.14375} -context [db::getNext [de::getContexts -window 1]]
+[18:00:26.39] /i gi::setCurrentIndex {outputsTable} -index {2,1} -in [gi::getWindows 2]
+[18:00:26.39] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[18:00:28.10] /i sa::selectOutputs -outputIndex 2 -useCustomColors true -window 2
+[18:00:28.19] /i gi::setField {outputsTable} -index {2,1} -value {} -in [gi::getWindows 2]
+[18:00:28.19] /i gi::setCurrentIndex {outputsTable} -index {1,1} -in [gi::getWindows 2]
+[18:00:28.19] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[18:00:30.98] /# gi::executeAction {deAddPoint} -in [gi::getWindows 1]
+[18:00:30.98] /i de::addPoint {3.49375 1.13125} -context [db::getNext [de::getContexts -window 1]]
+[18:00:32.61] /i gi::setCurrentIndex {outputsTable} -index {3,1} -in [gi::getWindows 2]
+[18:00:32.61] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[18:00:34.18] /i sa::selectOutputs -outputIndex 3 -useCustomColors true -window 2
+[18:00:34.30] /i gi::setField {outputsTable} -index {3,1} -value {} -in [gi::getWindows 2]
+[18:00:34.30] /i gi::setCurrentIndex {outputsTable} -index {2,1} -in [gi::getWindows 2]
+[18:00:34.30] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[18:00:38.75] /# gi::executeAction {deAddPoint} -in [gi::getWindows 1]
+[18:00:38.75] /i de::addPoint {3.40625 1.28125} -context [db::getNext [de::getContexts -window 1]]
+[18:00:59.64] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[18:00:59.74] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 2]]
+[18:01:00.07] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 2]] -value 281x82+165+280
+[18:01:01.31] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {giPrompt} -parent [gi::getWindows 2]]
+[18:01:01.32] /m Information: Sent exit command to WaveView.
+[18:01:01.32] /m Information: Sent exit command to CalculateEngine.
+[18:01:01.32] /m Information: Sent exit command to ResultsViewer.
+[18:01:01.45] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[18:01:01.45] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[18:01:01.45] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[18:01:01.87] /m Information: Waveform viewer exited normally.
+[18:01:01.88] /m Information: ResultsView exited normally.
+[18:01:03.58] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[18:01:03.58] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[18:01:03.58] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {1.825 0.8625} -index 0 -intent none]
+[18:01:03.58] /o oa:0x30992b60
+[18:01:04.90] /# gi::executeAction {dePropertyEditorToggle} -in [gi::getWindows 1]
+[18:01:04.90] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]] -value true
+[18:01:07.30] /i gi::setItemSelection {parameters} -index {pw,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:07.30] /i gi::setCurrentIndex {parameters} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:10.47] /i gi::setItemSelection {parameters} -index {per,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:10.47] /i gi::setField {parameters} -value {2n} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:10.55] /i gi::setCurrentIndex {parameters} -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:13.59] /i gi::setField {parameters} -value {4n} -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:13.68] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:16.50] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[18:01:16.50] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[18:01:16.50] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {1.1875 0.81875} -index 0 -intent none]
+[18:01:16.50] /o oa:0x4274af70
+[18:01:17.82] /i gi::setItemSelection {parameters} -index {pw,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:17.83] /i gi::setCurrentIndex {parameters} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:20.20] /i gi::setField {parameters} -value {5n} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:20.28] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:21.07] /i gi::setItemSelection {parameters} -index {per,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:21.07] /i gi::setCurrentIndex {parameters} -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:23.07] /i gi::setField {parameters} -value {10n} -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:23.15] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[18:01:24.62] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[18:01:24.62] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[18:01:24.62] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 1]]]}]
+[18:01:25.84] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 1]
+[18:01:25.84] /m Information: Saving design 'clk clkx0x4 schematic'. (DESIGN_WINDOW-004)
+[18:01:26.00] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 1]
+[18:01:26.01] /m Information: Saving design 'clk clkx0x4 schematic'. (DESIGN_WINDOW-004)
+[18:01:26.15] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 1]
+[18:01:26.15] /m Information: Saving design 'clk clkx0x4 schematic'. (DESIGN_WINDOW-004)
+[18:01:29.91] /i gi::executeAction {seShowConsoleForWindow} -in [gi::getWindows 1]
+[18:01:29.97] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[18:01:29.98] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[18:01:29.98] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[18:01:30.06] /r giWindowId 3
+[18:01:30.08] /r giWindowGeometry 600x500
+[18:01:30.22] /r giWindowGeometry 600x517+5+55
+[18:01:30.38] /m Information: Launching Background pw_shell Server Process "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III && primewave_st -gui 0  -log pw_shell_session1_job1 -libDefFile /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs"
+[18:01:30.57] /m Information: Launching Waveform Viewer "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom &&  /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_EQG2L9 -unique_string 6083d30b881aa403920fb9049262422141d71a20029f362b96d0a7b23157bcd78c6c43242f154ccf -lic_type 2    > /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/viewer.log 2>&1"
+[18:01:30.62] /m Information: Launching Result Viewer "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom &&  /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -log rvcmd.log -ptype rv -k -cdesigner -parent_cc_pid 508659 -spxkey /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/waveform/sae.spxkey -unique_string 6083d30b881aa403920fb9049262422141d71a20029f362b96d0a7b23157bcd78c6c43242f154ccf -lic_type 2    > /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/rviewer.log 2>&1"
+[18:01:30.99] /i db::setAttr geometry -of [gi::getFrames 3] -value 600x517+5+55
+[18:01:32.46] /i gi::setCurrentIndex {outputsTable} -index {0,1} -in [gi::getWindows 3]
+[18:01:32.46] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 3]
+[18:01:33.63] /i sa::selectOutputs -outputIndex 0 -useCustomColors true -window 3
+[18:01:33.67] /i gi::setField {outputsTable} -index {0,1} -value {} -in [gi::getWindows 3]
+[18:01:33.67] /i gi::setCurrentIndex {outputsTable} -index {1,1} -in [gi::getWindows 3]
+[18:01:33.67] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 3]
+[18:01:34.77] /# gi::executeAction {deAddPoint} -in [gi::getWindows 1]
+[18:01:34.77] /i de::addPoint {3.29375 1.325} -context [db::getNext [de::getContexts -window 1]]
+[18:01:35.77] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 3]
+[18:01:36.93] /i sa::selectOutputs -outputIndex 1 -useCustomColors true -window 3
+[18:01:37.00] /i gi::setField {outputsTable} -index {1,1} -value {} -in [gi::getWindows 3]
+[18:01:37.01] /i gi::setCurrentIndex {outputsTable} -index {0,1} -in [gi::getWindows 3]
+[18:01:37.01] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 3]
+[18:01:39.05] /# gi::executeAction {deAddPoint} -in [gi::getWindows 1]
+[18:01:39.05] /i de::addPoint {3.45625 1.125} -context [db::getNext [de::getContexts -window 1]]
+[18:01:40.37] /i gi::setCurrentIndex {outputsTable} -index {2,1} -in [gi::getWindows 3]
+[18:01:40.37] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 3]
+[18:01:41.60] /m Information: Received ready-for-commands signal from background job 'pw_shell_session1_job1' after 11 seconds.
+[18:01:42.00] /i sa::selectOutputs -outputIndex 2 -useCustomColors true -window 3
+[18:01:42.09] /i gi::setField {outputsTable} -index {2,1} -value {} -in [gi::getWindows 3]
+[18:01:42.09] /i gi::setCurrentIndex {outputsTable} -index {1,1} -in [gi::getWindows 3]
+[18:01:42.09] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 3]
+[18:01:43.30] /# gi::executeAction {deAddPoint} -in [gi::getWindows 1]
+[18:01:43.30] /i de::addPoint {4.43125 1.2875} -context [db::getNext [de::getContexts -window 1]]
+[18:01:44.76] /i gi::setCurrentIndex {outputsTable} -index {3,1} -in [gi::getWindows 3]
+[18:01:44.76] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 3]
+[18:01:46.16] /i sa::selectOutputs -outputIndex 3 -useCustomColors true -window 3
+[18:01:46.33] /i gi::setField {outputsTable} -index {3,1} -value {} -in [gi::getWindows 3]
+[18:01:46.33] /i gi::setCurrentIndex {outputsTable} -index {2,1} -in [gi::getWindows 3]
+[18:01:46.33] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 3]
+[18:01:47.50] /# gi::executeAction {deAddPoint} -in [gi::getWindows 1]
+[18:01:47.50] /i de::addPoint {4.30625 1.125} -context [db::getNext [de::getContexts -window 1]]
+[18:01:50.26] /i gi::setActiveDialog [gi::getDialogs {saEditAnalysesDialogXsaeSession1} -parent [gi::getWindows 3]]
+[18:01:50.58] /i db::setAttr geometry -of [gi::getDialogs {saEditAnalysesDialogXsaeSession1} -parent [gi::getWindows 3]] -value 680x652+600+64
+[18:01:55.09] /i gi::setField {/analysesGroups/tabGeneral/anaPane/step} -value {0.1p} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession1} -parent [gi::getWindows 3]]
+[18:02:05.55] /i gi::setField {/analysesGroups/tabGeneral/anaPane/stop} -value {100n} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession1} -parent [gi::getWindows 3]]
+[18:02:05.55] /i gi::pressButton {/ok} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession1} -parent [gi::getWindows 3]]
+[18:02:07.62] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[18:02:07.62] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[18:02:08.51] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[18:02:08.51] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[18:02:08.65] /r giWindowId 4
+[18:02:08.69] /r giWindowGeometry 800x600+55+105
+[18:02:10.07] /w Warning: Preference 'nlCDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlCDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[18:02:10.07] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[18:02:10.07] /w Warning: Preference 'nlVHDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVHDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[18:02:10.07] /w Warning: Preference 'nlSpectreAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[18:02:10.07] /w Warning: Preference 'nlSpectreShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[18:02:10.07] /w Warning: Preference 'nlEldoShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlEldoIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[18:02:10.07] /w Warning: Preference 'nlVerilogICCShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogICCIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[18:02:10.07] /w Warning: Preference 'nlVerilogShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[18:02:10.07] /w Warning: Preference 'nlHSPICEShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlHSPICEIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[18:02:10.07] /w Warning: Preference 'nlNanoSimShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlNanoSimIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[18:02:10.07] /w Warning: Preference 'nlCDLPromoteConnectDefsAtTop' is deprecated and scheduled for removal in a future release. Use 'nlCDLTopVirtualTerms' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[18:02:10.07] /w Warning: Preference 'nlAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[18:02:10.13] /m Information: Launching Background pw_shell Server Process "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III && primewave_st -gui 0  -log pw_shell_session1_job2 -libDefFile /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs"
+[18:02:10.13] /i gi::collapse {jobMonitorTable} -index {0.0.1,0} -in [gi::getWindows 4]
+[18:02:10.16] /m Information: Starting netlisting for the test suite 'saeSession1'...
+[18:02:10.17] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 3]] -value 507x64+42+230
+[18:02:10.23] /i gi::setActiveDialog [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 3]]
+[18:02:11.90] /m Information: Starting netlisting for the testbench: 'default'
+[18:02:12.20] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 3]] -value 515x64+42+230
+[18:02:13.10] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 3]] -value 501x64+42+230
+[18:02:13.10] /m Information: Netlisting finished successfully for the testbench: 'default'
+[18:02:13.12] /m Information: Netlisting finished successfully for the test suite 'saeSession1'.
+[18:02:13.53] /m Information: Starting PrimeSimHSPICE simulation for design: clk/clkx0x4/schematic
+[18:02:13.55] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[18:02:13.73] /i gi::setActiveWindow 3
+[18:02:13.73] /i gi::setActiveWindow 3 -raise true
+[18:02:13.88] /r giWindowId 5
+[18:02:13.91] /r giWindowGeometry 1024x768+313+185
+[18:02:13.92] /r giWindowId 6
+[18:02:13.94] /r giWindowGeometry 1040x800
+[18:02:16.62] /m Information: Simulation completed successfully for design: clk/clkx0x4/schematic  (PW-651)
+[18:02:16.69] /m Information: Netlisting and simulation completed for testbench: default in 8s
+[18:02:16.70] /m Information: Evaluating and plotting outputs...
+[18:02:20.32] /m Information: Evaluating and plotting completed for testbench: default in 4s
+[18:02:20.41] /r giWindowId 7
+[18:02:20.43] /r giWindowGeometry 1910x1020+5+55
+[18:02:20.43] /i db::setAttr maximized -of [gi::getFrames 8] -value true
+[18:02:21.07] /m Information: Received ready-for-commands signal from background job 'pw_shell_session1_job2' after 10 seconds.
+[18:03:42.13] /i gi::executeAction giCloseWindow -in [gi::getWindows 7]
+[18:03:42.15] /i gi::setActiveWindow 5
+[18:03:42.15] /i gi::setActiveWindow 5 -raise true
+[18:03:42.91] /m Information: Waveform viewer exited normally.
+[18:03:43.04] /m Information: Launching Waveform Viewer "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom &&  /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_9EWRlF -unique_string 6083d30b881aa403920fb9049262422141d71a20029f362b96d0a7b23157bcd7549d619e5a8e06d1 -lic_type 2    > /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/viewer.log 2>&1"
+[18:06:31.17] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[18:06:31.19] /i gi::setActiveWindow 3
+[18:06:31.19] /i gi::setActiveWindow 3 -raise true
+[18:06:32.86] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[18:06:32.94] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 3]]
+[18:06:33.23] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 3]] -value 281x82+165+280
+[18:06:35.10] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {giPrompt} -parent [gi::getWindows 3]]
+[18:06:35.10] /m Information: Sent exit command to WaveView.
+[18:06:35.10] /m Information: Sent exit command to CalculateEngine.
+[18:06:35.10] /m Information: Sent exit command to ResultsViewer.
+[18:06:35.98] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[18:06:35.98] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[18:06:35.98] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[18:06:36.11] /i gi::setActiveWindow 4
+[18:06:36.11] /i gi::setActiveWindow 4 -raise true
+[18:06:36.12] /i gi::setActiveWindow 1
+[18:06:36.12] /i gi::setActiveWindow 1 -raise true
+[18:06:36.31] /m Information: ResultsView exited normally.
+[18:06:36.31] /m Information: Waveform viewer exited normally.
+[18:06:37.04] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[18:06:37.22] /i gi::setActiveWindow 4
+[18:06:37.22] /i gi::setActiveWindow 4 -raise true
+[18:06:40.21] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[18:06:40.22] /i gi::setActiveWindow 0
+[18:06:40.22] /i gi::setActiveWindow 0 -raise true
+[18:06:42.83] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[18:06:42.93] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[18:06:43.22] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]] -value 354x207+128+752
+[18:06:44.45] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[18:06:58.93] /o Shutdown time: Wed Oct 30 18:06:58 2024
+[18:06:58.93] /o Elapsed session real time: 7.6 minutes
+[18:06:58.93] /o Session terminated. Log is at /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/logs/ccompiler.ORTIZ_ARIAS.2024_10_30_175918_508659.log

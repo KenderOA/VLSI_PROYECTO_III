@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Sun Nov 17 22:00:30 2024
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file library="fx4" view="schematic" mode="write" cell="fx4_sc" file="schematic"/>
+                <file library="fx0" view="schematic" mode="write" cell="fx00" file="schematic"/>
+                <file library="D_CELLS_HDLL" view="layout" mode="read" cell="INHDLLX0" file="maskLayout"/>
+                <file library="fx0" view="layout" mode="write" cell="fx00" file="maskLayout"/>
+                <file library="D_CELLS_HD" view="layout" mode="read" cell="INHDX0" file="maskLayout"/>
+        </recentFiles>
+</synopsysFile>

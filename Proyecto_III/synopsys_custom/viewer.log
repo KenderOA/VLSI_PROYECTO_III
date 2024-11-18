@@ -1,0 +1,3 @@
+ ** SX started using preference settings in '/tmp/tmp_sae_spxrc_S1o3Hx'
+sx_set_data_directory {/home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results}
+sx_exit

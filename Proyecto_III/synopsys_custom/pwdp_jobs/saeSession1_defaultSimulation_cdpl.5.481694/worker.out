@@ -1,0 +1,10 @@
+Running pwcdpl_worker -i /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/pwdp_jobs/saeSession1_defaultSimulation_cdpl.5.481694 -t 10000
+
+ cdpl worker started signal... /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/pwdp_jobs/saeSession1_defaultSimulation_cdpl.5.481694 10000
+
+ PWDP: cdpl worker flow start...
+
+PWDP: job [0] exit code :[0].worker W1 task time :2.
+ cdpl worker end
+
+ PWDP: cdpl worker flow quit.

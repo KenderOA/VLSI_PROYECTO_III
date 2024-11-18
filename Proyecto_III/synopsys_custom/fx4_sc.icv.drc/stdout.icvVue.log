@@ -1,0 +1,104 @@
+  + INFO: Connected to Custom Compiler at 46539.
+
+< LAYOUT: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+L startFilter LAY
+L setTopLayLCV  ""
+L setCurLayLCV  ""
+
+< LAYOUT: start_filter >
+L setWorkingDir "[pwd]"
+
+< LAYOUT: load_hercules >
+L setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc
+L setTopLayLCV fx4/fx4_sc/layout
+L openLCV fx4/fx4_sc/layout
+
+< LAYOUT: redraw >
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< LAYOUT: load_hercules >
+L setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc
+L setTopLayLCV fx4/fx4_sc/layout
+L openLCV fx4/fx4_sc/layout
+
+< LAYOUT: redraw >
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< LAYOUT: load_hercules >
+L setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc
+L setTopLayLCV fx4/fx4_sc/layout
+L openLCV fx4/fx4_sc/layout
+
+< LAYOUT: redraw >
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< LAYOUT: load_hercules >
+L setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc
+L setTopLayLCV fx4/fx4_sc/layout
+L openLCV fx4/fx4_sc/layout
+
+< LAYOUT: redraw >
+
+< LAYOUT: new_block >
+V ZOOM_EXTENTS_RESET
+L setCurLayLCV fx4/fx4_sc/layout
+L openLCV fx4/fx4_sc/layout
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L setHiliteId
+
+< LAYOUT: primary_hilite >
+L setHighlightProperty yellow brick
+
+< LAYOUT: poly_set >
+L highlightFromFile /home/ORTIZ_ARIAS/.synopsys/icv/vue_tmp_000001/highlight_20241117191830_000000.oas c5cdf6aa8e6bc9805c875495cc2c3282
+
+< LAYOUT: after_hilite >
+L drawHighlights
+
+< LAYOUT: zoom_extents >
+L setViewPort 1.5325 -2.2635 1.9575 -1.9765
+
+< LAYOUT: redraw >
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< LAYOUT: load_hercules >
+L setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc
+L setTopLayLCV fx4/fx4_sc/layout
+L openLCV fx4/fx4_sc/layout
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< LAYOUT: quit_vue >
+  + INFO: Close the connection with Custom Compiler.

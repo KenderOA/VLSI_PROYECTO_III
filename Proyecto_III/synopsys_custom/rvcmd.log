@@ -1,0 +1,20 @@
+### Custom WaveView ADV log file, revision U-2023.03-SP2 (build Aug 24, ) ###
+### created at 21:31:18 on Sun Nov 17 2024 (Linux AMD64) ###
+### Host Name: redhatclon   User ID: ORTIZ_ARIAS   PID: 1102659   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+#source {/mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc/../../linux64/swv/packages/SX-SNPSCUST-Link/snps_custom_link.tcl}
+#source TCL files from directory {/mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc}
+#[21:31:55.390] I| Created new database /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results/post_results.db
+#[21:31:56.770] I| Setup simulation complete: 
+#    results directory: /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results 
+#    post database directory: /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results
+#[21:32:00.080] I| Created new database /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results/post_results.db
+#[21:32:00.100] I| Created new database /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results/rv_status.db
+#[21:32:00.130] I| Setup simulation complete: 
+#    results directory: /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results 
+#    post database directory: /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results
+#sx_exit#

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version U-2023.03-SP2-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtLVSCalibreUseSVRFTranscript" value="true"/>
+	<pref name="xtLVSICVControlVariablesTableConfig" value="1 275 0 100 0 100 1 840 1 100"/>
+	<pref name="xtLVSLayCell" value="fx4_sc"/>
+	<pref name="xtLVSLayInputNetlist" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/fx4_sc.net"/>
+	<pref name="xtLVSLayLCV" value="fx4/fx4_sc/layout"/>
+	<pref name="xtLVSLayOasisFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/fx4_sc.custom_compiler.oas"/>
+	<pref name="xtLVSLayStreamFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/fx4_sc.custom_compiler.gds"/>
+	<pref name="xtLVSSchCell" value="fx4_sc"/>
+	<pref name="xtLVSSchInputNetlist" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/fx4_sc.icv.sp"/>
+	<pref name="xtLVSSchLCV" value="fx4/fx4_sc/schematic"/>
+	<pref name="xtLVSSchOutputNetlist" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/fx4_sc.icv.sp"/>
+	<pref name="xtLVSTool" value="IC Validator"/>
+</preferences>
+

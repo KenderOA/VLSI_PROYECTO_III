@@ -1,0 +1,4 @@
+openaccess layout icv fx4_sc fx4 /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1 /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/strmInOut.layertable /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/./ICValidator -vue -oa_view -oa_lib_defs -oa_layer_map -oa_dm6 -i -f -c -I -I 
+schematic=UNSPECIFIED
+ICV_HOME_DIR=/mnt/vol_synopsys2023/synopsys/icvalidator/U-2022.12-SP4
+ICV_INCLUDES=UNSET

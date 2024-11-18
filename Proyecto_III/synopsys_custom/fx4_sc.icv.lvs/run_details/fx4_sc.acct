@@ -1,0 +1,10 @@
+fx4_sc
+	Cell Level Device Counts
+		NMOS[ne] = 4
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 4
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = fx4_sc  *******
+		NMOS[ne] = 4
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 4

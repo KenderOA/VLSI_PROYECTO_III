@@ -1,0 +1,155 @@
+[14:38:40.34] /o 
+              /c                    PrimeWave Design Environment
+              /c 
+              /c            Version U-2023.03-SP2 for linux64 - Aug 24, 2023 00:53:01 
+              /c 
+              /c                     Copyright (c) 2000 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9117514 compiled on Wed Aug 23 10:56:58 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/bin/primewave_st -gui 0 -log pw_shell_session4_job1 -libDefFile /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs
+              /c Execution time: Thu Oct 31 14:38:36 2024
+              /c Host: redhatclon
+              /c 
+[14:38:40.37] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[14:38:40.37] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[14:38:40.37] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[14:38:45.67] /r giShowFrameTabs true
+[14:38:45.67] /r giWindowId 1
+[14:38:45.67] /r giWindowGeometry 1040x800
+[14:38:45.77] /i ::sa::_backgroundSaeShell::signalProcessReady 1730407114 800525
+[14:38:45.78] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 11
+[14:38:45.79] /i ::wf::updateViewerLicense 2
+[14:38:46.21] /i ::wf::updateViewerLicense 2
+[14:38:55.50] /i ::sa::_backgroundSaeShell::runScript /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/bg_script.tcl 0 sa::_testSuite::netlistAndRun::structNetlistingDone scriptDir /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic testSuiteName saeSession2 cmdArgs {default 1 1 0 1 0} taskId 2 isReRun 1
+[14:38:56.42] /o 
+[14:38:56.42] /o <> -------------------------------------------
+[14:38:56.42] /o <>
+[14:38:56.42] /o <> Loading XFAB PDK components
+[14:38:56.43] /o <>  basic                            O.K
+[14:38:56.45] /o <>  exports                          O.K
+[14:38:56.46] /o <>  custom                           O.K
+[14:38:56.47] /o <>  cdf                              O.K
+[14:38:56.47] /o <>  netlisting                       O.K
+[14:38:56.50] /o <>  useability                       WRN
+[14:38:56.51] /e Error: "Following error happened during execution of ::gi::_giConsoleMessenger::_addToWindowType procedure during TCL callback Error: There are no registered attributes for object type 'string'. (TCL_OBJECT-008)" (POSTMAN-005)
+[14:38:56.51] /o <>  synopsys                         O.K
+[14:38:56.56] /o <>  pcellkit                         O.K
+[14:38:56.60] /o <>  trigger_callbacks                O.K
+[14:38:56.60] /o <> Loading XFAB PDK preferences
+[14:38:56.61] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference xtLVSSchNetlister because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference lxSplit because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference lxMFactorNames because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference lxTopBottomPinLPP because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference lxLeftRightPinLPP because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[14:38:56.61] /w Warning: Could not set the value of preference xtPVLayerMapFile because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference xtLPEStarRunsetFile because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference xtStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference xtCDLViewSearchList because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference xtCDLViewStopList because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[14:38:56.61] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[14:38:56.62] /w Warning: Could not set the value of preference xtDRCICVControlVars because it does not exist. (PREFERENCE-016)
+[14:38:56.62] /w Warning: Could not set the value of preference xtLVSICVControlVars because it does not exist. (PREFERENCE-016)
+[14:38:56.62] /o <> Loading Calibre presets for XFAB PDK
+[14:38:56.62] /w Warning: Could not set the value of preference xtCalibreNetlistExportNetlisterEnabled because it does not exist. (PREFERENCE-016)
+[14:38:56.62] /w Warning: Could not set the value of preference xtCalibreNetlistExportNetlister because it does not exist. (PREFERENCE-016)
+[14:38:56.62] /w Warning: Could not set the value of preference xtCalibreNetlistExportViewList because it does not exist. (PREFERENCE-016)
+[14:38:56.62] /w Warning: Could not set the value of preference xtCalibreNetlistExportStopList because it does not exist. (PREFERENCE-016)
+[14:38:56.62] /o <> Loading .xfabrc user script
+[14:38:56.62] /o <>
+[14:38:56.62] /o <> -------------------------------------------
+[14:38:56.62] /o <>
+[14:38:56.62] /o <> Technology     xt018
+[14:38:56.62] /o <> Version        v12_1_1_1
+[14:38:56.62] /o <> LibCode        1243
+[14:38:56.62] /o <> Core           LP 1.8V
+[14:38:56.62] /o <> Metal          Thin4
+[14:38:56.62] /o <> TopMetal       METTP&METTPL
+[14:38:56.62] /o <>
+[14:38:56.62] /o <> -------------------------------------------
+[14:38:56.62] /o 
+[14:38:56.62] /m Information: WARNLOAD  /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/PDK/CustomCompiler/v12_1_1_1/scripts/useability/xt018_mimant_check.tcl
+[14:38:57.03] /w Warning: Preference 'dbParamTrimTrailingZeroesAfterDecimalPoint' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[14:38:57.09] /w Warning: Error: Initializing startup file ':/auxx/layout_editor/startup.tcl' failed:
+              /c Error: Initializing startup file ':/auxx/constraints/startup.tcl' failed:
+              /c Error: Initializing startup file ':/auxx/constraints/bindings.tcl' failed:
+              /c Error: Could not execute command 'gi::createBinding' because the supplied object 'cmDelete' for argument '-action' is invalid: Action with specified name does not exist. (COMMAND-026) (STARTUP-002) (STARTUP-002) (STARTUP-002)
+[14:38:57.12] /w Warning: Preference 'nlNanoSimShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlNanoSimIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[14:38:57.12] /w Warning: Preference 'nlCDLPromoteConnectDefsAtTop' is deprecated and scheduled for removal in a future release. Use 'nlCDLTopVirtualTerms' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[14:38:57.12] /w Warning: Preference 'nlVerilogShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[14:38:57.12] /w Warning: Preference 'nlCDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlCDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[14:38:57.12] /w Warning: Preference 'nlEldoShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlEldoIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[14:38:57.12] /w Warning: Preference 'nlSpectreAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[14:38:57.12] /w Warning: Preference 'nlVHDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVHDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[14:38:57.12] /w Warning: Preference 'nlVerilogICCShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogICCIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[14:38:57.12] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[14:38:57.12] /w Warning: Preference 'nlAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[14:38:57.12] /w Warning: Preference 'nlSpectreShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[14:38:57.12] /w Warning: Preference 'nlHSPICEShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlHSPICEIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[14:38:57.15] /o saeInterBGSaeShell:  ::sa::netlistAndRun::updateBgNRunMsg /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results "Creating structural netlist for testbench default ..." 0 1
+[14:38:57.18] /m Information: "Starting incremental netlisting for design "clk/clkx0x4/schematic"..." (NETLISTING-010)
+[14:38:57.20] /o Netlisting
+[14:38:57.20] /o Creating output directories
+[14:38:57.42] /m Information: 
+[14:38:57.42] /o Checking "clk/clkx0x4/schematic"
+[14:38:57.42] /o No rule violations found in "clk/clkx0x4/schematic"
+[14:38:57.42] /o No Design Integrity rule violations found in "clk/clkx0x4/schematic"
+[14:38:57.42] /o Scanning: clk/clkx0x4/schematic
+[14:38:57.52] /o Scanning: GATES_HD/invr/schematic
+[14:38:57.59] /o Scanning: D_CELLS_HDLL/DFFHDLLX0/cmos_sch
+[14:38:57.60] /o Computing terminal lists
+[14:38:57.60] /o Processing terminals of module GATES_HD/invr/schematic
+[14:38:57.61] /o Processing terminals of module D_CELLS_HDLL/DFFHDLLX0/cmos_sch
+[14:38:57.61] /w Warning: Port 'gnd' given in termOrder/portOrder does not exist in the design 'D_CELLS_HDLL/DFFHDLLX0/cmos_sch'. (NETLISTING-083)
+[14:38:57.61] /w Warning: Port 'vdd' given in termOrder/portOrder does not exist in the design 'D_CELLS_HDLL/DFFHDLLX0/cmos_sch'. (NETLISTING-083)
+[14:38:57.61] /w Warning: Both portOrder and termOrder exists for 'D_CELLS_HDLL/DFFHDLLX0/cmos_sch'. The termOrder '(CN D Q QN gnd vdd)' will be used. (NETLISTING-079)
+[14:38:57.61] /o Processing terminals of module clk/clkx0x4/schematic
+[14:38:57.62] /o Starting netlisting
+[14:38:57.66] /o Formatting clk/clkx0x4/schematic
+[14:38:57.72] /m Information: "clk clkx0x4 schematic" renetlisted. (NETLISTING-056)
+[14:38:57.73] /m Information: "Netlisting design "clk/clkx0x4/schematic" finished successfully." (NETLISTING-012)
+[14:38:57.75] /m Information: Composing simulator input file for design "clk/clkx0x4/schematic"...
+[14:38:57.88] /m Information: Simulator input file composed successfully for design "clk/clkx0x4/schematic"
+[14:38:57.88] /o saeInterBGSaeShell:  ::sa::netlistAndRun::updateBgNRunMsg /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results "Creating final netlist for testbench default ..." 0 0
+[14:38:58.01] /o 
+[14:38:58.17] /o saeInterBGSaeShell:  ::sa::netlistAndRun::updateBgNRunMsg /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results "Composing simulation job for testbench default - Nominal " 1 1
+[14:38:58.19] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 2.6 {} sa::_testSuite::netlistAndRun::structNetlistingDone scriptDir /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic testSuiteName saeSession2 cmdArgs {default 1 1 0 1 0} taskId 2 isReRun 1
+[14:38:58.19] /o false
+[14:38:58.21] /i db::setAttr geometry -of [gi::getFrames 1] -value 1014x710+5+52
+[14:39:04.85] /i ::sa::_backgroundSaeShell::runScript /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 uniqueSessionName {} testbenchName default resultsDir /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results testSuiteDir /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal databaseName /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[14:39:04.86] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[14:39:04.87] /o 
+[14:39:04.87] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[14:39:04.99] /m Information: Loading preferences from /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/pw_shell_session_prefs.xml
+[14:39:05.32] /m Information: Start incremental database creation...
+[14:39:05.34] /m Information: Create Iter role param id map
+[14:39:05.36] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 uniqueSessionName {} testbenchName default resultsDir /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results testSuiteDir /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal databaseName /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[14:39:05.36] /o false
+[14:39:05.36] /i ::wf::viewerExited
+[14:39:46.90] /i ::wf::viewerExited
+[14:39:48.44] /i ::wf::updateViewerLicense 2
+[14:39:51.92] /i ::sa::_backgroundSaeShell::exit
+[14:39:51.92] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[14:39:54.31] /o Shutdown time: Thu Oct 31 14:39:54 2024
+[14:39:54.31] /o Elapsed session real time: 1.25 minutes
+[14:39:54.31] /o Session terminated. Log is at /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/logs/primewave.ORTIZ_ARIAS.2024_10_31_143836_819185.log

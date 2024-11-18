@@ -1,0 +1,373 @@
+p1trm POLY1 drawing POLY1 pin  
+m1trm MET1 drawing MET1 pin  
+m2trm MET2 drawing MET2 pin  
+m3trm MET3 drawing MET3 pin  
+m4trm MET4 drawing MET4 pin  
+mttrm METTP drawing METTP pin  
+mltrm METTPL drawing METTPL pin  
+ndiff DIFF drawing    
+pdiff DIFF drawing    
+d_dsdf DIFF drawing    
+ntap DIFF drawing    
+ptap DIFF drawing    
+npdtap DIFF drawing    
+nwtrm NWELL drawing    
+bulk prBoundary  drawing    
+dfwdn2_bulk prBoundary drawing    
+pw4trm PWELL4 drawing    
+nisj_d SJNP drawing    
+nhv1_d SJNP drawing    
+phv1_d SJNP drawing    
+pdftrm PDF drawing    
+pdfntrm PDF drawing    
+ndftrm NDF drawing    
+pdfmvtrm PDFMV drawing    
+ndfmvtrm NDFMV drawing    
+dfntrm DFN drawing    
+dfptrm DFP drawing    
+dfptrm1 DFP drawing    
+dfwdnh_an DFN drawing    
+nbase NBASE drawing    
+pbase PBASE drawing    
+hwptub HWC VERIFICATION    
+hwntub HVNWELL drawing    
+tub1_hvnw_t HVNWELL drawing    
+hwafer_t prBoundary drawing    
+hwafer_b prBoundary drawing    
+hwc_bs HWC VERIFICATION    
+dhw_nbur NBUR drawing    
+m1atrm CAPDEF VERIFICATION    
+m1btrm CAPDEF VERIFICATION    
+m1aftrm CAPDEF VERIFICATION    
+m1bftrm CAPDEF VERIFICATION    
+mosvc POLY1 drawing POLY1 pin  
+mosvc5 POLY1 drawing POLY1 pin  
+mosvcti POLY1 drawing POLY1 pin  
+mosvcti5 POLY1 drawing POLY1 pin  
+csp1m MET1 drawing MET1 pin  
+csp2m MET2 drawing MET2 pin  
+csp3m MET3 drawing MET3 pin  
+csp4m MET4 drawing MET4 pin  
+csptm METTP drawing METTP pin  
+csptlm METTPL drawing METTPL pin  
+cspnsd DIFF drawing    
+mimvi2 MET3 drawing MET3 pin  
+mimvi3 MET4 drawing MET4 pin  
+mimvitp METTP drawing METTP pin  
+capm METTP drawing METTP pin  
+capmh METTP drawing METTP pin  
+capmh3_t METTP drawing METTP pin  
+capmh3_m MET4 drawing MET4 pin  
+capmh3_b MET3 drawing MET3 pin  
+capm3_t METTP drawing METTP pin  
+capm3_m MET4 drawing MET4 pin  
+capm3_b MET3 drawing MET3 pin  
+capmh2_t MET4 drawing MET4 pin  
+capmh2_b MET3 drawing MET3 pin  
+capm2_t MET4 drawing MET4 pin  
+capm2_b MET3 drawing MET3 pin  
+capmh2a_t METTP drawing METTP pin  
+capmh2a_b MET4 drawing MET4 pin  
+capm2a_t METTP drawing METTP pin  
+capm2a_b MET4 drawing MET4 pin  
+capm23f MET3 drawing MET3 pin  
+capmh23f MET3 drawing MET3 pin  
+capm34f MET4 drawing MET3 pin  
+capmh34f MET4 drawing MET3 pin  
+csf_p1 POLY1 drawing POLY1 pin  
+csf_m1 MET1 drawing MET1 pin  
+csf_m2 MET2 drawing MET2 pin  
+d_csf2p MET1 drawing MET1 pin  
+csf_m3 MET3 drawing MET3 pin  
+d_csf3 MET1 drawing MET1 pin  
+d_csf3a MET1 drawing MET1 pin  
+d_csf3p MET1 drawing MET1 pin  
+csf_m4 MET4 drawing MET4 pin  
+d_csf4 MET1 drawing MET1 pin  
+d_csf4a MET1 drawing MET1 pin  
+csf_mt METTP drawing METTP pin  
+d_csft5 MET1 drawing MET1 pin  
+d_csft5a MET1 drawing MET1 pin  
+capswp1 POLY1 drawing POLY1 pin  
+capswm1 MET1 drawing MET1 pin  
+capswm2 MET2 drawing MET2 pin  
+capswm3 MET3 drawing MET3 pin  
+capswm43 MET4 drawing MET4 pin  
+capswm44 MET2 drawing MET2 pin  
+ne POLY1 drawing POLY1 pin  
+nesvt POLY1 drawing POLY1 pin  
+nn POLY1 drawing POLY1 pin  
+pe POLY1 drawing POLY1 pin  
+pesvt POLY1 drawing POLY1 pin  
+pel POLY1 drawing POLY1 pin  
+nel POLY1 drawing POLY1 pin  
+ndm POLY1 drawing POLY1 pin  
+pe_5 POLY1 drawing POLY1 pin  
+pel_5 POLY1 drawing POLY1 pin  
+pem_5 POLY1 drawing POLY1 pin  
+pesvt_5 POLY1 drawing POLY1 pin  
+nem POLY1 drawing POLY1 pin  
+pem POLY1 drawing POLY1 pin  
+nnm POLY1 drawing POLY1 pin  
+peti POLY1 drawing POLY1 pin  
+pemti POLY1 drawing POLY1 pin  
+nmva POLY1 drawing POLY1 pin  
+pmva POLY1 drawing POLY1 pin  
+nmvaa POLY1 drawing POLY1 pin  
+pmvaa POLY1 drawing POLY1 pin  
+nmvab POLY1 drawing POLY1 pin  
+pmvab POLY1 drawing POLY1 pin  
+nhsj1_7 POLY1 drawing POLY1 pin  
+nhsj1_10 POLY1 drawing POLY1 pin  
+nhsj1_16c POLY1 drawing POLY1 pin  
+phsj1_7 POLY1 drawing POLY1 pin  
+phsj1_10 POLY1 drawing POLY1 pin  
+phsj1_16c POLY1 drawing POLY1 pin  
+phsj1a_4 POLY1 drawing POLY1 pin  
+phsj1a_5 POLY1 drawing POLY1 pin  
+phsj1a_7 POLY1 drawing POLY1 pin  
+phsj1a_8 POLY1 drawing POLY1 pin  
+phsj1a_10 POLY1 drawing POLY1 pin  
+phsj1a_13 POLY1 drawing POLY1 pin  
+phsj1a_16 POLY1 drawing POLY1 pin  
+phsj1a_20 POLY1 drawing POLY1 pin  
+phsj1a_31 POLY1 drawing POLY1 pin  
+phsj2b_7 POLY1 drawing POLY1 pin  
+phsj2b_8 POLY1 drawing POLY1 pin  
+phsj2b_10 POLY1 drawing POLY1 pin  
+phsj2b_13 POLY1 drawing POLY1 pin  
+phsj2b_16 POLY1 drawing POLY1 pin  
+nhsj1b_2 POLY1 drawing POLY1 pin  
+nhsj1b_4 POLY1 drawing POLY1 pin  
+nhsj1b_5 POLY1 drawing POLY1 pin  
+nhsj1b_7 POLY1 drawing POLY1 pin  
+nhsj1b_8 POLY1 drawing POLY1 pin  
+nhsj1b_10 POLY1 drawing POLY1 pin  
+nhsj1a_13 POLY1 drawing POLY1 pin  
+nhsj1a_16 POLY1 drawing POLY1 pin  
+nhsj1a_20 POLY1 drawing POLY1 pin  
+nhsj1a_28 POLY1 drawing POLY1 pin  
+nhvta POLY1 drawing POLY1 pin  
+nhvtaa POLY1 drawing POLY1 pin  
+nhvtb POLY1 drawing POLY1 pin  
+nhvu POLY1 drawing POLY1 pin  
+ndhvt POLY1 drawing POLY1 pin  
+ndhvta POLY1 drawing POLY1 pin  
+ndhvtaa POLY1 drawing POLY1 pin  
+phvta POLY1 drawing POLY1 pin  
+phvtb POLY1 drawing POLY1 pin  
+phvu POLY1 drawing POLY1 pin  
+nisj1_16 POLY1 drawing POLY1 pin  
+nhvra POLY1 drawing POLY1 pin  
+nhvrb POLY1 drawing POLY1 pin  
+nhvrc POLY1 drawing POLY1 pin  
+nhvrd POLY1 drawing POLY1 pin  
+nhvre POLY1 drawing POLY1 pin  
+nhvrf POLY1 drawing POLY1 pin  
+ndhvrd POLY1 drawing POLY1 pin  
+ndhvrf POLY1 drawing POLY1 pin  
+phvra POLY1 drawing POLY1 pin  
+phvrb POLY1 drawing POLY1 pin  
+phvrc POLY1 drawing POLY1 pin  
+phvrd POLY1 drawing POLY1 pin  
+phvre POLY1 drawing POLY1 pin  
+phvrf POLY1 drawing POLY1 pin  
+pmvb POLY1 drawing POLY1 pin  
+pmvd POLY1 drawing POLY1 pin  
+pmve POLY1 drawing POLY1 pin  
+pmvf POLY1 drawing POLY1 pin  
+nmvb POLY1 drawing POLY1 pin  
+nmvc POLY1 drawing POLY1 pin  
+nmvd POLY1 drawing POLY1 pin  
+nmve POLY1 drawing POLY1 pin  
+nmvf POLY1 drawing POLY1 pin  
+ndmvd POLY1 drawing POLY1 pin  
+ndmvf POLY1 drawing POLY1 pin  
+rdn SBLK  drawing    
+rdn_g SBLK  drawing    
+rdp SBLK drawing    
+rdp_g SBLK drawing    
+rdnm DIFF drawing    
+rdnm_g DIFF drawing    
+rdpm DIFF drawing    
+rdpm_g DIFF drawing    
+rdnm_pw4 DIFF drawing    
+rdnm_dpc DIFF drawing    
+rnw NWELL VERIFICATION    
+rnwm NWELL drawing    
+rnw_scr NWELL VERIFICATION    
+rnwm_scr NWELL drawing    
+rxw2ti NWELL drawing    
+rnp1_1 POLY1 drawing POLY1 pin  
+rnp1_3_pw POLY1 drawing POLY1 pin  
+rnp1_3_nw POLY1 drawing POLY1 pin  
+rnp1a_3 POLY1 drawing POLY1 pin  
+rpp1_1 POLY1 drawing POLY1 pin  
+rpp1_3 POLY1 drawing POLY1 pin  
+rpp1nw_3 POLY1 drawing POLY1 pin  
+rpp1s_1 POLY1 drawing POLY1 pin  
+rpp1s_3_pw POLY1 drawing POLY1 pin  
+rpp1s_3_nw POLY1 drawing POLY1 pin  
+rnp1h_1 POLY1 drawing POLY1 pin  
+rnp1h_3_pw POLY1 drawing POLY1 pin  
+rnp1h_3_nw POLY1 drawing POLY1 pin  
+rpp1k1_1 POLY1 drawing POLY1 pin  
+rpp1k1_3_pw POLY1 drawing POLY1 pin  
+rpp1k1_3_nw POLY1 drawing POLY1 pin  
+rpp1k1a_1 POLY1 drawing POLY1 pin  
+rpp1k1a_3_pw POLY1 drawing POLY1 pin  
+rpp1k1a_3_nw POLY1 drawing POLY1 pin  
+pfuse POLY1 drawing POLY1 pin  
+p1_vlbl POLY1 drawing POLY1 pin  
+df_vlbl DIFF drawing DIFF pin  
+rm1 MET1 drawing MET1 pin  
+rm2 MET2 drawing MET2 pin  
+m1_vlbl MET1 drawing MET1 pin  
+m2_vlbl MET2 drawing MET2 pin  
+rm3 MET3 drawing MET3 pin  
+m3_vlbl MET3 drawing MET3 pin  
+rm4 MET4 drawing MET4 pin  
+m4_vlbl MET4 drawing MET4 pin  
+rmtp METTP drawing METTP pin  
+mt_vlbl METTP drawing METTP pin  
+rmtpl METTPL drawing METTPL pin  
+ml_vlbl METTPL drawing METTPL pin  
+d_cswt3 CAPDEF VERIFICATION    
+d_cswt4 CAPDEF VERIFICATION    
+d_csp5tl CAPDEF VERIFICATION    
+d_csp5tla CAPDEF VERIFICATION    
+dfcnt CONT drawing    
+p1cnt CONT drawing    
+d_dsc CONT drawing    
+via1 VIA1 drawing    
+metvi2 VIA2 drawing    
+metvi3 VIA3 drawing    
+metvitp VIATP drawing    
+viatpl VIATPL drawing    
+P1_marker nil nil nil nil nil nil
+M1_marker nil nil nil nil nil nil
+M2_marker nil nil nil nil nil nil
+M3_marker nil nil nil nil nil nil
+M4_marker nil nil nil nil nil nil
+METTP_marker nil nil nil nil nil nil
+METL_marker nil nil nil nil nil nil
+hwc_bs_marker nil nil nil nil nil nil
+px_cmm5t CAPM drawing    
+px_cmmh5t CAPMH drawing    
+px_cdmmh4 CAPMH2 drawing    
+px_ctmmh5t CAPMH3 drawing    
+px_cdmm4 CAPM2 drawing    
+px_ctmm5t CAPM3 drawing    
+px_cmm3 CAPM23F drawing    
+px_cmmh3 CAPMH23F drawing    
+px_cmm4 CAPM34F drawing    
+px_cmmh4 CAPMH34F drawing    
+px_cdmm5t CAPM2A drawing    
+px_cdmmh5t CAPMH2A drawing    
+px_d_cswt3 CAPDEF VERIFICATION    
+px_d_cswt4 CAPDEF VERIFICATION    
+px_csp5tl CAPDEF VERIFICATION    
+px_csp5tla CAPDEF VERIFICATION    
+px_nhsj1_7 POLY1 drawing    
+px_nhsj1_10 POLY1 drawing    
+px_nhsj1_16c POLY1 drawing    
+px_phsj1_7 POLY1 drawing    
+px_phsj1_10 POLY1 drawing    
+px_phsj1_16c POLY1 drawing    
+px_phsj1a_4 POLY1 drawing    
+px_phsj1a_5 POLY1 drawing    
+px_phsj1a_7 POLY1 drawing    
+px_phsj1a_8 POLY1 drawing    
+px_phsj1a_10 POLY1 drawing    
+px_phsj1a_13 POLY1 drawing    
+px_phsj1a_16 POLY1 drawing    
+px_phsj1a_20 POLY1 drawing    
+px_phsj1a_31 POLY1 drawing    
+px_phsj2b_7 POLY1 drawing    
+px_phsj2b_8 POLY1 drawing    
+px_phsj2b_10 POLY1 drawing    
+px_phsj2b_13 POLY1 drawing    
+px_phsj2b_16 POLY1 drawing    
+px_nhsj1b_2 POLY1 drawing    
+px_nhsj1b_4 POLY1 drawing    
+px_nhsj1b_5 POLY1 drawing    
+px_nhsj1b_7 POLY1 drawing    
+px_nhsj1b_8 POLY1 drawing    
+px_nhsj1b_10 POLY1 drawing    
+px_nhsj1a_13 POLY1 drawing    
+px_nhsj1a_16 POLY1 drawing    
+px_nhsj1a_20 POLY1 drawing    
+px_nhsj1a_28 POLY1 drawing    
+px_dfwnsj1_7 SJNP drawing    
+px_dfwnsj1_10 SJNP drawing    
+px_dfwnsj1_16c SJNP drawing    
+px_dfwnsj1a_13 SJ1XN drawing    
+px_dfwnsj1a_16 SJ1XN drawing    
+px_dfwnsj1a_20 SJ1XN drawing    
+px_dfwnsj1a_28 SJ1XN drawing    
+px_dfwnsj1b_2 SJ1XN drawing    
+px_dfwnsj1b_4 SJ1XN drawing    
+px_dfwnsj1b_5 SJ1XN drawing    
+px_dfwnsj1b_7 SJ1XN drawing    
+px_dfwnsj1b_8 SJ1XN drawing    
+px_dfwnsj1b_10 SJ1XN drawing    
+px_nhv1_d DIFF drawing    
+px_phv1_d DIFF drawing    
+px_nisj_d DIFF drawing    
+px_nisj1_16 POLY1 drawing    
+px_phvta POLY1 drawing    
+px_phvtb POLY1 drawing    
+px_phvu POLY1 drawing    
+px_pdftrm PDF drawing    
+px_nhvta POLY1 drawing    
+px_nhvtaa POLY1 drawing    
+px_nhvtb POLY1 drawing    
+px_nhvu POLY1 drawing    
+px_ndhvt POLY1 drawing    
+px_ndhvta POLY1 drawing    
+px_ndhvtaa POLY1 drawing    
+px_ndftrm NDF drawing    
+px_mosvc POLY1 drawing    
+px_mosvcm POLY1 drawing    
+px_mosvci POLY1 drawing    
+px_mosvcim POLY1 drawing    
+px_pmva POLY1 drawing    
+px_pmvaa POLY1 drawing    
+px_pmvab POLY1 drawing    
+px_pmvb POLY1 drawing    
+px_pmvd POLY1 drawing    
+px_pmve POLY1 drawing    
+px_pmvf POLY1 drawing    
+px_nmva POLY1 drawing    
+px_nmvaa POLY1 drawing    
+px_nmvab POLY1 drawing    
+px_nmvb POLY1 drawing    
+px_nmvc POLY1 drawing    
+px_nmvd POLY1 drawing    
+px_nmve POLY1 drawing    
+px_nmvf POLY1 drawing    
+px_ndmvd POLY1 drawing    
+px_ndmvf POLY1 drawing    
+px_nhvra POLY1 drawing    
+px_nhvrb POLY1 drawing    
+px_nhvrc POLY1 drawing    
+px_nhvrd POLY1 drawing    
+px_nhvre POLY1 drawing    
+px_nhvrf POLY1 drawing    
+px_ndhvrd POLY1 drawing    
+px_ndhvrf POLY1 drawing    
+px_phvra POLY1 drawing    
+px_phvrb POLY1 drawing    
+px_phvrc POLY1 drawing    
+px_phvrd POLY1 drawing    
+px_phvre POLY1 drawing    
+px_phvrf POLY1 drawing    
+px_dfntrm DFN drawing    
+px_dfptrm1 DFP drawing    
+px_pdfmvtrm PDFMV drawing    
+px_ndfmvtrm NDFMV drawing    
+px_ndiff DIFF drawing    
+px_pdiff DIFF drawing    
+px_d_dsdf DIFF drawing    
+px_hwafer_t prBoundary drawing    
+px_hwafer_b prBoundary drawing    

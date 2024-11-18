@@ -1,0 +1,16 @@
+<module name="vsl: PRIMLIB pe auCdl">
+<scope name="Terminal">
+<forward/>
+<reverse/>
+</scope>
+<scope name="simInfo">
+<forward>
+<mapping dst="D G S B" src="&lt;unmappedTermOrder>"/>
+<mapping dst="D G S B" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="D G S B"/>
+</reverse>
+</scope>
+<master_instances/>
+</module>

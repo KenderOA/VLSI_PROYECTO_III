@@ -1,0 +1,11 @@
+#! /bin/sh
+
+echo $HOSTNAME | grep redhatclon > /dev/null 2>&1 
+if [ $? == 0  ]
+then 
+kill 1059317 
+else 
+ssh redhatclon kill 1059317 
+ sleep 10 
+ssh redhatclon kill -9 1059317 
+fi

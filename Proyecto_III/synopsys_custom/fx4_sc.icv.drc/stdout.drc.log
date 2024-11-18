@@ -1,0 +1,142 @@
+
+                                 IC Validator 
+
+          Version U-2022.12-SP4 for linux64 - Aug 28, 2023 cl#9133772
+
+                    Copyright (c) 1996 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Time Started: 2024-11-17 19:21:04
+Running on: redhatclon 4.18.0-553.27.1.el8_10.x86_64
+
+-------------
+
+Called as: icv -f openaccess -i fx4 -c fx4_sc -oa_view layout -oa_lib_defs /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs -oa_layer_map /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/strmInOut.layertable -I /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/./ICValidator -oa_dm6 -I /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1 -vue /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs
+
+-------------
+
+Command Line Summary:
+icv
+-c fx4_sc
+-f openaccess
+-i fx4
+-oa_dm6
+-oa_layer_map /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/strmInOut.layertable
+-oa_lib_defs /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs
+-oa_view layout
+-vue
+-I /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/./ICValidator
+-I /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs
+
+-------------
+
+
+WARNING: The environment variable ICV_RSH_COMMAND is deprecated. Please use -host_login.
+Using "ssh" as remote login program
+
+Parsing runset "/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs"
+
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs:1: warning: "VAR_ANT_RATIO" wasn't defined
+    #undef VAR_ANT_RATIO
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs:19: warning: "DUMMY_FILL" wasn't defined
+    #undef DUMMY_FILL
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs:20: warning: "FILL4MACRO" wasn't defined
+    #undef FILL4MACRO
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs:21: warning: "DUMMY_FILL_RESULTS" wasn't defined
+    #undef DUMMY_FILL_RESULTS
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs:22: warning: "DENSITY_LAY" wasn't defined
+    #undef DENSITY_LAY
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs:23: warning: "POPPING" wasn't defined
+    #undef POPPING
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs:24: warning: "PIMIDE" wasn't defined
+    #undef PIMIDE
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs:41: warning: "METAL5" wasn't defined
+    #undef METAL5
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs:42: warning: "METAL6" wasn't defined
+    #undef METAL6
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs:45: warning: "METCOP" wasn't defined
+    #undef METCOP
+
+Loaded runset from cache: /home/ORTIZ_ARIAS/.icvrscache/6379045188efa13cd12f1d7220c1495e-94A72AC4-453B-46BD-813B-62400A2FA948-redhatclon-1050679.rscache
+Cached Runset Compile Time=0:00:08 User=7.50 Sys=0.25 Mem=0.685 GB
+
+Virtual Machine Init Time=0:00:00 User=0.03 Sys=0.04 Mem=0.685 GB
+
+/mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_icv_option.rs:66: warning: The error_limit_per_check in error_options is set to unlimited.  The user setting of unlimited will be honored but could result in very large error files and increased amount of time to process if the number of errors in a check is very large.
+
+Host startup begins.
+Host startup done: 2 successes, 0 failures.
+	redhatclon: 2 total cores, maximum 2 commands in parallel.
+Selecting "redhatclon" as Primary host
+
+System Startup Time=0:00:00 User=0.01 Sys=0.04 Mem=0.685 GB
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/run_details/fx4_sc.sum
+    /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/run_details/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.dp.log
+
+Running ...
+  [0:00:00][0%]   Total: 2 CPUs on 1 host
+  [0:00:06][1%]   Rules: 0/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:06][2%]   
+  [0:00:08][3%]   Rules: 1818/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:08][4%]   
+  [0:00:09][5%]   
+  [0:00:09][10%]  Rules: 1821/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:09][15%]  
+  [0:00:09][20%]  
+  [0:00:09][25%]  
+  [0:00:09][30%]  
+  [0:00:09][35%]  Rules: 1822/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:09][40%]  Rules: 1831/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:09][45%]  Rules: 1847/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:10][50%]  Rules: 1852/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:10][55%]  Rules: 1862/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:10][60%]  Rules: 1872/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:10][65%]  Rules: 1884/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:11][70%]  Rules: 1892/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:11][75%]  Rules: 1894/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:11][80%]  Rules: 1903/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:13][85%]  Rules: 1909/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:14][90%]  Rules: 1922/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:14][95%]  Rules: 1926/1929, Rules with Violations: 0, Total Violations: 0
+  [0:00:17][100%] Rules: 1930/1930, Rules with Violations: 0, Total Violations: 0
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating fx4_sc.TOP_LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+
+IC Validator Run: Time=0:00:27
+
+-------------
+
+IC Validator Machine Memory Report
+redhatclon   : Average = 0.807 GB, Peak = 0.807 GB
+
+Overall Disk Usage Disk=0.009 GB
+Network Disk Usage Peak=0.013 GB (no group)
+Group File Disk Usage Peak=0.002 GB
+Overall engine Time=0:00:27 Highest command Mem=0.057 GB
+
+Overall Master Mem=0.737 GB
+
+Time Ended: 2024-11-17 19:21:33
+
+IC Validator is done.

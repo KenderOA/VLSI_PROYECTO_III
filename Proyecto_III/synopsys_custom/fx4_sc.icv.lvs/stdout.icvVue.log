@@ -1,0 +1,299 @@
+  + INFO: Connected to Custom Compiler at 46539.
+
+< LAYOUT: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+L startFilter LAY
+L setTopLayLCV  ""
+L setCurLayLCV  ""
+
+< LAYOUT: start_filter >
+L setWorkingDir "[pwd]"
+  + INFO: Timer already set.
+  + INFO: Connected to Custom Compiler at 46539.
+
+< SCHEMATIC: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+S startFilter SCH
+S setCurModule ""
+
+< SCHEMATIC: start_filter >
+S setWorkingDir "[pwd]"
+
+< LAYOUT: load_hercules >
+L setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs
+L setTopLayLCV fx4/fx4_sc/layout
+L openLCV fx4/fx4_sc/layout
+
+< SCHEMATIC: load_hercules >
+S setCurModule fx4_sc
+S setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs
+S openModule
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: edit_in_place >
+V ZOOM_EXTENTS_RESET
+L clearAllHighlights
+
+< SCHEMATIC: new_block >
+S clearAllProbes
+L setCurLayLCV fx4/fx4_sc/layout
+L openLCVInstance
+S setCurModule fx4_sc
+S openModule
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L setHiliteId
+
+< LAYOUT: primary_hilite >
+L setHighlightProperty cyan brick
+
+< LAYOUT: poly_set >
+L highlightFromFile /home/ORTIZ_ARIAS/.synopsys/icv/vue_tmp_000001/highlight_20241117193223_000000.oas ebb7e127b3f353874568c67f1614c4e0
+
+< LAYOUT: after_hilite >
+L drawHighlights
+
+< LAYOUT: zoom_extents >
+L setViewPort 1.223 -0.088 5.247 0.004
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: load_hercules >
+L setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs
+L setTopLayLCV fx4/fx4_sc/layout
+L openLCV fx4/fx4_sc/layout
+
+< SCHEMATIC: load_hercules >
+S setCurModule fx4_sc
+S setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs
+S openModule
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: edit_in_place >
+V ZOOM_EXTENTS_RESET
+L clearAllHighlights
+
+< SCHEMATIC: new_block >
+S clearAllProbes
+L setCurLayLCV fx4/fx4_sc/layout
+S setCurModule fx4_sc
+L openLCVInstance
+S openModule
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< SCHEMATIC: before_hilite >
+
+< SCHEMATIC: net_hilite >
+S setProbeProperty yellow brick
+S addProbe net8 net
+
+< SCHEMATIC: after_hilite >
+S zoomToProbes
+
+< SCHEMATIC: zoom_extents >
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L setHiliteId
+
+< LAYOUT: primary_hilite >
+L setHighlightProperty yellow brick
+
+< LAYOUT: poly_set >
+L highlightFromFile /home/ORTIZ_ARIAS/.synopsys/icv/vue_tmp_000001/highlight_20241117193406_000001.oas 65c3609b7b7f3ddc58f2f8a02a5d765f
+
+< LAYOUT: after_hilite >
+L drawHighlights
+
+< LAYOUT: zoom_extents >
+L setViewPort 1.146 -3.597 4.888 -0.123
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: load_hercules >
+L setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs
+L setTopLayLCV fx4/fx4_sc/layout
+L openLCV fx4/fx4_sc/layout
+
+< SCHEMATIC: load_hercules >
+S setCurModule fx4_sc
+S setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs
+S openModule
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: edit_in_place >
+V ZOOM_EXTENTS_RESET
+
+< SCHEMATIC: new_block >
+S clearAllProbes
+L clearAllHighlights
+S setCurModule fx4_sc
+L setCurLayLCV fx4/fx4_sc/layout
+S openModule
+L openLCVInstance
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< SCHEMATIC: before_hilite >
+
+< SCHEMATIC: net_hilite >
+S setProbeProperty yellow brick
+S addProbe net8 net
+
+< SCHEMATIC: after_hilite >
+S zoomToProbes
+
+< SCHEMATIC: zoom_extents >
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L setHiliteId
+
+< LAYOUT: primary_hilite >
+L setHighlightProperty yellow brick
+
+< LAYOUT: poly_set >
+L highlightFromFile /home/ORTIZ_ARIAS/.synopsys/icv/vue_tmp_000001/highlight_20241117193837_000002.oas 65c3609b7b7f3ddc58f2f8a02a5d765f
+
+< LAYOUT: after_hilite >
+L drawHighlights
+
+< LAYOUT: zoom_extents >
+L setViewPort 1.146 -3.597 4.888 -0.123
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: load_hercules >
+L setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs
+L setTopLayLCV fx4/fx4_sc/layout
+L openLCV fx4/fx4_sc/layout
+
+< SCHEMATIC: load_hercules >
+S setCurModule fx4_sc
+S setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs
+S openModule
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: quit_vue >
+
+< SCHEMATIC: quit_vue >
+  + INFO: Close the connection with Custom Compiler.
+  + INFO: Close the connection with Custom Compiler.

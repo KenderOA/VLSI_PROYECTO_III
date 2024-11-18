@@ -1,0 +1,1266 @@
+00400000-016a1000 r--p 00000000 00:33 67009                              /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/custom_shell
+016a1000-19bda000 r-xp 012a1000 00:33 67009                              /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/custom_shell
+19bda000-1e7b3000 r--p 197da000 00:33 67009                              /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/custom_shell
+1e7b4000-1f5d0000 r--p 1e3b3000 00:33 67009                              /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/custom_shell
+1f5d0000-2074d000 rw-p 1f1cf000 00:33 67009                              /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/custom_shell
+2074d000-2992b000 rw-p 00000000 00:00 0 
+2a150000-57ac7000 rw-p 00000000 00:00 0                                  [heap]
+7f0e10000000-7f0e10021000 rw-p 00000000 00:00 0 
+7f0e10021000-7f0e14000000 ---p 00000000 00:00 0 
+7f0e14000000-7f0e14021000 rw-p 00000000 00:00 0 
+7f0e14021000-7f0e18000000 ---p 00000000 00:00 0 
+7f0e18000000-7f0e18021000 rw-p 00000000 00:00 0 
+7f0e18021000-7f0e1c000000 ---p 00000000 00:00 0 
+7f0e1c000000-7f0e1c021000 rw-p 00000000 00:00 0 
+7f0e1c021000-7f0e20000000 ---p 00000000 00:00 0 
+7f0e20000000-7f0e20021000 rw-p 00000000 00:00 0 
+7f0e20021000-7f0e24000000 ---p 00000000 00:00 0 
+7f0e24000000-7f0e24021000 rw-p 00000000 00:00 0 
+7f0e24021000-7f0e28000000 ---p 00000000 00:00 0 
+7f0e28000000-7f0e28021000 rw-p 00000000 00:00 0 
+7f0e28021000-7f0e2c000000 ---p 00000000 00:00 0 
+7f0e2c000000-7f0e2c021000 rw-p 00000000 00:00 0 
+7f0e2c021000-7f0e30000000 ---p 00000000 00:00 0 
+7f0e30000000-7f0e30021000 rw-p 00000000 00:00 0 
+7f0e30021000-7f0e34000000 ---p 00000000 00:00 0 
+7f0e34000000-7f0e34021000 rw-p 00000000 00:00 0 
+7f0e34021000-7f0e38000000 ---p 00000000 00:00 0 
+7f0e38ffa000-7f0e38ffb000 ---p 00000000 00:00 0 
+7f0e38ffb000-7f0e397fb000 rwxp 00000000 00:00 0 
+7f0e3c000000-7f0e3c021000 rw-p 00000000 00:00 0 
+7f0e3c021000-7f0e40000000 ---p 00000000 00:00 0 
+7f0e40000000-7f0e400e2000 rw-p 00000000 00:00 0 
+7f0e400e2000-7f0e44000000 ---p 00000000 00:00 0 
+7f0e45ff5000-7f0e45ff6000 ---p 00000000 00:00 0 
+7f0e45ff6000-7f0e467f6000 rwxp 00000000 00:00 0 
+7f0e467f6000-7f0e467f7000 ---p 00000000 00:00 0 
+7f0e467f7000-7f0e46ff7000 rwxp 00000000 00:00 0 
+7f0e46ff7000-7f0e48000000 rw-p 00000000 00:00 0 
+7f0e48000000-7f0e48021000 rw-p 00000000 00:00 0 
+7f0e48021000-7f0e4c000000 ---p 00000000 00:00 0 
+7f0e4c000000-7f0e4c021000 rw-p 00000000 00:00 0 
+7f0e4c021000-7f0e50000000 ---p 00000000 00:00 0 
+7f0e50000000-7f0e50021000 rw-p 00000000 00:00 0 
+7f0e50021000-7f0e54000000 ---p 00000000 00:00 0 
+7f0e54000000-7f0e54021000 rw-p 00000000 00:00 0 
+7f0e54021000-7f0e58000000 ---p 00000000 00:00 0 
+7f0e58000000-7f0e58021000 rw-p 00000000 00:00 0 
+7f0e58021000-7f0e5c000000 ---p 00000000 00:00 0 
+7f0e5c141000-7f0e5c1ed000 r--p 00000000 fd:00 800                        /usr/share/fonts/dejavu/DejaVuSans-Bold.ttf
+7f0e5c1ed000-7f0e5c2a6000 r--p 00000000 fd:00 804                        /usr/share/fonts/dejavu/DejaVuSans.ttf
+7f0e5c2a6000-7f0e5c2a7000 r--p 00000000 00:33 5903                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/fcntl.so
+7f0e5c2a7000-7f0e5c2a9000 r-xp 00001000 00:33 5903                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/fcntl.so
+7f0e5c2a9000-7f0e5c2aa000 r--p 00003000 00:33 5903                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/fcntl.so
+7f0e5c2aa000-7f0e5c2ab000 r--p 00003000 00:33 5903                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/fcntl.so
+7f0e5c2ab000-7f0e5c2ac000 rw-p 00004000 00:33 5903                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/fcntl.so
+7f0e5c2ac000-7f0e5c2ae000 r--p 00000000 00:33 28271                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_random.so
+7f0e5c2ae000-7f0e5c2af000 r-xp 00002000 00:33 28271                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_random.so
+7f0e5c2af000-7f0e5c2b0000 r--p 00003000 00:33 28271                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_random.so
+7f0e5c2b0000-7f0e5c2b1000 r--p 00003000 00:33 28271                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_random.so
+7f0e5c2b1000-7f0e5c2b2000 rw-p 00004000 00:33 28271                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_random.so
+7f0e5c2b2000-7f0e5c2b4000 r--p 00000000 00:33 28285                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/binascii.so
+7f0e5c2b4000-7f0e5c2b6000 r-xp 00002000 00:33 28285                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/binascii.so
+7f0e5c2b6000-7f0e5c2b7000 r--p 00004000 00:33 28285                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/binascii.so
+7f0e5c2b7000-7f0e5c2b8000 r--p 00004000 00:33 28285                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/binascii.so
+7f0e5c2b8000-7f0e5c2b9000 rw-p 00005000 00:33 28285                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/binascii.so
+7f0e5c2b9000-7f0e5c2d6000 r--p 00000000 00:33 28126                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDrcConstruct26.so
+7f0e5c2d6000-7f0e5c33e000 r-xp 0001d000 00:33 28126                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDrcConstruct26.so
+7f0e5c33e000-7f0e5c349000 r--p 00085000 00:33 28126                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDrcConstruct26.so
+7f0e5c349000-7f0e5c34b000 r--p 0008f000 00:33 28126                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDrcConstruct26.so
+7f0e5c34b000-7f0e5c34d000 rw-p 00091000 00:33 28126                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDrcConstruct26.so
+7f0e5c34d000-7f0e5c377000 r--p 00000000 00:33 32185                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloXtra26.so
+7f0e5c377000-7f0e5c3e2000 r-xp 0002a000 00:33 32185                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloXtra26.so
+7f0e5c3e2000-7f0e5c3f2000 r--p 00095000 00:33 32185                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloXtra26.so
+7f0e5c3f2000-7f0e5c3f3000 ---p 000a5000 00:33 32185                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloXtra26.so
+7f0e5c3f3000-7f0e5c3f6000 r--p 000a5000 00:33 32185                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloXtra26.so
+7f0e5c3f6000-7f0e5c3f8000 rw-p 000a8000 00:33 32185                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloXtra26.so
+7f0e5c3f8000-7f0e5c454000 r--p 00000000 00:33 6254                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnGeoEngine.so
+7f0e5c454000-7f0e5c5f0000 r-xp 0005c000 00:33 6254                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnGeoEngine.so
+7f0e5c5f0000-7f0e5c615000 r--p 001f8000 00:33 6254                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnGeoEngine.so
+7f0e5c615000-7f0e5c616000 ---p 0021d000 00:33 6254                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnGeoEngine.so
+7f0e5c616000-7f0e5c61e000 r--p 0021d000 00:33 6254                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnGeoEngine.so
+7f0e5c61e000-7f0e5c621000 rw-p 00225000 00:33 6254                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnGeoEngine.so
+7f0e5c621000-7f0e5c639000 r--p 00000000 00:33 32188                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloSpi26.so
+7f0e5c639000-7f0e5c6d2000 r-xp 00018000 00:33 32188                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloSpi26.so
+7f0e5c6d2000-7f0e5c6e0000 r--p 000b1000 00:33 32188                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloSpi26.so
+7f0e5c6e0000-7f0e5c6e1000 r--p 000be000 00:33 32188                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloSpi26.so
+7f0e5c6e1000-7f0e5c6f0000 rw-p 000bf000 00:33 32188                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloSpi26.so
+7f0e5c6f0000-7f0e5c6f4000 rw-p 00000000 00:00 0 
+7f0e5c6f4000-7f0e5c6fb000 r--p 00000000 00:33 28127                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_patternFill_patternFill26.so
+7f0e5c6fb000-7f0e5c741000 r-xp 00007000 00:33 28127                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_patternFill_patternFill26.so
+7f0e5c741000-7f0e5c743000 r--p 0004d000 00:33 28127                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_patternFill_patternFill26.so
+7f0e5c743000-7f0e5c744000 r--p 0004e000 00:33 28127                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_patternFill_patternFill26.so
+7f0e5c744000-7f0e5c749000 rw-p 0004f000 00:33 28127                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_patternFill_patternFill26.so
+7f0e5c749000-7f0e5c74a000 rw-p 00000000 00:00 0 
+7f0e5c74a000-7f0e5c761000 r--p 00000000 00:33 32180                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxToolsApi26.so
+7f0e5c761000-7f0e5c7c0000 r-xp 00017000 00:33 32180                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxToolsApi26.so
+7f0e5c7c0000-7f0e5c7ca000 r--p 00076000 00:33 32180                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxToolsApi26.so
+7f0e5c7ca000-7f0e5c7cb000 ---p 00080000 00:33 32180                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxToolsApi26.so
+7f0e5c7cb000-7f0e5c7cc000 r--p 00080000 00:33 32180                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxToolsApi26.so
+7f0e5c7cc000-7f0e5c7d4000 rw-p 00081000 00:33 32180                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxToolsApi26.so
+7f0e5c7d4000-7f0e5c7d6000 rw-p 00000000 00:00 0 
+7f0e5c7d6000-7f0e5c849000 r--p 00000000 00:33 32173                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloGpi26.so
+7f0e5c849000-7f0e5cc68000 r-xp 00073000 00:33 32173                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloGpi26.so
+7f0e5cc68000-7f0e5ccb4000 r--p 00492000 00:33 32173                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloGpi26.so
+7f0e5ccb4000-7f0e5ccb5000 ---p 004de000 00:33 32173                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloGpi26.so
+7f0e5ccb5000-7f0e5ccb7000 r--p 004de000 00:33 32173                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloGpi26.so
+7f0e5ccb7000-7f0e5cd0d000 rw-p 004e0000 00:33 32173                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPyDloGpi26.so
+7f0e5cd0d000-7f0e5cd24000 rw-p 00000000 00:00 0 
+7f0e5cd24000-7f0e5ce3b000 r--p 00000000 00:33 6251                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnCade.so
+7f0e5ce3b000-7f0e5d0ee000 r-xp 00117000 00:33 6251                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnCade.so
+7f0e5d0ee000-7f0e5d1ff000 r--p 003ca000 00:33 6251                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnCade.so
+7f0e5d1ff000-7f0e5d201000 r--p 004da000 00:33 6251                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnCade.so
+7f0e5d201000-7f0e5d2dd000 rw-p 004dc000 00:33 6251                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnCade.so
+7f0e5d2dd000-7f0e5d3a3000 rw-p 00000000 00:00 0 
+7f0e5d3a3000-7f0e5d3b8000 r--p 00000000 00:33 32189                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPcellProxy26.so
+7f0e5d3b8000-7f0e5d446000 r-xp 00015000 00:33 32189                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPcellProxy26.so
+7f0e5d446000-7f0e5d458000 r--p 000a3000 00:33 32189                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPcellProxy26.so
+7f0e5d458000-7f0e5d45a000 r--p 000b4000 00:33 32189                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPcellProxy26.so
+7f0e5d45a000-7f0e5d45c000 rw-p 000b6000 00:33 32189                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnPcellProxy26.so
+7f0e5d45c000-7f0e5d4c7000 r--p 00000000 00:33 6257                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnDrcScript.so
+7f0e5d4c7000-7f0e5d5c2000 r-xp 0006b000 00:33 6257                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnDrcScript.so
+7f0e5d5c2000-7f0e5d5e7000 r--p 00166000 00:33 6257                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnDrcScript.so
+7f0e5d5e7000-7f0e5d5ef000 r--p 0018a000 00:33 6257                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnDrcScript.so
+7f0e5d5ef000-7f0e5d5f1000 rw-p 00192000 00:33 6257                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnDrcScript.so
+7f0e5d5f1000-7f0e5d5f3000 rw-p 00000000 00:00 0 
+7f0e5d5f3000-7f0e5d63f000 r--p 00000000 00:33 4536                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnTech.so
+7f0e5d63f000-7f0e5d7cc000 r-xp 0004c000 00:33 4536                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnTech.so
+7f0e5d7cc000-7f0e5d7f1000 r--p 001d9000 00:33 4536                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnTech.so
+7f0e5d7f1000-7f0e5d7f7000 r--p 001fd000 00:33 4536                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnTech.so
+7f0e5d7f7000-7f0e5d7fa000 rw-p 00203000 00:33 4536                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnTech.so
+7f0e5d7fa000-7f0e5d7fb000 rw-p 00000000 00:00 0 
+7f0e5d7fb000-7f0e5d7fc000 ---p 00000000 00:00 0 
+7f0e5d7fc000-7f0e5dffc000 rwxp 00000000 00:00 0 
+7f0e5dffc000-7f0e5dffd000 ---p 00000000 00:00 0 
+7f0e5dffd000-7f0e5e7fd000 rwxp 00000000 00:00 0 
+7f0e5e7fd000-7f0e5e7fe000 ---p 00000000 00:00 0 
+7f0e5e7fe000-7f0e5effe000 rwxp 00000000 00:00 0 
+7f0e5effe000-7f0e5efff000 ---p 00000000 00:00 0 
+7f0e5efff000-7f0e5f7ff000 rwxp 00000000 00:00 0 
+7f0e5f7ff000-7f0e5f800000 ---p 00000000 00:00 0 
+7f0e5f800000-7f0e60000000 rwxp 00000000 00:00 0 
+7f0e60000000-7f0e60251000 rw-p 00000000 00:00 0 
+7f0e60251000-7f0e64000000 ---p 00000000 00:00 0 
+7f0e64000000-7f0e64021000 rw-p 00000000 00:00 0 
+7f0e64021000-7f0e68000000 ---p 00000000 00:00 0 
+7f0e68000000-7f0e68552000 rw-p 00000000 00:00 0 
+7f0e68552000-7f0e6c000000 ---p 00000000 00:00 0 
+7f0e6c000000-7f0e6c021000 rw-p 00000000 00:00 0 
+7f0e6c021000-7f0e70000000 ---p 00000000 00:00 0 
+7f0e70001000-7f0e70004000 r--p 00000000 00:33 28275                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_collections.so
+7f0e70004000-7f0e70007000 r-xp 00003000 00:33 28275                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_collections.so
+7f0e70007000-7f0e70008000 r--p 00006000 00:33 28275                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_collections.so
+7f0e70008000-7f0e70009000 ---p 00007000 00:33 28275                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_collections.so
+7f0e70009000-7f0e7000a000 r--p 00007000 00:33 28275                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_collections.so
+7f0e7000a000-7f0e7000c000 rw-p 00008000 00:33 28275                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_collections.so
+7f0e7000c000-7f0e7000e000 r--p 00000000 00:33 22204                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/strop.so
+7f0e7000e000-7f0e70011000 r-xp 00002000 00:33 22204                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/strop.so
+7f0e70011000-7f0e70012000 r--p 00005000 00:33 22204                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/strop.so
+7f0e70012000-7f0e70013000 r--p 00005000 00:33 22204                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/strop.so
+7f0e70013000-7f0e70015000 rw-p 00006000 00:33 22204                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/strop.so
+7f0e70015000-7f0e70019000 r--p 00000000 00:33 5907                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/operator.so
+7f0e70019000-7f0e7001b000 r-xp 00004000 00:33 5907                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/operator.so
+7f0e7001b000-7f0e7001d000 r--p 00006000 00:33 5907                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/operator.so
+7f0e7001d000-7f0e7001e000 r--p 00007000 00:33 5907                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/operator.so
+7f0e7001e000-7f0e70020000 rw-p 00008000 00:33 5907                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/operator.so
+7f0e70020000-7f0e70022000 r--p 00000000 00:33 22201                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_locale.so
+7f0e70022000-7f0e70024000 r-xp 00002000 00:33 22201                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_locale.so
+7f0e70024000-7f0e70025000 r--p 00004000 00:33 22201                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_locale.so
+7f0e70025000-7f0e70026000 r--p 00004000 00:33 22201                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_locale.so
+7f0e70026000-7f0e70027000 rw-p 00005000 00:33 22201                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_locale.so
+7f0e70027000-7f0e70028000 r--p 00000000 00:33 28284                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_functools.so
+7f0e70028000-7f0e70029000 r-xp 00001000 00:33 28284                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_functools.so
+7f0e70029000-7f0e7002a000 r--p 00002000 00:33 28284                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_functools.so
+7f0e7002a000-7f0e7002b000 r--p 00002000 00:33 28284                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_functools.so
+7f0e7002b000-7f0e7002c000 rw-p 00003000 00:33 28284                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/_functools.so
+7f0e7002c000-7f0e7002e000 r--p 00000000 00:33 14026                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/time.so
+7f0e7002e000-7f0e70030000 r-xp 00002000 00:33 14026                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/time.so
+7f0e70030000-7f0e70031000 r--p 00004000 00:33 14026                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/time.so
+7f0e70031000-7f0e70032000 r--p 00004000 00:33 14026                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/time.so
+7f0e70032000-7f0e70034000 rw-p 00005000 00:33 14026                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/time.so
+7f0e70034000-7f0e70035000 r--p 00000000 00:33 28133                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloSpi26.so
+7f0e70035000-7f0e70036000 r-xp 00001000 00:33 28133                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloSpi26.so
+7f0e70036000-7f0e70037000 r--p 00002000 00:33 28133                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloSpi26.so
+7f0e70037000-7f0e70038000 r--p 00002000 00:33 28133                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloSpi26.so
+7f0e70038000-7f0e70039000 rw-p 00003000 00:33 28133                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloSpi26.so
+7f0e70039000-7f0e7003c000 r--p 00000000 00:33 14017                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/math.so
+7f0e7003c000-7f0e7003f000 r-xp 00003000 00:33 14017                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/math.so
+7f0e7003f000-7f0e70040000 r--p 00006000 00:33 14017                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/math.so
+7f0e70040000-7f0e70041000 r--p 00006000 00:33 14017                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/math.so
+7f0e70041000-7f0e70043000 rw-p 00007000 00:33 14017                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/math.so
+7f0e70043000-7f0e70051000 r--p 00000000 00:33 32184                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnIoa26.so
+7f0e70051000-7f0e70068000 r-xp 0000e000 00:33 32184                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnIoa26.so
+7f0e70068000-7f0e7006d000 r--p 00025000 00:33 32184                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnIoa26.so
+7f0e7006d000-7f0e7006e000 ---p 0002a000 00:33 32184                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnIoa26.so
+7f0e7006e000-7f0e7006f000 r--p 0002a000 00:33 32184                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnIoa26.so
+7f0e7006f000-7f0e70070000 rw-p 0002b000 00:33 32184                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnIoa26.so
+7f0e70070000-7f0e70072000 r--p 00000000 00:33 22200                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/zlib.so
+7f0e70072000-7f0e70074000 r-xp 00002000 00:33 22200                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/zlib.so
+7f0e70074000-7f0e70075000 r--p 00004000 00:33 22200                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/zlib.so
+7f0e70075000-7f0e70076000 r--p 00004000 00:33 22200                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/zlib.so
+7f0e70076000-7f0e70078000 rw-p 00005000 00:33 22200                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/zlib.so
+7f0e70078000-7f0e7007a000 r--p 00000000 00:33 14023                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cStringIO.so
+7f0e7007a000-7f0e7007c000 r-xp 00002000 00:33 14023                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cStringIO.so
+7f0e7007c000-7f0e7007d000 r--p 00004000 00:33 14023                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cStringIO.so
+7f0e7007d000-7f0e7007e000 r--p 00004000 00:33 14023                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cStringIO.so
+7f0e7007e000-7f0e70080000 rw-p 00005000 00:33 14023                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cStringIO.so
+7f0e70080000-7f0e70084000 r--p 00000000 00:33 28277                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cPickle.so
+7f0e70084000-7f0e70090000 r-xp 00004000 00:33 28277                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cPickle.so
+7f0e70090000-7f0e70094000 r--p 00010000 00:33 28277                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cPickle.so
+7f0e70094000-7f0e70095000 r--p 00013000 00:33 28277                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cPickle.so
+7f0e70095000-7f0e70096000 rw-p 00014000 00:33 28277                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/python2.6/lib-dynload/cPickle.so
+7f0e70096000-7f0e7009b000 r--p 00000000 00:33 4543                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilSr.so
+7f0e7009b000-7f0e7009e000 r-xp 00005000 00:33 4543                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilSr.so
+7f0e7009e000-7f0e7009f000 r--p 00008000 00:33 4543                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilSr.so
+7f0e7009f000-7f0e700a0000 ---p 00009000 00:33 4543                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilSr.so
+7f0e700a0000-7f0e700a1000 r--p 00009000 00:33 4543                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilSr.so
+7f0e700a1000-7f0e700a2000 rw-p 0000a000 00:33 4543                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilSr.so
+7f0e700a2000-7f0e700ce000 r--p 00000000 00:33 6256                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilOa.so
+7f0e700ce000-7f0e70113000 r-xp 0002c000 00:33 6256                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilOa.so
+7f0e70113000-7f0e7011e000 r--p 00071000 00:33 6256                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilOa.so
+7f0e7011e000-7f0e70120000 r--p 0007b000 00:33 6256                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilOa.so
+7f0e70120000-7f0e70122000 rw-p 0007d000 00:33 6256                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilOa.so
+7f0e70122000-7f0e7012b000 r--p 00000000 00:33 6255                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnDloInterfaces.so
+7f0e7012b000-7f0e7013c000 r-xp 00009000 00:33 6255                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnDloInterfaces.so
+7f0e7013c000-7f0e7013f000 r--p 0001a000 00:33 6255                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnDloInterfaces.so
+7f0e7013f000-7f0e70140000 ---p 0001d000 00:33 6255                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnDloInterfaces.so
+7f0e70140000-7f0e70141000 r--p 0001d000 00:33 6255                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnDloInterfaces.so
+7f0e70141000-7f0e70142000 rw-p 0001e000 00:33 6255                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnDloInterfaces.so
+7f0e70142000-7f0e7014c000 r--p 00000000 00:33 4541                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilOaBase.so
+7f0e7014c000-7f0e7015d000 r-xp 0000a000 00:33 4541                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilOaBase.so
+7f0e7015d000-7f0e70161000 r--p 0001b000 00:33 4541                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilOaBase.so
+7f0e70161000-7f0e70162000 ---p 0001f000 00:33 4541                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilOaBase.so
+7f0e70162000-7f0e70163000 r--p 0001f000 00:33 4541                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilOaBase.so
+7f0e70163000-7f0e70164000 rw-p 00020000 00:33 4541                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilOaBase.so
+7f0e70164000-7f0e701f9000 r--p 00000000 00:33 28124                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloBase26.so
+7f0e701f9000-7f0e70330000 r-xp 00095000 00:33 28124                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloBase26.so
+7f0e70330000-7f0e70373000 r--p 001cc000 00:33 28124                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloBase26.so
+7f0e70373000-7f0e70374000 ---p 0020f000 00:33 28124                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloBase26.so
+7f0e70374000-7f0e70380000 r--p 0020f000 00:33 28124                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloBase26.so
+7f0e70380000-7f0e70384000 rw-p 0021b000 00:33 28124                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloBase26.so
+7f0e70384000-7f0e70386000 rw-p 00000000 00:00 0 
+7f0e70386000-7f0e7039a000 r--p 00000000 00:33 28129                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnUtilPy26.so
+7f0e7039a000-7f0e703d5000 r-xp 00014000 00:33 28129                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnUtilPy26.so
+7f0e703d5000-7f0e703df000 r--p 0004f000 00:33 28129                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnUtilPy26.so
+7f0e703df000-7f0e703e0000 ---p 00059000 00:33 28129                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnUtilPy26.so
+7f0e703e0000-7f0e703e1000 r--p 00059000 00:33 28129                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnUtilPy26.so
+7f0e703e1000-7f0e703e2000 rw-p 0005a000 00:33 28129                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnUtilPy26.so
+7f0e703e2000-7f0e703e3000 rw-p 00000000 00:00 0 
+7f0e703e3000-7f0e70419000 r--p 00000000 00:33 4542                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtil.so
+7f0e70419000-7f0e7048b000 r-xp 00036000 00:33 4542                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtil.so
+7f0e7048b000-7f0e704a3000 r--p 000a8000 00:33 4542                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtil.so
+7f0e704a3000-7f0e704a4000 ---p 000c0000 00:33 4542                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtil.so
+7f0e704a4000-7f0e704a7000 r--p 000c0000 00:33 4542                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtil.so
+7f0e704a7000-7f0e704a9000 rw-p 000c3000 00:33 4542                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtil.so
+7f0e704a9000-7f0e704aa000 rw-p 00000000 00:00 0 
+7f0e704aa000-7f0e704ab000 ---p 00000000 00:00 0 
+7f0e704ab000-7f0e70cab000 rwxp 00000000 00:00 0 
+7f0e70cab000-7f0e70cac000 ---p 00000000 00:00 0 
+7f0e70cac000-7f0e714ac000 rwxp 00000000 00:00 0 
+7f0e714ac000-7f0e714dd000 rw-p 00000000 00:00 0 
+7f0e714dd000-7f0e714e3000 r--p 00000000 00:33 24973                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaPcellScript.so
+7f0e714e3000-7f0e714e5000 r-xp 00006000 00:33 24973                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaPcellScript.so
+7f0e714e5000-7f0e714e7000 r--p 00008000 00:33 24973                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaPcellScript.so
+7f0e714e7000-7f0e714e8000 r--p 00009000 00:33 24973                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaPcellScript.so
+7f0e714e8000-7f0e714e9000 rw-p 0000a000 00:33 24973                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaPcellScript.so
+7f0e714e9000-7f0e714f5000 r--p 00000000 00:33 69628                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtbb.so.12.5
+7f0e714f5000-7f0e71514000 r-xp 0000c000 00:33 69628                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtbb.so.12.5
+7f0e71514000-7f0e7151d000 r--p 0002b000 00:33 69628                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtbb.so.12.5
+7f0e7151d000-7f0e7151e000 ---p 00034000 00:33 69628                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtbb.so.12.5
+7f0e7151e000-7f0e7151f000 r--p 00034000 00:33 69628                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtbb.so.12.5
+7f0e7151f000-7f0e71522000 rw-p 00035000 00:33 69628                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtbb.so.12.5
+7f0e71522000-7f0e71538000 rw-p 00000000 00:00 0 
+7f0e71538000-7f0e71686000 r--p 00000000 00:33 62758                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libprotobuf.so.19
+7f0e71686000-7f0e717e7000 r-xp 0014d000 00:33 62758                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libprotobuf.so.19
+7f0e717e7000-7f0e717f1000 r--p 002ad000 00:33 62758                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libprotobuf.so.19
+7f0e717f1000-7f0e717f7000 rw-p 002b6000 00:33 62758                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libprotobuf.so.19
+7f0e717f7000-7f0e717f9000 rw-p 00000000 00:00 0 
+7f0e717f9000-7f0e71826000 r--p 00000000 00:33 68286                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/libsynenc_tcl.so
+7f0e71826000-7f0e71a02000 r-xp 0002d000 00:33 68286                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/libsynenc_tcl.so
+7f0e71a02000-7f0e71a53000 r--p 00209000 00:33 68286                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/libsynenc_tcl.so
+7f0e71a53000-7f0e71a62000 r--p 00259000 00:33 68286                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/libsynenc_tcl.so
+7f0e71a62000-7f0e71a65000 rw-p 00268000 00:33 68286                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/libsynenc_tcl.so
+7f0e71a65000-7f0e71a6f000 rw-p 00000000 00:00 0 
+7f0e71a6f000-7f0e71a92000 r--p 00000000 00:33 41002                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/tclpy/PY2.6.2/tclpy.so
+7f0e71a92000-7f0e71ba1000 r-xp 00023000 00:33 41002                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/tclpy/PY2.6.2/tclpy.so
+7f0e71ba1000-7f0e71bcd000 r--p 00132000 00:33 41002                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/tclpy/PY2.6.2/tclpy.so
+7f0e71bcd000-7f0e71bce000 ---p 0015e000 00:33 41002                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/tclpy/PY2.6.2/tclpy.so
+7f0e71bce000-7f0e71bd2000 r--p 0015e000 00:33 41002                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/tclpy/PY2.6.2/tclpy.so
+7f0e71bd2000-7f0e71bd9000 rw-p 00162000 00:33 41002                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/tclpy/PY2.6.2/tclpy.so
+7f0e71bd9000-7f0e71bda000 rw-p 00000000 00:00 0 
+7f0e71bda000-7f0e71bdb000 r--p 00000000 00:33 81699                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/topology_assistant/topology_assistant_tcl.rcc
+7f0e71bdb000-7f0e71bdd000 r--p 00000000 00:33 107144                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/template/template_tcl.rcc
+7f0e71bdd000-7f0e71bde000 r--p 00000000 00:33 55476                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/relative_placement/relative_placement_tcl.rcc
+7f0e71bde000-7f0e71bdf000 r--p 00000000 00:33 43738                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/ilt_template_commands/ilt_template_commands_tcl.rcc
+7f0e71bdf000-7f0e71be0000 r--p 00000000 00:33 57759                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/flightline/flightline_tcl.rcc
+7f0e71be0000-7f0e71be1000 r--p 00000000 00:33 91948                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/pcell_caching_commands/pcell_caching_commands_tcl.rcc
+7f0e71be1000-7f0e71be4000 r--p 00000000 00:33 47497                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/parameter_gui_commands/parameter_gui_commands_tcl.rcc
+7f0e71be4000-7f0e71be5000 r--p 00000000 00:33 84266                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/parameter_commands/parameter_commands_tcl.rcc
+7f0e71be5000-7f0e71be6000 r--p 00000000 00:33 84257                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/opto_designer_integ/opto_designer_integ_tcl.rcc
+7f0e71be6000-7f0e71c56000 r--p 00000000 00:33 102945                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/simenv/simenv_tcl.rcc
+7f0e71c56000-7f0e71c64000 r--p 00000000 00:33 67345                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/helix/helix_tcl.rcc
+7f0e71c64000-7f0e71c92000 r--p 00000000 00:33 65390                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/ndm_oa/ndm_oa_tcl.rcc
+7f0e71c92000-7f0e71cb7000 r--p 00000000 00:33 32933                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/mwbridge/mwbridge_tcl.rcc
+7f0e71cb7000-7f0e71cb9000 r--p 00000000 00:33 59751                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/legalizer_cd_commands/legalizer_cd_commands_tcl.rcc
+7f0e71cb9000-7f0e71cba000 ---p 00000000 00:00 0 
+7f0e71cba000-7f0e724ba000 rwxp 00000000 00:00 0 
+7f0e724ba000-7f0e724f4000 r--p 00000000 00:33 57770                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/DejaVuLGCSansMono.ttf
+7f0e724f4000-7f0e724f5000 ---p 00000000 00:00 0 
+7f0e724f5000-7f0e72cf5000 rwxp 00000000 00:00 0 
+7f0e72cf5000-7f0e72ffe000 r--p 00000000 00:33 104682                     /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/sae/sae_tcl.rcc
+7f0e72ffe000-7f0e72fff000 ---p 00000000 00:00 0 
+7f0e72fff000-7f0e737ff000 rwxp 00000000 00:00 0 
+7f0e737ff000-7f0e73800000 ---p 00000000 00:00 0 
+7f0e73800000-7f0e74000000 rwxp 00000000 00:00 0 
+7f0e74000000-7f0e74021000 rw-p 00000000 00:00 0 
+7f0e74021000-7f0e78000000 ---p 00000000 00:00 0 
+7f0e78000000-7f0e78001000 r--p 00000000 00:33 66679                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/logical_selection/logical_selection_tcl.rcc
+7f0e78001000-7f0e78002000 r--p 00000000 00:33 49446                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/le_create_commands/le_create_commands_tcl.rcc
+7f0e78002000-7f0e78003000 r--p 00000000 00:33 57757                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/find_replace_commands/find_replace_commands_tcl.rcc
+7f0e78003000-7f0e78004000 r--p 00000000 00:33 19323                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/device_label_editor/device_label_editor_tcl.rcc
+7f0e78004000-7f0e78005000 r--p 00000000 00:33 41198                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/design_review/design_review_tcl.rcc
+7f0e78005000-7f0e78006000 r--p 00000000 00:33 45781                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/connectivity_commands/connectivity_commands_tcl.rcc
+7f0e78006000-7f0e78008000 r--p 00000000 00:33 36165                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/cellview_generation_commands/cellview_generation_commands_tcl.rcc
+7f0e78008000-7f0e78017000 r--p 00000000 00:33 98751                      /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/sae_results/sae_results_tcl.rcc
+7f0e78017000-7f0e78019000 r--p 00000000 00:33 64054                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/constraint_editor/constraint_editor_tcl.rcc
+7f0e78019000-7f0e7801a000 r--p 00000000 00:33 80593                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/on_canvas_property_editor/on_canvas_property_editor_tcl.rcc
+7f0e7801a000-7f0e7801c000 r--p 00000000 00:33 97809                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/tech_manager/tech_manager_tcl.rcc
+7f0e7801c000-7f0e7801d000 r--p 00000000 00:33 43723                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/hierarchy_navigator/hierarchy_navigator_tcl.rcc
+7f0e7801d000-7f0e78022000 r--p 00000000 00:33 39730                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/hierarchy_editor/hierarchy_editor_tcl.rcc
+7f0e78022000-7f0e78036000 r--p 00000000 00:33 57914                      /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/waveform/waveform_tcl.rcc
+7f0e78036000-7f0e78037000 r--p 00000000 00:33 77941                      /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/report_generation/report_generation_tcl.rcc
+7f0e78037000-7f0e78038000 r--p 00000000 00:33 38375                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/sbr_pattern_route_assistant/sbr_pattern_route_assistant_tcl.rcc
+7f0e78038000-7f0e7805c000 r--p 00000000 00:33 66436                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/sbr/sbr_tcl.rcc
+7f0e7805c000-7f0e7805d000 r--p 00000000 00:33 101330                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/vtp/vtp_tcl.rcc
+7f0e7805d000-7f0e7805e000 r--p 00000000 00:33 107181                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/voltage_annotation/voltage_annotation_tcl.rcc
+7f0e7805e000-7f0e7805f000 r--p 00000000 00:33 107169                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/undo_gui/undo_gui_tcl.rcc
+7f0e7805f000-7f0e78063000 r--p 00000000 00:33 102379                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/udd/udd_tcl.rcc
+7f0e78063000-7f0e78065000 r--p 00000000 00:33 113909                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/text_viewer/text_viewer_tcl.rcc
+7f0e78065000-7f0e78066000 r--p 00000000 00:33 102218                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/template_designer_gui/template_designer_gui_tcl.rcc
+7f0e78066000-7f0e7806e000 r--p 00000000 00:33 106252                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/symbolic_editor_window/symbolic_editor_window_tcl.rcc
+7f0e7806e000-7f0e78073000 r--p 00000000 00:33 38695                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/design_editor/design_editor_tcl.rcc
+7f0e78073000-7f0e78075000 r--p 00000000 00:33 42248                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/object_access/object_access_tcl.rcc
+7f0e78075000-7f0e78077000 r--p 00000000 00:33 60570                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/selection_highlighting/selection_highlighting_tcl.rcc
+7f0e78077000-7f0e7807f000 r--p 00000000 00:33 114969                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/sdp/sdp_tcl.rcc
+7f0e7807f000-7f0e78083000 r--p 00000000 00:33 93266                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/opal/opal_tcl.rcc
+7f0e78083000-7f0e78095000 r--p 00000000 00:33 9292                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/rule_generation/rule_generation_tcl.rcc
+7f0e78095000-7f0e78215000 rw-p 00000000 00:00 0 
+7f0e78215000-7f0e7821a000 r-xp 00000000 fd:00 67116999                   /usr/lib64/libcap-ng.so.0.0.0
+7f0e7821a000-7f0e78419000 ---p 00005000 fd:00 67116999                   /usr/lib64/libcap-ng.so.0.0.0
+7f0e78419000-7f0e7841a000 r--p 00004000 fd:00 67116999                   /usr/lib64/libcap-ng.so.0.0.0
+7f0e7841a000-7f0e7841b000 rw-p 00000000 00:00 0 
+7f0e7841b000-7f0e7843b000 r-xp 00000000 fd:00 67116456                   /usr/lib64/libaudit.so.1.0.0
+7f0e7843b000-7f0e7863a000 ---p 00020000 fd:00 67116456                   /usr/lib64/libaudit.so.1.0.0
+7f0e7863a000-7f0e7863b000 r--p 0001f000 fd:00 67116456                   /usr/lib64/libaudit.so.1.0.0
+7f0e7863b000-7f0e7863c000 rw-p 00020000 fd:00 67116456                   /usr/lib64/libaudit.so.1.0.0
+7f0e7863c000-7f0e7864c000 rw-p 00000000 00:00 0 
+7f0e7864c000-7f0e7865d000 r-xp 00000000 fd:00 67641913                   /usr/lib64/libavahi-client.so.3.2.9
+7f0e7865d000-7f0e7885c000 ---p 00011000 fd:00 67641913                   /usr/lib64/libavahi-client.so.3.2.9
+7f0e7885c000-7f0e7885d000 r--p 00010000 fd:00 67641913                   /usr/lib64/libavahi-client.so.3.2.9
+7f0e7885d000-7f0e7885e000 rw-p 00011000 fd:00 67641913                   /usr/lib64/libavahi-client.so.3.2.9
+7f0e7885e000-7f0e7886a000 r-xp 00000000 fd:00 67641915                   /usr/lib64/libavahi-common.so.3.5.3
+7f0e7886a000-7f0e78a69000 ---p 0000c000 fd:00 67641915                   /usr/lib64/libavahi-common.so.3.5.3
+7f0e78a69000-7f0e78a6a000 r--p 0000b000 fd:00 67641915                   /usr/lib64/libavahi-common.so.3.5.3
+7f0e78a6a000-7f0e78a6b000 rw-p 0000c000 fd:00 67641915                   /usr/lib64/libavahi-common.so.3.5.3
+7f0e78a6b000-7f0e78af9000 r-xp 00000000 fd:00 67116819                   /usr/lib64/libcups.so.2
+7f0e78af9000-7f0e78cf8000 ---p 0008e000 fd:00 67116819                   /usr/lib64/libcups.so.2
+7f0e78cf8000-7f0e78d02000 r--p 0008d000 fd:00 67116819                   /usr/lib64/libcups.so.2
+7f0e78d02000-7f0e78d03000 rw-p 00097000 fd:00 67116819                   /usr/lib64/libcups.so.2
+7f0e78d03000-7f0e78d04000 r--p 00000000 00:33 102211                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/template_designer_commands/template_designer_commands_tcl.rcc
+7f0e78d04000-7f0e78d05000 r--p 00000000 00:33 39715                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/hierarchy_commands/hierarchy_commands_tcl.rcc
+7f0e78d05000-7f0e78d06000 r--p 00000000 00:33 114958                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/sdl_browser/sdl_browser_tcl.rcc
+7f0e78d06000-7f0e78d0f000 r--p 00000000 00:33 92723                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/sdl/sdl_tcl.rcc
+7f0e78d0f000-7f0e78d11000 r--p 00000000 00:33 60265                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/error_viewer/error_viewer_tcl.rcc
+7f0e78d11000-7f0e78d13000 r--p 00000000 00:33 97190                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/printing/printing_tcl.rcc
+7f0e78d13000-7f0e78d76000 r--p 00000000 00:33 70412                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/physical_verification/physical_verification_tcl.rcc
+7f0e78d76000-7f0e78d7d000 r--p 00000000 00:33 91946                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/pattern_generation/pattern_generation_tcl.rcc
+7f0e78d7d000-7f0e78d82000 r--p 00000000 00:33 36496                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/base_editor/base_editor_tcl.rcc
+7f0e78d82000-7f0e78d9b000 r-xp 00000000 00:33 49136                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/tcl-dp/lib/libdp42.so
+7f0e78d9b000-7f0e78f9b000 ---p 00019000 00:33 49136                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/tcl-dp/lib/libdp42.so
+7f0e78f9b000-7f0e78f9c000 r--p 00019000 00:33 49136                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/tcl-dp/lib/libdp42.so
+7f0e78f9c000-7f0e78f9d000 rw-p 0001a000 00:33 49136                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/tcl-dp/lib/libdp42.so
+7f0e78f9d000-7f0e78f9e000 rw-p 00000000 00:00 0 
+7f0e78f9e000-7f0e78fae000 r--p 00000000 00:33 51985                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/constraints/constraints_tcl.rcc
+7f0e78fae000-7f0e78faf000 r--p 00000000 00:33 53898                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/python/python_tcl.rcc
+7f0e78faf000-7f0e78fc3000 r--p 00000000 00:33 79623                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/parasitics/parasitics_tcl.rcc
+7f0e78fc3000-7f0e78fc5000 r--p 00000000 00:33 69155                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/parameterized_connections_gui/parameterized_connections_gui_tcl.rcc
+7f0e78fc5000-7f0e78fd3000 r--p 00000000 00:33 60140                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/library_manager/library_manager_tcl.rcc
+7f0e78fd3000-7f0e78fd7000 r--p 00000000 00:33 40957                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/job_monitor/job_monitor_tcl.rcc
+7f0e78fd7000-7f0e78fdd000 r--p 00000000 00:33 48247                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/isbr/isbr_tcl.rcc
+7f0e78fdd000-7f0e78fe2000 r--p 00000000 00:33 58068                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/ipkg_commands/ipkg_commands_tcl.rcc
+7f0e78fe2000-7f0e78fe7000 r--p 00000000 00:33 34468                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/pkg_commands/pkg_commands_tcl.rcc
+7f0e78fe7000-7f0e78ffa000 r--p 00000000 00:33 53661                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/data_io/data_io_tcl.rcc
+7f0e78ffa000-7f0e79067000 r--p 00000000 00:33 53829                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/DejaVuLGCSans.ttf
+7f0e79067000-7f0e79068000 ---p 00000000 00:00 0 
+7f0e79068000-7f0e79868000 rwxp 00000000 00:00 0 
+7f0e79868000-7f0e79869000 ---p 00000000 00:00 0 
+7f0e79869000-7f0e7a069000 rwxp 00000000 00:00 0 
+7f0e7a069000-7f0e7a06a000 ---p 00000000 00:00 0 
+7f0e7a06a000-7f0e7a86a000 rwxp 00000000 00:00 0 
+7f0e7a86a000-7f0e7a86d000 r-xp 00000000 fd:00 69890611                   /usr/lib64/libgmodule-2.0.so.0.5600.4
+7f0e7a86d000-7f0e7aa6c000 ---p 00003000 fd:00 69890611                   /usr/lib64/libgmodule-2.0.so.0.5600.4
+7f0e7aa6c000-7f0e7aa6d000 r--p 00002000 fd:00 69890611                   /usr/lib64/libgmodule-2.0.so.0.5600.4
+7f0e7aa6d000-7f0e7aa6e000 rw-p 00003000 fd:00 69890611                   /usr/lib64/libgmodule-2.0.so.0.5600.4
+7f0e7aa6e000-7f0e7aabf000 r-xp 00000000 fd:00 69890613                   /usr/lib64/libgobject-2.0.so.0.5600.4
+7f0e7aabf000-7f0e7acbf000 ---p 00051000 fd:00 69890613                   /usr/lib64/libgobject-2.0.so.0.5600.4
+7f0e7acbf000-7f0e7acc0000 r--p 00051000 fd:00 69890613                   /usr/lib64/libgobject-2.0.so.0.5600.4
+7f0e7acc0000-7f0e7acc1000 rw-p 00052000 fd:00 69890613                   /usr/lib64/libgobject-2.0.so.0.5600.4
+7f0e7acc1000-7f0e7ae61000 r-xp 00000000 fd:00 69890607                   /usr/lib64/libgio-2.0.so.0.5600.4
+7f0e7ae61000-7f0e7b061000 ---p 001a0000 fd:00 69890607                   /usr/lib64/libgio-2.0.so.0.5600.4
+7f0e7b061000-7f0e7b068000 r--p 001a0000 fd:00 69890607                   /usr/lib64/libgio-2.0.so.0.5600.4
+7f0e7b068000-7f0e7b069000 rw-p 001a7000 fd:00 69890607                   /usr/lib64/libgio-2.0.so.0.5600.4
+7f0e7b069000-7f0e7b06b000 rw-p 00000000 00:00 0 
+7f0e7b06b000-7f0e7b098000 r-xp 00000000 fd:00 68065757                   /usr/lib64/libdbus-glib-1.so.2.3.4
+7f0e7b098000-7f0e7b297000 ---p 0002d000 fd:00 68065757                   /usr/lib64/libdbus-glib-1.so.2.3.4
+7f0e7b297000-7f0e7b299000 r--p 0002c000 fd:00 68065757                   /usr/lib64/libdbus-glib-1.so.2.3.4
+7f0e7b299000-7f0e7b29a000 rw-p 0002e000 fd:00 68065757                   /usr/lib64/libdbus-glib-1.so.2.3.4
+7f0e7b29a000-7f0e7b332000 r-xp 00000000 fd:00 67116671                   /usr/lib64/libudev.so.1.6.11
+7f0e7b332000-7f0e7b532000 ---p 00098000 fd:00 67116671                   /usr/lib64/libudev.so.1.6.11
+7f0e7b532000-7f0e7b536000 r--p 00098000 fd:00 67116671                   /usr/lib64/libudev.so.1.6.11
+7f0e7b536000-7f0e7b537000 rw-p 0009c000 fd:00 67116671                   /usr/lib64/libudev.so.1.6.11
+7f0e7b537000-7f0e7b538000 r--p 00000000 00:33 69774                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/power_device/power_device_tcl.rcc
+7f0e7b538000-7f0e7b53a000 r--p 00000000 00:33 49435                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/lde_commands/lde_commands_tcl.rcc
+7f0e7b53a000-7f0e7b543000 r--p 00000000 00:33 50627                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/job/job_tcl.rcc
+7f0e7b543000-7f0e7b544000 r--p 00000000 00:33 37674                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/abstract_generator/abstract_generator_tcl.rcc
+7f0e7b544000-7f0e7b547000 r--p 00000000 00:33 88863                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/window/window_tcl.rcc
+7f0e7b547000-7f0e7b55c000 r--p 00000000 00:33 5936                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7f0e7b55c000-7f0e7b575000 r-xp 00015000 00:33 5936                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7f0e7b575000-7f0e7b584000 r--p 0002e000 00:33 5936                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7f0e7b584000-7f0e7b585000 ---p 0003d000 00:33 5936                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7f0e7b585000-7f0e7b586000 r--p 0003d000 00:33 5936                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7f0e7b586000-7f0e7b587000 rw-p 0003e000 00:33 5936                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7f0e7b587000-7f0e7b588000 rw-p 00000000 00:00 0 
+7f0e7b588000-7f0e7b5a4000 r--p 00000000 00:33 53824                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/INFOT_Synopsys.ttf
+7f0e7b5a4000-7f0e7b5b6000 r--p 00000000 00:33 53833                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/luxisb.ttf
+7f0e7b5b6000-7f0e7b5c7000 r--p 00000000 00:33 53838                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/luxisr.ttf
+7f0e7b5c7000-7f0e7b5d6000 r--p 00000000 00:33 53825                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/INFOL___.TTF
+7f0e7b5d6000-7f0e7b5e8000 r--p 00000000 00:33 53837                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/COUR.ttf
+7f0e7b5e8000-7f0e7b5fa000 r--p 00000000 00:33 53837                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/COUR.ttf
+7f0e7b5fa000-7f0e7b60c000 r--p 00000000 00:33 53837                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/COUR.ttf
+7f0e7b60c000-7f0e7b628000 r--p 00000000 00:33 53824                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/INFOT_Synopsys.ttf
+7f0e7b628000-7f0e7b640000 r--p 00000000 00:33 53836                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/AM196___.TTF
+7f0e7b640000-7f0e7b672000 r--p 00000000 00:33 53830                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/TNR_WG__.ttf
+7f0e7b672000-7f0e7b67e000 r--p 00000000 00:33 53828                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/td______.pfb
+7f0e7b67e000-7f0e7b6b0000 r--p 00000000 00:33 53830                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/TNR_WG__.ttf
+7f0e7b6b0000-7f0e7b6bb000 r--p 00000000 00:33 53831                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/fonts/lc______.ttf
+7f0e7b6bb000-7f0e7b6c2000 r--s 00000000 fd:02 6887994                    /home/ORTIZ_ARIAS/.cache/fontconfig/da0f09f4-57f9-4692-94bf-8675076370af-le64.cache-7
+7f0e7b6c2000-7f0e7b6c3000 r--p 00000000 00:33 64734                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/info_commands/info_commands_tcl.rcc
+7f0e7b6c3000-7f0e7b6c5000 r--p 00000000 00:33 43729                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/home/home_tcl.rcc
+7f0e7b6c5000-7f0e7b6c8000 r--p 00000000 00:33 13350                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/find_replace/find_replace_tcl.rcc
+7f0e7b6c8000-7f0e7b6cb000 r--p 00000000 00:33 13337                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/estimated_parasitics/estimated_parasitics_tcl.rcc
+7f0e7b6cb000-7f0e7b6cc000 r--p 00000000 00:33 53892                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/property_editor/property_editor_tcl.rcc
+7f0e7b6cc000-7f0e7b6cd000 r--p 00000000 00:33 34890                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/em_backannotation/em_backannotation_tcl.rcc
+7f0e7b6cd000-7f0e7b6cf000 r--p 00000000 00:33 47651                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/dtco/dtco_tcl.rcc
+7f0e7b6cf000-7f0e7b6d0000 r--p 00000000 00:33 19330                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/device_palette/device_palette_tcl.rcc
+7f0e7b6d0000-7f0e7b6d7000 r--p 00000000 00:33 36173                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/cellview_generators/cellview_generators_tcl.rcc
+7f0e7b6d7000-7f0e7b6da000 r--p 00000000 00:33 61219                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/bookmarks/bookmarks_tcl.rcc
+7f0e7b6da000-7f0e7b6e0000 r--p 00000000 00:33 102225                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/text_editor/text_editor_tcl.rcc
+7f0e7b6e0000-7f0e7b6e2000 r--p 00000000 00:33 38699                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/design_navigator/design_navigator_tcl.rcc
+7f0e7b6e2000-7f0e7b6e4000 r--p 00000000 00:33 19339                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/display_resources/display_resources_tcl.rcc
+7f0e7b6e4000-7f0e7b6e7000 r--p 00000000 00:33 80590                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/object_layer/object_layer_tcl.rcc
+7f0e7b6e7000-7f0e7b6e8000 r--p 00000000 00:33 66689                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/marker_browser/marker_browser_tcl.rcc
+7f0e7b6e8000-7f0e7b6ea000 r--p 00000000 00:33 64741                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/integrated_tool_help/integrated_tool_help_tcl.rcc
+7f0e7b6ea000-7f0e7b6ee000 r--p 00000000 00:33 84268                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/parameter_editor/parameter_editor_tcl.rcc
+7f0e7b6ee000-7f0e7b6f2000 r--p 00000000 00:33 60318                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/netlist_editor/netlist_editor_tcl.rcc
+7f0e7b6f2000-7f0e7b711000 r--p 00000000 00:33 79236                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/schematic_editor/schematic_editor_tcl.rcc
+7f0e7b711000-7f0e7b715000 r--p 00000000 00:33 47489                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/parameter_evaluation/parameter_evaluation_tcl.rcc
+7f0e7b715000-7f0e7b727000 r--p 00000000 00:33 37025                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/layout_editor/layout_editor_tcl.rcc
+7f0e7b727000-7f0e7b73f000 r--s 00000000 fd:00 68065827                   /usr/lib/fontconfig/cache/90d1dcb4-d396-4ee8-8555-580b6489567f-le64.cache-7
+7f0e7b73f000-7f0e7b741000 r--s 00000000 fd:00 68065765                   /usr/lib/fontconfig/cache/8dce2a82-f881-4e4a-9ad4-ba87cadde939-le64.cache-7
+7f0e7b741000-7f0e7b744000 r--s 00000000 fd:00 68065731                   /usr/lib/fontconfig/cache/bdb37502-247c-4b02-adff-5aad0ea8a9cf-le64.cache-7
+7f0e7b744000-7f0e7b745000 r--s 00000000 fd:00 68065730                   /usr/lib/fontconfig/cache/edb8902b-bb67-4599-89c0-1c40b45e7a05-le64.cache-7
+7f0e7b745000-7f0e7b746000 r--s 00000000 fd:00 68065729                   /usr/lib/fontconfig/cache/6c8feed3-e7d7-4177-97ee-4256e6dd29dd-le64.cache-7
+7f0e7b746000-7f0e7b747000 r--s 00000000 fd:00 68065728                   /usr/lib/fontconfig/cache/8c254608-f58a-44f9-a0d5-80727b97033d-le64.cache-7
+7f0e7b747000-7f0e7b748000 r--s 00000000 fd:00 67988351                   /usr/lib/fontconfig/cache/d121802f-9ea4-48c1-aa81-fba46895307e-le64.cache-7
+7f0e7b748000-7f0e7b74b000 r--s 00000000 fd:00 67988350                   /usr/lib/fontconfig/cache/2fd5a7a6-ff4b-480e-8ef7-af40e68e1f23-le64.cache-7
+7f0e7b74b000-7f0e7b74c000 r--s 00000000 fd:00 67988349                   /usr/lib/fontconfig/cache/9c3c0169-ad9a-4e83-b843-cd62a28b9e7e-le64.cache-7
+7f0e7b74c000-7f0e7b74d000 r--s 00000000 fd:00 67988348                   /usr/lib/fontconfig/cache/f1cf44a1-00b6-47e8-b308-5f40e28e1c83-le64.cache-7
+7f0e7b74d000-7f0e7b74e000 r--s 00000000 fd:00 67988347                   /usr/lib/fontconfig/cache/b2bcd0c3-9a8a-4304-a5c5-d249b31b9570-le64.cache-7
+7f0e7b74e000-7f0e7b74f000 r--s 00000000 fd:00 67988346                   /usr/lib/fontconfig/cache/73620cf3-028f-4f5e-ad0d-44c0c0156ef5-le64.cache-7
+7f0e7b74f000-7f0e7b750000 r--s 00000000 fd:00 67988345                   /usr/lib/fontconfig/cache/36f475de-4ade-44f2-b961-aa5518fd9d17-le64.cache-7
+7f0e7b750000-7f0e7b751000 r--s 00000000 fd:00 67988344                   /usr/lib/fontconfig/cache/fbf711d0-7340-4402-bda5-7935bdb43803-le64.cache-7
+7f0e7b751000-7f0e7b752000 r--s 00000000 fd:00 67988343                   /usr/lib/fontconfig/cache/b86140df-5661-4a0e-bea3-bf6b0f415189-le64.cache-7
+7f0e7b752000-7f0e7b753000 r--s 00000000 fd:00 67988342                   /usr/lib/fontconfig/cache/0b2cc865-7fd3-4e85-a17d-6b7628da49f9-le64.cache-7
+7f0e7b753000-7f0e7b754000 r--s 00000000 fd:00 67988341                   /usr/lib/fontconfig/cache/9609434f-a3b3-4881-931b-4f955a5fcfe6-le64.cache-7
+7f0e7b754000-7f0e7b755000 r--s 00000000 fd:00 67988340                   /usr/lib/fontconfig/cache/35b87b60-d290-4614-9ee6-72bf2fd51297-le64.cache-7
+7f0e7b755000-7f0e7b757000 r--s 00000000 fd:00 67988339                   /usr/lib/fontconfig/cache/62b6490d-728f-4da7-8a8d-71fcb6d890e1-le64.cache-7
+7f0e7b757000-7f0e7b759000 r--s 00000000 fd:00 67988338                   /usr/lib/fontconfig/cache/4fb7c9aa-1a83-4ae7-bd0b-d05634030725-le64.cache-7
+7f0e7b759000-7f0e7b75b000 r--s 00000000 fd:00 67988337                   /usr/lib/fontconfig/cache/8c174d1b-f548-4ac6-9460-b260700d0586-le64.cache-7
+7f0e7b75b000-7f0e7b76a000 r--s 00000000 fd:00 67988335                   /usr/lib/fontconfig/cache/93053262-4a63-48c9-8c00-a97b91483a2a-le64.cache-7
+7f0e7b76a000-7f0e7b78f000 r--s 00000000 fd:00 67796879                   /usr/lib/fontconfig/cache/5d7254d4-efaa-4c91-a28d-ec933fff76c8-le64.cache-7
+7f0e7b78f000-7f0e7b7ec000 r-xp 00000000 00:33 21438                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqwebp.so
+7f0e7b7ec000-7f0e7b9ec000 ---p 0005d000 00:33 21438                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqwebp.so
+7f0e7b9ec000-7f0e7b9ed000 r--p 0005d000 00:33 21438                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqwebp.so
+7f0e7b9ed000-7f0e7b9ee000 rw-p 0005e000 00:33 21438                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqwebp.so
+7f0e7b9ee000-7f0e7b9f3000 r-xp 00000000 00:33 21437                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqwbmp.so
+7f0e7b9f3000-7f0e7bbf2000 ---p 00005000 00:33 21437                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqwbmp.so
+7f0e7bbf2000-7f0e7bbf3000 r--p 00004000 00:33 21437                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqwbmp.so
+7f0e7bbf3000-7f0e7bbf4000 rw-p 00005000 00:33 21437                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqwbmp.so
+7f0e7bbf4000-7f0e7bbf9000 r-xp 00000000 00:33 21431                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqtga.so
+7f0e7bbf9000-7f0e7bdf8000 ---p 00005000 00:33 21431                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqtga.so
+7f0e7bdf8000-7f0e7bdf9000 r--p 00004000 00:33 21431                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqtga.so
+7f0e7bdf9000-7f0e7bdfa000 rw-p 00005000 00:33 21431                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqtga.so
+7f0e7bdfa000-7f0e7bdff000 r-xp 00000000 00:33 21434                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqsvg.so
+7f0e7bdff000-7f0e7bffe000 ---p 00005000 00:33 21434                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqsvg.so
+7f0e7bffe000-7f0e7bfff000 r--p 00004000 00:33 21434                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqsvg.so
+7f0e7bfff000-7f0e7c000000 rw-p 00005000 00:33 21434                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqsvg.so
+7f0e7c000000-7f0e7c021000 rw-p 00000000 00:00 0 
+7f0e7c021000-7f0e80000000 ---p 00000000 00:00 0 
+7f0e80000000-7f0e80004000 r--s 00000000 fd:00 67988331                   /usr/lib/fontconfig/cache/d85e6c86-daf8-491c-84e1-ab200760fd9e-le64.cache-7
+7f0e80004000-7f0e8000c000 r--s 00000000 fd:00 67988330                   /usr/lib/fontconfig/cache/3a094b49-737c-4135-a51c-f343a455ab80-le64.cache-7
+7f0e8000c000-7f0e8001f000 r--s 00000000 fd:00 67988329                   /usr/lib/fontconfig/cache/399f8fed-1369-4470-b5a6-75d54fb90d6d-le64.cache-7
+7f0e8001f000-7f0e8002a000 r--s 00000000 fd:00 67988328                   /usr/lib/fontconfig/cache/d9dabf79-a8fd-4024-a5ec-a8a476f8a687-le64.cache-7
+7f0e8002a000-7f0e80069000 r-xp 00000000 00:33 49286                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqjpeg.so
+7f0e80069000-7f0e80268000 ---p 0003f000 00:33 49286                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqjpeg.so
+7f0e80268000-7f0e80269000 r--p 0003e000 00:33 49286                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqjpeg.so
+7f0e80269000-7f0e8026a000 rw-p 0003f000 00:33 49286                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqjpeg.so
+7f0e8026a000-7f0e80271000 r-xp 00000000 00:33 21439                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqico.so
+7f0e80271000-7f0e80470000 ---p 00007000 00:33 21439                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqico.so
+7f0e80470000-7f0e80471000 r--p 00006000 00:33 21439                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqico.so
+7f0e80471000-7f0e80472000 rw-p 00007000 00:33 21439                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqico.so
+7f0e80472000-7f0e8047b000 r-xp 00000000 00:33 21430                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqicns.so
+7f0e8047b000-7f0e8067a000 ---p 00009000 00:33 21430                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqicns.so
+7f0e8067a000-7f0e8067b000 r--p 00008000 00:33 21430                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqicns.so
+7f0e8067b000-7f0e8067c000 rw-p 00009000 00:33 21430                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqicns.so
+7f0e8067c000-7f0e80683000 r-xp 00000000 00:33 21435                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqgif.so
+7f0e80683000-7f0e80882000 ---p 00007000 00:33 21435                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqgif.so
+7f0e80882000-7f0e80883000 r--p 00006000 00:33 21435                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqgif.so
+7f0e80883000-7f0e80884000 rw-p 00007000 00:33 21435                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqgif.so
+7f0e80884000-7f0e8088f000 r-xp 00000000 00:33 21433                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqdds.so
+7f0e8088f000-7f0e80a8e000 ---p 0000b000 00:33 21433                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqdds.so
+7f0e80a8e000-7f0e80a8f000 r--p 0000a000 00:33 21433                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqdds.so
+7f0e80a8f000-7f0e80a90000 rw-p 0000b000 00:33 21433                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/imageformats/libqdds.so
+7f0e80a90000-7f0e80a92000 r--p 00000000 00:33 4544                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilX.so
+7f0e80a92000-7f0e80a93000 r-xp 00002000 00:33 4544                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilX.so
+7f0e80a93000-7f0e80a94000 r--p 00003000 00:33 4544                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilX.so
+7f0e80a94000-7f0e80a95000 r--p 00003000 00:33 4544                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilX.so
+7f0e80a95000-7f0e80a96000 rw-p 00004000 00:33 4544                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libcnUtilX.so
+7f0e80a96000-7f0e80a97000 r--p 00000000 00:33 32191                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloApi26.so
+7f0e80a97000-7f0e80a98000 r-xp 00001000 00:33 32191                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloApi26.so
+7f0e80a98000-7f0e80a99000 r--p 00002000 00:33 32191                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloApi26.so
+7f0e80a99000-7f0e80a9a000 r--p 00002000 00:33 32191                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloApi26.so
+7f0e80a9a000-7f0e80a9b000 rw-p 00003000 00:33 32191                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/_PyxDloApi26.so
+7f0e80a9b000-7f0e8122f000 r--p 00000000 00:33 55944                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/images/images.rcc
+7f0e8122f000-7f0e813dc000 rw-p 00000000 00:00 0 
+7f0e813dc000-7f0e813f6000 r-xp 00000000 00:33 17392                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+7f0e813f6000-7f0e815f6000 ---p 0001a000 00:33 17392                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+7f0e815f6000-7f0e815f7000 r--p 0001a000 00:33 17392                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+7f0e815f7000-7f0e815f8000 rw-p 0001b000 00:33 17392                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+7f0e815f8000-7f0e81617000 r-xp 00000000 fd:00 67117001                   /usr/lib64/libgpg-error.so.0.24.2
+7f0e81617000-7f0e81817000 ---p 0001f000 fd:00 67117001                   /usr/lib64/libgpg-error.so.0.24.2
+7f0e81817000-7f0e81818000 r--p 0001f000 fd:00 67117001                   /usr/lib64/libgpg-error.so.0.24.2
+7f0e81818000-7f0e81819000 rw-p 00020000 fd:00 67117001                   /usr/lib64/libgpg-error.so.0.24.2
+7f0e81819000-7f0e81866000 r-xp 00000000 fd:00 67614756                   /usr/lib64/libblkid.so.1.1.0
+7f0e81866000-7f0e81a65000 ---p 0004d000 fd:00 67614756                   /usr/lib64/libblkid.so.1.1.0
+7f0e81a65000-7f0e81a6a000 r--p 0004c000 fd:00 67614756                   /usr/lib64/libblkid.so.1.1.0
+7f0e81a6a000-7f0e81a6b000 rw-p 00051000 fd:00 67614756                   /usr/lib64/libblkid.so.1.1.0
+7f0e81a6b000-7f0e81a6c000 rw-p 00000000 00:00 0 
+7f0e81a6c000-7f0e81b84000 r-xp 00000000 fd:00 67117043                   /usr/lib64/libgcrypt.so.20.2.5
+7f0e81b84000-7f0e81d83000 ---p 00118000 fd:00 67117043                   /usr/lib64/libgcrypt.so.20.2.5
+7f0e81d83000-7f0e81d85000 r--p 00117000 fd:00 67117043                   /usr/lib64/libgcrypt.so.20.2.5
+7f0e81d85000-7f0e81d8a000 rw-p 00119000 fd:00 67117043                   /usr/lib64/libgcrypt.so.20.2.5
+7f0e81d8a000-7f0e81de0000 r-xp 00000000 fd:00 67614757                   /usr/lib64/libmount.so.1.1.0
+7f0e81de0000-7f0e81fdf000 ---p 00056000 fd:00 67614757                   /usr/lib64/libmount.so.1.1.0
+7f0e81fdf000-7f0e81fe2000 r--p 00055000 fd:00 67614757                   /usr/lib64/libmount.so.1.1.0
+7f0e81fe2000-7f0e81fe3000 rw-p 00058000 fd:00 67614757                   /usr/lib64/libmount.so.1.1.0
+7f0e81fe3000-7f0e81fe4000 rw-p 00000000 00:00 0 
+7f0e81fe4000-7f0e81feb000 r-xp 00000000 fd:00 67141969                   /usr/lib64/libcap.so.2.48
+7f0e81feb000-7f0e821ea000 ---p 00007000 fd:00 67141969                   /usr/lib64/libcap.so.2.48
+7f0e821ea000-7f0e821eb000 r--p 00006000 fd:00 67141969                   /usr/lib64/libcap.so.2.48
+7f0e821eb000-7f0e821ec000 rw-p 00007000 fd:00 67141969                   /usr/lib64/libcap.so.2.48
+7f0e821ec000-7f0e82208000 r-xp 00000000 fd:00 67117427                   /usr/lib64/liblz4.so.1.8.3
+7f0e82208000-7f0e82407000 ---p 0001c000 fd:00 67117427                   /usr/lib64/liblz4.so.1.8.3
+7f0e82407000-7f0e82408000 r--p 0001b000 fd:00 67117427                   /usr/lib64/liblz4.so.1.8.3
+7f0e82408000-7f0e82409000 rw-p 00000000 00:00 0 
+7f0e82409000-7f0e8254c000 r-xp 00000000 fd:00 67116666                   /usr/lib64/libsystemd.so.0.23.0
+7f0e8254c000-7f0e8274b000 ---p 00143000 fd:00 67116666                   /usr/lib64/libsystemd.so.0.23.0
+7f0e8274b000-7f0e82753000 r--p 00142000 fd:00 67116666                   /usr/lib64/libsystemd.so.0.23.0
+7f0e82753000-7f0e82754000 rw-p 0014a000 fd:00 67116666                   /usr/lib64/libsystemd.so.0.23.0
+7f0e82754000-7f0e82755000 rw-p 00000000 00:00 0 
+7f0e82755000-7f0e827d9000 r-xp 00000000 00:33 52085                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5DBus.so.5.6.2
+7f0e827d9000-7f0e829d8000 ---p 00084000 00:33 52085                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5DBus.so.5.6.2
+7f0e829d8000-7f0e829da000 r--p 00083000 00:33 52085                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5DBus.so.5.6.2
+7f0e829da000-7f0e829db000 rw-p 00085000 00:33 52085                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5DBus.so.5.6.2
+7f0e829db000-7f0e829dc000 rw-p 00000000 00:00 0 
+7f0e829dc000-7f0e829f6000 r-xp 00000000 00:33 62749                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-xkb.so.1.0.0
+7f0e829f6000-7f0e82bf6000 ---p 0001a000 00:33 62749                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-xkb.so.1.0.0
+7f0e82bf6000-7f0e82bf7000 rw-p 0001a000 00:33 62749                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-xkb.so.1.0.0
+7f0e82bf7000-7f0e82bf9000 r-xp 00000000 00:33 52093                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-xinerama.so.0.0.0
+7f0e82bf9000-7f0e82df8000 ---p 00002000 00:33 52093                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-xinerama.so.0.0.0
+7f0e82df8000-7f0e82df9000 rw-p 00001000 00:33 52093                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-xinerama.so.0.0.0
+7f0e82df9000-7f0e82dfb000 r-xp 00000000 00:33 52083                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-keysyms.so.1.0.0
+7f0e82dfb000-7f0e82ffa000 ---p 00002000 00:33 52083                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-keysyms.so.1.0.0
+7f0e82ffa000-7f0e82ffb000 rw-p 00001000 00:33 52083                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-keysyms.so.1.0.0
+7f0e82ffb000-7f0e82ffd000 r-xp 00000000 00:33 69625                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-shape.so.0.0.0
+7f0e82ffd000-7f0e831fd000 ---p 00002000 00:33 69625                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-shape.so.0.0.0
+7f0e831fd000-7f0e831fe000 rw-p 00002000 00:33 69625                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-shape.so.0.0.0
+7f0e831fe000-7f0e83202000 r-xp 00000000 00:33 52097                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-icccm.so.4.0.0
+7f0e83202000-7f0e83401000 ---p 00004000 00:33 52097                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-icccm.so.4.0.0
+7f0e83401000-7f0e83402000 rw-p 00003000 00:33 52097                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-icccm.so.4.0.0
+7f0e83402000-7f0e83454000 r-xp 00000000 fd:00 67629607                   /usr/lib64/libdbus-1.so.3.19.7
+7f0e83454000-7f0e83653000 ---p 00052000 fd:00 67629607                   /usr/lib64/libdbus-1.so.3.19.7
+7f0e83653000-7f0e83655000 r--p 00051000 fd:00 67629607                   /usr/lib64/libdbus-1.so.3.19.7
+7f0e83655000-7f0e83656000 rw-p 00053000 fd:00 67629607                   /usr/lib64/libdbus-1.so.3.19.7
+7f0e83656000-7f0e83659000 r-xp 00000000 00:33 69634                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-render-util.so.0.0.0
+7f0e83659000-7f0e83858000 ---p 00003000 00:33 69634                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-render-util.so.0.0.0
+7f0e83858000-7f0e83859000 rw-p 00002000 00:33 69634                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-render-util.so.0.0.0
+7f0e83859000-7f0e8385a000 r-xp 00000000 00:33 62763                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libX11-xcb.so.1.0.0
+7f0e8385a000-7f0e83a59000 ---p 00001000 00:33 62763                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libX11-xcb.so.1.0.0
+7f0e83a59000-7f0e83a5a000 rw-p 00000000 00:33 62763                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libX11-xcb.so.1.0.0
+7f0e83a5a000-7f0e83b75000 r-xp 00000000 00:33 52092                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5XcbQpa.so.5.6.2
+7f0e83b75000-7f0e83d74000 ---p 0011b000 00:33 52092                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5XcbQpa.so.5.6.2
+7f0e83d74000-7f0e83d79000 r--p 0011a000 00:33 52092                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5XcbQpa.so.5.6.2
+7f0e83d79000-7f0e83d7c000 rw-p 0011f000 00:33 52092                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5XcbQpa.so.5.6.2
+7f0e83d7c000-7f0e83d7d000 rw-p 00000000 00:00 0 
+7f0e83d7d000-7f0e83d7f000 r-xp 00000000 00:33 17398                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/platforms/libqxcb.so
+7f0e83d7f000-7f0e83f7f000 ---p 00002000 00:33 17398                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/platforms/libqxcb.so
+7f0e83f7f000-7f0e83f80000 r--p 00002000 00:33 17398                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/platforms/libqxcb.so
+7f0e83f80000-7f0e83f81000 rw-p 00003000 00:33 17398                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/qt/plugins/platforms/libqxcb.so
+7f0e83f81000-7f0e841f9000 r--p 00000000 fd:00 201767070                  /usr/lib/locale/en_US.utf8/LC_COLLATE
+7f0e841f9000-7f0e842fa000 rw-p 00000000 00:00 0 
+7f0e842fa000-7f0e8431f000 r-xp 00000000 fd:00 67117031                   /usr/lib64/liblzma.so.5.2.4
+7f0e8431f000-7f0e8451f000 ---p 00025000 fd:00 67117031                   /usr/lib64/liblzma.so.5.2.4
+7f0e8451f000-7f0e84520000 r--p 00025000 fd:00 67117031                   /usr/lib64/liblzma.so.5.2.4
+7f0e84520000-7f0e84521000 rw-p 00000000 00:00 0 
+7f0e84521000-7f0e8467e000 r-xp 00000000 fd:00 67116965                   /usr/lib64/libxml2.so.2.9.7
+7f0e8467e000-7f0e8487d000 ---p 0015d000 fd:00 67116965                   /usr/lib64/libxml2.so.2.9.7
+7f0e8487d000-7f0e84886000 r--p 0015c000 fd:00 67116965                   /usr/lib64/libxml2.so.2.9.7
+7f0e84886000-7f0e84887000 rw-p 00165000 fd:00 67116965                   /usr/lib64/libxml2.so.2.9.7
+7f0e84887000-7f0e84889000 rw-p 00000000 00:00 0 
+7f0e84889000-7f0e8555d000 r--p 00000000 00:33 63827                      /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/lib/libprimewave.so
+7f0e8555d000-7f0e8727e000 r-xp 00cd4000 00:33 63827                      /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/lib/libprimewave.so
+7f0e8727e000-7f0e8799d000 r--p 029f5000 00:33 63827                      /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/lib/libprimewave.so
+7f0e8799d000-7f0e8799e000 ---p 03114000 00:33 63827                      /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/lib/libprimewave.so
+7f0e8799e000-7f0e87bc1000 r--p 03114000 00:33 63827                      /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/lib/libprimewave.so
+7f0e87bc1000-7f0e87c1f000 rw-p 03337000 00:33 63827                      /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/lib/libprimewave.so
+7f0e87c1f000-7f0e88000000 rw-p 00000000 00:00 0 
+7f0e88000000-7f0e88045000 rw-p 00000000 00:00 0 
+7f0e88045000-7f0e8c000000 ---p 00000000 00:00 0 
+7f0e8c000000-7f0e8c002000 r--s 00000000 fd:00 67988336                   /usr/lib/fontconfig/cache/53e6fff8-d511-4e34-85b6-e0f95e6d7c4f-le64.cache-7
+7f0e8c002000-7f0e8c003000 r--s 00000000 fd:00 67988334                   /usr/lib/fontconfig/cache/fedbfba6-14aa-4d47-89c2-d94553473784-le64.cache-7
+7f0e8c003000-7f0e8c00d000 r--p 00000000 00:33 24980                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7f0e8c00d000-7f0e8c015000 r-xp 0000a000 00:33 24980                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7f0e8c015000-7f0e8c018000 r--p 00012000 00:33 24980                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7f0e8c018000-7f0e8c019000 ---p 00015000 00:33 24980                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7f0e8c019000-7f0e8c01a000 r--p 00015000 00:33 24980                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7f0e8c01a000-7f0e8c01b000 rw-p 00016000 00:33 24980                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7f0e8c01b000-7f0e8c07e000 rw-p 00000000 00:00 0 
+7f0e8c07e000-7f0e8c085000 r--p 00000000 00:33 5927                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7f0e8c085000-7f0e8c087000 r-xp 00007000 00:33 5927                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7f0e8c087000-7f0e8c089000 r--p 00009000 00:33 5927                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7f0e8c089000-7f0e8c08a000 ---p 0000b000 00:33 5927                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7f0e8c08a000-7f0e8c08b000 r--p 0000b000 00:33 5927                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7f0e8c08b000-7f0e8c08c000 rw-p 0000c000 00:33 5927                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7f0e8c08c000-7f0e8c08d000 ---p 00000000 00:00 0 
+7f0e8c08d000-7f0e8c0a6000 rwxp 00000000 00:00 0 
+7f0e8c0a6000-7f0e8c0ac000 r--p 00000000 00:33 41898                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/console/console_tcl.rcc
+7f0e8c0ac000-7f0e8c0ec000 rw-p 00000000 00:00 0 
+7f0e8c0ec000-7f0e8c0ee000 r--s 00000000 fd:00 67988333                   /usr/lib/fontconfig/cache/f1dd7f8e-f90b-4ca7-9c73-6edc45226be7-le64.cache-7
+7f0e8c0ee000-7f0e8c0f0000 r--s 00000000 fd:00 67988327                   /usr/lib/fontconfig/cache/a43a389d-6ff1-4f65-bc6d-02e193bca538-le64.cache-7
+7f0e8c0f0000-7f0e8c0f1000 r--p 00000000 00:33 106241                     /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/startup/startup_tcl.rcc
+7f0e8c0f1000-7f0e8c0f2000 r--p 00000000 00:33 97801                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/tdk/tdk_tcl.rcc
+7f0e8c0f2000-7f0e8c0f3000 r--p 00000000 fd:00 67599994                   /usr/lib/locale/en_US/LC_NUMERIC
+7f0e8c0f3000-7f0e8c0f4000 r--p 00000000 fd:00 201767136                  /usr/lib/locale/en_US.utf8/LC_NUMERIC
+7f0e8c0f4000-7f0e8c0f5000 r--p 00000000 fd:00 236591                     /usr/lib/locale/en_US.utf8/LC_TIME
+7f0e8c0f5000-7f0e8c0f6000 r--p 00000000 fd:00 237520                     /usr/lib/locale/en_US.utf8/LC_MONETARY
+7f0e8c0f6000-7f0e8c0f7000 r--p 00000000 fd:00 237511                     /usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES
+7f0e8c0f7000-7f0e8c0f8000 r--p 00000000 fd:00 134600346                  /usr/lib/locale/en_US.utf8/LC_PAPER
+7f0e8c0f8000-7f0e8c0f9000 r--p 00000000 fd:00 201767102                  /usr/lib/locale/en_US.utf8/LC_NAME
+7f0e8c0f9000-7f0e8c0fa000 r--p 00000000 fd:00 237517                     /usr/lib/locale/en_US.utf8/LC_ADDRESS
+7f0e8c0fa000-7f0e8c0fb000 r--p 00000000 fd:00 237521                     /usr/lib/locale/en_US.utf8/LC_TELEPHONE
+7f0e8c0fb000-7f0e8c0fc000 r--p 00000000 fd:00 237519                     /usr/lib/locale/en_US.utf8/LC_MEASUREMENT
+7f0e8c0fc000-7f0e8c19a000 r--p 00000000 00:33 51246                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnsys.so
+7f0e8c19a000-7f0e8c2d6000 r-xp 0009e000 00:33 51246                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnsys.so
+7f0e8c2d6000-7f0e8c32c000 r--p 001da000 00:33 51246                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnsys.so
+7f0e8c32c000-7f0e8c32d000 ---p 00230000 00:33 51246                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnsys.so
+7f0e8c32d000-7f0e8c336000 r--p 00230000 00:33 51246                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnsys.so
+7f0e8c336000-7f0e8c33a000 rw-p 00239000 00:33 51246                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnsys.so
+7f0e8c33a000-7f0e8c34e000 rw-p 00000000 00:00 0 
+7f0e8c34e000-7f0e8c455000 r--p 00000000 00:33 69632                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnffr.so
+7f0e8c455000-7f0e8cf39000 r-xp 00107000 00:33 69632                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnffr.so
+7f0e8cf39000-7f0e8d340000 r--p 00beb000 00:33 69632                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnffr.so
+7f0e8d340000-7f0e8d3a8000 r--p 00ff1000 00:33 69632                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnffr.so
+7f0e8d3a8000-7f0e8d3da000 rw-p 01059000 00:33 69632                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnffr.so
+7f0e8d3da000-7f0e8df0e000 rw-p 00000000 00:00 0 
+7f0e8df0e000-7f0e8e043000 r--p 00000000 00:33 328286                     /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/lib/libcdplpp.so
+7f0e8e043000-7f0e8e70e000 r-xp 00135000 00:33 328286                     /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/lib/libcdplpp.so
+7f0e8e70e000-7f0e8e8db000 r--p 00800000 00:33 328286                     /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/lib/libcdplpp.so
+7f0e8e8db000-7f0e8e8dc000 ---p 009cd000 00:33 328286                     /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/lib/libcdplpp.so
+7f0e8e8dc000-7f0e8e934000 r--p 009cd000 00:33 328286                     /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/lib/libcdplpp.so
+7f0e8e934000-7f0e8e95f000 rw-p 00a25000 00:33 328286                     /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/lib/libcdplpp.so
+7f0e8e95f000-7f0e8e9d6000 rw-p 00000000 00:00 0 
+7f0e8e9d6000-7f0e8e9d7000 ---p 00000000 00:00 0 
+7f0e8e9d7000-7f0e8f1d7000 rwxp 00000000 00:00 0 
+7f0e8f1d7000-7f0e8f22a000 r--p 00000000 fd:00 201337746                  /usr/lib/locale/C.utf8/LC_CTYPE
+7f0e8f22a000-7f0e8f22b000 ---p 00000000 00:00 0 
+7f0e8f22b000-7f0e8fa2b000 rwxp 00000000 00:00 0 
+7f0e8fa2b000-7f0e9042c000 rw-p 00000000 00:00 0 
+7f0e9042c000-7f0e90d44000 rw-s 00000000 00:01 3539102                    /SYSVcf0f460d (deleted)
+7f0e90d44000-7f0e910b6000 rw-p 00000000 00:00 0 
+7f0e910b6000-7f0e910c1000 r-xp 00000000 fd:00 67116935                   /usr/lib64/libnss_files-2.28.so
+7f0e910c1000-7f0e912c1000 ---p 0000b000 fd:00 67116935                   /usr/lib64/libnss_files-2.28.so
+7f0e912c1000-7f0e912c2000 r--p 0000b000 fd:00 67116935                   /usr/lib64/libnss_files-2.28.so
+7f0e912c2000-7f0e912c3000 rw-p 0000c000 fd:00 67116935                   /usr/lib64/libnss_files-2.28.so
+7f0e912c3000-7f0e912c9000 rw-p 00000000 00:00 0 
+7f0e912ca000-7f0e912d1000 r--p 00000000 00:33 28132                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloPcell26.so
+7f0e912d1000-7f0e912e4000 r-xp 00007000 00:33 28132                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloPcell26.so
+7f0e912e4000-7f0e912e6000 r--p 0001a000 00:33 28132                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloPcell26.so
+7f0e912e6000-7f0e912e7000 ---p 0001c000 00:33 28132                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloPcell26.so
+7f0e912e7000-7f0e912e8000 r--p 0001c000 00:33 28132                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloPcell26.so
+7f0e912e8000-7f0e912e9000 rw-p 0001d000 00:33 28132                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/python-26/libcnDloPcell26.so
+7f0e912ea000-7f0e91322000 rw-p 00000000 00:00 0 
+7f0e91322000-7f0e913a5000 r-xp 00000000 fd:00 67116400                   /usr/lib64/libpcre2-8.so.0.7.1
+7f0e913a5000-7f0e915a4000 ---p 00083000 fd:00 67116400                   /usr/lib64/libpcre2-8.so.0.7.1
+7f0e915a4000-7f0e915a5000 r--p 00082000 fd:00 67116400                   /usr/lib64/libpcre2-8.so.0.7.1
+7f0e915a5000-7f0e915a6000 rw-p 00083000 fd:00 67116400                   /usr/lib64/libpcre2-8.so.0.7.1
+7f0e915a6000-7f0e915ae000 r-xp 00000000 fd:00 67796522                   /usr/lib64/libffi.so.6.0.2
+7f0e915ae000-7f0e917ad000 ---p 00008000 fd:00 67796522                   /usr/lib64/libffi.so.6.0.2
+7f0e917ad000-7f0e917ae000 r--p 00007000 fd:00 67796522                   /usr/lib64/libffi.so.6.0.2
+7f0e917ae000-7f0e917af000 rw-p 00008000 fd:00 67796522                   /usr/lib64/libffi.so.6.0.2
+7f0e917af000-7f0e917d6000 r-xp 00000000 fd:00 67116508                   /usr/lib64/libselinux.so.1
+7f0e917d6000-7f0e919d6000 ---p 00027000 fd:00 67116508                   /usr/lib64/libselinux.so.1
+7f0e919d6000-7f0e919d7000 r--p 00027000 fd:00 67116508                   /usr/lib64/libselinux.so.1
+7f0e919d7000-7f0e919d8000 rw-p 00028000 fd:00 67116508                   /usr/lib64/libselinux.so.1
+7f0e919d8000-7f0e919da000 rw-p 00000000 00:00 0 
+7f0e919da000-7f0e91a70000 r-xp 00000000 fd:00 67117174                   /usr/lib64/libgmp.so.10.3.2
+7f0e91a70000-7f0e91c6f000 ---p 00096000 fd:00 67117174                   /usr/lib64/libgmp.so.10.3.2
+7f0e91c6f000-7f0e91c71000 r--p 00095000 fd:00 67117174                   /usr/lib64/libgmp.so.10.3.2
+7f0e91c71000-7f0e91c72000 rw-p 00097000 fd:00 67117174                   /usr/lib64/libgmp.so.10.3.2
+7f0e91c72000-7f0e91c74000 rw-p 00000000 00:00 0 
+7f0e91c74000-7f0e91ca3000 r-xp 00000000 fd:00 67117389                   /usr/lib64/libhogweed.so.4.5
+7f0e91ca3000-7f0e91ea2000 ---p 0002f000 fd:00 67117389                   /usr/lib64/libhogweed.so.4.5
+7f0e91ea2000-7f0e91ea3000 r--p 0002e000 fd:00 67117389                   /usr/lib64/libhogweed.so.4.5
+7f0e91ea3000-7f0e91ea4000 rw-p 00000000 00:00 0 
+7f0e91ea4000-7f0e91edb000 r-xp 00000000 fd:00 68157413                   /usr/lib64/libnettle.so.6.5
+7f0e91edb000-7f0e920db000 ---p 00037000 fd:00 68157413                   /usr/lib64/libnettle.so.6.5
+7f0e920db000-7f0e920dd000 r--p 00037000 fd:00 68157413                   /usr/lib64/libnettle.so.6.5
+7f0e920dd000-7f0e920de000 rw-p 00039000 fd:00 68157413                   /usr/lib64/libnettle.so.6.5
+7f0e920de000-7f0e920f0000 r-xp 00000000 fd:00 67117679                   /usr/lib64/libtasn1.so.6.5.5
+7f0e920f0000-7f0e922ef000 ---p 00012000 fd:00 67117679                   /usr/lib64/libtasn1.so.6.5.5
+7f0e922ef000-7f0e922f0000 r--p 00011000 fd:00 67117679                   /usr/lib64/libtasn1.so.6.5.5
+7f0e922f0000-7f0e922f1000 rw-p 00012000 fd:00 67117679                   /usr/lib64/libtasn1.so.6.5.5
+7f0e922f1000-7f0e9246e000 r-xp 00000000 fd:00 67117400                   /usr/lib64/libunistring.so.2.1.0
+7f0e9246e000-7f0e9266d000 ---p 0017d000 fd:00 67117400                   /usr/lib64/libunistring.so.2.1.0
+7f0e9266d000-7f0e92671000 r--p 0017c000 fd:00 67117400                   /usr/lib64/libunistring.so.2.1.0
+7f0e92671000-7f0e92672000 rw-p 00180000 fd:00 67117400                   /usr/lib64/libunistring.so.2.1.0
+7f0e92672000-7f0e9268e000 r-xp 00000000 fd:00 67117402                   /usr/lib64/libidn2.so.0.3.6
+7f0e9268e000-7f0e9288e000 ---p 0001c000 fd:00 67117402                   /usr/lib64/libidn2.so.0.3.6
+7f0e9288e000-7f0e9288f000 r--p 0001c000 fd:00 67117402                   /usr/lib64/libidn2.so.0.3.6
+7f0e9288f000-7f0e92890000 rw-p 00000000 00:00 0 
+7f0e92890000-7f0e929a9000 r-xp 00000000 fd:00 67796861                   /usr/lib64/libp11-kit.so.0.3.0
+7f0e929a9000-7f0e92ba8000 ---p 00119000 fd:00 67796861                   /usr/lib64/libp11-kit.so.0.3.0
+7f0e92ba8000-7f0e92bb3000 r--p 00118000 fd:00 67796861                   /usr/lib64/libp11-kit.so.0.3.0
+7f0e92bb3000-7f0e92bbd000 rw-p 00123000 fd:00 67796861                   /usr/lib64/libp11-kit.so.0.3.0
+7f0e92bbd000-7f0e92bc0000 rw-p 00000000 00:00 0 
+7f0e92bc0000-7f0e92bd4000 r-xp 00000000 fd:00 67116939                   /usr/lib64/libresolv-2.28.so
+7f0e92bd4000-7f0e92dd4000 ---p 00014000 fd:00 67116939                   /usr/lib64/libresolv-2.28.so
+7f0e92dd4000-7f0e92dd5000 r--p 00014000 fd:00 67116939                   /usr/lib64/libresolv-2.28.so
+7f0e92dd5000-7f0e92dd6000 rw-p 00015000 fd:00 67116939                   /usr/lib64/libresolv-2.28.so
+7f0e92dd6000-7f0e92dd8000 rw-p 00000000 00:00 0 
+7f0e92dd8000-7f0e9308e000 r-xp 00000000 fd:00 67659239                   /usr/lib64/libcrypto.so.1.1.1k
+7f0e9308e000-7f0e9328e000 ---p 002b6000 fd:00 67659239                   /usr/lib64/libcrypto.so.1.1.1k
+7f0e9328e000-7f0e932ba000 r--p 002b6000 fd:00 67659239                   /usr/lib64/libcrypto.so.1.1.1k
+7f0e932ba000-7f0e932be000 rw-p 002e2000 fd:00 67659239                   /usr/lib64/libcrypto.so.1.1.1k
+7f0e932be000-7f0e932c3000 rw-p 00000000 00:00 0 
+7f0e932c3000-7f0e932c6000 r-xp 00000000 fd:00 67117166                   /usr/lib64/libkeyutils.so.1.6
+7f0e932c6000-7f0e934c5000 ---p 00003000 fd:00 67117166                   /usr/lib64/libkeyutils.so.1.6
+7f0e934c5000-7f0e934c6000 r--p 00002000 fd:00 67117166                   /usr/lib64/libkeyutils.so.1.6
+7f0e934c6000-7f0e934c7000 rw-p 00000000 00:00 0 
+7f0e934c7000-7f0e934d6000 r-xp 00000000 fd:00 68157061                   /usr/lib64/libkrb5support.so.0.1
+7f0e934d6000-7f0e936d6000 ---p 0000f000 fd:00 68157061                   /usr/lib64/libkrb5support.so.0.1
+7f0e936d6000-7f0e936d7000 r--p 0000f000 fd:00 68157061                   /usr/lib64/libkrb5support.so.0.1
+7f0e936d7000-7f0e936d8000 rw-p 00010000 fd:00 68157061                   /usr/lib64/libkrb5support.so.0.1
+7f0e936d8000-7f0e936da000 r-xp 00000000 fd:00 67116945                   /usr/lib64/libutil-2.28.so
+7f0e936da000-7f0e938da000 ---p 00002000 fd:00 67116945                   /usr/lib64/libutil-2.28.so
+7f0e938da000-7f0e938db000 r--p 00002000 fd:00 67116945                   /usr/lib64/libutil-2.28.so
+7f0e938db000-7f0e938dc000 rw-p 00003000 fd:00 67116945                   /usr/lib64/libutil-2.28.so
+7f0e938dc000-7f0e938de000 rw-p 00000000 00:00 0 
+7f0e938de000-7f0e93904000 r-xp 00000000 00:33 4538                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libexpat.so.1
+7f0e93904000-7f0e93b03000 ---p 00026000 00:33 4538                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libexpat.so.1
+7f0e93b03000-7f0e93b06000 rw-p 00025000 00:33 4538                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/lib/libexpat.so.1
+7f0e93b06000-7f0e93b0b000 r-xp 00000000 fd:00 67124275                   /usr/lib64/libXdmcp.so.6.0.0
+7f0e93b0b000-7f0e93d0a000 ---p 00005000 fd:00 67124275                   /usr/lib64/libXdmcp.so.6.0.0
+7f0e93d0a000-7f0e93d0b000 r--p 00004000 fd:00 67124275                   /usr/lib64/libXdmcp.so.6.0.0
+7f0e93d0b000-7f0e93d0c000 rw-p 00000000 00:00 0 
+7f0e93d0c000-7f0e93d0f000 r-xp 00000000 fd:00 67117303                   /usr/lib64/libXau.so.6.0.0
+7f0e93d0f000-7f0e93f0e000 ---p 00003000 fd:00 67117303                   /usr/lib64/libXau.so.6.0.0
+7f0e93f0e000-7f0e93f0f000 r--p 00002000 fd:00 67117303                   /usr/lib64/libXau.so.6.0.0
+7f0e93f0f000-7f0e93f10000 rw-p 00000000 00:00 0 
+7f0e93f10000-7f0e93f43000 r-xp 00000000 fd:00 67117214                   /usr/lib64/libpng16.so.16.34.0
+7f0e93f43000-7f0e94143000 ---p 00033000 fd:00 67117214                   /usr/lib64/libpng16.so.16.34.0
+7f0e94143000-7f0e94144000 r--p 00033000 fd:00 67117214                   /usr/lib64/libpng16.so.16.34.0
+7f0e94144000-7f0e94145000 rw-p 00000000 00:00 0 
+7f0e94145000-7f0e94155000 r-xp 00000000 fd:00 67117208                   /usr/lib64/libbz2.so.1.0.6
+7f0e94155000-7f0e94354000 ---p 00010000 fd:00 67117208                   /usr/lib64/libbz2.so.1.0.6
+7f0e94354000-7f0e94355000 r--p 0000f000 fd:00 67117208                   /usr/lib64/libbz2.so.1.0.6
+7f0e94355000-7f0e94356000 rw-p 00010000 fd:00 67117208                   /usr/lib64/libbz2.so.1.0.6
+7f0e94356000-7f0e94358000 rw-p 00000000 00:00 0 
+7f0e94358000-7f0e9435d000 r-xp 00000000 fd:00 67117495                   /usr/lib64/libXfixes.so.3.1.0
+7f0e9435d000-7f0e9455c000 ---p 00005000 fd:00 67117495                   /usr/lib64/libXfixes.so.3.1.0
+7f0e9455c000-7f0e9455d000 r--p 00004000 fd:00 67117495                   /usr/lib64/libXfixes.so.3.1.0
+7f0e9455d000-7f0e9455e000 rw-p 00005000 fd:00 67117495                   /usr/lib64/libXfixes.so.3.1.0
+7f0e9455e000-7f0e94565000 r-xp 00000000 fd:00 67796895                   /usr/lib64/libuuid.so.1.3.0
+7f0e94565000-7f0e94764000 ---p 00007000 fd:00 67796895                   /usr/lib64/libuuid.so.1.3.0
+7f0e94764000-7f0e94765000 r--p 00006000 fd:00 67796895                   /usr/lib64/libuuid.so.1.3.0
+7f0e94765000-7f0e94766000 rw-p 00000000 00:00 0 
+7f0e94766000-7f0e947d5000 r-xp 00000000 fd:00 67117343                   /usr/lib64/libpcre.so.1.2.10
+7f0e947d5000-7f0e949d5000 ---p 0006f000 fd:00 67117343                   /usr/lib64/libpcre.so.1.2.10
+7f0e949d5000-7f0e949d6000 r--p 0006f000 fd:00 67117343                   /usr/lib64/libpcre.so.1.2.10
+7f0e949d6000-7f0e949d7000 rw-p 00070000 fd:00 67117343                   /usr/lib64/libpcre.so.1.2.10
+7f0e949d7000-7f0e94bb4000 r-xp 00000000 fd:00 67109573                   /usr/lib64/libgnutls.so.30.28.2
+7f0e94bb4000-7f0e94db3000 ---p 001dd000 fd:00 67109573                   /usr/lib64/libgnutls.so.30.28.2
+7f0e94db3000-7f0e94dc4000 r--p 001dc000 fd:00 67109573                   /usr/lib64/libgnutls.so.30.28.2
+7f0e94dc4000-7f0e94dc6000 rw-p 001ed000 fd:00 67109573                   /usr/lib64/libgnutls.so.30.28.2
+7f0e94dc6000-7f0e94dca000 rw-p 00000000 00:00 0 
+7f0e94dca000-7f0e94ddf000 r-xp 00000000 fd:00 67812915                   /usr/lib64/libk5crypto.so.3.1
+7f0e94ddf000-7f0e94fde000 ---p 00015000 fd:00 67812915                   /usr/lib64/libk5crypto.so.3.1
+7f0e94fde000-7f0e94fe0000 r--p 00014000 fd:00 67812915                   /usr/lib64/libk5crypto.so.3.1
+7f0e94fe0000-7f0e94fe1000 rw-p 00016000 fd:00 67812915                   /usr/lib64/libk5crypto.so.3.1
+7f0e94fe1000-7f0e94fe4000 r-xp 00000000 fd:00 67780764                   /usr/lib64/libcom_err.so.2.1
+7f0e94fe4000-7f0e951e3000 ---p 00003000 fd:00 67780764                   /usr/lib64/libcom_err.so.2.1
+7f0e951e3000-7f0e951e4000 r--p 00002000 fd:00 67780764                   /usr/lib64/libcom_err.so.2.1
+7f0e951e4000-7f0e951e5000 rw-p 00003000 fd:00 67780764                   /usr/lib64/libcom_err.so.2.1
+7f0e951e5000-7f0e951e7000 rw-p 00000000 00:00 0 
+7f0e951e7000-7f0e952c1000 r-xp 00000000 fd:00 68157051                   /usr/lib64/libkrb5.so.3.3
+7f0e952c1000-7f0e954c1000 ---p 000da000 fd:00 68157051                   /usr/lib64/libkrb5.so.3.3
+7f0e954c1000-7f0e954d0000 r--p 000da000 fd:00 68157051                   /usr/lib64/libkrb5.so.3.3
+7f0e954d0000-7f0e954d2000 rw-p 000e9000 fd:00 68157051                   /usr/lib64/libkrb5.so.3.3
+7f0e954d2000-7f0e95524000 r-xp 00000000 fd:00 67722895                   /usr/lib64/libgssapi_krb5.so.2.2
+7f0e95524000-7f0e95724000 ---p 00052000 fd:00 67722895                   /usr/lib64/libgssapi_krb5.so.2.2
+7f0e95724000-7f0e95726000 r--p 00052000 fd:00 67722895                   /usr/lib64/libgssapi_krb5.so.2.2
+7f0e95726000-7f0e95727000 rw-p 00054000 fd:00 67722895                   /usr/lib64/libgssapi_krb5.so.2.2
+7f0e95727000-7f0e95728000 r--p 00000000 00:33 47802                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnps_boost_1_77_0_atomic-mt.so.1.77.0
+7f0e95728000-7f0e9572a000 r-xp 00001000 00:33 47802                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnps_boost_1_77_0_atomic-mt.so.1.77.0
+7f0e9572a000-7f0e9572b000 r--p 00003000 00:33 47802                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnps_boost_1_77_0_atomic-mt.so.1.77.0
+7f0e9572b000-7f0e9572c000 r--p 00003000 00:33 47802                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnps_boost_1_77_0_atomic-mt.so.1.77.0
+7f0e9572c000-7f0e9572d000 rw-p 00004000 00:33 47802                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnps_boost_1_77_0_atomic-mt.so.1.77.0
+7f0e9572d000-7f0e95731000 rw-p 00000000 00:00 0 
+7f0e95731000-7f0e958c1000 r-xp 00000000 00:33 21422                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV2.6.so.1.0
+7f0e958c1000-7f0e95ac1000 ---p 00190000 00:33 21422                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV2.6.so.1.0
+7f0e95ac1000-7f0e95ac2000 r--p 00190000 00:33 21422                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV2.6.so.1.0
+7f0e95ac2000-7f0e95afc000 rw-p 00191000 00:33 21422                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV2.6.so.1.0
+7f0e95afc000-7f0e95b0b000 rw-p 00000000 00:00 0 
+7f0e95b0b000-7f0e95cd8000 r-xp 00000000 fd:00 67116921                   /usr/lib64/libc-2.28.so
+7f0e95cd8000-7f0e95ed7000 ---p 001cd000 fd:00 67116921                   /usr/lib64/libc-2.28.so
+7f0e95ed7000-7f0e95edb000 r--p 001cc000 fd:00 67116921                   /usr/lib64/libc-2.28.so
+7f0e95edb000-7f0e95edd000 rw-p 001d0000 fd:00 67116921                   /usr/lib64/libc-2.28.so
+7f0e95edd000-7f0e95ee1000 rw-p 00000000 00:00 0 
+7f0e95ee1000-7f0e95ef7000 r-xp 00000000 00:33 62116                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libgcc_s.so.1
+7f0e95ef7000-7f0e960f7000 ---p 00016000 00:33 62116                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libgcc_s.so.1
+7f0e960f7000-7f0e960f8000 r--p 00016000 00:33 62116                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libgcc_s.so.1
+7f0e960f8000-7f0e960f9000 rw-p 00017000 00:33 62116                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libgcc_s.so.1
+7f0e960f9000-7f0e9612e000 r-xp 00000000 00:33 69635                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libgomp.so.1.0.0
+7f0e9612e000-7f0e9632d000 ---p 00035000 00:33 69635                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libgomp.so.1.0.0
+7f0e9632d000-7f0e9632e000 r--p 00034000 00:33 69635                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libgomp.so.1.0.0
+7f0e9632e000-7f0e9632f000 rw-p 00035000 00:33 69635                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libgomp.so.1.0.0
+7f0e9632f000-7f0e96332000 r-xp 00000000 fd:00 67116923                   /usr/lib64/libdl-2.28.so
+7f0e96332000-7f0e96531000 ---p 00003000 fd:00 67116923                   /usr/lib64/libdl-2.28.so
+7f0e96531000-7f0e96532000 r--p 00002000 fd:00 67116923                   /usr/lib64/libdl-2.28.so
+7f0e96532000-7f0e96533000 rw-p 00003000 fd:00 67116923                   /usr/lib64/libdl-2.28.so
+7f0e96533000-7f0e96624000 r--p 00000000 00:33 21421                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV3.8.so.1.0
+7f0e96624000-7f0e96951000 r-xp 000f1000 00:33 21421                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV3.8.so.1.0
+7f0e96951000-7f0e96ac9000 r--p 0041e000 00:33 21421                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV3.8.so.1.0
+7f0e96ac9000-7f0e96aca000 ---p 00596000 00:33 21421                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV3.8.so.1.0
+7f0e96aca000-7f0e96aec000 r--p 00596000 00:33 21421                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV3.8.so.1.0
+7f0e96aec000-7f0e96b41000 rw-p 005b8000 00:33 21421                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV3.8.so.1.0
+7f0e96b41000-7f0e96b65000 rw-p 00000000 00:00 0 
+7f0e96b65000-7f0e96b6c000 r-xp 00000000 fd:00 67116941                   /usr/lib64/librt-2.28.so
+7f0e96b6c000-7f0e96d6b000 ---p 00007000 fd:00 67116941                   /usr/lib64/librt-2.28.so
+7f0e96d6b000-7f0e96d6c000 r--p 00006000 fd:00 67116941                   /usr/lib64/librt-2.28.so
+7f0e96d6c000-7f0e96d6d000 rw-p 00007000 fd:00 67116941                   /usr/lib64/librt-2.28.so
+7f0e96d6d000-7f0e96d6e000 r--p 00000000 00:33 51240                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtbcload-O.so
+7f0e96d6e000-7f0e96d71000 r-xp 00001000 00:33 51240                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtbcload-O.so
+7f0e96d71000-7f0e96d72000 r--p 00004000 00:33 51240                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtbcload-O.so
+7f0e96d72000-7f0e96d73000 r--p 00004000 00:33 51240                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtbcload-O.so
+7f0e96d73000-7f0e96d74000 rw-p 00005000 00:33 51240                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtbcload-O.so
+7f0e96d74000-7f0e96d76000 r-xp 00000000 fd:00 69299709                   /usr/lib64/libXss.so.1.0.0
+7f0e96d76000-7f0e96f76000 ---p 00002000 fd:00 69299709                   /usr/lib64/libXss.so.1.0.0
+7f0e96f76000-7f0e96f77000 r--p 00002000 fd:00 69299709                   /usr/lib64/libXss.so.1.0.0
+7f0e96f77000-7f0e96f78000 rw-p 00003000 fd:00 69299709                   /usr/lib64/libXss.so.1.0.0
+7f0e96f78000-7f0e96f8e000 r-xp 00000000 fd:00 68425531                   /usr/lib64/libXft.so.2.3.3
+7f0e96f8e000-7f0e9718d000 ---p 00016000 fd:00 68425531                   /usr/lib64/libXft.so.2.3.3
+7f0e9718d000-7f0e9718e000 r--p 00015000 fd:00 68425531                   /usr/lib64/libXft.so.2.3.3
+7f0e9718e000-7f0e9718f000 rw-p 00016000 fd:00 68425531                   /usr/lib64/libXft.so.2.3.3
+7f0e9718f000-7f0e97195000 r--p 00000000 00:33 69616                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtktable-O.so
+7f0e97195000-7f0e971a8000 r-xp 00006000 00:33 69616                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtktable-O.so
+7f0e971a8000-7f0e971ab000 r--p 00019000 00:33 69616                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtktable-O.so
+7f0e971ab000-7f0e971ac000 r--p 0001b000 00:33 69616                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtktable-O.so
+7f0e971ac000-7f0e971b6000 rw-p 0001c000 00:33 69616                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtktable-O.so
+7f0e971b6000-7f0e971ea000 r--p 00000000 00:33 51241                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtk-O.so
+7f0e971ea000-7f0e972c9000 r-xp 00034000 00:33 51241                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtk-O.so
+7f0e972c9000-7f0e972f3000 r--p 00113000 00:33 51241                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtk-O.so
+7f0e972f3000-7f0e97309000 r--p 0013c000 00:33 51241                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtk-O.so
+7f0e97309000-7f0e97313000 rw-p 00152000 00:33 51241                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtk-O.so
+7f0e97313000-7f0e9744a000 r-xp 00000000 00:33 62757                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libX11.so.6.3.0
+7f0e9744a000-7f0e9764a000 ---p 00137000 00:33 62757                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libX11.so.6.3.0
+7f0e9764a000-7f0e97650000 rw-p 00137000 00:33 62757                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libX11.so.6.3.0
+7f0e97650000-7f0e97661000 r-xp 00000000 fd:00 67117493                   /usr/lib64/libXext.so.6.4.0
+7f0e97661000-7f0e97861000 ---p 00011000 fd:00 67117493                   /usr/lib64/libXext.so.6.4.0
+7f0e97861000-7f0e97862000 r--p 00011000 fd:00 67117493                   /usr/lib64/libXext.so.6.4.0
+7f0e97862000-7f0e97863000 rw-p 00012000 fd:00 67117493                   /usr/lib64/libXext.so.6.4.0
+7f0e97863000-7f0e978a6000 r-xp 00000000 fd:00 67988322                   /usr/lib64/libfontconfig.so.1.12.0
+7f0e978a6000-7f0e97aa5000 ---p 00043000 fd:00 67988322                   /usr/lib64/libfontconfig.so.1.12.0
+7f0e97aa5000-7f0e97aa7000 r--p 00042000 fd:00 67988322                   /usr/lib64/libfontconfig.so.1.12.0
+7f0e97aa7000-7f0e97aa8000 rw-p 00044000 fd:00 67988322                   /usr/lib64/libfontconfig.so.1.12.0
+7f0e97aa8000-7f0e97aac000 r-xp 00000000 00:33 69633                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-util.so.1.0.0
+7f0e97aac000-7f0e97cac000 ---p 00004000 00:33 69633                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-util.so.1.0.0
+7f0e97cac000-7f0e97cad000 rw-p 00004000 00:33 69633                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-util.so.1.0.0
+7f0e97cad000-7f0e97caf000 r-xp 00000000 00:33 52090                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-shm.so.0.0.0
+7f0e97caf000-7f0e97eae000 ---p 00002000 00:33 52090                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-shm.so.0.0.0
+7f0e97eae000-7f0e97eaf000 rw-p 00001000 00:33 52090                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-shm.so.0.0.0
+7f0e97eaf000-7f0e97eb3000 r-xp 00000000 00:33 47797                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-image.so.0.0.0
+7f0e97eb3000-7f0e980b2000 ---p 00004000 00:33 47797                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-image.so.0.0.0
+7f0e980b2000-7f0e980b3000 rw-p 00003000 00:33 47797                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-image.so.0.0.0
+7f0e980b3000-7f0e980b9000 r-xp 00000000 00:33 69631                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-xfixes.so.0.0.0
+7f0e980b9000-7f0e982b9000 ---p 00006000 00:33 69631                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-xfixes.so.0.0.0
+7f0e982b9000-7f0e982ba000 rw-p 00006000 00:33 69631                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-xfixes.so.0.0.0
+7f0e982ba000-7f0e982bf000 r-xp 00000000 00:33 47800                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-sync.so.1.0.0
+7f0e982bf000-7f0e984bf000 ---p 00005000 00:33 47800                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-sync.so.1.0.0
+7f0e984bf000-7f0e984c0000 rw-p 00005000 00:33 47800                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-sync.so.1.0.0
+7f0e984c0000-7f0e984cb000 r-xp 00000000 00:33 62748                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-render.so.0.0.0
+7f0e984cb000-7f0e986cb000 ---p 0000b000 00:33 62748                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-render.so.0.0.0
+7f0e986cb000-7f0e986cc000 rw-p 0000b000 00:33 62748                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-render.so.0.0.0
+7f0e986cc000-7f0e986da000 r-xp 00000000 00:33 52080                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-randr.so.0.1.0
+7f0e986da000-7f0e988da000 ---p 0000e000 00:33 52080                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-randr.so.0.1.0
+7f0e988da000-7f0e988db000 rw-p 0000e000 00:33 52080                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb-randr.so.0.1.0
+7f0e988db000-7f0e988ff000 r-xp 00000000 00:33 69629                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb.so.1.1.0
+7f0e988ff000-7f0e98aff000 ---p 00024000 00:33 69629                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb.so.1.1.0
+7f0e98aff000-7f0e98b00000 rw-p 00024000 00:33 69629                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libxcb.so.1.1.0
+7f0e98b00000-7f0e98bb5000 r-xp 00000000 fd:00 67117217                   /usr/lib64/libfreetype.so.6.16.1
+7f0e98bb5000-7f0e98db4000 ---p 000b5000 fd:00 67117217                   /usr/lib64/libfreetype.so.6.16.1
+7f0e98db4000-7f0e98dbb000 r--p 000b4000 fd:00 67117217                   /usr/lib64/libfreetype.so.6.16.1
+7f0e98dbb000-7f0e98dbc000 rw-p 00000000 00:00 0 
+7f0e98dbc000-7f0e98dbe000 r-xp 00000000 fd:00 67117520                   /usr/lib64/libXinerama.so.1.0.0
+7f0e98dbe000-7f0e98fbd000 ---p 00002000 fd:00 67117520                   /usr/lib64/libXinerama.so.1.0.0
+7f0e98fbd000-7f0e98fbe000 r--p 00001000 fd:00 67117520                   /usr/lib64/libXinerama.so.1.0.0
+7f0e98fbe000-7f0e98fbf000 rw-p 00002000 fd:00 67117520                   /usr/lib64/libXinerama.so.1.0.0
+7f0e98fbf000-7f0e98fc9000 r-xp 00000000 fd:00 67117540                   /usr/lib64/libXcursor.so.1.0.2
+7f0e98fc9000-7f0e991c8000 ---p 0000a000 fd:00 67117540                   /usr/lib64/libXcursor.so.1.0.2
+7f0e991c8000-7f0e991c9000 r--p 00009000 fd:00 67117540                   /usr/lib64/libXcursor.so.1.0.2
+7f0e991c9000-7f0e991ca000 rw-p 00000000 00:00 0 
+7f0e991ca000-7f0e991d4000 r-xp 00000000 fd:00 67117514                   /usr/lib64/libXrandr.so.2.2.0
+7f0e991d4000-7f0e993d3000 ---p 0000a000 fd:00 67117514                   /usr/lib64/libXrandr.so.2.2.0
+7f0e993d3000-7f0e993d4000 r--p 00009000 fd:00 67117514                   /usr/lib64/libXrandr.so.2.2.0
+7f0e993d4000-7f0e993d5000 rw-p 0000a000 fd:00 67117514                   /usr/lib64/libXrandr.so.2.2.0
+7f0e993d5000-7f0e993df000 r-xp 00000000 fd:00 67117508                   /usr/lib64/libXrender.so.1.3.0
+7f0e993df000-7f0e995de000 ---p 0000a000 fd:00 67117508                   /usr/lib64/libXrender.so.1.3.0
+7f0e995de000-7f0e995df000 r--p 00009000 fd:00 67117508                   /usr/lib64/libXrender.so.1.3.0
+7f0e995df000-7f0e995e0000 rw-p 0000a000 fd:00 67117508                   /usr/lib64/libXrender.so.1.3.0
+7f0e995e0000-7f0e995f0000 r-xp 00000000 fd:00 67117501                   /usr/lib64/libXi.so.6.1.0
+7f0e995f0000-7f0e997ef000 ---p 00010000 fd:00 67117501                   /usr/lib64/libXi.so.6.1.0
+7f0e997ef000-7f0e997f0000 r--p 0000f000 fd:00 67117501                   /usr/lib64/libXi.so.6.1.0
+7f0e997f0000-7f0e997f1000 rw-p 00010000 fd:00 67117501                   /usr/lib64/libXi.so.6.1.0
+7f0e997f1000-7f0e99809000 r-xp 00000000 fd:00 67117146                   /usr/lib64/libICE.so.6.3.0
+7f0e99809000-7f0e99a09000 ---p 00018000 fd:00 67117146                   /usr/lib64/libICE.so.6.3.0
+7f0e99a09000-7f0e99a0a000 r--p 00018000 fd:00 67117146                   /usr/lib64/libICE.so.6.3.0
+7f0e99a0a000-7f0e99a0b000 rw-p 00019000 fd:00 67117146                   /usr/lib64/libICE.so.6.3.0
+7f0e99a0b000-7f0e99a0e000 rw-p 00000000 00:00 0 
+7f0e99a0e000-7f0e99a15000 r-xp 00000000 fd:00 67117154                   /usr/lib64/libSM.so.6.0.1
+7f0e99a15000-7f0e99c15000 ---p 00007000 fd:00 67117154                   /usr/lib64/libSM.so.6.0.1
+7f0e99c15000-7f0e99c16000 r--p 00007000 fd:00 67117154                   /usr/lib64/libSM.so.6.0.1
+7f0e99c16000-7f0e99c17000 rw-p 00008000 fd:00 67117154                   /usr/lib64/libSM.so.6.0.1
+7f0e99c17000-7f0e99c56000 r-xp 00000000 00:33 69624                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7f0e99c56000-7f0e99e55000 ---p 0003f000 00:33 69624                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7f0e99e55000-7f0e99e58000 r--p 0003e000 00:33 69624                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7f0e99e58000-7f0e99e59000 rw-p 00041000 00:33 69624                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7f0e99e59000-7f0e9bc0a000 r-xp 00000000 00:33 47799                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5WebKit.so.5.5.1
+7f0e9bc0a000-7f0e9be0a000 ---p 01db1000 00:33 47799                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5WebKit.so.5.5.1
+7f0e9be0a000-7f0e9bf65000 r--p 01db1000 00:33 47799                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5WebKit.so.5.5.1
+7f0e9bf65000-7f0e9bf85000 rw-p 01f0c000 00:33 47799                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5WebKit.so.5.5.1
+7f0e9bf85000-7f0e9bfb1000 rw-p 00000000 00:00 0 
+7f0e9bfb1000-7f0e9c002000 r-xp 00000000 00:33 47815                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Svg.so.5.6.2
+7f0e9c002000-7f0e9c202000 ---p 00051000 00:33 47815                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Svg.so.5.6.2
+7f0e9c202000-7f0e9c204000 r--p 00051000 00:33 47815                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Svg.so.5.6.2
+7f0e9c204000-7f0e9c205000 rw-p 00053000 00:33 47815                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Svg.so.5.6.2
+7f0e9c205000-7f0e9c235000 r-xp 00000000 00:33 69619                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Test.so.5.6.2
+7f0e9c235000-7f0e9c435000 ---p 00030000 00:33 69619                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Test.so.5.6.2
+7f0e9c435000-7f0e9c436000 r--p 00030000 00:33 69619                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Test.so.5.6.2
+7f0e9c436000-7f0e9c437000 rw-p 00031000 00:33 69619                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Test.so.5.6.2
+7f0e9c437000-7f0e9c43b000 rw-p 00000000 00:00 0 
+7f0e9c43b000-7f0e9c4a4000 r-xp 00000000 00:33 52088                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5PrintSupport.so.5.6.2
+7f0e9c4a4000-7f0e9c6a4000 ---p 00069000 00:33 52088                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5PrintSupport.so.5.6.2
+7f0e9c6a4000-7f0e9c6a7000 r--p 00069000 00:33 52088                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5PrintSupport.so.5.6.2
+7f0e9c6a7000-7f0e9c6a9000 rw-p 0006c000 00:33 52088                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5PrintSupport.so.5.6.2
+7f0e9c6a9000-7f0e9c6e8000 r-xp 00000000 00:33 47808                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Positioning.so.5.6.2
+7f0e9c6e8000-7f0e9c8e8000 ---p 0003f000 00:33 47808                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Positioning.so.5.6.2
+7f0e9c8e8000-7f0e9c8e9000 r--p 0003f000 00:33 47808                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Positioning.so.5.6.2
+7f0e9c8e9000-7f0e9c8ea000 rw-p 00040000 00:33 47808                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Positioning.so.5.6.2
+7f0e9c8ea000-7f0e9c925000 r-xp 00000000 00:33 52099                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Sensors.so.5.6.2
+7f0e9c925000-7f0e9cb25000 ---p 0003b000 00:33 52099                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Sensors.so.5.6.2
+7f0e9cb25000-7f0e9cb28000 r--p 0003b000 00:33 52099                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Sensors.so.5.6.2
+7f0e9cb28000-7f0e9cb29000 rw-p 0003e000 00:33 52099                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Sensors.so.5.6.2
+7f0e9cb29000-7f0e9cb2c000 r-xp 00000000 00:33 62112                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5X11Extras.so.5.6.2
+7f0e9cb2c000-7f0e9cd2b000 ---p 00003000 00:33 62112                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5X11Extras.so.5.6.2
+7f0e9cd2b000-7f0e9cd2c000 r--p 00002000 00:33 62112                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5X11Extras.so.5.6.2
+7f0e9cd2c000-7f0e9cd2d000 rw-p 00003000 00:33 62112                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5X11Extras.so.5.6.2
+7f0e9cd2d000-7f0e9d2ed000 r-xp 00000000 00:33 51244                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Widgets.so.5.6.2
+7f0e9d2ed000-7f0e9d4ed000 ---p 005c0000 00:33 51244                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Widgets.so.5.6.2
+7f0e9d4ed000-7f0e9d514000 r--p 005c0000 00:33 51244                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Widgets.so.5.6.2
+7f0e9d514000-7f0e9d519000 rw-p 005e7000 00:33 51244                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Widgets.so.5.6.2
+7f0e9d519000-7f0e9da05000 r-xp 00000000 00:33 69626                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Gui.so.5.6.2
+7f0e9da05000-7f0e9dc04000 ---p 004ec000 00:33 69626                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Gui.so.5.6.2
+7f0e9dc04000-7f0e9dc12000 r--p 004eb000 00:33 69626                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Gui.so.5.6.2
+7f0e9dc12000-7f0e9dc18000 rw-p 004f9000 00:33 69626                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Gui.so.5.6.2
+7f0e9dc18000-7f0e9dc1d000 rw-p 00000000 00:00 0 
+7f0e9dc1d000-7f0e9dc28000 r--p 00000000 00:33 51242                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsqlite3.so
+7f0e9dc28000-7f0e9dcb5000 r-xp 0000b000 00:33 51242                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsqlite3.so
+7f0e9dcb5000-7f0e9dcd9000 r--p 00098000 00:33 51242                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsqlite3.so
+7f0e9dcd9000-7f0e9dcda000 ---p 000bc000 00:33 51242                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsqlite3.so
+7f0e9dcda000-7f0e9dcdc000 r--p 000bc000 00:33 51242                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsqlite3.so
+7f0e9dcdc000-7f0e9dcde000 rw-p 000be000 00:33 51242                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsqlite3.so
+7f0e9dcde000-7f0e9dcdf000 rw-p 00000000 00:00 0 
+7f0e9dcdf000-7f0e9ddf6000 r-xp 00000000 fd:00 69890609                   /usr/lib64/libglib-2.0.so.0.5600.4
+7f0e9ddf6000-7f0e9dff6000 ---p 00117000 fd:00 69890609                   /usr/lib64/libglib-2.0.so.0.5600.4
+7f0e9dff6000-7f0e9dff7000 r--p 00117000 fd:00 69890609                   /usr/lib64/libglib-2.0.so.0.5600.4
+7f0e9dff7000-7f0e9dff8000 rw-p 00118000 fd:00 69890609                   /usr/lib64/libglib-2.0.so.0.5600.4
+7f0e9dff8000-7f0e9dff9000 rw-p 00000000 00:00 0 
+7f0e9dff9000-7f0e9dffa000 r-xp 00000000 fd:00 69890615                   /usr/lib64/libgthread-2.0.so.0.5600.4
+7f0e9dffa000-7f0e9e1f9000 ---p 00001000 fd:00 69890615                   /usr/lib64/libgthread-2.0.so.0.5600.4
+7f0e9e1f9000-7f0e9e1fa000 r--p 00000000 fd:00 69890615                   /usr/lib64/libgthread-2.0.so.0.5600.4
+7f0e9e1fa000-7f0e9e1fb000 rw-p 00000000 00:00 0 
+7f0e9e1fb000-7f0e9fa25000 r--p 00000000 00:33 62762                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libicudata.so.54.1
+7f0e9fa25000-7f0e9fc24000 ---p 0182a000 00:33 62762                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libicudata.so.54.1
+7f0e9fc24000-7f0e9fc25000 rw-p 01829000 00:33 62762                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libicudata.so.54.1
+7f0e9fc25000-7f0e9fdc9000 r-xp 00000000 00:33 47796                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libicuuc.so.54.1
+7f0e9fdc9000-7f0e9ffc9000 ---p 001a4000 00:33 47796                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libicuuc.so.54.1
+7f0e9ffc9000-7f0e9ffda000 rw-p 001a4000 00:33 47796                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libicuuc.so.54.1
+7f0e9ffda000-7f0e9ffdf000 rw-p 00000000 00:00 0 
+7f0e9ffdf000-7f0ea0251000 r-xp 00000000 00:33 47803                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libicui18n.so.54.1
+7f0ea0251000-7f0ea0451000 ---p 00272000 00:33 47803                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libicui18n.so.54.1
+7f0ea0451000-7f0ea0462000 rw-p 00272000 00:33 47803                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libicui18n.so.54.1
+7f0ea0462000-7f0ea0463000 rw-p 00000000 00:00 0 
+7f0ea0463000-7f0ea04b4000 r-xp 00000000 00:33 47811                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Sql.so.5.6.2
+7f0ea04b4000-7f0ea06b3000 ---p 00051000 00:33 47811                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Sql.so.5.6.2
+7f0ea06b3000-7f0ea06b5000 r--p 00050000 00:33 47811                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Sql.so.5.6.2
+7f0ea06b5000-7f0ea06b6000 rw-p 00052000 00:33 47811                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Sql.so.5.6.2
+7f0ea06b6000-7f0ea0803000 r-xp 00000000 00:33 47813                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Network.so.5.6.2
+7f0ea0803000-7f0ea0a02000 ---p 0014d000 00:33 47813                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Network.so.5.6.2
+7f0ea0a02000-7f0ea0a08000 r--p 0014c000 00:33 47813                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Network.so.5.6.2
+7f0ea0a08000-7f0ea0a0a000 rw-p 00152000 00:33 47813                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Network.so.5.6.2
+7f0ea0a0a000-7f0ea0f3a000 r-xp 00000000 00:33 62754                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Core.so.5.6.2
+7f0ea0f3a000-7f0ea1139000 ---p 00530000 00:33 62754                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Core.so.5.6.2
+7f0ea1139000-7f0ea1145000 r--p 0052f000 00:33 62754                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Core.so.5.6.2
+7f0ea1145000-7f0ea1146000 rw-p 0053b000 00:33 62754                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Core.so.5.6.2
+7f0ea1146000-7f0ea114a000 rw-p 00000000 00:00 0 
+7f0ea114a000-7f0ea14a8000 r-xp 00000000 00:33 52087                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7f0ea14a8000-7f0ea16a8000 ---p 0035e000 00:33 52087                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7f0ea16a8000-7f0ea16de000 r--p 0035e000 00:33 52087                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7f0ea16de000-7f0ea16df000 rw-p 00394000 00:33 52087                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7f0ea16df000-7f0ea16e0000 rw-p 00000000 00:00 0 
+7f0ea16e0000-7f0ea171c000 r-xp 00000000 00:33 69615                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Xml.so.5.6.2
+7f0ea171c000-7f0ea191b000 ---p 0003c000 00:33 69615                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Xml.so.5.6.2
+7f0ea191b000-7f0ea191d000 r--p 0003b000 00:33 69615                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Xml.so.5.6.2
+7f0ea191d000-7f0ea191e000 rw-p 0003d000 00:33 69615                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libQt5Xml.so.5.6.2
+7f0ea191e000-7f0ea193e000 r-xp 00000000 fd:00 67117205                   /usr/lib64/libcrypt.so.1.1.0
+7f0ea193e000-7f0ea1b3d000 ---p 00020000 fd:00 67117205                   /usr/lib64/libcrypt.so.1.1.0
+7f0ea1b3d000-7f0ea1b3e000 r--p 0001f000 fd:00 67117205                   /usr/lib64/libcrypt.so.1.1.0
+7f0ea1b3e000-7f0ea1b47000 rw-p 00000000 00:00 0 
+7f0ea1b47000-7f0ea1b65000 r--p 00000000 00:33 24978                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7f0ea1b65000-7f0ea1b89000 r-xp 0001e000 00:33 24978                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7f0ea1b89000-7f0ea1b97000 r--p 00042000 00:33 24978                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7f0ea1b97000-7f0ea1b98000 ---p 00050000 00:33 24978                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7f0ea1b98000-7f0ea1b9a000 r--p 00050000 00:33 24978                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7f0ea1b9a000-7f0ea1b9b000 rw-p 00052000 00:33 24978                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7f0ea1b9b000-7f0ea1b9f000 rw-p 00000000 00:00 0 
+7f0ea1b9f000-7f0ea1bee000 r--p 00000000 00:33 24986                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7f0ea1bee000-7f0ea1c28000 r-xp 0004f000 00:33 24986                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7f0ea1c28000-7f0ea1c40000 r--p 00089000 00:33 24986                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7f0ea1c40000-7f0ea1c47000 r--p 000a0000 00:33 24986                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7f0ea1c47000-7f0ea1c49000 rw-p 000a7000 00:33 24986                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7f0ea1c49000-7f0ea1c4a000 rw-p 00000000 00:00 0 
+7f0ea1c4a000-7f0ea1c53000 r--p 00000000 00:33 5931                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7f0ea1c53000-7f0ea21b9000 r-xp 00009000 00:33 5931                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7f0ea21b9000-7f0ea2266000 r--p 0056f000 00:33 5931                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7f0ea2266000-7f0ea2267000 r--p 0061b000 00:33 5931                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7f0ea2267000-7f0ea2268000 rw-p 0061c000 00:33 5931                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7f0ea2268000-7f0ea22d4000 r--p 00000000 00:33 24979                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7f0ea22d4000-7f0ea2332000 r-xp 0006c000 00:33 24979                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7f0ea2332000-7f0ea235a000 r--p 000ca000 00:33 24979                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7f0ea235a000-7f0ea2363000 r--p 000f1000 00:33 24979                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7f0ea2363000-7f0ea2365000 rw-p 000fa000 00:33 24979                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7f0ea2365000-7f0ea2367000 rw-p 00000000 00:00 0 
+7f0ea2367000-7f0ea246b000 r--p 00000000 00:33 5940                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7f0ea246b000-7f0ea254e000 r-xp 00104000 00:33 5940                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7f0ea254e000-7f0ea25a0000 r--p 001e7000 00:33 5940                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7f0ea25a0000-7f0ea25ba000 r--p 00238000 00:33 5940                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7f0ea25ba000-7f0ea25be000 rw-p 00252000 00:33 5940                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7f0ea25be000-7f0ea25c0000 rw-p 00000000 00:00 0 
+7f0ea25c0000-7f0ea275b000 r--p 00000000 00:33 24982                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7f0ea275b000-7f0ea2965000 r-xp 0019b000 00:33 24982                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7f0ea2965000-7f0ea2a0a000 r--p 003a5000 00:33 24982                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7f0ea2a0a000-7f0ea2a30000 r--p 00449000 00:33 24982                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7f0ea2a30000-7f0ea2a38000 rw-p 0046f000 00:33 24982                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7f0ea2a38000-7f0ea2a5d000 rw-p 00000000 00:00 0 
+7f0ea2a5d000-7f0ea2dab000 r--p 00000000 00:33 5934                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7f0ea2dab000-7f0ea31f0000 r-xp 0034e000 00:33 5934                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7f0ea31f0000-7f0ea332b000 r--p 00793000 00:33 5934                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7f0ea332b000-7f0ea332c000 ---p 008ce000 00:33 5934                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7f0ea332c000-7f0ea337e000 r--p 008ce000 00:33 5934                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7f0ea337e000-7f0ea338b000 rw-p 00920000 00:33 5934                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7f0ea338b000-7f0ea3391000 rw-p 00000000 00:00 0 
+7f0ea3391000-7f0ea350e000 r--p 00000000 00:33 5935                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7f0ea350e000-7f0ea3578000 r-xp 0017d000 00:33 5935                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7f0ea3578000-7f0ea35d2000 r--p 001e7000 00:33 5935                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7f0ea35d2000-7f0ea35d3000 ---p 00241000 00:33 5935                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7f0ea35d3000-7f0ea35ee000 r--p 00241000 00:33 5935                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7f0ea35ee000-7f0ea35f0000 rw-p 0025c000 00:33 5935                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7f0ea35f0000-7f0ea37bd000 r--p 00000000 00:33 5938                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7f0ea37bd000-7f0ea4328000 r-xp 001cd000 00:33 5938                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7f0ea4328000-7f0ea45a1000 r--p 00d38000 00:33 5938                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7f0ea45a1000-7f0ea45b0000 r--p 00fb0000 00:33 5938                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7f0ea45b0000-7f0ea45c0000 rw-p 00fbf000 00:33 5938                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7f0ea45c0000-7f0ea45ce000 r--p 00000000 00:33 51243                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/liboasis-O.so
+7f0ea45ce000-7f0ea46e7000 r-xp 0000e000 00:33 51243                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/liboasis-O.so
+7f0ea46e7000-7f0ea4731000 r--p 00127000 00:33 51243                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/liboasis-O.so
+7f0ea4731000-7f0ea4732000 ---p 00171000 00:33 51243                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/liboasis-O.so
+7f0ea4732000-7f0ea4733000 r--p 00171000 00:33 51243                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/liboasis-O.so
+7f0ea4733000-7f0ea4735000 rw-p 00172000 00:33 51243                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/liboasis-O.so
+7f0ea4735000-7f0ea4736000 rw-p 00000000 00:00 0 
+7f0ea4736000-7f0ea4761000 r--p 00000000 00:33 52084                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtcl-O.so
+7f0ea4761000-7f0ea489d000 r-xp 0002b000 00:33 52084                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtcl-O.so
+7f0ea489d000-7f0ea48d8000 r--p 00167000 00:33 52084                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtcl-O.so
+7f0ea48d8000-7f0ea48d9000 ---p 001a2000 00:33 52084                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtcl-O.so
+7f0ea48d9000-7f0ea48e7000 r--p 001a2000 00:33 52084                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtcl-O.so
+7f0ea48e7000-7f0ea48e9000 rw-p 001b0000 00:33 52084                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libtcl-O.so
+7f0ea48e9000-7f0ea48ea000 rw-p 00000000 00:00 0 
+7f0ea48ea000-7f0ea4a64000 r-xp 00000000 00:33 62111                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsym_datacore-O.so
+7f0ea4a64000-7f0ea4c63000 ---p 0017a000 00:33 62111                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsym_datacore-O.so
+7f0ea4c63000-7f0ea4c6c000 r--p 00179000 00:33 62111                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsym_datacore-O.so
+7f0ea4c6c000-7f0ea4c6f000 rw-p 00182000 00:33 62111                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsym_datacore-O.so
+7f0ea4c6f000-7f0ea4c93000 r-xp 00000000 00:33 52096                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libmym_core-O.so
+7f0ea4c93000-7f0ea4e92000 ---p 00024000 00:33 52096                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libmym_core-O.so
+7f0ea4e92000-7f0ea4e94000 r--p 00023000 00:33 52096                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libmym_core-O.so
+7f0ea4e94000-7f0ea4e95000 rw-p 00025000 00:33 52096                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libmym_core-O.so
+7f0ea4e95000-7f0ea4f7a000 r-xp 00000000 00:33 52095                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libgui_controls-O.so
+7f0ea4f7a000-7f0ea5179000 ---p 000e5000 00:33 52095                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libgui_controls-O.so
+7f0ea5179000-7f0ea5180000 r--p 000e4000 00:33 52095                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libgui_controls-O.so
+7f0ea5180000-7f0ea5182000 rw-p 000eb000 00:33 52095                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libgui_controls-O.so
+7f0ea5182000-7f0ea5614000 r-xp 00000000 00:33 52100                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnpsst-O.so
+7f0ea5614000-7f0ea5814000 ---p 00492000 00:33 52100                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnpsst-O.so
+7f0ea5814000-7f0ea582e000 r--p 00492000 00:33 52100                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnpsst-O.so
+7f0ea582e000-7f0ea5837000 rw-p 004ac000 00:33 52100                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnpsst-O.so
+7f0ea5837000-7f0ea5969000 r--p 00000000 00:33 52098                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnpiL1.so
+7f0ea5969000-7f0ea5b3e000 r-xp 00132000 00:33 52098                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnpiL1.so
+7f0ea5b3e000-7f0ea5bc6000 r--p 00307000 00:33 52098                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnpiL1.so
+7f0ea5bc6000-7f0ea5bc7000 ---p 0038f000 00:33 52098                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnpiL1.so
+7f0ea5bc7000-7f0ea5bd5000 r--p 0038f000 00:33 52098                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnpiL1.so
+7f0ea5bd5000-7f0ea5bdd000 rw-p 0039d000 00:33 52098                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libnpiL1.so
+7f0ea5bdd000-7f0ea5be6000 rw-p 00000000 00:00 0 
+7f0ea5be6000-7f0ea6b68000 r--p 00000000 00:33 62755                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libNPI.so
+7f0ea6b68000-7f0ea9291000 r-xp 00f82000 00:33 62755                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libNPI.so
+7f0ea9291000-7f0eaa0a5000 r--p 036ab000 00:33 62755                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libNPI.so
+7f0eaa0a5000-7f0eaa737000 r--p 044be000 00:33 62755                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libNPI.so
+7f0eaa737000-7f0eaa88b000 rw-p 04b50000 00:33 62755                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libNPI.so
+7f0eaa88b000-7f0eabf52000 rw-p 00000000 00:00 0 
+7f0eabf52000-7f0eac186000 r-xp 00000000 00:33 62117                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libcrypto.so.1.0.2k
+7f0eac186000-7f0eac386000 ---p 00234000 00:33 62117                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libcrypto.so.1.0.2k
+7f0eac386000-7f0eac3a2000 r--p 00234000 00:33 62117                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libcrypto.so.1.0.2k
+7f0eac3a2000-7f0eac3af000 rw-p 00250000 00:33 62117                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libcrypto.so.1.0.2k
+7f0eac3af000-7f0eac3b3000 rw-p 00000000 00:00 0 
+7f0eac3b3000-7f0eac41a000 r-xp 00000000 00:33 52094                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libssl.so.1.0.2k
+7f0eac41a000-7f0eac61a000 ---p 00067000 00:33 52094                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libssl.so.1.0.2k
+7f0eac61a000-7f0eac61e000 r--p 00067000 00:33 52094                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libssl.so.1.0.2k
+7f0eac61e000-7f0eac625000 rw-p 0006b000 00:33 52094                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libssl.so.1.0.2k
+7f0eac625000-7f0eac63f000 r-xp 00000000 00:33 47798                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libz.so.1.2.11
+7f0eac63f000-7f0eac83f000 ---p 0001a000 00:33 47798                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libz.so.1.2.11
+7f0eac83f000-7f0eac840000 rw-p 0001a000 00:33 47798                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libz.so.1.2.11
+7f0eac840000-7f0eaca0f000 r-xp 00000000 00:33 47806                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libstdc++.so.6.0.27
+7f0eaca0f000-7f0eacc0e000 ---p 001cf000 00:33 47806                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libstdc++.so.6.0.27
+7f0eacc0e000-7f0eacc19000 r--p 001ce000 00:33 47806                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libstdc++.so.6.0.27
+7f0eacc19000-7f0eacc1c000 rw-p 001d9000 00:33 47806                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libstdc++.so.6.0.27
+7f0eacc1c000-7f0eacc1f000 rw-p 00000000 00:00 0 
+7f0eacc1f000-7f0eacda0000 r-xp 00000000 fd:00 67116925                   /usr/lib64/libm-2.28.so
+7f0eacda0000-7f0eacf9f000 ---p 00181000 fd:00 67116925                   /usr/lib64/libm-2.28.so
+7f0eacf9f000-7f0eacfa0000 r--p 00180000 fd:00 67116925                   /usr/lib64/libm-2.28.so
+7f0eacfa0000-7f0eacfa1000 rw-p 00181000 fd:00 67116925                   /usr/lib64/libm-2.28.so
+7f0eacfa1000-7f0eacfbc000 r-xp 00000000 fd:00 67116937                   /usr/lib64/libpthread-2.28.so
+7f0eacfbc000-7f0ead1bb000 ---p 0001b000 fd:00 67116937                   /usr/lib64/libpthread-2.28.so
+7f0ead1bb000-7f0ead1bc000 r--p 0001a000 fd:00 67116937                   /usr/lib64/libpthread-2.28.so
+7f0ead1bc000-7f0ead1bd000 rw-p 0001b000 fd:00 67116937                   /usr/lib64/libpthread-2.28.so
+7f0ead1bd000-7f0ead1c1000 rw-p 00000000 00:00 0 
+7f0ead1c1000-7f0ead1f0000 r-xp 00000000 fd:00 67116910                   /usr/lib64/ld-2.28.so
+7f0ead1f0000-7f0ead1f1000 r--p 00000000 fd:00 237518                     /usr/lib/locale/en_US.utf8/LC_IDENTIFICATION
+7f0ead1f1000-7f0ead205000 rw-p 00000000 00:00 0 
+7f0ead205000-7f0ead209000 r--p 00000000 00:33 24987                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7f0ead209000-7f0ead20a000 r-xp 00004000 00:33 24987                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7f0ead20a000-7f0ead20c000 r--p 00005000 00:33 24987                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7f0ead20c000-7f0ead20d000 r--p 00006000 00:33 24987                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7f0ead20d000-7f0ead20e000 rw-p 00007000 00:33 24987                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7f0ead20e000-7f0ead228000 r--p 00000000 00:33 24985                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7f0ead228000-7f0ead254000 r-xp 0001a000 00:33 24985                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7f0ead254000-7f0ead262000 r--p 00046000 00:33 24985                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7f0ead262000-7f0ead264000 r--p 00053000 00:33 24985                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7f0ead264000-7f0ead265000 rw-p 00055000 00:33 24985                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7f0ead265000-7f0ead266000 rw-p 00000000 00:00 0 
+7f0ead266000-7f0ead286000 r--p 00000000 00:33 5923                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7f0ead286000-7f0ead295000 r-xp 00020000 00:33 5923                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7f0ead295000-7f0ead29f000 r--p 0002f000 00:33 5923                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7f0ead29f000-7f0ead2a1000 r--p 00038000 00:33 5923                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7f0ead2a1000-7f0ead2a2000 rw-p 0003a000 00:33 5923                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7f0ead2a2000-7f0ead2a4000 r--p 00000000 00:33 5925                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7f0ead2a4000-7f0ead2a5000 r-xp 00002000 00:33 5925                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7f0ead2a5000-7f0ead2a6000 r--p 00003000 00:33 5925                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7f0ead2a6000-7f0ead2a7000 r--p 00003000 00:33 5925                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7f0ead2a7000-7f0ead2a8000 rw-p 00004000 00:33 5925                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7f0ead2a8000-7f0ead2aa000 rw-p 00000000 00:00 0 
+7f0ead2aa000-7f0ead2b5000 r--p 00000000 00:33 5929                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7f0ead2b5000-7f0ead2cf000 r-xp 0000b000 00:33 5929                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7f0ead2cf000-7f0ead2db000 r--p 00025000 00:33 5929                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7f0ead2db000-7f0ead2dc000 r--p 00030000 00:33 5929                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7f0ead2dc000-7f0ead2dd000 rw-p 00031000 00:33 5929                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7f0ead2dd000-7f0ead2df000 rw-p 00000000 00:00 0 
+7f0ead2df000-7f0ead2e4000 r--p 00000000 00:33 5932                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7f0ead2e4000-7f0ead2e8000 r-xp 00005000 00:33 5932                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7f0ead2e8000-7f0ead2ea000 r--p 00009000 00:33 5932                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7f0ead2ea000-7f0ead2eb000 ---p 0000b000 00:33 5932                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7f0ead2eb000-7f0ead2ec000 r--p 0000b000 00:33 5932                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7f0ead2ec000-7f0ead2ed000 rw-p 0000c000 00:33 5932                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7f0ead2ed000-7f0ead2f8000 r--p 00000000 00:33 5922                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7f0ead2f8000-7f0ead2fb000 r-xp 0000b000 00:33 5922                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7f0ead2fb000-7f0ead2fe000 r--p 0000e000 00:33 5922                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7f0ead2fe000-7f0ead300000 r--p 00010000 00:33 5922                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7f0ead300000-7f0ead301000 rw-p 00012000 00:33 5922                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7f0ead301000-7f0ead309000 r--p 00000000 00:33 5924                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7f0ead309000-7f0ead30e000 r-xp 00008000 00:33 5924                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7f0ead30e000-7f0ead311000 r--p 0000d000 00:33 5924                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7f0ead311000-7f0ead312000 ---p 00010000 00:33 5924                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7f0ead312000-7f0ead313000 r--p 00010000 00:33 5924                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7f0ead313000-7f0ead314000 rw-p 00011000 00:33 5924                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7f0ead314000-7f0ead316000 rw-p 00000000 00:00 0 
+7f0ead316000-7f0ead31e000 r--p 00000000 00:33 5926                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7f0ead31e000-7f0ead326000 r-xp 00008000 00:33 5926                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7f0ead326000-7f0ead329000 r--p 00010000 00:33 5926                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7f0ead329000-7f0ead32a000 r--p 00012000 00:33 5926                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7f0ead32a000-7f0ead32b000 rw-p 00013000 00:33 5926                       /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7f0ead32b000-7f0ead32f000 rw-p 00000000 00:00 0 
+7f0ead32f000-7f0ead33e000 r--p 00000000 00:33 69622                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libvfs.so
+7f0ead33e000-7f0ead384000 r-xp 0000f000 00:33 69622                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libvfs.so
+7f0ead384000-7f0ead3a4000 r--p 00055000 00:33 69622                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libvfs.so
+7f0ead3a4000-7f0ead3a8000 r--p 00074000 00:33 69622                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libvfs.so
+7f0ead3a8000-7f0ead3a9000 rw-p 00078000 00:33 69622                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libvfs.so
+7f0ead3a9000-7f0ead3ac000 rw-p 00000000 00:00 0 
+7f0ead3ac000-7f0ead3b5000 r--p 00000000 00:33 69617                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnps_boost_1_77_0_filesystem-mt.so.1.77.0
+7f0ead3b5000-7f0ead3c7000 r-xp 00009000 00:33 69617                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnps_boost_1_77_0_filesystem-mt.so.1.77.0
+7f0ead3c7000-7f0ead3cc000 r--p 0001b000 00:33 69617                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnps_boost_1_77_0_filesystem-mt.so.1.77.0
+7f0ead3cc000-7f0ead3cd000 r--p 0001f000 00:33 69617                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnps_boost_1_77_0_filesystem-mt.so.1.77.0
+7f0ead3cd000-7f0ead3ce000 rw-p 00020000 00:33 69617                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/lib/libsnps_boost_1_77_0_filesystem-mt.so.1.77.0
+7f0ead3ce000-7f0ead3d1000 rw-p 00000000 00:00 0 
+7f0ead3d1000-7f0ead3d4000 rw-p 00000000 00:00 0 
+7f0ead3d4000-7f0ead3db000 r--s 00000000 fd:00 67116822                   /usr/lib64/gconv/gconv-modules.cache
+7f0ead3db000-7f0ead3dc000 r--p 00000000 00:33 68279                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/python-2.6/libsdp_python.so
+7f0ead3dc000-7f0ead3dd000 r-xp 00001000 00:33 68279                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/python-2.6/libsdp_python.so
+7f0ead3dd000-7f0ead3de000 r--p 00002000 00:33 68279                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/python-2.6/libsdp_python.so
+7f0ead3de000-7f0ead3df000 r--p 00002000 00:33 68279                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/python-2.6/libsdp_python.so
+7f0ead3df000-7f0ead3e0000 rw-p 00003000 00:33 68279                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/python-2.6/libsdp_python.so
+7f0ead3e0000-7f0ead3e6000 r--p 00000000 00:33 68280                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/python-2.6/libpython_adapter-O.so
+7f0ead3e6000-7f0ead3ea000 r-xp 00006000 00:33 68280                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/python-2.6/libpython_adapter-O.so
+7f0ead3ea000-7f0ead3ec000 r--p 0000a000 00:33 68280                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/python-2.6/libpython_adapter-O.so
+7f0ead3ec000-7f0ead3ed000 r--p 0000b000 00:33 68280                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/python-2.6/libpython_adapter-O.so
+7f0ead3ed000-7f0ead3ee000 rw-p 0000c000 00:33 68280                      /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/lib/python-2.6/libpython_adapter-O.so
+7f0ead3ee000-7f0ead3f0000 rw-p 00000000 00:00 0 
+7f0ead3f0000-7f0ead3f1000 r--p 0002f000 fd:00 67116910                   /usr/lib64/ld-2.28.so
+7f0ead3f1000-7f0ead3f3000 rw-p 00030000 fd:00 67116910                   /usr/lib64/ld-2.28.so
+7fff77c2a000-7fff77c7c000 rwxp 00000000 00:00 0                          [stack]
+7fff77ce8000-7fff77cec000 r--p 00000000 00:00 0                          [vvar]
+7fff77cec000-7fff77cee000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

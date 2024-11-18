@@ -1,0 +1,4125 @@
+Sun Nov 17 19:21:14 2024
+
+                                  ICV_Engine 
+
+          Version U-2022.12-SP4 for linux64 - Aug 28, 2023 cl#9133772
+
+                    Copyright (c) 1996 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+
+Runset file ......................  /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.drc.rs
+Current Directory ................  /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc
+Hostname .........................  redhatclon
+Platform type ....................  LINUX.64
+OPENACCESS lib.defs file .........  /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs
+OPENACCESS input library name ....  fx4
+OPENACCESS block name ............  fx4_sc
+OPENACCESS view name .............  layout
+Run details ......................  /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/run_details
+Group file directory .............  /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/run_details/group
+Check reference structures .......  yes
+
+library() at /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_icv_option.rs:54
+library(cell = "primary_cell_name", format = GDSII, library_name = "gds_path_name")
+
+error_options() at /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_icv_option.rs:66
+error_options(error_limit_per_check = ERROR_LIMIT_UNLIMITED, db_path = "pydb", create_vue_output = true, report_flat_violation_count = true, report_layout_errors = TOP)
+
+gds_options() at /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_icv_option.rs:78
+gds_options(box = CONVERT_TO_RECT, duplicate_cell = DROP, force_cell_name_case = MIXED)
+
+layout_drawn_options() at /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_icv_option.rs:85
+layout_drawn_options(self_intersect = true, self_intersect_action = FILL, path_check = BOUNDARY)
+
+layout_grid_options() at /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_icv_option.rs:91
+layout_grid_options(check_45 = { POLYGON, PATH }, check_90 = {  }, resolution = 0.005)
+
+resolution_options() at /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_icv_option.rs:98
+resolution_options(internal_resolution = 0.001, working_resolution_factor = AUTO)
+
+text_options() at /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_icv_option.rs:105
+text_options(colon_text = REGULAR_TEXT, promote_text = "*", semicolon_text = REGULAR_TEXT, net_prefix = "N_", layout_power = { "VDD*", "DVDD", "VCC", "VDDA", "VDDB", "ADVDD", "VDDM" }, layout_ground = { "GND*", "GND?", "DVSS", "VSS", "GROUND", "AGND", "GND", "VSSM" })
+
+run_options() at /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_icv_option.rs:114
+run_options(uppercase = false, print_precision = 6, instance_prefix = "X")
+
+hierarchy_options() at /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_icv_option.rs:120
+hierarchy_options(explode = { "NONE" }, delete = {  })
+
+openaccess_options() at /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_icv_option.rs:126
+openaccess_options(view = "layout", layer_mapping_file = "<strmInOut.layertable>")
+
+   Prescan Library Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Initialized OpenAccess libraries successfully
+
+ OpenAccess memory usage: 26.625M
+   Scan Hierarchy Time=0:00:01  User=0.84 Sys=0.14 Mem=0.032 GB
+
+Sun Nov 17 19:21:16 2024
+
+                                  ICV_Engine 
+
+          Version U-2022.12-SP4 for linux64 - Aug 28, 2023 cl#9133772
+
+                    Copyright (c) 1996 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+ML for preprocessing is disabled for small designs.
+Initialized OpenAccess libraries successfully
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+Warning #124: Expecting to EXPLODE cell "NONE", not found in Input Library.
+[HA] Hierarchy : Cell Area =        0.000 M : Cell Flat Area =        0.000 M : Child Area Factor =  0.50 x
+    Create Hierarchy Tree Phase: 0 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+0 Total errors found.
+Prototype Placement Pass 1
+verbose_is_necessary = VERBOSE_TEXT_FULL_FLOW
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Perform VIA ARRAY explodes Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Find duplicate placements in cells
+Total Explode Mega Cells found = 0
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+new number of regions. 
+     Determine Layer Counts Max Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+new number of regions. 
+      Determine Region Height Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Determine Big-Cells Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Prototype Big-Cells Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Determine shadow Big-Cells Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Fracture A-Refs for Regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Determine Region Rows Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Shared recipe is disabled for create_layer commands, too few polygons in assign layers.
+      Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      write_verbose_text Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.01 Sys=0.02 Mem=0.007 GB
+
+   Create Hierarchy Tree Time=0:00:00  User=0.26 Sys=0.04 Mem=0.011 GB
+
+assign() at xt018_layer_assign.rs:5
+nwell = assign({ { 2, 0 } })
+  Function: assign
+  Outputs: empty_layer.associated.0001
+No output written.
+Layer "empty_layer.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Read error hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+      Pairing Iteration 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Pairing Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Write binned hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+    Combined VCELL Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+    Read error hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Preprocess Step 11 : Post-VCell Explodes
+    Post VCell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+[HA] Hierarchy : Cell Area =        0.000 M : Cell Flat Area =        0.000 M : Child Area Factor =  0.00 x
+     Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Update inums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+write_inst_name_data(): verbose_is_necessary
+     Write Instance Name Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     End uniquify verbose names Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     write_verbose_text Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+    Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Write recipe & record mem in hdb Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+    Hierarchy Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+   Optimize Hierarchy Tree Time=0:00:00  User=0.00 Sys=0.02 Mem=0.007 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Hierarchy Cleanup
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Sun Nov 17 19:21:23 2024
+
+                                  ICV_Engine 
+
+          Version U-2022.12-SP4 for linux64 - Aug 28, 2023 cl#9133772
+
+                    Copyright (c) 1996 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+or() at xt018.rs:32607
+ml_vl = viatpl or emptlay
+  Function: or
+  Outputs: ml_vl.polygonlayer.0001
+No output written.
+Layer "ml_vl.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+copy() at xt018.rs:32606
+ml_mt = copy(mt_mt)
+  Function: copy
+  Outputs: ml_mt.polygonlayer.0001
+No output written.
+Layer "ml_mt.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+copy() at xt018.rs:32605
+ml_vt = copy(mt_vt)
+  Function: copy
+  Outputs: ml_vt.polygonlayer.0001
+No output written.
+Layer "ml_vt.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+copy() at xt018.rs:32604
+ml_m4 = copy(mt_m4)
+  Function: copy
+  Outputs: ml_m4.polygonlayer.0001
+No output written.
+Layer "ml_m4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+copy() at xt018.rs:32603
+ml_v3 = copy(mt_v3)
+  Function: copy
+  Outputs: ml_v3.polygonlayer.0001
+No output written.
+Layer "ml_v3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+copy() at xt018.rs:32602
+ml_m3 = copy(mt_m3)
+  Function: copy
+  Outputs: ml_m3.polygonlayer.0001
+No output written.
+Layer "ml_m3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+copy() at xt018.rs:32601
+ml_v2 = copy(mt_v2)
+  Function: copy
+  Outputs: ml_v2.polygonlayer.0001
+No output written.
+Layer "ml_v2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+copy() at xt018.rs:32600
+ml_m2 = copy(mt_m2)
+  Function: copy
+  Outputs: ml_m2.polygonlayer.0001
+No output written.
+Layer "ml_m2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+copy() at xt018.rs:32599
+ml_v1 = copy(mt_v1)
+  Function: copy
+  Outputs: ml_v1.polygonlayer.0001
+No output written.
+Layer "ml_v1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+net_area_ratio() at xt018.rs:32555
+ant_vial = net_area_ratio(connect_db, == 0, { a_vial }, { mt_df }, "( ns_net_area('layer1') ) / ( ns_net_area('layer2') )", true)
+  Function: net_area_ratio
+  Outputs: ant_vial.polygonlayer.0001
+No output written.
+Layer "ant_vial.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+copy() at xt018.rs:32544
+a_vial = copy(viatpl)
+  Function: copy
+  Outputs: a_vial.polygonlayer.0001
+No output written.
+Layer "a_vial.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+outside() at xt018.rs:3759:command replaced with an internal copy command.
+hwafer_t = bkgnd outside hwc_bs
+  Function: outside
+  Inputs: bkgnd.polygonlayer.0001
+  Outputs: hwafer_t.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+not() at xt018.rs:3736:command replaced with an internal copy command.
+bulk0 = bkgnd not (dti_all1 or hvnwell or sjpn_hvnw or nbuf or dfn or dfptrm or pdftub or pdfmvtub or dzc_tub or ds5b_tub or dhw_a2_tub)
+  Function: not
+  Inputs: bkgnd.polygonlayer.0001
+  Outputs: bulk0.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+not() at xt018.rs:3738:command replaced with an internal copy command.
+bulk21 = bulk0 not bulk1
+  Function: not
+  Inputs: bulk0.polygonlayer.0001
+  Outputs: bulk21.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+net_area_ratio() at xt018.rs:32056
+ant_mett = net_area_ratio(connect_db, == 0, { mt_mt }, { mt_df }, "( ns_net_area('layer1') ) / ( ns_net_area('layer2') )", true)
+  Function: net_area_ratio
+  Outputs: ant_mett.polygonlayer.0001
+No output written.
+Layer "ant_mett.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+or() at xt018.rs:32041
+mt_mt = mettsl or emptlay
+  Function: or
+  Outputs: mt_mt.polygonlayer.0001
+No output written.
+Layer "mt_mt.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+or() at xt018.rs:32040
+mt_vt = viatp_ac or emptlay
+  Function: or
+  Outputs: mt_vt.polygonlayer.0001
+No output written.
+Layer "mt_vt.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Initialized OpenAccess libraries successfully
+external1() at xt018.rs:7931
+external1(sub, < 2, extension = RADIAL, look_thru = NOT_ADJACENT, relational = { POINT_TOUCH }, intersecting = { ACUTE })
+  Comment: "S1BS : Minimum SUB spacing/notch ... 2.0"
+  Function: external1
+  Inputs: sub.polygonlayer.0002, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+Reading error hierarchy hrchy1-shared.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+assign() at xt018_layer_assign.rs:23:Layer creation
+cont = assign({ { 15, 0 } })
+  Function: assign
+  Inputs: cont.polygonlayer.0001, cont.polygonlayer.0001
+  Outputs: cont.polygonlayer.0002, 
+0 grid violations found.
+0 non-45 violations found.
+26 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.013 GB
+
+assign() at xt018_layer_assign.rs:12:Layer creation
+poly1_dg = assign({ { 13, 0 } })
+  Function: assign
+  Inputs: poly1_dg.polygonlayer.0001, poly1_dg.polygonlayer.0001
+  Outputs: poly1_dg.polygonlayer.0002, 
+0 grid violations found.
+0 non-45 violations found.
+4 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+assign() at xt018_layer_assign.rs:5:Layer creation
+nwell = assign({ { 2, 0 } })
+  Function: assign
+  Inputs: nwell.polygonlayer.0001, nwell.polygonlayer.0001
+  Outputs: nwell.polygonlayer.0002, 
+0 grid violations found.
+0 non-45 violations found.
+1 unique polygon written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+assign() at xt018_layer_assign.rs:5:Layer creation
+nwell = assign({ { 2, 0 } })
+  Function: assign
+  Inputs: nwell.polygonlayer.0002, nwell.polygonlayer.0002
+  Outputs: nwell.polygonlayer.0003, 
+0 grid violations found.
+0 non-45 violations found.
+1 unique polygon written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at xt018_layer_assign.rs:5
+nwell = assign({ { 2, 0 } })
+  Function: assign
+  Inputs: nwell.polygonlayer.0003
+  Outputs: nwell.polygonlayer.0004
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+size() at xt018.rs:7288
+nwell43o = size(nwell, distance = 0.43, clip_acute = NONE)
+  Function: size
+  Inputs: nwell.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: nwell43o.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at xt018.rs:7344
+s3indp_1 = pdif and (nwell43o not nwell)
+  Function: not
+  Inputs: nwell43o.polygonlayer.0001, empty_layer.associated.0001, nwell.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: s3indp_1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at xt018.rs:6957:command replaced with an internal copy command.
+external2(ndif, (nwell not nw_nmvc), < 0.43, width = 0.002, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH }, line_touch_shape = BOTH, extension_look_past = POINT_TO_POINT)
+  Function: not
+  Inputs: nwell.polygonlayer.0004
+  Outputs: temp.polygonlayer.0002
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+not() at xt018.rs:6631:command replaced with an internal copy command.
+nwell13 = nwell not mv
+  Function: not
+  Inputs: nwell.polygonlayer.0004
+  Outputs: nwell13.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+not() at xt018.rs:6633:command replaced with an internal copy command.
+nwell1 = (((nwell13 not lvt) not svt) or dnc) not dti_all
+  Function: not
+  Inputs: nwell13.polygonlayer.0001
+  Outputs: nwell1.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+not() at xt018.rs:6633:command replaced with an internal copy command.
+nwell1 = (((nwell13 not lvt) not svt) or dnc) not dti_all
+  Function: not
+  Inputs: nwell1.polygonlayer.0001
+  Outputs: nwell1.polygonlayer.0002
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at xt018.rs:6633:command replaced with an internal copy command.
+nwell1 = (((nwell13 not lvt) not svt) or dnc) not dti_all
+  Function: or
+  Inputs: nwell1.polygonlayer.0002
+  Outputs: nwell1.polygonlayer.0003
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at xt018.rs:6633:Duplicate command replaced at runtime with an internal copy command.
+nwell1 = (((nwell13 not lvt) not svt) or dnc) not dti_all
+  Function: or
+  Inputs: nwell.polygonlayer.0004
+  Outputs: nwell1.polygonlayer.0004
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at xt018.rs:6645:Duplicate command replaced with an internal copy command.
+nwell1m = ((nwell13 not lvt) not svt) or dnc
+  Function: or
+  Inputs: nwell1.polygonlayer.0004
+  Outputs: nwell1m.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+internal1() at xt018.rs:6730
+internal1(nwell1m, < 0.56, extension = RADIAL, extension_look_past = POINT_TO_POINT, intersecting = {  }, intersection_angle = < 90)
+  Comment: "W1W1 : Minimum NWELL1 width ... 0.86"
+  Function: internal1
+  Inputs: nwell1m.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+internal1() at xt018.rs:6728
+internal1(nwell1m, < 0.86, corner_configuration = CORNER_TO_CORNER, extension = RADIAL, extension_look_past = POINT_TO_POINT, intersecting = {  }, intersection_angle = < 90)
+  Comment: "W1W1 : Minimum NWELL1 width ... 0.86"
+  Function: internal1
+  Inputs: nwell1m.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+area() at xt018.rs:6659
+area(nwell1m, < 2.25)
+  Comment: "A1W1 = Minimum NWELL1 area ... 2.25"
+  Function: area
+  Inputs: nwell1m.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+
+area() at xt018.rs:6617
+area(nwell, < 1.0)
+  Comment: "A1NW : Minimum NWELL area ... 1.0"
+  Function: area
+  Inputs: nwell.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+external1() at xt018.rs:6580
+external1(nwell, < 0.6, extension = RADIAL, look_thru = NOT_ADJACENT, relational = { POINT_TOUCH }, intersecting = { ACUTE })
+  Comment: "S1NW : Minimum NWELL spacing/notch ... 0.6"
+  Function: external1
+  Inputs: nwell.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+angle_edge() at xt018.rs:5995
+angle_edge(nwell, (0,45))
+  Function: angle_edge
+  Inputs: nwell.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: temp.edgelayer.0003, temp.edgelayer.0004
+No output written.
+Layer "temp.edgelayer.0003" is empty.
+No output written.
+Layer "temp.edgelayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+angle_edge() at xt018.rs:5996:Merged command, replaced with an internal copy command.
+angle_edge(nwell, (45,90))
+  Comment: "skewEdge_NW : skewEdge_NWELL"
+  Function: angle_edge
+  Inputs: temp.edgelayer.0004
+Input layer "temp.edgelayer.0004" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+off_grid_xy() at xt018.rs:5992
+off_grid_xy(nwell, x_resolution = 5 / 1000, y_resolution = 5 / 1000)
+  Comment: "offgrid_NW : offgrid_NWELL"
+  Function: off_grid_xy
+  Inputs: nwell.polygonlayer.0004, empty_layer.associated.0001
+    Hierarchy Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+0 grid violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+or() at xt018.rs:122:command replaced with an internal copy command.
+anwell1 = anwell0 or ndf or ndfmv or dfn
+  Function: or
+  Inputs: nwell.polygonlayer.0004
+  Outputs: anwell1.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at xt018.rs:6991:command replaced with an internal copy command.
+tub_npwell1 = tubs and (mv or (pwblk or (anwell1 or (svt or lvt))))
+  Function: or
+  Inputs: anwell1.polygonlayer.0001
+  Outputs: tub_npwell1.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+and() at xt018.rs:6991
+tub_npwell1 = tubs and (mv or (pwblk or (anwell1 or (svt or lvt))))
+  Function: and
+  Inputs: tubs.polygonlayer.0001, empty_layer.associated.0001, tub_npwell1.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: tub_npwell1.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+outside() at xt018.rs:6992
+pwell1_ex1 = tubs outside tub_npwell1
+  Function: outside
+  Inputs: tubs.polygonlayer.0001, empty_layer.associated.0001, tub_npwell1.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: pwell1_ex1.polygonlayer.0001, pwell1_ex1.associated.0001
+No output written.
+Layer "pwell1_ex1.associated.0001" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+No output written.
+Layer "pwell1_ex1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+outside() at xt018.rs:6992
+pwell1_ex1 = tubs outside tub_npwell1
+  Function: outside
+  Inputs: pwell1_ex1.polygonlayer.0001
+  Outputs: pwell1_ex1.polygonlayer.0002
+Input layer "pwell1_ex1.polygonlayer.0001" is empty.
+No output written.
+Layer "pwell1_ex1.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+area() at xt018.rs:6993
+pwell1_ex2 = area(pwell1_ex1, > 30000)
+  Function: area
+  Inputs: pwell1_ex1.polygonlayer.0002, pwell1_ex1.associated.0001
+  Outputs: pwell1_ex2.polygonlayer.0001
+Input layer "pwell1_ex1.polygonlayer.0002" is empty.
+No output written.
+Layer "pwell1_ex2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at xt018.rs:1247:command replaced with an internal copy command.
+psub = bkgnd not (n_psub or dti)
+  Function: or
+  Inputs: n_psub.polygonlayer.0001
+  Outputs: psub.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at xt018.rs:7166:command replaced with an internal copy command.
+enclose((diff not gate_ch3), poly1, < 0.22, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, line_touch_shape = INSIDE, look_thru = NOT_ADJACENT, relational = { POINT_TOUCH }, width = 0.004)
+  Function: not
+  Inputs: diff.polygonlayer.0001
+  Outputs: temp.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+external1() at xt018.rs:6944
+external1(diff, < 0.28, extension = RADIAL, look_thru = NOT_ADJACENT, relational = { POINT_TOUCH }, intersecting = { ACUTE })
+  Comment: "S1DF : Minimum DIFF spacing/notch ... 0.28"
+  Function: external1
+  Inputs: diff.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at xt018.rs:1247:Duplicate command replaced at runtime with an internal copy command.
+psub = bkgnd not (n_psub or dti)
+  Function: not
+  Inputs: psub_m.polygonlayer.0001
+  Outputs: psub.polygonlayer.0002
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at xt018.rs:6638:command replaced with an internal copy command.
+psub1 = psub not pws
+  Function: not
+  Inputs: psub.polygonlayer.0002
+  Outputs: psub1.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+not() at xt018.rs:6639:command replaced with an internal copy command.
+pwell13 = psub1 not mv
+  Function: not
+  Inputs: psub1.polygonlayer.0001
+  Outputs: pwell13.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at xt018.rs:6640:command replaced with an internal copy command.
+pwell1 = (((pwell13 not lvt) not svt) or dpc) not dti_all
+  Function: not
+  Inputs: pwell13.polygonlayer.0001
+  Outputs: pwell1.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at xt018.rs:6640:command replaced with an internal copy command.
+pwell1 = (((pwell13 not lvt) not svt) or dpc) not dti_all
+  Function: not
+  Inputs: pwell1.polygonlayer.0001
+  Outputs: pwell1.polygonlayer.0002
+1 unique polygon written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.008 GB
+
+or() at xt018.rs:6640:command replaced with an internal copy command.
+pwell1 = (((pwell13 not lvt) not svt) or dpc) not dti_all
+  Function: or
+  Inputs: pwell1.polygonlayer.0002
+  Outputs: pwell1.polygonlayer.0003
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at xt018.rs:6640:command replaced with an internal copy command.
+pwell1 = (((pwell13 not lvt) not svt) or dpc) not dti_all
+  Function: not
+  Inputs: pwell1.polygonlayer.0003
+  Outputs: pwell1.polygonlayer.0004
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at xt018.rs:6640:Duplicate command replaced at runtime with an internal copy command.
+pwell1 = (((pwell13 not lvt) not svt) or dpc) not dti_all
+  Function: not
+  Inputs: pwell1m.polygonlayer.0004
+  Outputs: pwell1.polygonlayer.0005
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+internal1() at xt018.rs:6699
+internal1(pwell1, < 0.5, extension = RADIAL, extension_look_past = POINT_TO_POINT, intersecting = {  }, intersection_angle = < 90)
+  Comment: "W1W8 : Minimum PWELL1_E width ... 0.5"
+  Function: internal1
+  Inputs: pwell1.polygonlayer.0005, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+internal1() at xt018.rs:6734
+internal1(pwell1m, < 0.60, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, intersection_angle = < 90, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC)
+  Comment: "W1W2 : Minimum PWELL1 width ... 0.60"
+  Function: internal1
+  Inputs: pwell1m.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+area() at xt018.rs:6663
+area(pwell1m, < 0.8)
+  Comment: "A1W2 = Minimum PWELL1 area ... 0.8"
+  Function: area
+  Inputs: pwell1m.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+internal1() at xt018.rs:6935
+internal1(diff, < 0.22, extension = RADIAL, relational = { POINT_TOUCH }, intersecting = { ACUTE })
+  Comment: "W1DF : Minimum DIFF width ... 0.22"
+  Function: internal1
+  Inputs: diff.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+angle_edge() at xt018.rs:6009:Merged command, replaced with an internal copy command.
+angle_edge(diff, (0,45))
+  Comment: "skewEdge_DF : skewEdge_DIFF"
+  Function: angle_edge
+  Inputs: temp.edgelayer.0001
+Input layer "temp.edgelayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at xt018.rs:1264:command replaced with an internal copy command.
+act = diff not dti_all1
+  Function: not
+  Inputs: diff.polygonlayer.0001
+  Outputs: act.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+and() at xt018.rs:6994
+pwell1_act = pwell1_ex2 and act
+  Function: and
+  Inputs: pwell1_ex2.polygonlayer.0001, empty_layer.associated.0001, act.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: pwell1_act.polygonlayer.0001
+Input layer "pwell1_ex2.polygonlayer.0001" is empty.
+No output written.
+Layer "pwell1_act.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+area() at xt018.rs:6986
+area(act, < 0.202)
+  Comment: "A1DF : Minimum ACTIVE area ... 0.202"
+  Function: area
+  Inputs: act.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at xt018.rs:6924:command replaced with an internal copy command.
+act_nscr = act not act_nscr_1
+  Function: not
+  Inputs: act.polygonlayer.0001
+  Outputs: act_nscr.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at xt018.rs:6931:command replaced with an internal copy command.
+cutting((act_nscr not (((((((sj_ex or mva_gate) or phvtu_all) or pxta_tied) or rxw2ti_1) or pmv_all) or phvr_all) or phvr_tied)), nwell)
+  Function: not
+  Inputs: act_nscr.polygonlayer.0001
+  Outputs: temp.polygonlayer.0003
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+cutting() at xt018.rs:6931
+cutting((act_nscr not (((((((sj_ex or mva_gate) or phvtu_all) or pxta_tied) or rxw2ti_1) or pmv_all) or phvr_all) or phvr_tied)), nwell)
+  Comment: "B3DF : ACTIVE crossing NWELL edge is not allowed (except nmva, pmva, phv#, pmv#, phvr#)"
+  Function: cutting
+  Inputs: temp.polygonlayer.0003, empty_layer.associated.0001, nwell.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at xt018.rs:3621:command replaced with an internal copy command.
+actx = act not tiedtub
+  Function: not
+  Inputs: act.polygonlayer.0001
+  Outputs: actx.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+and_edge() at xt018.rs:7376
+pdif_ex1_1 = and_edge(actx, nwell43o, false)
+  Function: and_edge
+  Inputs: actx.polygonlayer.0001, empty_layer.associated.0001, nwell43o.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: pdif_ex1_1.edgelayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+2 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+not_edge() at xt018.rs:7378
+pdif_ex1 = not_edge(pdif_ex1_1, pdif_ex1_2, coincident = false)
+  Function: not_edge
+  Inputs: pdif_ex1_1.edgelayer.0001, empty_layer.associated.0001, pdif_ex1_2.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: pdif_ex1.edgelayer.0001
+Input layer "pdif_ex1_2.polygonlayer.0001" is empty.
+2 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+area() at xt018.rs:7181
+area(poly1, > 10000)
+  Comment: "A2P1 : Maximum POLY1 area ... 10000"
+  Function: area
+  Inputs: poly1.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+area() at xt018.rs:7177
+area(poly1, < 0.118)
+  Comment: "A1P1 : Minimum POLY1 area ... 0.118"
+  Function: area
+  Inputs: poly1.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+enclose() at xt018.rs:7173
+enclose(poly1, e1dfga_1, < 0.32, width = 0.004, extension = RADIAL, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH }, line_touch_shape = INSIDE, extension_look_past = POINT_TO_POINT)
+  Comment: "E1DFGA : Minimum DIFF extension beyond GATE ... 0.32"
+  Function: enclose
+  Inputs: e1dfga_1.polygonlayer.0001, poly1.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+external2() at xt018.rs:7149
+external2(poly1, act, < 0.1, width = 0.002, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH }, line_touch_shape = BOTH, extension_look_past = POINT_TO_POINT)
+  Comment: "S1P1DF : Minimum POLY1 spacing to DIFF ... 0.1"
+  Function: external2
+  Inputs: poly1.polygonlayer.0001, empty_layer.associated.0001, act.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+external1() at xt018.rs:7125
+external1(poly1, < 0.25, extension = RADIAL, look_thru = NOT_ADJACENT, relational = { POINT_TOUCH }, intersecting = { ACUTE })
+  Comment: "S1P1 : Minimum POLY1 spacing/notch ... 0.25"
+  Function: external1
+  Inputs: poly1.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+internal1() at xt018.rs:7106
+internal1(poly1, < 0.18, extension = RADIAL, relational = { POINT_TOUCH }, intersecting = { ACUTE })
+  Comment: "W1P1 : Minimum POLY1 width ... 0.18"
+  Function: internal1
+  Inputs: poly1.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+angle_edge() at xt018.rs:6023
+angle_edge(poly1, (0,45))
+  Function: angle_edge
+  Inputs: poly1.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: temp.edgelayer.0005, temp.edgelayer.0006
+No output written.
+Layer "temp.edgelayer.0005" is empty.
+No output written.
+Layer "temp.edgelayer.0006" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+angle_edge() at xt018.rs:6024:Merged command, replaced with an internal copy command.
+angle_edge(poly1, (45,90))
+  Comment: "skewEdge_P1 : skewEdge_POLY1"
+  Function: angle_edge
+  Inputs: temp.edgelayer.0006
+Input layer "temp.edgelayer.0006" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+angle_edge() at xt018.rs:6023:Merged command, replaced with an internal copy command.
+angle_edge(poly1, (0,45))
+  Comment: "skewEdge_P1 : skewEdge_POLY1"
+  Function: angle_edge
+  Inputs: temp.edgelayer.0005
+Input layer "temp.edgelayer.0005" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+off_grid_xy() at xt018.rs:6020
+off_grid_xy(poly1, x_resolution = 5 / 1000, y_resolution = 5 / 1000)
+  Comment: "offgrid_P1 : offgrid_POLY1"
+  Function: off_grid_xy
+  Inputs: poly1.polygonlayer.0001, empty_layer.associated.0001
+    Hierarchy Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+0 grid violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+not() at xt018.rs:2475:command replaced with an internal copy command.
+p1trm0 = poly1 not polyres
+  Function: not
+  Inputs: poly1.polygonlayer.0001
+  Outputs: p1trm0.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at xt018.rs:3769:command replaced with an internal copy command.
+p1trm5 = p1trm0 not csf_poly
+  Function: not
+  Inputs: p1trm0.polygonlayer.0001
+  Outputs: p1trm5.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+or() at xt018.rs:3771:command replaced with an internal copy command.
+p1trm = p1trm5 or (poly1_port_marker and p1trm5) or (poly1_port_marker and csf_p1)
+  Function: or
+  Inputs: p1trm5.polygonlayer.0001
+  Outputs: p1trm.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+and() at xt018.rs:1409
+gate1 = diff and poly1
+  Function: and
+  Inputs: diff.polygonlayer.0001, empty_layer.associated.0001, poly1.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: gate1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+8 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+not() at xt018.rs:1410:command replaced with an internal copy command.
+gate = gate1 not dti_all
+  Function: not
+  Inputs: gate1.polygonlayer.0001
+  Outputs: gate.polygonlayer.0001
+8 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at xt018.rs:1410
+gate = gate1 not dti_all
+  Function: not
+  Inputs: gate.polygonlayer.0001
+  Outputs: gate.polygonlayer.0002
+8 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+incremental_connect() at xt018.rs:31088
+connect_db = incremental_connect(connect_db, { { { poly1 }, gate } })
+  Function: incremental_connect
+  Outputs: connect_db.connect_database.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+   Check Time=0:00:00  User=0.01 Sys=0.03 Mem=0.024 GB
+
+net_area_ratio_with_accumulate_cond() at xt018.rs:31097
+net_area_ratio_with_accumulate_cond(connect_db, > 200, vT_POLY1, sLAYER_R2P1_prop_layer, sLAYER_R2P1_prop_layer_unused, { poly1 }, { gate }, "nps_net_perimeter('layer1') * thickness_value / nps_net_area('layer2')")
+  Function: net_area_ratio_with_accumulate_cond
+  Inputs: gate.polygonlayer.0002, gate.polygonlayer.0002, gate.polygonlayer.0002
+  Outputs: temp.polygonlayer.0009, temp.polygonlayer.0010
+  Connect DB: Shared
+8 unique polygons written.
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.021 GB
+
+net_area_ratio_with_accumulate_cond() at xt018.rs:31097
+net_area_ratio_with_accumulate_cond(connect_db, > 200, vT_POLY1, sLAYER_R2P1_prop_layer, sLAYER_R2P1_prop_layer_unused, { poly1 }, { gate }, "nps_net_perimeter('layer1') * thickness_value / nps_net_area('layer2')")
+  Comment: "R2P1 : Maximum ratio of POLY1 area to connected GATE area ... 200"
+  Function: net_area_ratio_with_accumulate_cond
+  Inputs: gate.polygonlayer.0002, temp.polygonlayer.0009, temp.polygonlayer.0010, poly1.polygonlayer.0001, gate.polygonlayer.0002, empty_layer.associated.0001, empty_layer.associated.0001, gate.polygonlayer.0002, gate.polygonlayer.0002
+  Outputs: temp.polygonlayer.0016, temp.polygonlayer.0017, temp.polygonlayer.0018
+No output written.
+Layer "temp.polygonlayer.0017" is empty.
+Limiting output_from_layers debug output to 2500000 polygons per net
+  Connect DB: Shared|Cached
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+4 unique polygons written.
+0 net found.
+0 polygon error found.
+4 polygon properties written.
+0 violation written.
+   Check Time=0:00:00  User=0.02 Sys=0.01 Mem=0.022 GB
+
+not() at xt018.rs:4483:command replaced with an internal copy command.
+gate_edge1 = (gate not (((nhvta_al or ndhvta_al) or nisj1_16) or nmv_all1_g)) coincident_edge poly1
+  Function: not
+  Inputs: gate.polygonlayer.0002
+  Outputs: gate_edge1.polygonlayer.0001
+8 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+coincident_edge() at xt018.rs:4483:Duplicate command replaced at runtime with an internal copy command.
+gate_edge1 = (gate not (((nhvta_al or ndhvta_al) or nisj1_16) or nmv_all1_g)) coincident_edge poly1
+  Function: coincident_edge
+  Inputs: w3df_1.edgelayer.0001
+  Outputs: gate_edge1.edgelayer.0001
+8 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at xt018.rs:1503:command replaced with an internal copy command.
+gate0 = gate not ds5_g
+  Function: not
+  Inputs: gate.polygonlayer.0002
+  Outputs: gate0.polygonlayer.0001
+8 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+coincident_edge() at xt018.rs:7408:Duplicate command replaced at runtime with an internal copy command.
+e1dpp1_1 = gate0 coincident_edge poly1
+  Function: coincident_edge
+  Inputs: w3df_1.edgelayer.0001
+  Outputs: e1dpp1_1.edgelayer.0001
+8 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at xt018.rs:7084:command replaced with an internal copy command.
+gate_B1GA = gate0 not hvgate2
+  Function: not
+  Inputs: gate0.polygonlayer.0001
+  Outputs: gate_B1GA.polygonlayer.0001
+8 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+vertices() at xt018.rs:7083
+gate_edge_p = coincident_inside_edge((vertices(gate0, > 4)), poly1)
+  Function: vertices
+  Inputs: gate0.polygonlayer.0001
+  Outputs: gate_edge_p.polygonlayer.0001
+No output written.
+Layer "gate_edge_p.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.010 GB
+
+coincident_inside_edge() at xt018.rs:7083
+gate_edge_p = coincident_inside_edge((vertices(gate0, > 4)), poly1)
+  Function: coincident_inside_edge
+  Inputs: gate_edge_p.polygonlayer.0001, empty_layer.associated.0001, poly1.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: gate_edge_p.edgelayer.0001
+Input layer "gate_edge_p.polygonlayer.0001" is empty.
+No output written.
+Layer "gate_edge_p.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+coincident_inside_edge() at xt018.rs:7083
+gate_edge_p = coincident_inside_edge((vertices(gate0, > 4)), poly1)
+  Function: coincident_inside_edge
+  Inputs: gate_edge_p.edgelayer.0001
+  Outputs: gate_edge_p.edgelayer.0002
+Input layer "gate_edge_p.edgelayer.0001" is empty.
+No output written.
+Layer "gate_edge_p.edgelayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+vertex() at xt018.rs:7086
+vertex(gate_edge_p, shape = TRIANGLE, angles = { 90, 270 }, shape_size = 0.04)
+  Comment: "B1GA : 90 degree bent GATE is not allowed Note: only valid for POLY1 over DIFF or for DIFF over POLY1 structures with > 4 vertices"
+  Function: vertex
+  Inputs: gate_edge_p.edgelayer.0002, empty_layer.associated.0001
+Input layer "gate_edge_p.edgelayer.0002" is empty.
+0 vertex_q violations found.
+    Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+vertices() at xt018.rs:7085:Duplicate command replaced at runtime with an internal copy command.
+gate_edge_d = coincident_inside_edge((vertices(gate_B1GA, > 4)), diff)
+  Function: vertices
+  Inputs: gate_edge_p.polygonlayer.0001
+  Outputs: gate_edge_d.polygonlayer.0001
+Input layer "gate_edge_p.polygonlayer.0001" is empty.
+No output written.
+Layer "gate_edge_d.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+coincident_inside_edge() at xt018.rs:7085
+gate_edge_d = coincident_inside_edge((vertices(gate_B1GA, > 4)), diff)
+  Function: coincident_inside_edge
+  Inputs: gate_edge_d.polygonlayer.0001, empty_layer.associated.0001, diff.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: gate_edge_d.edgelayer.0001
+Input layer "gate_edge_d.polygonlayer.0001" is empty.
+No output written.
+Layer "gate_edge_d.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+coincident_inside_edge() at xt018.rs:7085
+gate_edge_d = coincident_inside_edge((vertices(gate_B1GA, > 4)), diff)
+  Function: coincident_inside_edge
+  Inputs: gate_edge_d.edgelayer.0001
+  Outputs: gate_edge_d.edgelayer.0002
+Input layer "gate_edge_d.edgelayer.0001" is empty.
+No output written.
+Layer "gate_edge_d.edgelayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+vertex() at xt018.rs:7087
+vertex(gate_edge_d, shape = TRIANGLE, angles = { 90, 270 }, shape_size = 0.04)
+  Comment: "B1GA : 90 degree bent GATE is not allowed Note: only valid for POLY1 over DIFF or for DIFF over POLY1 structures with > 4 vertices"
+  Function: vertex
+  Inputs: gate_edge_d.edgelayer.0002, empty_layer.associated.0001
+Input layer "gate_edge_d.edgelayer.0002" is empty.
+0 vertex_q violations found.
+    Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at xt018.rs:1383
+diff1 = diff not poly1
+  Function: not
+  Inputs: diff.polygonlayer.0001, empty_layer.associated.0001, poly1.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: diff1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+copy() at xt018.rs:31283
+m2_df = copy(diff1)
+  Function: copy
+  Inputs: diff1.polygonlayer.0001
+  Outputs: m2_df.polygonlayer.0001
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+copy() at xt018.rs:31426
+m3_df = copy(m2_df)
+  Function: copy
+  Inputs: m2_df.polygonlayer.0001
+  Outputs: m3_df.polygonlayer.0001
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+copy() at xt018.rs:31573
+m4_df = copy(m3_df)
+  Function: copy
+  Inputs: m3_df.polygonlayer.0001
+  Outputs: m4_df.polygonlayer.0001
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+copy() at xt018.rs:32030
+mt_df = copy(m4_df)
+  Function: copy
+  Inputs: m4_df.polygonlayer.0001
+  Outputs: mt_df.polygonlayer.0001
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+copy() at xt018.rs:32595
+ml_df = copy(mt_df)
+  Function: copy
+  Inputs: mt_df.polygonlayer.0001
+  Outputs: ml_df.polygonlayer.0001
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at xt018_layer_assign.rs:23:Layer creation
+cont = assign({ { 15, 0 } })
+  Function: assign
+  Inputs: cont.polygonlayer.0002, cont.polygonlayer.0002
+  Outputs: cont.polygonlayer.0003, 
+0 grid violations found.
+0 non-45 violations found.
+26 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at xt018_layer_assign.rs:23
+cont = assign({ { 15, 0 } })
+  Function: assign
+  Inputs: cont.polygonlayer.0003
+  Outputs: cont.polygonlayer.0004
+    Hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+    Scan Time=0:00:00  User=0.00 Sys=0.01 Mem=0.012 GB
+
+1 unique polygon written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.012 GB
+
+copy() at xt018.rs:31154
+m1_ct = copy(cont)
+  Function: copy
+  Inputs: cont.polygonlayer.0004
+  Outputs: m1_ct.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+copy() at xt018.rs:31285
+m2_ct = copy(m1_ct)
+  Function: copy
+  Inputs: m1_ct.polygonlayer.0001
+  Outputs: m2_ct.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+copy() at xt018.rs:31428
+m3_ct = copy(m2_ct)
+  Function: copy
+  Inputs: m2_ct.polygonlayer.0001
+  Outputs: m3_ct.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+copy() at xt018.rs:31575
+m4_ct = copy(m3_ct)
+  Function: copy
+  Inputs: m3_ct.polygonlayer.0001
+  Outputs: m4_ct.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+copy() at xt018.rs:32032
+mt_ct = copy(m4_ct)
+  Function: copy
+  Inputs: m4_ct.polygonlayer.0001
+  Outputs: mt_ct.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+copy() at xt018.rs:32597
+ml_ct = copy(mt_ct)
+  Function: copy
+  Inputs: mt_ct.polygonlayer.0001
+  Outputs: ml_ct.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+size() at xt018.rs:7462
+s2ct_1 = size(cont, distance = 0.15, clip_acute = NONE)
+  Function: size
+  Inputs: cont.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: s2ct_1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+13 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+size() at xt018.rs:7462
+s2ct_1 = size(cont, distance = 0.15, clip_acute = NONE)
+  Function: size
+  Inputs: s2ct_1.polygonlayer.0001
+  Outputs: s2ct_1.polygonlayer.0002
+    Hierarchy Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+    Scan Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+3 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+wide() at xt018.rs:7463
+s2ct_2 = wide(s2ct_1, > 1.92)
+  Function: wide
+  Inputs: s2ct_1.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: s2ct_2.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Pattern Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+No output written.
+Layer "s2ct_2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+size() at xt018.rs:7464
+s2ct_3 = size(s2ct_2, distance = -0.15, clip_acute = NONE)
+  Function: size
+  Inputs: s2ct_2.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: s2ct_3.polygonlayer.0001
+Input layer "s2ct_2.polygonlayer.0001" is empty.
+No output written.
+Layer "s2ct_3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+area() at xt018.rs:7465
+s2ct_4 = area(s2ct_3, > 3.1684)
+  Function: area
+  Inputs: s2ct_3.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: s2ct_4.polygonlayer.0001
+Input layer "s2ct_3.polygonlayer.0001" is empty.
+No output written.
+Layer "s2ct_4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not_outside() at xt018.rs:7466
+s2ct_5 = not_outside(cont, s2ct_4)
+  Function: not_outside
+  Inputs: cont.polygonlayer.0004, empty_layer.associated.0001, s2ct_4.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: s2ct_5.polygonlayer.0001
+Input layer "s2ct_4.polygonlayer.0001" is empty.
+No output written.
+Layer "s2ct_5.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+external1() at xt018.rs:7467
+external1(s2ct_5, < 0.28, extension = RADIAL, look_thru = NOT_ADJACENT, relational = { POINT_TOUCH }, intersecting = { ACUTE })
+  Comment: "S2CT : Minimum CONT spacing ... 0.28 (for contact arrays containing more than 4x4 elements)"
+  Function: external1
+  Inputs: s2ct_5.polygonlayer.0001, empty_layer.associated.0001
+Input layer "s2ct_5.polygonlayer.0001" is empty.
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at xt018.rs:7440
+(cont not diff) not poly1
+  Function: not
+  Inputs: cont.polygonlayer.0004, empty_layer.associated.0001, diff.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0019
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+not() at xt018.rs:7440
+(cont not diff) not poly1
+  Comment: "B1CT : CONT without NDIFF or PDIFF or POLY1 is not allowed (except ds5a)"
+  Function: not
+  Inputs: temp.polygonlayer.0019, empty_layer.associated.0001, poly1.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+No output written.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+and() at xt018.rs:3858
+p1cnt = cont and poly1_dg
+  Function: and
+  Inputs: cont.polygonlayer.0004, empty_layer.associated.0001, poly1_dg.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: p1cnt.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+not() at xt018.rs:3859
+dfcnt = ((cont and diff_dg) not p1cnt) not d_dsc
+  Function: not
+  Inputs: dfcnt.polygonlayer.0001, empty_layer.associated.0001, p1cnt.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: dfcnt.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+No data removed.
+25 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+not() at xt018.rs:3859:command replaced with an internal copy command.
+dfcnt = ((cont and diff_dg) not p1cnt) not d_dsc
+  Function: not
+  Inputs: dfcnt.polygonlayer.0002
+  Outputs: dfcnt.polygonlayer.0003
+25 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+and() at xt018.rs:7498:Duplicate command replaced at runtime with an internal copy command.
+s1ctdf_1 = cont and poly1
+  Function: and
+  Inputs: p1cnt.polygonlayer.0001
+  Outputs: s1ctdf_1.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+and() at xt018.rs:31123:Duplicate command replaced with an internal copy command.
+p1ct = cont and poly1
+  Function: and
+  Inputs: s1ctdf_1.polygonlayer.0001
+  Outputs: p1ct.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+stamp() at xt018.rs:31124
+ant_cont = stamp(p1ct, poly1, connect_db, connect_db, include_touch = NONE)
+  Function: stamp
+  Inputs: p1ct.polygonlayer.0001
+  Outputs: ant_cont.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+stamp() at xt018.rs:31124
+ant_cont = stamp(p1ct, poly1, connect_db, connect_db, include_touch = NONE)
+  Function: stamp
+  Inputs: connect_db.connect_database.0001
+  Outputs: ant_cont.connect_database.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+  Connect DB: Loaded
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.019 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+   Check Time=0:00:00  User=0.00 Sys=0.03 Mem=0.028 GB
+
+net_area_ratio_with_accumulate_via() at xt018.rs:31129
+net_area_ratio_with_accumulate_via(connect_db, > 10, sLAYER_R1CT_prop_layer, sLAYER_R1CT_prop_layer_unused, { ant_cont }, { gate }, "nps_net_area('layer1') / nps_net_area('layer2')")
+  Function: net_area_ratio_with_accumulate_via
+  Inputs: gate.polygonlayer.0002, gate.polygonlayer.0002, gate.polygonlayer.0002
+  Outputs: temp.polygonlayer.0021, temp.polygonlayer.0022
+  Connect DB: Shared
+8 unique polygons written.
+4 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.024 GB
+
+net_area_ratio_with_accumulate_via() at xt018.rs:31129
+net_area_ratio_with_accumulate_via(connect_db, > 10, sLAYER_R1CT_prop_layer, sLAYER_R1CT_prop_layer_unused, { ant_cont }, { gate }, "nps_net_area('layer1') / nps_net_area('layer2')")
+  Comment: "R1CT : Maximum ratio of CONT area to connected GATE area ... 10"
+  Function: net_area_ratio_with_accumulate_via
+  Inputs: gate.polygonlayer.0002, temp.polygonlayer.0021, temp.polygonlayer.0022, ant_cont.polygonlayer.0001, gate.polygonlayer.0002, empty_layer.associated.0001, empty_layer.associated.0001, gate.polygonlayer.0002, gate.polygonlayer.0002
+  Outputs: temp.polygonlayer.0025, temp.polygonlayer.0026, temp.polygonlayer.0027
+No output written.
+Layer "temp.polygonlayer.0026" is empty.
+Limiting output_from_layers debug output to 2500000 polygons per net
+  Connect DB: Shared|Cached
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+4 unique polygons written.
+0 net found.
+0 polygon error found.
+4 polygon properties written.
+0 violation written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.025 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at xt018_layer_assign.rs:22:Layer creation
+pimp = assign({ { 7, 0 } })
+  Function: assign
+  Inputs: pimp.polygonlayer.0002, pimp.polygonlayer.0002
+  Outputs: pimp.polygonlayer.0003, 
+0 grid violations found.
+0 non-45 violations found.
+2 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at xt018_layer_assign.rs:22
+pimp = assign({ { 7, 0 } })
+  Function: assign
+  Inputs: pimp.polygonlayer.0003
+  Outputs: pimp.polygonlayer.0004
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+area() at xt018.rs:7433
+area(pimp, < 0.3844)
+  Comment: "A1IP : Minimum PIMP area ... 0.3844"
+  Function: area
+  Inputs: pimp.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+external2() at xt018.rs:7418
+external2(ndif, pimp, < 0.1, extension = RADIAL, look_thru = COINCIDENT, intersecting = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "S2IPDN : Minimum PIMP spacing to NDIFF (in NWELL) (if NWELL enclosure of NDIFF is >=0.43) ... 0.1"
+  Function: external2
+  Inputs: ndif.polygonlayer.0001, empty_layer.associated.0001, pimp.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+internal2() at xt018.rs:7404
+internal2(act, pimp, < 0.23, width = 0.002, extension = RADIAL, look_thru = RELATED_COINCIDENT, intersecting = { ACUTE, TOUCH }, line_touch_shape = BOTH, extension_look_past = POINT_TO_POINT)
+  Comment: "O1IPDF : Minimum ACTIVE overlap of PIMP ... 0.23"
+  Function: internal2
+  Inputs: act.polygonlayer.0001, pimp.polygonlayer.0004, empty_layer.associated.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+0 inside_edge violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+not_edge() at xt018.rs:7398
+err_E2IPDFb1 = not_edge(pimp, diffdti, coincident = false)
+  Function: not_edge
+  Inputs: pimp.polygonlayer.0004, empty_layer.associated.0001, diffdti.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: err_E2IPDFb1.edgelayer.0001
+Input layer "diffdti.polygonlayer.0001" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+2 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+coincident_edge() at xt018.rs:7399
+err_E2IPDFb2 = err_E2IPDFb1 coincident_edge act
+  Function: coincident_edge
+  Inputs: err_E2IPDFb1.edgelayer.0001, empty_layer.associated.0001, act.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: err_E2IPDFb2.edgelayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+No output written.
+Layer "err_E2IPDFb2.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+edge_size() at xt018.rs:7400
+edge_size(err_E2IPDFb2, outside = 0.001)
+  Comment: "E2IPDF : Minimum PIMP extension beyond ACTIVE (outside NWELL) (if NWELL spacing to PDIFF is >=0.43) ... 0.02"
+  Function: edge_size
+  Inputs: err_E2IPDFb2.edgelayer.0001, empty_layer.associated.0001
+Input layer "err_E2IPDFb2.edgelayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+enclose() at xt018.rs:7391
+err_E2IPDFaa = enclose(act, pimp, < 0.02, extension = RADIAL, extension_look_past = POINT_TO_POINT, intersecting = { ACUTE }, look_thru = NOT_CONTAINED, relational = { POINT_TOUCH })
+  Function: enclose
+  Inputs: pimp.polygonlayer.0004, act.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001
+  Outputs: err_E2IPDFaa.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+0 enclose violations found.
+Layer "err_E2IPDFaa.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+not() at xt018.rs:7397:command replaced with an internal copy command.
+err_E2IPDFaa not err_E2IPDFac
+  Comment: "E2IPDF : Minimum PIMP extension beyond ACTIVE (outside NWELL) (if NWELL spacing to PDIFF is >=0.43) ... 0.02"
+  Function: not
+  Inputs: err_E2IPDFaa.polygonlayer.0001
+Input layer "err_E2IPDFaa.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+not() at xt018.rs:7372:command replaced with an internal copy command.
+s1ip_1 = pimp not tub2_pxta1
+  Function: not
+  Inputs: pimp.polygonlayer.0004
+  Outputs: s1ip_1.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+external1() at xt018.rs:7373
+external1(s1ip_1, < 0.44, extension = RADIAL, look_thru = NOT_ADJACENT, relational = { POINT_TOUCH }, intersecting = { ACUTE })
+  Comment: "S1IP : Minimum PIMP spacing/notch ... 0.44"
+  Function: external1
+  Inputs: s1ip_1.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+internal1() at xt018.rs:7367
+w1ip_1 = internal1(pimp, < 0.44, extension = RADIAL, relational = { POINT_TOUCH }, intersecting = { ACUTE })
+  Function: internal1
+  Inputs: pimp.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: w1ip_1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+0 width violations found.
+Layer "w1ip_1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+
+not() at xt018.rs:7368:command replaced with an internal copy command.
+w1ip_1 not (tub2_nxta1 or tub2_nmv)
+  Comment: "W1IP : Minimum PIMP width ... 0.44"
+  Function: not
+  Inputs: w1ip_1.polygonlayer.0001
+Input layer "w1ip_1.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+and() at xt018.rs:7363
+nimp and pimp
+  Comment: "B1IPIN : PIMP overlap of NIMP is not allowed"
+  Function: and
+  Inputs: nimp.polygonlayer.0004, empty_layer.associated.0001, pimp.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+angle_edge() at xt018.rs:6051
+angle_edge(pimp, (0,45))
+  Function: angle_edge
+  Inputs: pimp.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: temp.edgelayer.0014, temp.edgelayer.0015
+No output written.
+Layer "temp.edgelayer.0014" is empty.
+No output written.
+Layer "temp.edgelayer.0015" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+angle_edge() at xt018.rs:6052:Merged command, replaced with an internal copy command.
+angle_edge(pimp, (45,90))
+  Comment: "skewEdge_IP : skewEdge_PIMP"
+  Function: angle_edge
+  Inputs: temp.edgelayer.0015
+Input layer "temp.edgelayer.0015" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+angle_edge() at xt018.rs:6051:Merged command, replaced with an internal copy command.
+angle_edge(pimp, (0,45))
+  Comment: "skewEdge_IP : skewEdge_PIMP"
+  Function: angle_edge
+  Inputs: temp.edgelayer.0014
+Input layer "temp.edgelayer.0014" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+off_grid_xy() at xt018.rs:6048
+off_grid_xy(pimp, x_resolution = 5 / 1000, y_resolution = 5 / 1000)
+  Comment: "offgrid_IP : offgrid_PIMP"
+  Function: off_grid_xy
+  Inputs: pimp.polygonlayer.0004, empty_layer.associated.0001
+    Hierarchy Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+0 grid violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+and() at xt018.rs:1386
+pdiff1 = diff2 and pimp
+  Function: and
+  Inputs: diff2.polygonlayer.0001, empty_layer.associated.0001, pimp.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: pdiff1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+external2_edge() at xt018.rs:2836
+npdiff3 = external2_edge(pdiff1, ndiff1, distance < 0.005, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH }, output_layer = LAYER1, extension_look_past = POINT_TO_POINT)
+  Function: external2_edge
+  Inputs: pdiff1.polygonlayer.0001, empty_layer.associated.0001, ndiff1.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: npdiff3.edgelayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+0 spacing violations found.
+Layer "npdiff3.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+edge_size() at xt018.rs:2837
+npdiff4 = edge_size(npdiff3, outside = 0.005)
+  Function: edge_size
+  Inputs: npdiff3.edgelayer.0001, empty_layer.associated.0001
+  Outputs: npdiff4.polygonlayer.0001
+Input layer "npdiff3.edgelayer.0001" is empty.
+No output written.
+Layer "npdiff4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+external2_edge() at xt018.rs:2834
+npdiff1 = external2_edge(ndiff1, pdiff1, distance < 0.005, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH }, output_layer = LAYER1, extension_look_past = POINT_TO_POINT)
+  Function: external2_edge
+  Inputs: ndiff1.polygonlayer.0001, empty_layer.associated.0001, pdiff1.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: npdiff1.edgelayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+0 spacing violations found.
+Layer "npdiff1.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+edge_size() at xt018.rs:2835
+npdiff2 = edge_size(npdiff1, outside = 0.005)
+  Function: edge_size
+  Inputs: npdiff1.edgelayer.0001, empty_layer.associated.0001
+  Outputs: npdiff2.polygonlayer.0001
+Input layer "npdiff1.edgelayer.0001" is empty.
+No output written.
+Layer "npdiff2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+or() at xt018.rs:2838
+npdiff5 = npdiff2 or npdiff4
+  Function: or
+  Inputs: npdiff2.polygonlayer.0001, npdiff4.polygonlayer.0001
+  Outputs: npdiff5.polygonlayer.0001
+Input layer "npdiff2.polygonlayer.0001" is empty.
+Input layer "npdiff4.polygonlayer.0001" is empty.
+No output written.
+Layer "npdiff5.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+not() at xt018.rs:2839:command replaced with an internal copy command.
+npdct = npdiff5 not sblk
+  Function: not
+  Inputs: npdiff5.polygonlayer.0001
+  Outputs: npdct.polygonlayer.0001
+Input layer "npdiff5.polygonlayer.0001" is empty.
+No output written.
+Layer "npdct.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+and() at xt018.rs:2841
+ndiffc = npdct and ndiff
+  Function: and
+  Inputs: npdct.polygonlayer.0001, empty_layer.associated.0001, ndiff.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: ndiffc.polygonlayer.0001
+Input layer "npdct.polygonlayer.0001" is empty.
+No output written.
+Layer "ndiffc.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+enclosing() at xt018.rs:2843
+npdtap = enclosing(enclosing(npdct, ndiffc), pdiffc)
+  Function: enclosing
+  Inputs: npdct.polygonlayer.0001, empty_layer.associated.0001, ndiffc.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: npdtap.polygonlayer.0001
+Input layer "npdct.polygonlayer.0001" is empty.
+Input layer "ndiffc.polygonlayer.0001" is empty.
+No output written.
+Layer "npdtap.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+not() at xt018.rs:2139:command replaced with an internal copy command.
+pe = pe10 not pe_5
+  Function: not
+  Inputs: pe10.polygonlayer.0001
+  Outputs: pe.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+not() at xt018.rs:2349:command replaced with an internal copy command.
+pdiff = pdiff1 not rdp_a
+  Function: not
+  Inputs: pdiff1.polygonlayer.0001
+  Outputs: pdiff.polygonlayer.0001
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+
+coincident_edge() at xt018.rs:6939
+w2df_1 = ndiff coincident_edge pdiff
+  Function: coincident_edge
+  Inputs: ndiff.polygonlayer.0001, empty_layer.associated.0001, pdiff.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: w2df_1.edgelayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+No output written.
+Layer "w2df_1.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+coincident_edge() at xt018.rs:6939
+w2df_1 = ndiff coincident_edge pdiff
+  Function: coincident_edge
+  Inputs: w2df_1.edgelayer.0001
+  Outputs: w2df_1.edgelayer.0002
+Input layer "w2df_1.edgelayer.0001" is empty.
+No output written.
+Layer "w2df_1.edgelayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+length_edge() at xt018.rs:6940
+length_edge(w2df_1, < 0.42, CONNECT)
+  Comment: "W2DF : Minimum length of coincident NDIFF/PDIFF path edge ... 0.42"
+  Function: length_edge
+  Inputs: w2df_1.edgelayer.0002, empty_layer.associated.0001
+Input layer "w2df_1.edgelayer.0002" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+and() at xt018.rs:2842
+pdiffc = npdct and pdiff
+  Function: and
+  Inputs: npdct.polygonlayer.0001, empty_layer.associated.0001, pdiff.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: pdiffc.polygonlayer.0001
+Input layer "npdct.polygonlayer.0001" is empty.
+No output written.
+Layer "pdiffc.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+enclosing() at xt018.rs:2843
+npdtap = enclosing(enclosing(npdct, ndiffc), pdiffc)
+  Function: enclosing
+  Inputs: npdtap.polygonlayer.0001, empty_layer.associated.0001, pdiffc.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: npdtap.polygonlayer.0002
+Input layer "npdtap.polygonlayer.0001" is empty.
+Input layer "pdiffc.polygonlayer.0001" is empty.
+No output written.
+Layer "npdtap.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+and() at xt018.rs:1380
+pdif = act and pimp
+  Function: and
+  Inputs: act.polygonlayer.0001, empty_layer.associated.0001, pimp.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: pdif.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+coincident_edge() at xt018.rs:7428
+e1ipdp_1 = gate coincident_edge pdif
+  Function: coincident_edge
+  Inputs: gate.polygonlayer.0002, empty_layer.associated.0001, pdif.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: e1ipdp_1.edgelayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+4 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+enclose() at xt018.rs:7429
+enclose(e1ipdp_1, pimp, < 0.35, width = 0.004, extension = RADIAL, intersecting = { ACUTE, TOUCH }, line_touch_shape = INSIDE, extension_look_past = POINT_TO_POINT)
+  Comment: "E1IPDP : Minimum PIMP extension beyond POLY1/PDIFF in direction of POLY1 ... 0.35"
+  Function: enclose
+  Inputs: pimp.polygonlayer.0004, e1ipdp_1.edgelayer.0001, empty_layer.associated.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+not() at xt018.rs:7339:command replaced with an internal copy command.
+s2indp_1 = (pdif not (pmhsj_s or dfwdp)) and nwell
+  Function: not
+  Inputs: pdif.polygonlayer.0001
+  Outputs: s2indp_1.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+and() at xt018.rs:7339
+s2indp_1 = (pdif not (pmhsj_s or dfwdp)) and nwell
+  Function: and
+  Inputs: s2indp_1.polygonlayer.0001, empty_layer.associated.0001, nwell.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: s2indp_1.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+external2() at xt018.rs:7340
+external2(s2indp_1, nimp, < 0.26, extension = RADIAL, look_thru = COINCIDENT, intersecting = { ACUTE }, extension_look_past = POINT_TO_POINT)
+  Comment: "S2INDP : Minimum NIMP spacing to PDIFF (in NWELL)(except pmva, phsj1_# and dfwdpa) ... 0.26"
+  Function: external2
+  Inputs: s2indp_1.polygonlayer.0002, empty_layer.associated.0001, nimp.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+external2() at xt018.rs:6965
+external2(pdif, nwell, < 0.12, width = 0.002, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH }, line_touch_shape = BOTH, extension_look_past = POINT_TO_POINT)
+  Comment: "S1DPNW : Minimum PDIFF spacing to NWELL  ... 0.12"
+  Function: external2
+  Inputs: pdif.polygonlayer.0001, empty_layer.associated.0001, nwell.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.013 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.013 GB
+
+or() at xt018.rs:128
+implant = nimp or pimp
+  Function: or
+  Inputs: nimp.polygonlayer.0004, pimp.polygonlayer.0004
+  Outputs: implant.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+enclose() at xt018.rs:7504
+enclose(diffcon, implant, < 0.12, width = 0.004, extension = RADIAL, look_thru = NOT_CONTAINED, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH }, line_touch_shape = INSIDE, extension_look_past = POINT_TO_POINT)
+  Comment: "E1IRCT : Minimum (NIMP or PIMP) enclosure of DIFFCON ... 0.12"
+  Function: enclose
+  Inputs: implant.polygonlayer.0001, diffcon.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+not() at xt018.rs:7441
+((diffcon not (salicide or (diffdti and poly1))) not implant) not d_dsc
+  Function: not
+  Inputs: temp.polygonlayer.0020, empty_layer.associated.0001, implant.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0032
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+No output written.
+Layer "temp.polygonlayer.0032" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+not() at xt018.rs:7441:command replaced with an internal copy command.
+((diffcon not (salicide or (diffdti and poly1))) not implant) not d_dsc
+  Comment: "B1CT : CONT without NDIFF or PDIFF or POLY1 is not allowed (except ds5a)"
+  Function: not
+  Inputs: temp.polygonlayer.0032
+Input layer "temp.polygonlayer.0032" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+not() at xt018.rs:1414
+diff_pur = diff_dg not implant
+  Function: not
+  Inputs: diff_dg.polygonlayer.0004, empty_layer.associated.0001, implant.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: diff_pur.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+No output written.
+Layer "diff_pur.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+not() at xt018.rs:1414
+diff_pur = diff_dg not implant
+  Function: not
+  Inputs: diff_pur.polygonlayer.0001
+  Outputs: diff_pur.polygonlayer.0002
+Input layer "diff_pur.polygonlayer.0001" is empty.
+No output written.
+Layer "diff_pur.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+rectangles() at xt018.rs:1456
+d_ds1a = rectangles(diff_pur, sides = { <= 2.4, == 0.94 })
+  Function: rectangles
+  Inputs: diff_pur.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_ds1a.polygonlayer.0001
+Input layer "diff_pur.polygonlayer.0002" is empty.
+No output written.
+Layer "d_ds1a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+size() at xt018.rs:1475
+d_dsc2a = size(d_ds1a, -0.39, clip_acute = NONE)
+  Function: size
+  Inputs: d_ds1a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_dsc2a.polygonlayer.0001
+Input layer "d_ds1a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_dsc2a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+size() at xt018.rs:1457
+d_ds21a = size(d_ds1a, 0.3, clip_acute = NONE)
+  Function: size
+  Inputs: d_ds1a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_ds21a.polygonlayer.0001
+Input layer "d_ds1a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds21a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+interacting() at xt018.rs:1458
+d_ds22a = (pdiff1 interacting d_ds21a) or d_ds1a
+  Function: interacting
+  Inputs: pdiff1.polygonlayer.0001, empty_layer.associated.0001, d_ds21a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_ds22a.polygonlayer.0001
+Input layer "d_ds21a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds22a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+or() at xt018.rs:1458
+d_ds22a = (pdiff1 interacting d_ds21a) or d_ds1a
+  Function: or
+  Inputs: d_ds22a.polygonlayer.0001, d_ds1a.polygonlayer.0001
+  Outputs: d_ds22a.polygonlayer.0002
+Input layer "d_ds22a.polygonlayer.0001" is empty.
+Input layer "d_ds1a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds22a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+inside() at xt018.rs:1459
+d_ds23a = (d_ds21a inside d_ds22a) and (d_ds22a inside d_ds21a)
+  Function: inside
+  Inputs: d_ds22a.polygonlayer.0002, empty_layer.associated.0001, d_ds21a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_ds23a.polygonlayer.0002
+Input layer "d_ds22a.polygonlayer.0002" is empty.
+Input layer "d_ds21a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds23a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+inside() at xt018.rs:1459
+d_ds23a = (d_ds21a inside d_ds22a) and (d_ds22a inside d_ds21a)
+  Function: inside
+  Inputs: d_ds21a.polygonlayer.0001, empty_layer.associated.0001, d_ds22a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_ds23a.polygonlayer.0001
+Input layer "d_ds21a.polygonlayer.0001" is empty.
+Input layer "d_ds22a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_ds23a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at xt018.rs:1459
+d_ds23a = (d_ds21a inside d_ds22a) and (d_ds22a inside d_ds21a)
+  Function: and
+  Inputs: d_ds23a.polygonlayer.0001, empty_layer.associated.0001, d_ds23a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_ds23a.polygonlayer.0003
+Input layer "d_ds23a.polygonlayer.0001" is empty.
+Input layer "d_ds23a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_ds23a.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+size() at xt018.rs:1461
+d_ds31a = size(d_ds23a, 0.15, clip_acute = NONE)
+  Function: size
+  Inputs: d_ds23a.polygonlayer.0003, empty_layer.associated.0001
+  Outputs: d_ds31a.polygonlayer.0001
+Input layer "d_ds23a.polygonlayer.0003" is empty.
+No output written.
+Layer "d_ds31a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+interacting() at xt018.rs:1463
+d_ds33a = gate interacting d_ds31a
+  Function: interacting
+  Inputs: gate.polygonlayer.0002, empty_layer.associated.0001, d_ds31a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_ds33a.polygonlayer.0001
+Input layer "d_ds31a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds33a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+not() at xt018.rs:1466
+d_ds36a = (d_ds33a not implant) or d_ds35a
+  Function: not
+  Inputs: d_ds33a.polygonlayer.0001, empty_layer.associated.0001, implant.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_ds36a.polygonlayer.0001
+Input layer "d_ds33a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds36a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at xt018.rs:1464
+d_ds34a = (d_ds33a and pimp) or d_ds23a
+  Function: and
+  Inputs: d_ds33a.polygonlayer.0001, empty_layer.associated.0001, pimp.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: d_ds34a.polygonlayer.0001
+Input layer "d_ds33a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds34a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+or() at xt018.rs:1464
+d_ds34a = (d_ds33a and pimp) or d_ds23a
+  Function: or
+  Inputs: d_ds34a.polygonlayer.0001, d_ds23a.polygonlayer.0003
+  Outputs: d_ds34a.polygonlayer.0002
+Input layer "d_ds34a.polygonlayer.0001" is empty.
+Input layer "d_ds23a.polygonlayer.0003" is empty.
+No output written.
+Layer "d_ds34a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+inside() at xt018.rs:1465
+d_ds35a = (d_ds31a inside d_ds34a) and (d_ds34a inside d_ds31a)
+  Function: inside
+  Inputs: d_ds34a.polygonlayer.0002, empty_layer.associated.0001, d_ds31a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_ds35a.polygonlayer.0002
+Input layer "d_ds34a.polygonlayer.0002" is empty.
+Input layer "d_ds31a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds35a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+inside() at xt018.rs:1465
+d_ds35a = (d_ds31a inside d_ds34a) and (d_ds34a inside d_ds31a)
+  Function: inside
+  Inputs: d_ds31a.polygonlayer.0001, empty_layer.associated.0001, d_ds34a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_ds35a.polygonlayer.0001
+Input layer "d_ds31a.polygonlayer.0001" is empty.
+Input layer "d_ds34a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_ds35a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at xt018.rs:1465
+d_ds35a = (d_ds31a inside d_ds34a) and (d_ds34a inside d_ds31a)
+  Function: and
+  Inputs: d_ds35a.polygonlayer.0001, empty_layer.associated.0001, d_ds35a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_ds35a.polygonlayer.0003
+Input layer "d_ds35a.polygonlayer.0001" is empty.
+Input layer "d_ds35a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_ds35a.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+or() at xt018.rs:1466
+d_ds36a = (d_ds33a not implant) or d_ds35a
+  Function: or
+  Inputs: d_ds36a.polygonlayer.0001, d_ds35a.polygonlayer.0003
+  Outputs: d_ds36a.polygonlayer.0002
+Input layer "d_ds36a.polygonlayer.0001" is empty.
+Input layer "d_ds35a.polygonlayer.0003" is empty.
+No output written.
+Layer "d_ds36a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+size() at xt018.rs:1462
+d_ds32a = size(d_ds31a, 0.1, clip_acute = NONE)
+  Function: size
+  Inputs: d_ds31a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_ds32a.polygonlayer.0001
+Input layer "d_ds31a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds32a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+inside() at xt018.rs:1467
+d_ds37a = (d_ds36a inside d_ds32a) and (d_ds32a inside d_ds36a)
+  Function: inside
+  Inputs: d_ds32a.polygonlayer.0001, empty_layer.associated.0001, d_ds36a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_ds37a.polygonlayer.0002
+Input layer "d_ds32a.polygonlayer.0001" is empty.
+Input layer "d_ds36a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_ds37a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+inside() at xt018.rs:1467
+d_ds37a = (d_ds36a inside d_ds32a) and (d_ds32a inside d_ds36a)
+  Function: inside
+  Inputs: d_ds36a.polygonlayer.0002, empty_layer.associated.0001, d_ds32a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_ds37a.polygonlayer.0001
+Input layer "d_ds36a.polygonlayer.0002" is empty.
+Input layer "d_ds32a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds37a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at xt018.rs:1467
+d_ds37a = (d_ds36a inside d_ds32a) and (d_ds32a inside d_ds36a)
+  Function: and
+  Inputs: d_ds37a.polygonlayer.0001, empty_layer.associated.0001, d_ds37a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_ds37a.polygonlayer.0003
+Input layer "d_ds37a.polygonlayer.0001" is empty.
+Input layer "d_ds37a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_ds37a.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+coincident_edge() at xt018.rs:1468
+d_ds41a = edge_size((length_edge((coincident_edge(d_ds37a, gate)), == 2.04)), outside = 0.3)
+  Function: coincident_edge
+  Inputs: d_ds37a.polygonlayer.0003, empty_layer.associated.0001, gate.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_ds41a.edgelayer.0001
+Input layer "d_ds37a.polygonlayer.0003" is empty.
+No output written.
+Layer "d_ds41a.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+coincident_edge() at xt018.rs:1468
+d_ds41a = edge_size((length_edge((coincident_edge(d_ds37a, gate)), == 2.04)), outside = 0.3)
+  Function: coincident_edge
+  Inputs: d_ds41a.edgelayer.0001
+  Outputs: d_ds41a.edgelayer.0002
+Input layer "d_ds41a.edgelayer.0001" is empty.
+No output written.
+Layer "d_ds41a.edgelayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+length_edge() at xt018.rs:1468
+d_ds41a = edge_size((length_edge((coincident_edge(d_ds37a, gate)), == 2.04)), outside = 0.3)
+  Function: length_edge
+  Inputs: d_ds41a.edgelayer.0002, empty_layer.associated.0001
+  Outputs: d_ds41a.edgelayer.0003
+Input layer "d_ds41a.edgelayer.0002" is empty.
+No output written.
+Layer "d_ds41a.edgelayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+edge_size() at xt018.rs:1468
+d_ds41a = edge_size((length_edge((coincident_edge(d_ds37a, gate)), == 2.04)), outside = 0.3)
+  Function: edge_size
+  Inputs: d_ds41a.edgelayer.0003, empty_layer.associated.0001
+  Outputs: d_ds41a.polygonlayer.0001
+Input layer "d_ds41a.edgelayer.0003" is empty.
+No output written.
+Layer "d_ds41a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+or() at xt018.rs:1469
+d_ds42a = size((d_ds41a or d_ds37a), 0.22, clip_acute = NONE)
+  Function: or
+  Inputs: d_ds41a.polygonlayer.0001, d_ds37a.polygonlayer.0003
+  Outputs: d_ds42a.polygonlayer.0001
+Input layer "d_ds41a.polygonlayer.0001" is empty.
+Input layer "d_ds37a.polygonlayer.0003" is empty.
+No output written.
+Layer "d_ds42a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+size() at xt018.rs:1469
+d_ds42a = size((d_ds41a or d_ds37a), 0.22, clip_acute = NONE)
+  Function: size
+  Inputs: d_ds42a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_ds42a.polygonlayer.0002
+Input layer "d_ds42a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds42a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+interacting() at xt018.rs:1470
+d_ds43a = (poly1 interacting d_ds42a) or d_ds22a
+  Function: interacting
+  Inputs: poly1.polygonlayer.0001, empty_layer.associated.0001, d_ds42a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_ds43a.polygonlayer.0001
+Input layer "d_ds42a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_ds43a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+or() at xt018.rs:1470
+d_ds43a = (poly1 interacting d_ds42a) or d_ds22a
+  Function: or
+  Inputs: d_ds43a.polygonlayer.0001, d_ds22a.polygonlayer.0002
+  Outputs: d_ds43a.polygonlayer.0002
+Input layer "d_ds43a.polygonlayer.0001" is empty.
+Input layer "d_ds22a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_ds43a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+inside() at xt018.rs:1471
+d_ds44a = rectangles(((d_ds43a inside d_ds42a) and (d_ds42a inside d_ds43a)), sides = { >= 4.54, == 2.48 })
+  Function: inside
+  Inputs: d_ds42a.polygonlayer.0002, empty_layer.associated.0001, d_ds43a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_ds44a.polygonlayer.0002
+Input layer "d_ds42a.polygonlayer.0002" is empty.
+Input layer "d_ds43a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_ds44a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+inside() at xt018.rs:1471
+d_ds44a = rectangles(((d_ds43a inside d_ds42a) and (d_ds42a inside d_ds43a)), sides = { >= 4.54, == 2.48 })
+  Function: inside
+  Inputs: d_ds43a.polygonlayer.0002, empty_layer.associated.0001, d_ds42a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_ds44a.polygonlayer.0001
+Input layer "d_ds43a.polygonlayer.0002" is empty.
+Input layer "d_ds42a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_ds44a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at xt018.rs:1471
+d_ds44a = rectangles(((d_ds43a inside d_ds42a) and (d_ds42a inside d_ds43a)), sides = { >= 4.54, == 2.48 })
+  Function: and
+  Inputs: d_ds44a.polygonlayer.0001, empty_layer.associated.0001, d_ds44a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_ds44a.polygonlayer.0003, d_ds44a.associated.0001
+Input layer "d_ds44a.polygonlayer.0001" is empty.
+Input layer "d_ds44a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_ds44a.polygonlayer.0003" is empty.
+No output written.
+Layer "d_ds44a.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at xt018.rs:1471
+d_ds44a = rectangles(((d_ds43a inside d_ds42a) and (d_ds42a inside d_ds43a)), sides = { >= 4.54, == 2.48 })
+  Function: and
+  Inputs: d_ds44a.polygonlayer.0003
+  Outputs: d_ds44a.polygonlayer.0004
+Input layer "d_ds44a.polygonlayer.0003" is empty.
+No output written.
+Layer "d_ds44a.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+rectangles() at xt018.rs:1471
+d_ds44a = rectangles(((d_ds43a inside d_ds42a) and (d_ds42a inside d_ds43a)), sides = { >= 4.54, == 2.48 })
+  Function: rectangles
+  Inputs: d_ds44a.polygonlayer.0004, d_ds44a.associated.0001
+  Outputs: d_ds44a.polygonlayer.0005
+Input layer "d_ds44a.polygonlayer.0004" is empty.
+No output written.
+Layer "d_ds44a.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at xt018.rs:1479
+d_dsc5a = (d_ds44a and poly1) and cont
+  Function: and
+  Inputs: d_ds44a.polygonlayer.0005, empty_layer.associated.0001, poly1.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_dsc5a.polygonlayer.0001
+Input layer "d_ds44a.polygonlayer.0005" is empty.
+No output written.
+Layer "d_dsc5a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at xt018.rs:1479
+d_dsc5a = (d_ds44a and poly1) and cont
+  Function: and
+  Inputs: d_dsc5a.polygonlayer.0001, empty_layer.associated.0001, cont.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: d_dsc5a.polygonlayer.0002
+Input layer "d_dsc5a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_dsc5a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+inside() at xt018.rs:1474
+d_dsc1a = (d_ds1a inside d_ds44a) and cont
+  Function: inside
+  Inputs: d_ds1a.polygonlayer.0001, empty_layer.associated.0001, d_ds44a.polygonlayer.0005, empty_layer.associated.0001
+  Outputs: d_dsc1a.polygonlayer.0001
+Input layer "d_ds1a.polygonlayer.0001" is empty.
+Input layer "d_ds44a.polygonlayer.0005" is empty.
+No output written.
+Layer "d_dsc1a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at xt018.rs:1474:Duplicate command replaced at runtime with an internal copy command.
+d_dsc1a = (d_ds1a inside d_ds44a) and cont
+  Function: and
+  Inputs: d_dsc5a.polygonlayer.0002
+  Outputs: d_dsc1a.polygonlayer.0002
+Input layer "d_dsc5a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_dsc1a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+size() at xt018.rs:1476
+d_dsc3a_a = size((size(d_dsc1a, 0.22, clip_acute = NONE)), -0.22, clip_acute = NONE)
+  Function: size
+  Inputs: d_dsc1a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_dsc3a_a.polygonlayer.0001
+Input layer "d_dsc1a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_dsc3a_a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at xt018.rs:1477
+d_dsc3a = d_dsc3a_a and d_dsc2a
+  Function: and
+  Inputs: d_dsc3a_a.polygonlayer.0001, empty_layer.associated.0001, d_dsc2a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_dsc3a.polygonlayer.0001
+Input layer "d_dsc3a_a.polygonlayer.0001" is empty.
+Input layer "d_dsc2a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_dsc3a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+inside() at xt018.rs:1478
+d_dsc4a = (d_dsc3a inside d_dsc2a) and (d_dsc2a inside d_dsc3a)
+  Function: inside
+  Inputs: d_dsc2a.polygonlayer.0001, empty_layer.associated.0001, d_dsc3a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_dsc4a.polygonlayer.0002
+Input layer "d_dsc2a.polygonlayer.0001" is empty.
+Input layer "d_dsc3a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_dsc4a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+not() at xt018.rs:6961:Duplicate command replaced with an internal copy command.
+enclose((pdif not tiedtub), nwell, < 0.43, width = 0.004, extension = RADIAL, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH }, line_touch_shape = INSIDE, extension_look_past = POINT_TO_POINT)
+  Function: not
+  Inputs: pdifx.polygonlayer.0001
+  Outputs: temp.polygonlayer.0031
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+enclose() at xt018.rs:6961
+enclose((pdif not tiedtub), nwell, < 0.43, width = 0.004, extension = RADIAL, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH }, line_touch_shape = INSIDE, extension_look_past = POINT_TO_POINT)
+  Comment: "E1NWDP : Minimum NWELL enclosure of PDIFF ... 0.43"
+  Function: enclose
+  Inputs: nwell.polygonlayer.0004, temp.polygonlayer.0031, empty_layer.associated.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+not() at xt018.rs:7413:command replaced with an internal copy command.
+s1ipdn_1 = (ndif not nmhsj_s) not nwell
+  Function: not
+  Inputs: ndif.polygonlayer.0001
+  Outputs: s1ipdn_1.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+not() at xt018.rs:7413
+s1ipdn_1 = (ndif not nmhsj_s) not nwell
+  Function: not
+  Inputs: s1ipdn_1.polygonlayer.0001, empty_layer.associated.0001, nwell.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: s1ipdn_1.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+external2() at xt018.rs:7414
+external2(s1ipdn_1, pimp, < 0.26, extension = RADIAL, look_thru = COINCIDENT, intersecting = { ACUTE }, extension_look_past = POINT_TO_POINT)
+  Comment: "S1IPDN : Minimum PIMP spacing to NDIFF (outside NWELL)(except nmva, nhsj1_#) ... 0.26"
+  Function: external2
+  Inputs: s1ipdn_1.polygonlayer.0002, empty_layer.associated.0001, pimp.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+enclose() at xt018.rs:7331
+enclose(gate_edge1, ndif, < 0.32, width = 0.004, extension = RADIAL, intersecting = { ACUTE, TOUCH }, line_touch_shape = INSIDE, extension_look_past = POINT_TO_POINT)
+  Comment: "E1DNP1 : Minimum NDIFF extension beyond POLY1 ... 0.32"
+  Function: enclose
+  Inputs: ndif.polygonlayer.0001, gate_edge1.edgelayer.0001, empty_layer.associated.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+and() at xt018.rs:6969
+s2df_1 = ndif and nwell
+  Function: and
+  Inputs: ndif.polygonlayer.0001, empty_layer.associated.0001, nwell.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: s2df_1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.014 GB
+
+external2() at xt018.rs:6971
+external2(s2df_1, s2df_2, < 0.36, width = 0.002, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH }, intersecting = { ACUTE, TOUCH }, line_touch_shape = BOTH, extension_look_past = POINT_TO_POINT)
+  Comment: "S2DF : Minimum NDIFF in NWELL spacing to PDIFF in PWELL ... 0.36"
+  Function: external2
+  Inputs: s2df_1.polygonlayer.0001, empty_layer.associated.0001, s2df_2.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+
+not() at xt018.rs:3620:command replaced with an internal copy command.
+ndifx = ndif not tiedtub
+  Function: not
+  Inputs: ndif.polygonlayer.0001
+  Outputs: ndifx.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+and() at xt018.rs:7298:Duplicate command replaced at runtime with an internal copy command.
+ndif_ex2_1 = ndifx and nwell
+  Function: and
+  Inputs: s2df_1.polygonlayer.0001
+  Outputs: ndif_ex2_1.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+size() at xt018.rs:7299
+ndif_ex2_2 = size(ndif_ex2_1, clip_acute = NONE, distance = 0.18)
+  Function: size
+  Inputs: ndif_ex2_1.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: ndif_ex2_2.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+and() at xt018.rs:7300
+ndif_ex2_3 = ndif_ex2_2 and nwell43u
+  Function: and
+  Inputs: ndif_ex2_2.polygonlayer.0001, empty_layer.associated.0001, nwell43u.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: ndif_ex2_3.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+or() at xt018.rs:7304:Boolean merge optimization replaced or commands with or_list
+ndif_ex2 = ndif_ex2_4 or ndif_ex2_6
+  Function: or
+  Inputs: nimp.polygonlayer.0004, ndif_ex2_3.polygonlayer.0001, nimp.polygonlayer.0004, ndif_ex2_3.polygonlayer.0001
+  Outputs: ndif_ex2.polygonlayer.0001
+[C]ENV CHILD_RUNSET_DP = 0
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+coincident_inside_edge() at xt018.rs:7308
+ndif_ex2 coincident_inside_edge ndif_ex1
+  Comment: "E1INDF : Minimum NIMP extension beyond ACTIVE (except TIEDTUB, nmva, nhsj1_# and dfwdpa) ... 0.18"
+  Function: coincident_inside_edge
+  Inputs: ndif_ex2.polygonlayer.0001, empty_layer.associated.0001, ndif_ex1.edgelayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+enclose() at xt018.rs:7307
+enclose(ndif_ex1, ndif_ex2, < 0.18, extension = RADIAL, extension_look_past = POINT_TO_POINT, intersecting = { ACUTE, TOUCH }, line_touch_shape = INSIDE, look_thru = NOT_CONTAINED, width = 0.004)
+  Comment: "E1INDF : Minimum NIMP extension beyond ACTIVE (except TIEDTUB, nmva, nhsj1_# and dfwdpa) ... 0.18"
+  Function: enclose
+  Inputs: ndif_ex2.polygonlayer.0001, ndif_ex1.edgelayer.0001, empty_layer.associated.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+and() at xt018.rs:24503:Duplicate command replaced at runtime with an internal copy command.
+M_DN_ds5 = (d5_ds5 not d6_ds5) not (diff and nimp)
+  Function: and
+  Inputs: ndif.polygonlayer.0001
+  Outputs: M_DN_ds5.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+assign() at xt018_layer_assign.rs:24:Layer creation
+met1_dg = assign({ { 16, 0 }, { 16, 9 } })
+  Function: assign
+  Inputs: met1_dg.polygonlayer.0002, met1_dg.polygonlayer.0002
+  Outputs: met1_dg.polygonlayer.0003, 
+0 grid violations found.
+0 non-45 violations found.
+6 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+not() at xt018.rs:496:command replaced with an internal copy command.
+met1_a = met1_dg not m1slot
+  Function: not
+  Inputs: met1_dg.polygonlayer.0003
+  Outputs: met1_a.polygonlayer.0001
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+or() at xt018.rs:572:command replaced with an internal copy command.
+mtl3_a = mtl2_a or mettpl_dg
+  Function: or
+  Inputs: met1_a.polygonlayer.0001
+  Outputs: mtl3_a.polygonlayer.0001
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+copy() at xt018.rs:586
+mtl4_a = copy(mtl3_a)
+  Function: copy
+  Inputs: mtl3_a.polygonlayer.0001
+  Outputs: mtl4_a.polygonlayer.0001
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+copy() at xt018.rs:591
+metall_a = copy(mtl4_a)
+  Function: copy
+  Inputs: mtl4_a.polygonlayer.0001
+  Outputs: metall_a.polygonlayer.0001
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+or() at xt018.rs:3747:Boolean merge optimization replaced or commands with or_list
+bulk22 = diff_dg or pwblk or nwell or mvdg or metall_a or poly1_dg
+  Function: or
+  Inputs: diff_dg.polygonlayer.0004, nwell.polygonlayer.0004, metall_a.polygonlayer.0001, poly1_dg.polygonlayer.0004, diff_dg.polygonlayer.0004, nwell.polygonlayer.0004, metall_a.polygonlayer.0001, poly1_dg.polygonlayer.0004
+  Outputs: bulk22.polygonlayer.0001
+[C]ENV CHILD_RUNSET_DP = 0
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+cutting() at xt018.rs:3748
+bulk2 = cutting(bulk21, bulk22)
+  Function: cutting
+  Inputs: bulk21.polygonlayer.0001, empty_layer.associated.0001, bulk22.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: bulk2.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.014 GB
+
+or() at xt018.rs:3751:command replaced with an internal copy command.
+bulk = bulk1 or bulk2
+  Function: or
+  Inputs: bulk2.polygonlayer.0001
+  Outputs: bulk.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.012 GB
+
+soft_check() at xt018.rs:4130
+soft_check(connect_db, ptap, bulk, LAYER1, ALL)
+  Function: soft_check
+  Inputs: bulk.polygonlayer.0001, ptap.polygonlayer.0001
+  Outputs: temp.polygonlayer.0039
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+soft_check() at xt018.rs:4130
+soft_check(connect_db, ptap, bulk, LAYER1, ALL)
+  Function: soft_check
+  Inputs: ptap.polygonlayer.0001, bulk.polygonlayer.0001
+  Outputs: temp.polygonlayer.0038
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+soft_check() at xt018.rs:4130
+soft_check(connect_db, ptap, bulk, LAYER1, ALL)
+  Function: soft_check
+  Inputs: temp.polygonlayer.0039, temp.polygonlayer.0038
+  Outputs: temp.polygonlayer.0040
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+copy() at xt018.rs:31286
+m2_m1 = copy(m1_m1)
+  Function: copy
+  Inputs: m1_m1.polygonlayer.0001
+  Outputs: m2_m1.polygonlayer.0001
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+incremental_connect() at xt018.rs:31292
+connect_db = incremental_connect(connect_db, { { { m2_m2, m2_m1 }, m2_v1 }, { { m2_m1, m2_p1, m2_df }, m2_ct } })
+  Function: incremental_connect
+  Outputs: connect_db.connect_database.0003
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+Layer "m2_m2.polygonlayer.0001" is empty.
+Layer "m2_v1.polygonlayer.0001" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.025 GB
+running CONSUMED_BY_CONNECT_ONLY mode
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.031 GB
+
+incremental_connect() at xt018.rs:31307
+connect_db = incremental_connect(connect_db, { { { ant_met2 }, m2_m2 } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0003
+  Outputs: connect_db.connect_database.0005
+  Inputs: m2_df.polygonlayer.0001, m2_p1.polygonlayer.0001, m2_m2.polygonlayer.0001, ant_met2.polygonlayer.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+  Connect DB: Cached
+Layer "m2_m2.polygonlayer.0001" is empty.
+Layer "ant_met2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.031 GB
+
+stamp() at xt018.rs:31314
+m2gate = stamp(m2_gate, m2_p1, connect_db, connect_db, include_touch = NONE)
+  Function: stamp
+  Inputs: connect_db.connect_database.0005
+  Outputs: m2gate.connect_database.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+  Connect DB: Cached
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.023 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.024 GB
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.031 GB
+
+incremental_connect() at xt018.rs:31376
+connect_db = incremental_connect(connect_db, { { { a_via2 }, m2_m2 } })
+  Function: incremental_connect
+  Inputs: m2gate.connect_database.0001
+  Outputs: connect_db.connect_database.0007
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.031 GB
+
+incremental_connect() at xt018.rs:31392
+connect_db = incremental_connect(connect_db, { { { ant_via2 }, m2_m2 } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0007
+  Outputs: connect_db.connect_database.0009
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.031 GB
+
+net_area_ratio_with_accumulate_via() at xt018.rs:31401
+net_area_ratio_with_accumulate_via(connect_db, > 20, sLAYER_R1V2_prop_layer, sLAYER_R1V2_prop_layer_unused, { ant_via2 }, { m2gate }, "nps_net_area('layer1') / nps_net_area('layer2')")
+  Function: net_area_ratio_with_accumulate_via
+  Inputs: m2gate.polygonlayer.0001, m2gate.polygonlayer.0001, m2gate.polygonlayer.0001
+  Outputs: temp.polygonlayer.0050, temp.polygonlayer.0051
+  Connect DB: Shared
+8 unique polygons written.
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.027 GB
+
+net_area_ratio_with_accumulate_via() at xt018.rs:31401
+net_area_ratio_with_accumulate_via(connect_db, > 20, sLAYER_R1V2_prop_layer, sLAYER_R1V2_prop_layer_unused, { ant_via2 }, { m2gate }, "nps_net_area('layer1') / nps_net_area('layer2')")
+  Comment: "R1V2 : Maximum ratio of VIA2 area to connected GATE area ... 20"
+  Function: net_area_ratio_with_accumulate_via
+  Inputs: m2gate.polygonlayer.0001, temp.polygonlayer.0050, temp.polygonlayer.0051, ant_via2.polygonlayer.0001, m2gate.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001, m2gate.polygonlayer.0001, m2gate.polygonlayer.0001
+  Outputs: temp.polygonlayer.0052, temp.polygonlayer.0053, temp.polygonlayer.0054
+Input layer "ant_via2.polygonlayer.0001" is empty.
+No output written.
+Layer "temp.polygonlayer.0053" is empty.
+Limiting output_from_layers debug output to 2500000 polygons per net
+  Connect DB: Shared|Cached
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+4 unique polygons written.
+0 net found.
+0 polygon error found.
+4 polygon properties written.
+0 violation written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.028 GB
+
+net_area_ratio_with_accumulate_cond() at xt018.rs:31177
+net_area_ratio_with_accumulate_cond(connect_db, > 400, vT_MET1, sLAYER_R1M1P1_prop_layer, sLAYER_R1M1P1_prop_layer_unused, { ant_met1 }, { m1gate }, "nps_net_perimeter('layer1') * thickness_value / nps_net_area('layer2')")
+  Comment: "R1M1P1 : Maximum ratio of MET1 area to connected GATE area ... 400 (gate output)"
+  Function: net_area_ratio_with_accumulate_cond
+  Inputs: m1gate.polygonlayer.0001, temp.polygonlayer.0043, temp.polygonlayer.0044, ant_met1.polygonlayer.0001, m1gate.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001, m1gate.polygonlayer.0001, m1gate.polygonlayer.0001
+  Outputs: temp.polygonlayer.0047, temp.polygonlayer.0048, temp.polygonlayer.0049
+No output written.
+Layer "temp.polygonlayer.0048" is empty.
+Limiting output_from_layers debug output to 2500000 polygons per net
+  Connect DB: Shared
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+4 unique polygons written.
+0 net found.
+0 polygon error found.
+4 polygon properties written.
+0 violation written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.028 GB
+
+net_area_ratio_with_accumulate_cond() at xt018.rs:31191
+net_area_ratio_with_accumulate_cond(connect_db, > 400, vT_MET1, sLAYER_R2M1P1_prop_layer, sLAYER_R21P1_prop_layer_unused, { ant_met1 }, { m1gate }, "nps_net_perimeter('layer1') * thickness_value / nps_net_area('layer2')")
+  Function: net_area_ratio_with_accumulate_cond
+  Inputs: ant_met1.polygonlayer.0001, m1gate.polygonlayer.0001, ant_met1.polygonlayer.0001
+  Outputs: temp.polygonlayer.0045, temp.polygonlayer.0046
+  Connect DB: Shared|Cached
+1 unique polygon written.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+net_area_ratio_with_accumulate_cond() at xt018.rs:31191
+net_area_ratio_with_accumulate_cond(connect_db, > 400, vT_MET1, sLAYER_R2M1P1_prop_layer, sLAYER_R21P1_prop_layer_unused, { ant_met1 }, { m1gate }, "nps_net_perimeter('layer1') * thickness_value / nps_net_area('layer2')")
+  Comment: "R2M1P1 : Maximum ratio of MET1 area to connected GATE area ... 400 (met1 output)"
+  Function: net_area_ratio_with_accumulate_cond
+  Inputs: ant_met1.polygonlayer.0001, temp.polygonlayer.0045, temp.polygonlayer.0046, ant_met1.polygonlayer.0001, m1gate.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001, m1gate.polygonlayer.0001, ant_met1.polygonlayer.0001
+  Outputs: temp.polygonlayer.0057, temp.polygonlayer.0058, temp.polygonlayer.0059
+No output written.
+Layer "temp.polygonlayer.0058" is empty.
+Limiting output_from_layers debug output to 2500000 polygons per net
+  Connect DB: Shared|Cached
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.022 GB
+1 unique polygon written.
+0 net found.
+0 polygon error found.
+1 polygon property written.
+0 violation written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.022 GB
+
+net_area_ratio_with_accumulate_cond() at xt018.rs:31318
+net_area_ratio_with_accumulate_cond(connect_db, > 400, vT_MET2, sLAYER_R1M2P1_prop_layer, sLAYER_R1M2P1_prop_layer_unused, { ant_met2 }, { m2gate }, "nps_net_perimeter('layer1') * thickness_value / nps_net_area('layer2')")
+  Function: net_area_ratio_with_accumulate_cond
+  Inputs: m2gate.polygonlayer.0001, m2gate.polygonlayer.0001, m2gate.polygonlayer.0001
+  Outputs: temp.polygonlayer.0041, temp.polygonlayer.0042
+  Connect DB: Shared
+8 unique polygons written.
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.029 GB
+
+net_area_ratio_with_accumulate_cond() at xt018.rs:31318
+net_area_ratio_with_accumulate_cond(connect_db, > 400, vT_MET2, sLAYER_R1M2P1_prop_layer, sLAYER_R1M2P1_prop_layer_unused, { ant_met2 }, { m2gate }, "nps_net_perimeter('layer1') * thickness_value / nps_net_area('layer2')")
+  Comment: "R1M2P1 : Maximum ratio of MET2 area to connected GATE area ... 400 (gate output)"
+  Function: net_area_ratio_with_accumulate_cond
+  Inputs: m2gate.polygonlayer.0001, temp.polygonlayer.0041, temp.polygonlayer.0042, ant_met2.polygonlayer.0001, m2gate.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001, m2gate.polygonlayer.0001, m2gate.polygonlayer.0001
+  Outputs: temp.polygonlayer.0063, temp.polygonlayer.0064, temp.polygonlayer.0065
+Input layer "ant_met2.polygonlayer.0001" is empty.
+No output written.
+Layer "temp.polygonlayer.0064" is empty.
+Limiting output_from_layers debug output to 2500000 polygons per net
+  Connect DB: Shared|Cached
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.023 GB
+4 unique polygons written.
+0 net found.
+0 polygon error found.
+4 polygon properties written.
+0 violation written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.030 GB
+
+copy() at xt018.rs:31576
+m4_m1 = copy(m3_m1)
+  Function: copy
+  Inputs: m3_m1.polygonlayer.0001
+  Outputs: m4_m1.polygonlayer.0001
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+incremental_connect() at xt018.rs:31586
+connect_db = incremental_connect(connect_db, { { { m4_m4, m4_m3 }, m4_v3 }, { { m4_m3, m4_m2 }, m4_v2 }, { { m4_m2, m4_m1 }, m4_v1 }, { { m4_m1, m4_p1, m4_df }, m4_ct } })
+  Function: incremental_connect
+  Outputs: connect_db.connect_database.0012
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+Layer "m4_m4.polygonlayer.0001" is empty.
+Layer "m4_v3.polygonlayer.0001" is empty.
+Layer "m4_m3.polygonlayer.0001" is empty.
+Layer "m4_v2.polygonlayer.0001" is empty.
+Layer "m4_m2.polygonlayer.0001" is empty.
+Layer "m4_v1.polygonlayer.0001" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.022 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.027 GB
+running CONSUMED_BY_CONNECT_ONLY mode
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.033 GB
+
+incremental_connect() at xt018.rs:31603
+connect_db = incremental_connect(connect_db, { { { ant_met4 }, m4_m4 } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0012
+  Outputs: connect_db.connect_database.0014
+  Inputs: m4_df.polygonlayer.0001, m4_p1.polygonlayer.0001, m4_m4.polygonlayer.0001, ant_met4.polygonlayer.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+  Connect DB: Cached
+Layer "m4_m4.polygonlayer.0001" is empty.
+Layer "ant_met4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.032 GB
+
+stamp() at xt018.rs:31610
+m4gate = stamp(m4_gate, m4_p1, connect_db, connect_db, include_touch = NONE)
+  Function: stamp
+  Inputs: connect_db.connect_database.0014
+  Outputs: m4gate.connect_database.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+  Connect DB: Cached
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.025 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.032 GB
+
+incremental_connect() at xt018.rs:31982
+connect_db = incremental_connect(connect_db, { { { a_viat }, m4_m4 } })
+  Function: incremental_connect
+  Inputs: m4gate.connect_database.0001
+  Outputs: connect_db.connect_database.0016
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.032 GB
+
+incremental_connect() at xt018.rs:31996
+connect_db = incremental_connect(connect_db, { { { ant_viat }, m4_m4 } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0016
+  Outputs: connect_db.connect_database.0018
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.032 GB
+
+net_area_ratio_with_accumulate_via() at xt018.rs:32006
+net_area_ratio_with_accumulate_via(connect_db, > 20, sLAYER_R1VT_prop_layer, sLAYER_R1VT_prop_layer_unused, { ant_viat }, { m4gate }, "nps_net_area('layer1') / nps_net_area('layer2')")
+  Function: net_area_ratio_with_accumulate_via
+  Inputs: m4gate.polygonlayer.0001, m4gate.polygonlayer.0001, m4gate.polygonlayer.0001
+  Outputs: temp.polygonlayer.0078, temp.polygonlayer.0079
+  Connect DB: Shared
+8 unique polygons written.
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.029 GB
+
+net_area_ratio_with_accumulate_via() at xt018.rs:32006
+net_area_ratio_with_accumulate_via(connect_db, > 20, sLAYER_R1VT_prop_layer, sLAYER_R1VT_prop_layer_unused, { ant_viat }, { m4gate }, "nps_net_area('layer1') / nps_net_area('layer2')")
+  Comment: "R1VT : Maximum ratio of VIATP area to connected GATE area ... 20"
+  Function: net_area_ratio_with_accumulate_via
+  Inputs: m4gate.polygonlayer.0001, temp.polygonlayer.0078, temp.polygonlayer.0079, ant_viat.polygonlayer.0001, m4gate.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001, m4gate.polygonlayer.0001, m4gate.polygonlayer.0001
+  Outputs: temp.polygonlayer.0080, temp.polygonlayer.0081, temp.polygonlayer.0082
+Input layer "ant_viat.polygonlayer.0001" is empty.
+No output written.
+Layer "temp.polygonlayer.0081" is empty.
+Limiting output_from_layers debug output to 2500000 polygons per net
+  Connect DB: Shared|Cached
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.023 GB
+4 unique polygons written.
+0 net found.
+0 polygon error found.
+4 polygon properties written.
+0 violation written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.030 GB
+
+net_area_ratio_with_accumulate_cond() at xt018.rs:31464
+net_area_ratio_with_accumulate_cond(connect_db, > 400, vT_MET3, sLAYER_R1M3P1_prop_layer, sLAYER_R1M3P1_prop_layer_unused, { ant_met3 }, { m3gate }, "nps_net_perimeter('layer1') * thickness_value / nps_net_area('layer2')")
+  Comment: "R1M3P1 : Maximum ratio of MET3 area to connected GATE area ... 400 (gate output)"
+  Function: net_area_ratio_with_accumulate_cond
+  Inputs: m3gate.polygonlayer.0001, temp.polygonlayer.0066, temp.polygonlayer.0067, ant_met3.polygonlayer.0001, m3gate.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001, m3gate.polygonlayer.0001, m3gate.polygonlayer.0001
+  Outputs: temp.polygonlayer.0068, temp.polygonlayer.0069, temp.polygonlayer.0070
+Input layer "ant_met3.polygonlayer.0001" is empty.
+No output written.
+Layer "temp.polygonlayer.0069" is empty.
+Limiting output_from_layers debug output to 2500000 polygons per net
+  Connect DB: Shared
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.023 GB
+4 unique polygons written.
+0 net found.
+0 polygon error found.
+4 polygon properties written.
+0 violation written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.030 GB
+
+copy() at xt018.rs:32598
+ml_m1 = copy(mt_m1)
+  Function: copy
+  Inputs: mt_m1.polygonlayer.0001
+  Outputs: ml_m1.polygonlayer.0001
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+incremental_connect() at xt018.rs:32612
+connect_db = incremental_connect(connect_db, { { { ml_ml, ml_mt }, ml_vl }, { { ml_mt, ml_m4 }, ml_vt }, { { ml_m4, ml_m3 }, ml_v3 }, { { ml_m3, ml_m2 }, ml_v2 }, { { ml_m2, ml_m1 }, ml_v1 }, { { ml_m1, ml_p1, ml_df }, ml_ct } })
+  Function: incremental_connect
+  Outputs: connect_db.connect_database.0020
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+Layer "ml_ml.polygonlayer.0001" is empty.
+Layer "ml_vl.polygonlayer.0001" is empty.
+Layer "ml_mt.polygonlayer.0001" is empty.
+Layer "ml_vt.polygonlayer.0001" is empty.
+Layer "ml_m4.polygonlayer.0001" is empty.
+Layer "ml_v3.polygonlayer.0001" is empty.
+Layer "ml_m3.polygonlayer.0001" is empty.
+Layer "ml_v2.polygonlayer.0001" is empty.
+Layer "ml_m2.polygonlayer.0001" is empty.
+Layer "ml_v1.polygonlayer.0001" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.027 GB
+running CONSUMED_BY_CONNECT_ONLY mode
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.033 GB
+
+incremental_connect() at xt018.rs:32631
+connect_db = incremental_connect(connect_db, { { { ant_metl }, ml_ml } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0020
+  Outputs: connect_db.connect_database.0022
+  Inputs: ml_p1.polygonlayer.0001, ant_metl.polygonlayer.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+  Connect DB: Cached
+Layer "ml_ml.polygonlayer.0001" is empty.
+Layer "ant_metl.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.032 GB
+
+stamp() at xt018.rs:32638
+mlgate = stamp(ml_gate, ml_p1, connect_db, connect_db, include_touch = NONE)
+  Function: stamp
+  Inputs: connect_db.connect_database.0022
+  Outputs: mlgate.connect_database.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+  Connect DB: Cached
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.025 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.032 GB
+
+net_area_ratio_with_accumulate_cond() at xt018.rs:32642
+net_area_ratio_with_accumulate_cond(connect_db, > 200, vT_METTPL, sLAYER_R1MLP1_prop_layer, sLAYER_R1MLP1_prop_layer_unused, { ant_metl }, { mlgate }, "nps_net_perimeter('layer1') * thickness_value / nps_net_area('layer2')")
+  Function: net_area_ratio_with_accumulate_cond
+  Inputs: mlgate.polygonlayer.0001, mlgate.polygonlayer.0001, mlgate.polygonlayer.0001
+  Outputs: temp.polygonlayer.0088, temp.polygonlayer.0089
+  Connect DB: Shared
+8 unique polygons written.
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.029 GB
+
+net_area_ratio_with_accumulate_cond() at xt018.rs:32642
+net_area_ratio_with_accumulate_cond(connect_db, > 200, vT_METTPL, sLAYER_R1MLP1_prop_layer, sLAYER_R1MLP1_prop_layer_unused, { ant_metl }, { mlgate }, "nps_net_perimeter('layer1') * thickness_value / nps_net_area('layer2')")
+  Comment: "R1MLP1 : Maximum ratio of METTPL area to connected GATE area ... 200 (gate output)"
+  Function: net_area_ratio_with_accumulate_cond
+  Inputs: mlgate.polygonlayer.0001, temp.polygonlayer.0088, temp.polygonlayer.0089, ant_metl.polygonlayer.0001, mlgate.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001, mlgate.polygonlayer.0001, mlgate.polygonlayer.0001
+  Outputs: temp.polygonlayer.0090, temp.polygonlayer.0091, temp.polygonlayer.0092
+Input layer "ant_metl.polygonlayer.0001" is empty.
+No output written.
+Layer "temp.polygonlayer.0091" is empty.
+Limiting output_from_layers debug output to 2500000 polygons per net
+  Connect DB: Shared|Cached
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.023 GB
+4 unique polygons written.
+0 net found.
+0 polygon error found.
+4 polygon properties written.
+0 violation written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.030 GB
+
+net_area_ratio_with_accumulate_cond() at xt018.rs:32074
+net_area_ratio_with_accumulate_cond(connect_db, > 400, vT_METTP, sLAYER_R1MTP1_prop_layer, sLAYER_R1MTP1_prop_layer_unused, { ant_mett }, { mtgate }, "nps_net_perimeter('layer1') * thickness_value / nps_net_area('layer2')")
+  Function: net_area_ratio_with_accumulate_cond
+  Inputs: mtgate.polygonlayer.0001, mtgate.polygonlayer.0001, mtgate.polygonlayer.0001
+  Outputs: temp.polygonlayer.0086, temp.polygonlayer.0087
+  Connect DB: Shared
+8 unique polygons written.
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.029 GB
+
+net_area_ratio_with_accumulate_cond() at xt018.rs:32074
+net_area_ratio_with_accumulate_cond(connect_db, > 400, vT_METTP, sLAYER_R1MTP1_prop_layer, sLAYER_R1MTP1_prop_layer_unused, { ant_mett }, { mtgate }, "nps_net_perimeter('layer1') * thickness_value / nps_net_area('layer2')")
+  Comment: "R1MTP1 : Maximum ratio of METTP area to connected GATE area ... 400 (gate output)"
+  Function: net_area_ratio_with_accumulate_cond
+  Inputs: mtgate.polygonlayer.0001, temp.polygonlayer.0086, temp.polygonlayer.0087, ant_mett.polygonlayer.0001, mtgate.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001, mtgate.polygonlayer.0001, mtgate.polygonlayer.0001
+  Outputs: temp.polygonlayer.0093, temp.polygonlayer.0094, temp.polygonlayer.0095
+Input layer "ant_mett.polygonlayer.0001" is empty.
+No output written.
+Layer "temp.polygonlayer.0094" is empty.
+Limiting output_from_layers debug output to 2500000 polygons per net
+  Connect DB: Shared|Cached
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.023 GB
+4 unique polygons written.
+0 net found.
+0 polygon error found.
+4 polygon properties written.
+0 violation written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.030 GB
+
+area() at xt018.rs:7550
+area(met1sl, < 0.202)
+  Comment: "A1M1 : Minimum MET1 area ... 0.202"
+  Function: area
+  Inputs: met1sl.polygonlayer.0002, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+enclose_edge() at xt018.rs:7543
+x = enclose_edge(cont, met1sl, [0.005,0.06), extension = NONE, intersecting = {  }, output_layer = LAYER1, projection_mode = ASYMMETRIC, projection_filter = MUTUAL_NON_ORTHOGONAL, extension_look_past = POINT_TO_POINT)
+  Function: enclose_edge
+  Inputs: met1sl.polygonlayer.0002, cont.polygonlayer.0004, empty_layer.associated.0001, empty_layer.associated.0001
+  Outputs: x.edgelayer.0001, x.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+0 enclose violations found.
+Layer "x.edgelayer.0001" is empty.
+0 enclose violations found.
+Layer "x.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+
+enclose() at xt018.rs:7544:Merged command, replaced with an internal copy command.
+e2m1ct_1 = enclose(cont, met1sl, [0.005,0.06), extension = NONE, intersecting = {  }, projection_mode = ASYMMETRIC, projection_filter = MUTUAL_NON_ORTHOGONAL, extension_look_past = POINT_TO_POINT)
+  Function: enclose
+  Inputs: x.polygonlayer.0001
+  Outputs: e2m1ct_1.polygonlayer.0001
+Input layer "x.polygonlayer.0001" is empty.
+No output written.
+Layer "e2m1ct_1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+enclose_edge() at xt018.rs:7543:Merged command, replaced with an internal copy command.
+x = enclose_edge(cont, met1sl, [0.005,0.06), extension = NONE, intersecting = {  }, output_layer = LAYER1, projection_mode = ASYMMETRIC, projection_filter = MUTUAL_NON_ORTHOGONAL, extension_look_past = POINT_TO_POINT)
+  Function: enclose_edge
+  Inputs: x.edgelayer.0001
+  Outputs: x.edgelayer.0002
+Input layer "x.edgelayer.0001" is empty.
+No output written.
+Layer "x.edgelayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+internal1_edge() at xt018.rs:7545
+e2m1ct_2 = internal1_edge(x, < 0.1, extension = RADIAL, orientation = {  }, intersecting = { PERPENDICULAR })
+  Function: internal1_edge
+  Inputs: x.edgelayer.0002
+  Outputs: e2m1ct_2.edgelayer.0001
+Input layer "x.edgelayer.0002" is empty.
+No output written.
+Layer "e2m1ct_2.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+internal1_edge() at xt018.rs:7545
+e2m1ct_2 = internal1_edge(x, < 0.1, extension = RADIAL, orientation = {  }, intersecting = { PERPENDICULAR })
+  Function: internal1_edge
+  Inputs: x.edgelayer.0002, cont.polygonlayer.0004
+  Outputs: e2m1ct_2.polygonlayer.0001
+No output written.
+Layer "e2m1ct_2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+internal1_edge() at xt018.rs:7545
+e2m1ct_2 = internal1_edge(x, < 0.1, extension = RADIAL, orientation = {  }, intersecting = { PERPENDICULAR })
+  Function: internal1_edge
+  Inputs: e2m1ct_2.polygonlayer.0001, empty_layer.associated.0001, x.edgelayer.0002, empty_layer.associated.0001
+  Outputs: e2m1ct_2.polygonlayer.0002
+Input layer "e2m1ct_2.polygonlayer.0001" is empty.
+Input layer "x.edgelayer.0002" is empty.
+No output written.
+Layer "e2m1ct_2.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+internal1_edge() at xt018.rs:7545
+e2m1ct_2 = internal1_edge(x, < 0.1, extension = RADIAL, orientation = {  }, intersecting = { PERPENDICULAR })
+  Function: internal1_edge
+  Inputs: e2m1ct_2.polygonlayer.0001, cont.polygonlayer.0004, e2m1ct_2.polygonlayer.0002
+  Outputs: e2m1ct_2.polygonlayer.0003, e2m1ct_2.polygonlayer.0004, e2m1ct_2.polygonlayer.0005
+1 unique polygon written.
+No output written.
+Layer "e2m1ct_2.polygonlayer.0004" is empty.
+No output written.
+Layer "e2m1ct_2.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+internal1_edge() at xt018.rs:7545
+e2m1ct_2 = internal1_edge(x, < 0.1, extension = RADIAL, orientation = {  }, intersecting = { PERPENDICULAR })
+  Function: internal1_edge
+  Outputs: e2m1ct_2.connect_database.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+Layer "e2m1ct_2.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.034 GB
+
+internal1_edge() at xt018.rs:7545
+e2m1ct_2 = internal1_edge(x, < 0.1, extension = RADIAL, orientation = {  }, intersecting = { PERPENDICULAR })
+  Function: internal1_edge
+  Inputs: e2m1ct_2.edgelayer.0001
+  Outputs: e2m1ct_2.edgelayer.0002
+Input layer "e2m1ct_2.edgelayer.0001" is empty.
+No output written.
+Layer "e2m1ct_2.edgelayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+internal1_edge() at xt018.rs:7545
+e2m1ct_2 = internal1_edge(x, < 0.1, extension = RADIAL, orientation = {  }, intersecting = { PERPENDICULAR })
+  Function: internal1_edge
+  Inputs: e2m1ct_2.edgelayer.0002, empty_layer.associated.0001
+  Outputs: e2m1ct_2.edgelayer.0003
+Input layer "e2m1ct_2.edgelayer.0002" is empty.
+0 spacing violations found.
+Layer "e2m1ct_2.edgelayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+touching() at xt018.rs:7546
+e2m1ct_1 touching e2m1ct_2
+  Comment: "E2M1CT : Minimum MET1 enclosure of CONT ... 0.06(in one direction of CONT corner)"
+  Function: touching
+  Inputs: e2m1ct_1.polygonlayer.0001, empty_layer.associated.0001, e2m1ct_2.edgelayer.0003, empty_layer.associated.0001
+Input layer "e2m1ct_1.polygonlayer.0001" is empty.
+Input layer "e2m1ct_2.edgelayer.0003" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+size_inside_wrapper() at xt018.rs:7532
+met1_w10_1 = size_inside_wrapper(met1_w10, met1sl, distance = 1, increment = 0.2)
+  Function: size_inside_wrapper
+  Inputs: met1_w10.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: met1_w10_1.polygonlayer.0001
+Input layer "met1_w10.polygonlayer.0001" is empty.
+No output written.
+Layer "met1_w10_1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+size_inside_wrapper() at xt018.rs:7532
+met1_w10_1 = size_inside_wrapper(met1_w10, met1sl, distance = 1, increment = 0.2)
+  Function: size_inside_wrapper
+  Inputs: met1_w10_1.polygonlayer.0001, met1sl.polygonlayer.0002
+  Outputs: met1_w10_1.polygonlayer.0002
+Input layer "met1_w10_1.polygonlayer.0001" is empty.
+No output written.
+Layer "met1_w10_1.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+Input layer "met1_w10_1.polygonlayer.0002" is empty.
+Input layer "met1_w10_1.polygonlayer.0002" is empty.
+external2() at xt018.rs:7535
+external2(met1_w10_1, met1sl, < 0.6, RADIAL, look_thru = COINCIDENT, intersecting = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "S2M1 : Minimum MET1 spacing to WIDE_MET1 ... 0.6"
+  Function: external2
+  Inputs: met1_w10_1.polygonlayer.0002, empty_layer.associated.0001, met1sl.polygonlayer.0002, empty_layer.associated.0001
+Input layer "met1_w10_1.polygonlayer.0002" is empty.
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+internal1() at xt018.rs:7523
+internal1(met1sl, < 0.23, extension = RADIAL, relational = { POINT_TOUCH }, intersecting = { ACUTE })
+  Comment: "W1M1 : Minimum MET1 width ... 0.23"
+  Function: internal1
+  Inputs: met1sl.polygonlayer.0002, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+angle_edge() at xt018.rs:6065
+angle_edge(met1sl, (0,45))
+  Function: angle_edge
+  Inputs: met1sl.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: temp.edgelayer.0016, temp.edgelayer.0017
+No output written.
+Layer "temp.edgelayer.0016" is empty.
+No output written.
+Layer "temp.edgelayer.0017" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+angle_edge() at xt018.rs:6066:Merged command, replaced with an internal copy command.
+angle_edge(met1sl, (45,90))
+  Comment: "skewEdge_M1 : skewEdge_MET1"
+  Function: angle_edge
+  Inputs: temp.edgelayer.0017
+Input layer "temp.edgelayer.0017" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+angle_edge() at xt018.rs:6065:Merged command, replaced with an internal copy command.
+angle_edge(met1sl, (0,45))
+  Comment: "skewEdge_M1 : skewEdge_MET1"
+  Function: angle_edge
+  Inputs: temp.edgelayer.0016
+Input layer "temp.edgelayer.0016" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+off_grid_xy() at xt018.rs:6062
+off_grid_xy(met1sl, x_resolution = 5 / 1000, y_resolution = 5 / 1000)
+  Comment: "offgrid_M1 : offgrid_MET1"
+  Function: off_grid_xy
+  Inputs: met1sl.polygonlayer.0002, empty_layer.associated.0001
+    Hierarchy Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+0 grid violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+inside() at xt018.rs:1484
+d_dsm4a = (d_dsm3a inside d_dsm2a) and (d_dsm2a inside d_dsm3a)
+  Function: inside
+  Inputs: d_dsm3a.polygonlayer.0001, empty_layer.associated.0001, d_dsm2a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_dsm4a.polygonlayer.0001
+Input layer "d_dsm3a.polygonlayer.0001" is empty.
+Input layer "d_dsm2a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_dsm4a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+and() at xt018.rs:1484
+d_dsm4a = (d_dsm3a inside d_dsm2a) and (d_dsm2a inside d_dsm3a)
+  Function: and
+  Inputs: d_dsm4a.polygonlayer.0001, empty_layer.associated.0001, d_dsm4a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: d_dsm4a.polygonlayer.0003
+Input layer "d_dsm4a.polygonlayer.0001" is empty.
+Input layer "d_dsm4a.polygonlayer.0002" is empty.
+No output written.
+Layer "d_dsm4a.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+enclosing() at xt018.rs:1485
+d_dsm5a = d_ds44a enclosing d_dsm4a
+  Function: enclosing
+  Inputs: d_ds44a.polygonlayer.0005, empty_layer.associated.0001, d_dsm4a.polygonlayer.0003, empty_layer.associated.0001
+  Outputs: d_dsm5a.polygonlayer.0001
+Input layer "d_ds44a.polygonlayer.0005" is empty.
+Input layer "d_dsm4a.polygonlayer.0003" is empty.
+No output written.
+Layer "d_dsm5a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+inside() at xt018.rs:1486
+d_dsd2a = d_ds1a inside d_dsm5a
+  Function: inside
+  Inputs: d_ds1a.polygonlayer.0001, empty_layer.associated.0001, d_dsm5a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_dsd2a.polygonlayer.0001
+Input layer "d_ds1a.polygonlayer.0001" is empty.
+Input layer "d_dsm5a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_dsd2a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+enclosing() at xt018.rs:1487
+d_ds45a = d_ds44a enclosing d_dsd2a
+  Function: enclosing
+  Inputs: d_ds44a.polygonlayer.0005, empty_layer.associated.0001, d_dsd2a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_ds45a.polygonlayer.0001
+Input layer "d_ds44a.polygonlayer.0005" is empty.
+Input layer "d_dsd2a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds45a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+inside() at xt018.rs:1489
+d_ds5a = d_dsd2a inside d_ds45a
+  Function: inside
+  Inputs: d_dsd2a.polygonlayer.0001, empty_layer.associated.0001, d_ds45a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d_ds5a.polygonlayer.0001, d_ds5a.associated.0001
+Input layer "d_dsd2a.polygonlayer.0001" is empty.
+Input layer "d_ds45a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds5a.associated.0001" is empty.
+No output written.
+Layer "d_ds5a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+inside() at xt018.rs:1489
+d_ds5a = d_dsd2a inside d_ds45a
+  Function: inside
+  Inputs: d_ds5a.polygonlayer.0001
+  Outputs: d_ds5a.polygonlayer.0002
+Input layer "d_ds5a.polygonlayer.0001" is empty.
+No output written.
+Layer "d_ds5a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+rectangles() at xt018.rs:24532
+G_DF_ds = d_ds5a not rectangles(d_ds5a, sides = { [2.4,50], == 0.94 })
+  Function: rectangles
+  Inputs: d_ds5a.polygonlayer.0002, d_ds5a.associated.0001
+  Outputs: G_DF_ds.polygonlayer.0001
+Input layer "d_ds5a.polygonlayer.0002" is empty.
+No output written.
+Layer "G_DF_ds.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+not() at xt018.rs:24532
+G_DF_ds = d_ds5a not rectangles(d_ds5a, sides = { [2.4,50], == 0.94 })
+  Function: not
+  Inputs: d_ds5a.polygonlayer.0002, empty_layer.associated.0001, G_DF_ds.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: G_DF_ds.polygonlayer.0002
+Input layer "d_ds5a.polygonlayer.0002" is empty.
+Input layer "G_DF_ds.polygonlayer.0001" is empty.
+No output written.
+Layer "G_DF_ds.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+copy() at xt018.rs:24650
+copy(G_DF_ds)
+  Comment: "G_DF :Predefined geometry of DIFF violated"
+  Function: copy
+  Inputs: G_DF_ds.polygonlayer.0002
+Input layer "G_DF_ds.polygonlayer.0002" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+enclosing() at xt018.rs:24511
+df_ds5a = enclosing(d_ds32a, d_ds5a)
+  Function: enclosing
+  Inputs: d_ds32a.polygonlayer.0001, empty_layer.associated.0001, d_ds5a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: df_ds5a.polygonlayer.0001
+Input layer "d_ds32a.polygonlayer.0001" is empty.
+Input layer "d_ds5a.polygonlayer.0002" is empty.
+No output written.
+Layer "df_ds5a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+not() at xt018.rs:24533
+M_DF_ds = df_ds5a not diff
+  Function: not
+  Inputs: df_ds5a.polygonlayer.0001, empty_layer.associated.0001, diff.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: M_DF_ds.polygonlayer.0001
+Input layer "df_ds5a.polygonlayer.0001" is empty.
+No output written.
+Layer "M_DF_ds.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+copy() at xt018.rs:24588
+copy(M_DF_ds)
+  Comment: "M_DF : Predefined area must have DIFF"
+  Function: copy
+  Inputs: M_DF_ds.polygonlayer.0001
+Input layer "M_DF_ds.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+size() at xt018.rs:24512
+df1_ds5a = size(df_ds5a, distance = 0.22, clip_acute = NONE)
+  Function: size
+  Inputs: df_ds5a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: df1_ds5a.polygonlayer.0001
+Input layer "df_ds5a.polygonlayer.0001" is empty.
+No output written.
+Layer "df1_ds5a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+and_edge() at xt018.rs:24513
+df2_ds5a = edge_size(and_edge(df1_ds5a, d_ds45a, false), outside = 0.66)
+  Function: and_edge
+  Inputs: df1_ds5a.polygonlayer.0001, empty_layer.associated.0001, d_ds45a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: df2_ds5a.edgelayer.0001
+Input layer "df1_ds5a.polygonlayer.0001" is empty.
+Input layer "d_ds45a.polygonlayer.0001" is empty.
+No output written.
+Layer "df2_ds5a.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+edge_size() at xt018.rs:24513
+df2_ds5a = edge_size(and_edge(df1_ds5a, d_ds45a, false), outside = 0.66)
+  Function: edge_size
+  Inputs: df2_ds5a.edgelayer.0001, empty_layer.associated.0001
+  Outputs: df2_ds5a.polygonlayer.0001
+Input layer "df2_ds5a.edgelayer.0001" is empty.
+No output written.
+Layer "df2_ds5a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+or() at xt018.rs:24514
+df3_ds5a = size((df1_ds5a or df2_ds5a), distance = 0.12, clip_acute = NONE)
+  Function: or
+  Inputs: df1_ds5a.polygonlayer.0001, df2_ds5a.polygonlayer.0001
+  Outputs: df3_ds5a.polygonlayer.0001
+Input layer "df1_ds5a.polygonlayer.0001" is empty.
+Input layer "df2_ds5a.polygonlayer.0001" is empty.
+No output written.
+Layer "df3_ds5a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+size() at xt018.rs:24514
+df3_ds5a = size((df1_ds5a or df2_ds5a), distance = 0.12, clip_acute = NONE)
+  Function: size
+  Inputs: df3_ds5a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: df3_ds5a.polygonlayer.0002
+Input layer "df3_ds5a.polygonlayer.0001" is empty.
+No output written.
+Layer "df3_ds5a.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+not() at xt018.rs:24534
+N_DF_ds = (df3_ds5a not df_ds5a) and diff
+  Function: not
+  Inputs: df3_ds5a.polygonlayer.0002, empty_layer.associated.0001, df_ds5a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: N_DF_ds.polygonlayer.0001
+Input layer "df3_ds5a.polygonlayer.0002" is empty.
+Input layer "df_ds5a.polygonlayer.0001" is empty.
+No output written.
+Layer "N_DF_ds.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+and() at xt018.rs:24534:Duplicate command replaced at runtime with an internal copy command.
+N_DF_ds = (df3_ds5a not df_ds5a) and diff
+  Function: and
+  Inputs: pwell1_act.polygonlayer.0001
+  Outputs: N_DF_ds.polygonlayer.0002
+Input layer "pwell1_act.polygonlayer.0001" is empty.
+No output written.
+Layer "N_DF_ds.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+copy() at xt018.rs:24614
+copy(N_DF_ds)
+  Comment: "N_DF : Predefined area must not have DIFF"
+  Function: copy
+  Inputs: N_DF_ds.polygonlayer.0002
+Input layer "N_DF_ds.polygonlayer.0002" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+length_edge() at xt018.rs:24506
+d1_ds5a = edge_size(length_edge(d_ds5a, == 0.94), inside = 0.34)
+  Function: length_edge
+  Inputs: d_ds5a.polygonlayer.0002, d_ds5a.associated.0001
+  Outputs: d1_ds5a.edgelayer.0001
+Input layer "d_ds5a.polygonlayer.0002" is empty.
+No output written.
+Layer "d1_ds5a.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+edge_size() at xt018.rs:24506
+d1_ds5a = edge_size(length_edge(d_ds5a, == 0.94), inside = 0.34)
+  Function: edge_size
+  Inputs: d1_ds5a.edgelayer.0001, empty_layer.associated.0001
+  Outputs: d1_ds5a.polygonlayer.0001
+Input layer "d1_ds5a.edgelayer.0001" is empty.
+No output written.
+Layer "d1_ds5a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+not() at xt018.rs:24507
+d2_ds5a = d_ds5a not d1_ds5a
+  Function: not
+  Inputs: d_ds5a.polygonlayer.0002, empty_layer.associated.0001, d1_ds5a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d2_ds5a.polygonlayer.0001
+Input layer "d_ds5a.polygonlayer.0002" is empty.
+Input layer "d1_ds5a.polygonlayer.0001" is empty.
+No output written.
+Layer "d2_ds5a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+size() at xt018.rs:24508
+d3_ds5a = size(d2_ds5a, distance = 1.39, clip_acute = NONE)
+  Function: size
+  Inputs: d2_ds5a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d3_ds5a.polygonlayer.0001
+Input layer "d2_ds5a.polygonlayer.0001" is empty.
+No output written.
+Layer "d3_ds5a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+or() at xt018.rs:24518:command replaced with an internal copy command.
+M_DT_ds = not_edge((d3_ds5a or d4_ds5), dti, false)
+  Function: or
+  Inputs: d3_ds5a.polygonlayer.0001
+  Outputs: M_DT_ds.polygonlayer.0001
+Input layer "d3_ds5a.polygonlayer.0001" is empty.
+No output written.
+Layer "M_DT_ds.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+not_edge() at xt018.rs:24518
+M_DT_ds = not_edge((d3_ds5a or d4_ds5), dti, false)
+  Function: not_edge
+  Inputs: M_DT_ds.polygonlayer.0001, empty_layer.associated.0001, dti.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: M_DT_ds.edgelayer.0001
+Input layer "M_DT_ds.polygonlayer.0001" is empty.
+Input layer "dti.polygonlayer.0002" is empty.
+No output written.
+Layer "M_DT_ds.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+copy_edge() at xt018.rs:24909
+copy_edge(M_DT_ds)
+  Comment: "M_DT : Predefined area must have DTI"
+  Function: copy_edge
+  Inputs: M_DT_ds.edgelayer.0001
+Input layer "M_DT_ds.edgelayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+size() at xt018.rs:24510
+d5_ds5a = size(d3_ds5a, distance = 0.5, clip_acute = NONE)
+  Function: size
+  Inputs: d3_ds5a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d5_ds5a.polygonlayer.0001
+Input layer "d3_ds5a.polygonlayer.0001" is empty.
+No output written.
+Layer "d5_ds5a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+not() at xt018.rs:24535
+M_DN_ds = (d5_ds5a not df3_ds5a) not (diff and nimp)
+  Function: not
+  Inputs: d5_ds5a.polygonlayer.0001, empty_layer.associated.0001, df3_ds5a.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: M_DN_ds.polygonlayer.0001
+Input layer "d5_ds5a.polygonlayer.0001" is empty.
+Input layer "df3_ds5a.polygonlayer.0002" is empty.
+No output written.
+Layer "M_DN_ds.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+not() at xt018.rs:24535
+M_DN_ds = (d5_ds5a not df3_ds5a) not (diff and nimp)
+  Function: not
+  Inputs: M_DN_ds.polygonlayer.0001, empty_layer.associated.0001, M_DN_ds5.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: M_DN_ds.polygonlayer.0002
+Input layer "M_DN_ds.polygonlayer.0001" is empty.
+No output written.
+Layer "M_DN_ds.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+copy() at xt018.rs:24777
+copy(M_DN_ds)
+  Comment: "M_DN : Predefined area must have NDIFF"
+  Function: copy
+  Inputs: M_DN_ds.polygonlayer.0002
+Input layer "M_DN_ds.polygonlayer.0002" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+or() at xt018.rs:24516:command replaced with an internal copy command.
+d5_ds5_a = d5_ds5 or d5_ds5a
+  Function: or
+  Inputs: d5_ds5a.polygonlayer.0001
+  Outputs: d5_ds5_a.polygonlayer.0001
+Input layer "d5_ds5a.polygonlayer.0001" is empty.
+No output written.
+Layer "d5_ds5_a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+not() at xt018.rs:24529:command replaced with an internal copy command.
+M_MV_ds = d5_ds5_a not mv
+  Function: not
+  Inputs: d5_ds5_a.polygonlayer.0001
+  Outputs: M_MV_ds.polygonlayer.0001
+Input layer "d5_ds5_a.polygonlayer.0001" is empty.
+No output written.
+Layer "M_MV_ds.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+copy() at xt018.rs:25047
+copy(M_MV_ds)
+  Comment: "M_MV : Predefined area must have MV"
+  Function: copy
+  Inputs: M_MV_ds.polygonlayer.0001
+Input layer "M_MV_ds.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+outside() at xt018.rs:24520:command replaced with an internal copy command.
+d5_ds5a_a = d5_ds5_a outside ds5b
+  Function: outside
+  Inputs: d5_ds5_a.polygonlayer.0001
+  Outputs: d5_ds5a_a.polygonlayer.0001
+Input layer "d5_ds5_a.polygonlayer.0001" is empty.
+No output written.
+Layer "d5_ds5a_a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+not() at xt018.rs:24523:command replaced with an internal copy command.
+M_HN_ds = d5_ds5a_a not hvnwell
+  Function: not
+  Inputs: d5_ds5a_a.polygonlayer.0001
+  Outputs: M_HN_ds.polygonlayer.0001
+Input layer "d5_ds5a_a.polygonlayer.0001" is empty.
+No output written.
+Layer "M_HN_ds.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+copy() at xt018.rs:24999
+copy(M_HN_ds)
+  Comment: "M_HN : Predefined area must have HVNWELL"
+  Function: copy
+  Inputs: M_HN_ds.polygonlayer.0001
+Input layer "M_HN_ds.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+not() at xt018.rs:24521
+d5_ds5b_a = d5_ds5_a not d5_ds5a_a
+  Function: not
+  Inputs: d5_ds5_a.polygonlayer.0001, empty_layer.associated.0001, d5_ds5a_a.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: d5_ds5b_a.polygonlayer.0001
+Input layer "d5_ds5_a.polygonlayer.0001" is empty.
+Input layer "d5_ds5a_a.polygonlayer.0001" is empty.
+No output written.
+Layer "d5_ds5b_a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.016 GB
+
+not() at xt018.rs:24527
+M_NW_ds = d5_ds5b_a not nwell
+  Function: not
+  Inputs: d5_ds5b_a.polygonlayer.0001, empty_layer.associated.0001, nwell.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: M_NW_ds.polygonlayer.0001
+Input layer "d5_ds5b_a.polygonlayer.0001" is empty.
+No output written.
+Layer "M_NW_ds.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+copy() at xt018.rs:24820
+copy(M_NW_ds)
+  Comment: "M_NW : Predefined area must have NWELL"
+  Function: copy
+  Inputs: M_NW_ds.polygonlayer.0001
+Input layer "M_NW_ds.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+not() at xt018.rs:24526:command replaced with an internal copy command.
+M_HB_ds = d5_ds5b_a not subblk
+  Function: not
+  Inputs: d5_ds5b_a.polygonlayer.0001
+  Outputs: M_HB_ds.polygonlayer.0001
+Input layer "d5_ds5b_a.polygonlayer.0001" is empty.
+No output written.
+Layer "M_HB_ds.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+copy() at xt018.rs:24669
+copy(M_HB_ds)
+  Comment: "M_HB : Predefined area must have SUBBLK"
+  Function: copy
+  Inputs: M_HB_ds.polygonlayer.0001
+Input layer "M_HB_ds.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+
+assign() at xt018_layer_assign.rs:5
+nwell = assign({ { 2, 0 } })
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+Sun Nov 17 19:21:28 2024
+
+                                  ICV_Engine 
+
+          Version U-2022.12-SP4 for linux64 - Aug 28, 2023 cl#9133772
+
+                    Copyright (c) 1996 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+Initialized OpenAccess libraries successfully
+sconnect() at xt018.rs:4222
+ntaptemp = sconnect(connect_db, ntap, nwtrm)
+  Function: sconnect
+  Inputs: connect_db.connect_database.0027
+  Outputs: ntaptemp.connect_database.0001
+  Inputs: temp.polygonlayer.0023
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.015 GB
+
+sconnect() at xt018.rs:4222
+ntaptemp = sconnect(connect_db, ntap, nwtrm)
+  Function: sconnect
+  Inputs: temp.polygonlayer.0023, temp.polygonlayer.0028, ntap.polygonlayer.0001, nwtrm.polygonlayer.0001
+  Outputs: ntaptemp.polygonlayer.0001
+  Connect DB: Loaded
+1 unique polygon written.
+Pulled 0 polygon
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.018 GB
+
+incremental_connect() at xt018.rs:4223:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { pdiff, bulk }, ptaptemp, NONE } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0026
+  Outputs: connect_db.connect_database.0028
+  Inputs: m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, hwptub.polygonlayer.0001, ptap.polygonlayer.0001, ndiff.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4224
+connect_db = incremental_connect(connect_db, { { { ndiff, nwtrm }, ntaptemp, NONE } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0026
+  Outputs: connect_db.connect_database.0028
+  Inputs: m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, hwptub.polygonlayer.0001, ptap.polygonlayer.0001, ndiff.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+  Connect DB: Loaded
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+running CONSUMED_BY_CONNECT_ONLY mode
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.020 GB
+
+incremental_connect() at xt018.rs:4243
+connect_db = incremental_connect(connect_db, { { { hwafer_t }, hwptub }, { { pw4trm }, ptap }, { { ndftrm }, ndiff }, { { pdftrm }, pdiff }, { { hwafer_b }, hwc_bs }, { { nbase }, ndiff }, { { pbase }, pdiff }, { { tiedtub_nbuf }, pdiff }, { { ndfmvtrm }, ndiff }, { { pdfmvtrm }, pdiff }, { { dfntrm }, ndiff }, { { dfptrm }, pdiff } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0028
+  Outputs: connect_db.connect_database.0029
+  Inputs: m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, dfptrm.polygonlayer.0001, ndiff.polygonlayer.0001, pw4trm.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+  Connect DB: Cached
+Layer "dfptrm.polygonlayer.0001" is empty.
+Layer "dfntrm.polygonlayer.0001" is empty.
+Layer "pdfmvtrm.polygonlayer.0001" is empty.
+Layer "ndfmvtrm.polygonlayer.0001" is empty.
+Layer "tiedtub_nbuf.polygonlayer.0001" is empty.
+Layer "pbase.polygonlayer.0002" is empty.
+Layer "nbase.polygonlayer.0002" is empty.
+Layer "pdftrm.polygonlayer.0001" is empty.
+Layer "ndftrm.polygonlayer.0001" is empty.
+Layer "pw4trm.polygonlayer.0001" is empty.
+Layer "hwptub.polygonlayer.0001" is empty.
+Layer "hwntub_c_1.polygonlayer.0001" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.023 GB
+
+stamp() at xt018.rs:4270
+hwntub = stamp(hwntub, nwtrm, connect_db, connect_db)
+  Function: stamp
+  Inputs: connect_db.connect_database.0029
+  Outputs: hwntub.connect_database.0001
+  Inputs: m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, dfptrm.polygonlayer.0001, ndiff.polygonlayer.0001, pw4trm.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.023 GB
+
+incremental_connect() at xt018.rs:4282
+connect_db = incremental_connect(connect_db, { { { pdfntrm }, nwtrm } })
+  Function: incremental_connect
+  Inputs: hwntub.connect_database.0001
+  Outputs: connect_db.connect_database.0030
+  Inputs: m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, dfptrm.polygonlayer.0001, ndiff.polygonlayer.0001, pw4trm.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.023 GB
+
+incremental_connect() at xt018.rs:4318:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { mosvc, mosvci, mosvcm, mosvcim }, p1trm } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0030
+  Outputs: connect_db.connect_database.0031
+  Inputs: m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, dfptrm.polygonlayer.0001, ndiff.polygonlayer.0001, pw4trm.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4319:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { ne, nesvt, pe, pesvt, nn, peti, pel, nel, ndm, pe_5, pel_5, pesvt_5 }, p1trm } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0030
+  Outputs: connect_db.connect_database.0031
+  Inputs: m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, dfptrm.polygonlayer.0001, ndiff.polygonlayer.0001, pw4trm.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4320:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { nem, pem, nnm, pemti, pem_5 }, p1trm } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0030
+  Outputs: connect_db.connect_database.0031
+  Inputs: m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, dfptrm.polygonlayer.0001, ndiff.polygonlayer.0001, pw4trm.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4321:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { nisj1_16, nhsj1_7, nhsj1_10, nhsj1_16c, phsj1_7, phsj1_10, phsj1_16c, phsj1a_4, phsj1a_5, phsj1a_7, phsj1a_8, phsj1a_10, phsj1a_13, phsj1a_16, phsj1a_20, phsj1a_31, phsj2b_7, phsj2b_8, phsj2b_10, phsj2b_13, phsj2b_16, nhsj1b_2, nhsj1b_4, nhsj1b_5, nhsj1b_7, nhsj1b_8, nhsj1b_10, nhsj1a_13, nhsj1a_16, nhsj1a_20, nhsj1a_28, nhvta, nhvtaa, nhvtb, nhvu, ndhvt, ndhvta, ndhvtaa, phvta, phvtb, phvu, nmva, pmva, nmvaa, pmvaa, nmvab, pmvab }, p1trm } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0030
+  Outputs: connect_db.connect_database.0031
+  Inputs: m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, dfptrm.polygonlayer.0001, ndiff.polygonlayer.0001, pw4trm.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4328:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { nhvra, nhvrb, nhvrc, nhvrd, nhvre, nhvrf, ndhvrd, ndhvrf, phvra, phvrb, phvrc, phvrd, phvre, phvrf, pmvb, pmvd, pmve, pmvf }, p1trm } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0030
+  Outputs: connect_db.connect_database.0031
+  Inputs: m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, dfptrm.polygonlayer.0001, ndiff.polygonlayer.0001, pw4trm.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4329
+connect_db = incremental_connect(connect_db, { { { nmvb, nmvc, nmvd, nmve, nmvf, ndmvd, ndmvf }, p1trm } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0030
+  Outputs: connect_db.connect_database.0031
+  Inputs: m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, dfptrm.polygonlayer.0001, ndiff.polygonlayer.0001, pw4trm.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+  Connect DB: Cached
+Layer "nmvb.polygonlayer.0001" is empty.
+Layer "nmvc.polygonlayer.0001" is empty.
+Layer "nmvd.polygonlayer.0001" is empty.
+Layer "nmve.polygonlayer.0001" is empty.
+Layer "nmvf.polygonlayer.0001" is empty.
+Layer "ndmvd.polygonlayer.0001" is empty.
+Layer "ndmvf.polygonlayer.0001" is empty.
+Layer "nhvra.polygonlayer.0001" is empty.
+Layer "nhvrb.polygonlayer.0001" is empty.
+Layer "nhvrc.polygonlayer.0001" is empty.
+Layer "nhvrd.polygonlayer.0001" is empty.
+Layer "nhvre.polygonlayer.0001" is empty.
+Layer "nhvrf.polygonlayer.0001" is empty.
+Layer "ndhvrd.polygonlayer.0001" is empty.
+Layer "ndhvrf.polygonlayer.0001" is empty.
+Layer "phvra.polygonlayer.0001" is empty.
+Layer "phvrb.polygonlayer.0001" is empty.
+Layer "phvrc.polygonlayer.0001" is empty.
+Layer "phvrd.polygonlayer.0001" is empty.
+Layer "phvre.polygonlayer.0001" is empty.
+Layer "phvrf.polygonlayer.0001" is empty.
+Layer "pmvb.polygonlayer.0001" is empty.
+Layer "pmvd.polygonlayer.0001" is empty.
+Layer "pmve.polygonlayer.0001" is empty.
+Layer "pmvf.polygonlayer.0001" is empty.
+Layer "nisj1_16.polygonlayer.0001" is empty.
+Layer "nhsj1_7.polygonlayer.0001" is empty.
+Layer "nhsj1_10.polygonlayer.0001" is empty.
+Layer "nhsj1_16c.polygonlayer.0001" is empty.
+Layer "phsj1_7.polygonlayer.0001" is empty.
+Layer "phsj1_10.polygonlayer.0001" is empty.
+Layer "phsj1_16c.polygonlayer.0001" is empty.
+Layer "phsj1a_4.polygonlayer.0001" is empty.
+Layer "phsj1a_5.polygonlayer.0001" is empty.
+Layer "phsj1a_7.polygonlayer.0001" is empty.
+Layer "phsj1a_8.polygonlayer.0001" is empty.
+Layer "phsj1a_10.polygonlayer.0001" is empty.
+Layer "phsj1a_13.polygonlayer.0001" is empty.
+Layer "phsj1a_16.polygonlayer.0001" is empty.
+Layer "phsj1a_20.polygonlayer.0001" is empty.
+Layer "phsj1a_31.polygonlayer.0001" is empty.
+Layer "phsj2b_7.polygonlayer.0001" is empty.
+Layer "phsj2b_8.polygonlayer.0001" is empty.
+Layer "phsj2b_10.polygonlayer.0001" is empty.
+Layer "phsj2b_13.polygonlayer.0001" is empty.
+Layer "phsj2b_16.polygonlayer.0001" is empty.
+Layer "nhsj1b_2.polygonlayer.0001" is empty.
+Layer "nhsj1b_4.polygonlayer.0001" is empty.
+Layer "nhsj1b_5.polygonlayer.0001" is empty.
+Layer "nhsj1b_7.polygonlayer.0001" is empty.
+Layer "nhsj1b_8.polygonlayer.0001" is empty.
+Layer "nhsj1b_10.polygonlayer.0001" is empty.
+Layer "nhsj1a_13.polygonlayer.0001" is empty.
+Layer "nhsj1a_16.polygonlayer.0001" is empty.
+Layer "nhsj1a_20.polygonlayer.0001" is empty.
+Layer "nhsj1a_28.polygonlayer.0001" is empty.
+Layer "nhvta.polygonlayer.0001" is empty.
+Layer "nhvtaa.polygonlayer.0001" is empty.
+Layer "nhvtb.polygonlayer.0001" is empty.
+Layer "nhvu.polygonlayer.0001" is empty.
+Layer "ndhvt.polygonlayer.0001" is empty.
+Layer "ndhvta.polygonlayer.0001" is empty.
+Layer "ndhvtaa.polygonlayer.0001" is empty.
+Layer "phvta.polygonlayer.0001" is empty.
+Layer "phvtb.polygonlayer.0001" is empty.
+Layer "phvu.polygonlayer.0001" is empty.
+Layer "nmva.polygonlayer.0001" is empty.
+Layer "pmva.polygonlayer.0001" is empty.
+Layer "nmvaa.polygonlayer.0001" is empty.
+Layer "pmvaa.polygonlayer.0001" is empty.
+Layer "nmvab.polygonlayer.0001" is empty.
+Layer "pmvab.polygonlayer.0001" is empty.
+Layer "nem.polygonlayer.0001" is empty.
+Layer "pem.polygonlayer.0001" is empty.
+Layer "nnm.polygonlayer.0001" is empty.
+Layer "pemti.polygonlayer.0001" is empty.
+Layer "pem_5.polygonlayer.0001" is empty.
+Layer "nesvt.polygonlayer.0001" is empty.
+Layer "pesvt.polygonlayer.0001" is empty.
+Layer "nn.polygonlayer.0001" is empty.
+Layer "peti.polygonlayer.0001" is empty.
+Layer "pel.polygonlayer.0001" is empty.
+Layer "nel.polygonlayer.0001" is empty.
+Layer "ndm.polygonlayer.0001" is empty.
+Layer "pe_5.polygonlayer.0001" is empty.
+Layer "pel_5.polygonlayer.0001" is empty.
+Layer "pesvt_5.polygonlayer.0001" is empty.
+Layer "mosvc.polygonlayer.0001" is empty.
+Layer "mosvci.polygonlayer.0001" is empty.
+Layer "mosvcm.polygonlayer.0001" is empty.
+Layer "mosvcim.polygonlayer.0001" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.018 GB
+running CONSUMED_BY_CONNECT_ONLY mode
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.025 GB
+
+incremental_connect() at xt018.rs:4402
+connect_db = incremental_connect(connect_db, { { { csp1m }, m1trm }, { { csp2m }, m2trm }, { { csp3m }, m3trm }, { { csp4m }, m4trm }, { { csptm }, mttrm }, { { csptlm }, mltrm }, { { cspnsd }, m4trm } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0031
+  Outputs: connect_db.connect_database.0032
+  Inputs: m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, dfptrm.polygonlayer.0001, ndiff.polygonlayer.0001, pw4trm.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001, cspnsd.polygonlayer.0001, csp1m.polygonlayer.0001, csp2m.polygonlayer.0001, csp3m.polygonlayer.0001, csp4m.polygonlayer.0001, csptm.polygonlayer.0001, csptlm.polygonlayer.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.023 GB
+
+incremental_connect() at xt018.rs:4556
+connect_db = incremental_connect(connect_db, { { { dfwdnh_an, bulk }, pw4trm } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0032
+  Outputs: connect_db.connect_database.0033
+  Inputs: m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, dfptrm.polygonlayer.0001, ndiff.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.023 GB
+
+incremental_connect() at xt018.rs:4622:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { dfptrm1 }, dfptrm } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0033
+  Outputs: connect_db.connect_database.0034
+  Inputs: m1_vlbl.polygonlayer.0001, m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, ndiff.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001, p1_vlbl.polygonlayer.0001, df_vlbl.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4667:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { m1_vlbl }, m1trm } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0033
+  Outputs: connect_db.connect_database.0034
+  Inputs: m1_vlbl.polygonlayer.0001, m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, ndiff.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001, p1_vlbl.polygonlayer.0001, df_vlbl.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4668:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { m1_vlbl }, csf_m1 } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0033
+  Outputs: connect_db.connect_database.0034
+  Inputs: m1_vlbl.polygonlayer.0001, m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, ndiff.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001, p1_vlbl.polygonlayer.0001, df_vlbl.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4669:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { m2_vlbl }, m2trm } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0033
+  Outputs: connect_db.connect_database.0034
+  Inputs: m1_vlbl.polygonlayer.0001, m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, ndiff.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001, p1_vlbl.polygonlayer.0001, df_vlbl.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4670:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { m2_vlbl }, csf_m2 } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0033
+  Outputs: connect_db.connect_database.0034
+  Inputs: m1_vlbl.polygonlayer.0001, m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, ndiff.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001, p1_vlbl.polygonlayer.0001, df_vlbl.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4671:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { p1_vlbl }, p1trm } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0033
+  Outputs: connect_db.connect_database.0034
+  Inputs: m1_vlbl.polygonlayer.0001, m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, ndiff.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001, p1_vlbl.polygonlayer.0001, df_vlbl.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4672:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { p1_vlbl }, csf_p1 } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0033
+  Outputs: connect_db.connect_database.0034
+  Inputs: m1_vlbl.polygonlayer.0001, m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, ndiff.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001, p1_vlbl.polygonlayer.0001, df_vlbl.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4813:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { df_vlbl }, ndiff } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0033
+  Outputs: connect_db.connect_database.0034
+  Inputs: m1_vlbl.polygonlayer.0001, m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, ndiff.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001, p1_vlbl.polygonlayer.0001, df_vlbl.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:4814:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { df_vlbl }, pdiff } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0033
+  Outputs: connect_db.connect_database.0034
+  Inputs: m1_vlbl.polygonlayer.0001, m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, ndiff.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001, p1_vlbl.polygonlayer.0001, df_vlbl.polygonlayer.0001
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:5973
+connect_db = incremental_connect(connect_db, { { { tub1_hvnw_t }, nwtrm } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0033
+  Outputs: connect_db.connect_database.0034
+  Inputs: m1_vlbl.polygonlayer.0001, m2_vlbl.polygonlayer.0001, m3_vlbl.polygonlayer.0001, m4_vlbl.polygonlayer.0001, mt_vlbl.polygonlayer.0001, ml_vlbl.polygonlayer.0001, ndiff.polygonlayer.0001, pdiff.polygonlayer.0001, nwtrm.polygonlayer.0001, pad_b.polygonlayer.0001, bulk.polygonlayer.0001, hwafer_t.polygonlayer.0001, csf_p1.polygonlayer.0001, p1trm.polygonlayer.0001, csf_m1.polygonlayer.0001, m1trm.polygonlayer.0001, csf_m2.polygonlayer.0001, m2trm.polygonlayer.0001, csf_m3.polygonlayer.0001, m3trm.polygonlayer.0001, csf_m4.polygonlayer.0001, m4trm.polygonlayer.0001, csf_mt.polygonlayer.0001, mttrm.polygonlayer.0001, mltrm.polygonlayer.0001, hwntub_c_1.polygonlayer.0001, hwntub.polygonlayer.0001, p1_vlbl.polygonlayer.0001, df_vlbl.polygonlayer.0001
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.024 GB
+
+incremental_connect() at xt018.rs:6996:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { pwell1_act }, bulk } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0034
+  Outputs: connect_db.connect_database.0035
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:6997
+connect_db = incremental_connect(connect_db, { { { pwell1_ex2 }, bulk } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0034
+  Outputs: connect_db.connect_database.0035
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.024 GB
+
+incremental_connect() at xt018.rs:6996:Combined with subsequent incremental_connect.
+connect_db = incremental_connect(connect_db, { { { pwell1_act }, bulk } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0035
+  Outputs: connect_db.connect_database.0036
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at xt018.rs:6997
+connect_db = incremental_connect(connect_db, { { { pwell1_ex2 }, bulk } })
+  Function: incremental_connect
+  Inputs: connect_db.connect_database.0035
+  Outputs: connect_db.connect_database.0036
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+  Connect DB: Cached
+running POST_PROCESS mode
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.024 GB
+
+net_area_ratio_with_accumulate_cond_tub() at xt018.rs:7006
+net_area_ratio_with_accumulate_cond_tub(connect_db, > 0.50, LAYER_R3DF_prop_layer, LAYER_R3DF_prop_layer_unused, { pwell1_act }, { pwell1_ex2 }, "nps_net_area('layer1') / nps_net_area('layer2')")
+  Function: net_area_ratio_with_accumulate_cond_tub
+  Inputs: pwell1_act.polygonlayer.0001, pwell1_ex2.polygonlayer.0001, pwell1_act.polygonlayer.0001
+  Outputs: temp.polygonlayer.0103, temp.polygonlayer.0104
+No output written.
+Layer "temp.polygonlayer.0103" is empty.
+No output written.
+Layer "temp.polygonlayer.0104" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+net_area_ratio_with_accumulate_cond_tub() at xt018.rs:7006
+net_area_ratio_with_accumulate_cond_tub(connect_db, > 0.50, LAYER_R3DF_prop_layer, LAYER_R3DF_prop_layer_unused, { pwell1_act }, { pwell1_ex2 }, "nps_net_area('layer1') / nps_net_area('layer2')")
+  Comment: "R3DF : Maximum ratio of DIFF (in PWELL1_E) to PWELL1_E area ... 50%. Note: Valid if only PWELL1_E exist in tub with PWELL1_E area > 30000."
+  Function: net_area_ratio_with_accumulate_cond_tub
+  Inputs: pwell1_act.polygonlayer.0001, temp.polygonlayer.0103, temp.polygonlayer.0104, pwell1_act.polygonlayer.0001, pwell1_ex2.polygonlayer.0001, empty_layer.associated.0001, empty_layer.associated.0001, pwell1_ex2.polygonlayer.0001, pwell1_act.polygonlayer.0001
+  Outputs: temp.polygonlayer.0105, temp.polygonlayer.0106, temp.polygonlayer.0107
+Input layer "temp.polygonlayer.0104" is empty.
+Input layer "pwell1_act.polygonlayer.0001" is empty.
+Input layer "pwell1_ex2.polygonlayer.0001" is empty.
+No output written.
+Layer "temp.polygonlayer.0106" is empty.
+Limiting output_from_layers debug output to 2500000 polygons per net
+No output written.
+Layer "temp.polygonlayer.0107" is empty.
+0 net found.
+0 polygon error found.
+0 polygon property written.
+0 violation written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+
+Reading error hierarchy error._hier.0001 ...
+ Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+  File Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+

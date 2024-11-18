@@ -1,0 +1,92 @@
+
+                                  PYDB_Server 
+
+          Version U-2022.12-SP4 for linux64 - Aug 28, 2023 cl#9133772
+
+                    Copyright (c) 2007 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Removing old database /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/pydb/PYDB_fx4_sc
+Listening for connections on port 46855
+PYDB_Server Started on host redhatclon, Sun 11/17/2024 19:44:29
+Verified current licenses.
+Creating file:/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/pydb/PYDB_fx4_sc?nolock=1
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Client redhatclon(1066776):19 connected (1 total client)
+Client redhatclon(1067341):20 connected (2 total clients)
+Client redhatclon(1067340):21 connected (3 total clients)
+Client redhatclon(1067341):20 connection closed
+Client redhatclon(1067341):20 disconnected (2 clients remain)
+Client redhatclon(1067341):20 connected (3 total clients)
+Client redhatclon(1067340):21 connection closed
+Client redhatclon(1067340):21 disconnected (2 clients remain)
+Client redhatclon(1067340):21 connected (3 total clients)
+Client redhatclon(1067341):20 connection closed
+Client redhatclon(1067341):20 disconnected (2 clients remain)
+Client redhatclon(1067341):20 connected (3 total clients)
+Client redhatclon(1067341):20 connection closed
+Client redhatclon(1067341):20 disconnected (2 clients remain)
+Client redhatclon(1067340):21 connection closed
+Client redhatclon(1067340):21 disconnected (1 client remains)
+Generating /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/fx4_sc.TOP_LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+Flushing database cache
+  Flush Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.007 GB Unpooled=0.000 GB
+Shutdown requested by client redhatclon(1066776):19
+0 clients remain connected
+Client redhatclon(1066776):19 connection closed
+Overall server Time=0:00:22  User=0.03 Sys=0.03 Mem=0.001 GB SQLite=0.007 GB Unpooled=0.000 GB
+
+                                  PYDB_Server 
+
+          Version U-2022.12-SP4 for linux64 - Aug 28, 2023 cl#9133772
+
+                    Copyright (c) 2007 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Listening for connections on port 54735
+PYDB_Server Started on host redhatclon, Sun 11/17/2024 19:44:52
+Client redhatclon(1063733):6 connected (1 total client)
+Verified current licenses.
+Opening file:/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/pydb/PYDB_fx4_sc?nolock=1 in read-write mode
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Shutdown requested by client redhatclon(1063733):6
+0 clients remain connected
+Client redhatclon(1063733):6 connection closed
+Overall server Time=0:00:13  User=0.01 Sys=0.00 Mem=0.000 GB SQLite=0.002 GB Unpooled=0.000 GB

@@ -1,0 +1,35 @@
+/* ICV_Nettran: RHEL64 U-2022.12-SP4.9133772 2023/08/28 */
+/* Created:  11/17/2024  19:44   */
+
+                                  ICV_Nettran 
+
+          Version U-2022.12-SP4 for linux64 - Aug 28, 2023 cl#9133772
+
+                    Copyright (c) 1996 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Options: -sp /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/fx4_sc.icv.sp -mprop -cell fx4_sc -fopen C -dupCell USE_MULTIPLE -sp-ndbConnect -sp-dupProp LAST -errorLimit 1000 -quiet -logFile run_details/icv_nettran.log -globalNets VDD VSS DVDD DVSS VDDO GNDO -wireLog run_details/nettran_wire.log -dupCellReportFile run_details/nettran_dupCell.log -outName /.netlist_database_sch100 -outType ndb -ndb-noOrgname -ndb-micron 
+
+Pre-parsing "/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/fx4_sc.icv.sp" netlist ...
+Reading "/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/fx4_sc.icv.sp" netlist ...
+Loading cell "fx4_sc" ...
+[Nettran Report] Reading Netlist(s): Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.004 GB
+Processing Hierarchy ...
+[Nettran Report] Post Process: Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.004 GB
+Writing NDB netlist ...
+[Nettran Report] OutputNetlistAcctTreeFiles: Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.010 GB
+Translation completed.
+[Nettran Report] Nettran Total Runtime: Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.010 GB

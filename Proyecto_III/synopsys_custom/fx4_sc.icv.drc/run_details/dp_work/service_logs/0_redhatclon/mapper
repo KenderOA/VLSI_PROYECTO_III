@@ -1,0 +1,39 @@
+[1059305:2024-11-17 19:21:05.050] Starting service 'mapper' (Node ID=0, Host Name=redhatclon)
+[1059305:2024-11-17 19:21:05.067] <Redis> 1059306:C 17 Nov 2024 19:21:05.067 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[1059305:2024-11-17 19:21:05.067] <Redis> 1059306:C 17 Nov 2024 19:21:05.067 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=1059306, just started
+[1059305:2024-11-17 19:21:05.068] <Redis> 1059306:C 17 Nov 2024 19:21:05.067 # Configuration loaded
+[1059305:2024-11-17 19:21:05.070] <Redis> 1059306:M 17 Nov 2024 19:21:05.070 * Running mode=standalone, port=36871.
+[1059305:2024-11-17 19:21:05.070] <Redis> 1059306:M 17 Nov 2024 19:21:05.070 # Server initialized
+[1059305:2024-11-17 19:21:05.070] <Redis> 1059306:M 17 Nov 2024 19:21:05.070 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[1059305:2024-11-17 19:21:05.071] <Redis> 1059306:M 17 Nov 2024 19:21:05.070 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo madvise > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled (set to 'madvise' or 'never').
+[1059305:2024-11-17 19:21:05.071] <Redis> 1059306:M 17 Nov 2024 19:21:05.071 * Ready to accept connections
+[1059305:2024-11-17 19:21:05.071] Launched Redis process 1059306 (Service Mapper) on address 127.0.0.1:36871. Attempting to connect...
+[1059305:2024-11-17 19:21:05.072] Attempt #1 successfully connected to Redis at 127.0.0.1:36871
+[1059305:2024-11-17 19:21:05.072] <Redis> 1059306:M 17 Nov 2024 19:21:05.071 * The server is now ready to accept connections at /tmp/icv_Atozky/mapper
+[1059305:2024-11-17 19:21:05.074] Wrote service info file to run_details/dp_work/service_info
+[1059304:2024-11-17 19:21:15.077] [2024-11-17 19:21:05.086] Service 'launcher:0' registered on redhatclon:37069
+[1059311:2024-11-17 19:21:15.077] [2024-11-17 19:21:05.099] Service 'license_manager' registered on redhatclon:58511
+[1059314:2024-11-17 19:21:15.077] [2024-11-17 19:21:05.103] Service 'lock_manager' registered on redhatclon:35663
+[1059312:2024-11-17 19:21:15.077] [2024-11-17 19:21:05.104] Service 'cluster' registered on redhatclon:51385
+[1059313:2024-11-17 19:21:15.077] [2024-11-17 19:21:05.119] Service 'hdb' registered on redhatclon:48275
+[1059321:2024-11-17 19:21:15.077] [2024-11-17 19:21:05.299] Service 'memory_manager' registered on redhatclon:58307
+[1059322:2024-11-17 19:21:15.078] [2024-11-17 19:21:05.300] Service 'cleanup' registered on redhatclon:47881
+[1059343:2024-11-17 19:21:15.078] [2024-11-17 19:21:14.317] Per-host service 'worker_pool:redhatclon' registered on redhatclon:35737
+[1059343:2024-11-17 19:21:15.078] [2024-11-17 19:21:14.317] Per-host service 'host_stats:redhatclon' registered on redhatclon:56157
+[1059317:2024-11-17 19:21:15.078] [2024-11-17 19:21:14.320] Service 'add_host' registered on redhatclon:54789
+[1059321:2024-11-17 19:21:33.057] [2024-11-17 19:21:32.981] Removing service 'memory_manager'
+[1059317:2024-11-17 19:21:33.057] [2024-11-17 19:21:33.016] Removing service 'add_host'
+[1059304:2024-11-17 19:21:33.058] [2024-11-17 19:21:33.054] Removing service 'launcher:0'
+[1059312:2024-11-17 19:21:33.058] [2024-11-17 19:21:33.054] Removing service 'cluster'
+[1059314:2024-11-17 19:21:33.058] [2024-11-17 19:21:33.054] Removing service 'lock_manager'
+[1059313:2024-11-17 19:21:33.058] [2024-11-17 19:21:33.054] Removing service 'hdb'
+[1059311:2024-11-17 19:21:33.058] [2024-11-17 19:21:33.055] Removing service 'license_manager'
+[1059343:2024-11-17 19:21:33.058] [2024-11-17 19:21:33.057] Removing service 'worker_pool:redhatclon'
+[1059343:2024-11-17 19:21:33.058] [2024-11-17 19:21:33.057] Removing service 'host_stats:redhatclon'
+[1059305:2024-11-17 19:21:33.059] Received signal 15 (Terminated). Exiting.
+[1059305:2024-11-17 19:21:33.060] <Redis> 1059306:M 17 Nov 2024 19:21:33.059 # User requested shutdown...
+[1059305:2024-11-17 19:21:33.060] <Redis> 1059306:M 17 Nov 2024 19:21:33.059 * Removing the unix socket file.
+[1059305:2024-11-17 19:21:33.060] <Redis> 1059306:M 17 Nov 2024 19:21:33.059 # Redis is now ready to exit, bye bye...
+[1059305:2024-11-17 19:21:33.060] Pipe is closed from from Redis.
+[1059305:2024-11-17 19:21:33.060] /tmp/icv_Atozky is removed
+[1059305:2024-11-17 19:21:33.061] Service info file run_details/dp_work/service_info is removed.

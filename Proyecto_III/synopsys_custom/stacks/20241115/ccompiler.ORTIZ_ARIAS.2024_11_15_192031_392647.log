@@ -1,0 +1,1107 @@
+[19:20:36.61] /o 
+              /c                                 Custom Compiler™ 
+              /c 
+              /c                Version U-2023.03-SP2 for linux64 - Aug 25, 2023 
+              /c 
+              /c                     Copyright (c) 2004 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9128410 compiled on Fri Aug 25 11:03:32 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/cdesigner -loadAll true
+              /c Execution time: Fri Nov 15 19:20:31 2024
+              /c Host: redhatclon
+              /c Working directory: /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III
+              /c 
+[19:20:48.93] /m Information: Registering ICV PERC package...
+[19:20:49.35] /o 
+[19:20:49.35] /o <> -------------------------------------------
+[19:20:49.35] /o <>
+[19:20:49.35] /o <> Loading XFAB PDK components
+[19:20:49.35] /o <>  basic                            O.K
+[19:20:49.37] /o <>  exports                          O.K
+[19:20:49.39] /o <>  custom                           O.K
+[19:20:49.40] /o <>  cdf                              O.K
+[19:20:49.40] /o <>  netlisting                       O.K
+[19:20:49.46] /o <>  useability                       O.K
+[19:20:49.47] /o <>  synopsys                         O.K
+[19:20:49.52] /o <>  pcellkit                         O.K
+[19:20:49.59] /o <>  trigger_callbacks                O.K
+[19:20:49.59] /o <> Loading XFAB PDK preferences
+[19:20:49.87] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[19:20:49.91] /w Warning: Preference 'xtStarTcadGrdFile' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[19:20:49.92] /o <> Loading Calibre presets for XFAB PDK
+[19:20:49.92] /o <> Loading .xfabrc user script
+[19:20:49.92] /o <>
+[19:20:49.92] /o <> -------------------------------------------
+[19:20:49.92] /o <>
+[19:20:49.92] /o <> Technology     xt018
+[19:20:49.92] /o <> Version        v12_1_1_1
+[19:20:49.92] /o <> LibCode        1243
+[19:20:49.92] /o <> Core           LP 1.8V
+[19:20:49.92] /o <> Metal          Thin4
+[19:20:49.92] /o <> TopMetal       METTP&METTPL
+[19:20:49.92] /o <>
+[19:20:49.92] /o <> -------------------------------------------
+[19:20:49.92] /o 
+[19:20:50.21] /r giShowFrameTabs false
+[19:21:05.39] /# gi::executeAction {deRecentFile_clk_clkx0x4_schematic_schematic_Editing} -in [gi::getWindows 0]
+[19:21:05.39] /a de::open clk/clkx0x4/schematic -readOnly false
+[19:21:05.47] /m Information: Feature 'SynopsysCustomLayout' checked out. (LICENSE-003)
+[19:21:05.68] /r giWindowId 1
+[19:21:05.68] /r giWindowGeometry 1910x1020+5+55
+[19:21:05.68] /# db::setAttr maximized -of [gi::getFrames 1] -value true
+[19:21:06.03] /o oa:0x2de19200
+[19:21:08.21] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[19:21:08.21] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 1]]]}]
+[19:21:14.07] /i gi::executeAction {seShowConsoleForWindow} -in [gi::getWindows 1]
+[19:21:14.11] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[19:21:14.15] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[19:21:14.15] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[19:21:14.27] /r giWindowId 2
+[19:21:14.29] /r giWindowGeometry 600x500
+[19:21:14.43] /r giWindowGeometry 600x500
+[19:21:14.65] /m Information: Launching Background pw_shell Server Process "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III && primewave_st -gui 0  -log pw_shell_session0_job1 -libDefFile /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs"
+[19:21:14.86] /m Information: Launching Waveform Viewer "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom &&  /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_Duwy84 -unique_string a9431b2239ea6720920fb9049262422141d71a20029f362b96d0a7b23157bcd7ad68c23e7b2429ac -lic_type 2    > /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/viewer.log 2>&1"
+[19:21:14.89] /m Information: Launching Result Viewer "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom &&  /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -log rvcmd.log -ptype rv -k -cdesigner -parent_cc_pid 392647 -spxkey /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/waveform/sae.spxkey -unique_string a9431b2239ea6720920fb9049262422141d71a20029f362b96d0a7b23157bcd7ad68c23e7b2429ac -lic_type 2    > /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/rviewer.log 2>&1"
+[19:21:15.22] /i db::setAttr geometry -of [gi::getFrames 2] -value 600x517+5+55
+[19:21:17.13] /i gi::setCurrentIndex {outputsTable} -index {0,1} -in [gi::getWindows 2]
+[19:21:17.13] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[19:21:18.61] /i sa::selectOutputs -outputIndex 0 -useCustomColors true -window 2
+[19:21:18.68] /i gi::setField {outputsTable} -index {0,1} -value {} -in [gi::getWindows 2]
+[19:21:18.68] /i gi::setCurrentIndex {outputsTable} -index {1,1} -in [gi::getWindows 2]
+[19:21:18.68] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[19:21:26.60] /m Information: Received ready-for-commands signal from background job 'pw_shell_session0_job1' after 12 seconds.
+[19:21:27.87] /# gi::executeAction {deAddPoint} -in [gi::getWindows 1]
+[19:21:27.87] /i de::addPoint {4.38125 1.3125} -context [db::getNext [de::getContexts -window 1]]
+[19:21:43.03] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[19:21:44.52] /i sa::selectOutputs -outputIndex 1 -useCustomColors true -window 2
+[19:21:44.64] /i gi::setField {outputsTable} -index {1,1} -value {} -in [gi::getWindows 2]
+[19:21:44.64] /i gi::setCurrentIndex {outputsTable} -index {0,1} -in [gi::getWindows 2]
+[19:21:44.64] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[19:21:46.63] /# gi::executeAction {deAddPoint} -in [gi::getWindows 1]
+[19:21:46.63] /i de::addPoint {3.50625 1.125} -context [db::getNext [de::getContexts -window 1]]
+[19:21:47.74] /i gi::setCurrentIndex {outputsTable} -index {2,1} -in [gi::getWindows 2]
+[19:21:47.74] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[19:21:49.02] /i sa::selectOutputs -outputIndex 2 -useCustomColors true -window 2
+[19:21:49.12] /i gi::setField {outputsTable} -index {2,1} -value {} -in [gi::getWindows 2]
+[19:21:49.12] /i gi::setCurrentIndex {outputsTable} -index {1,1} -in [gi::getWindows 2]
+[19:21:49.12] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 2]
+[19:21:50.21] /# gi::executeAction {deAddPoint} -in [gi::getWindows 1]
+[19:21:50.21] /i de::addPoint {3.4375 1.2875} -context [db::getNext [de::getContexts -window 1]]
+[19:21:52.63] /i gi::setActiveDialog [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 2]]
+[19:21:52.91] /i db::setAttr geometry -of [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 2]] -value 680x652+600+64
+[19:21:57.03] /i gi::setField {/analysesGroups/tabGeneral/anaPane/step} -value {01ps} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 2]]
+[19:21:59.78] /i gi::setField {/analysesGroups/tabGeneral/anaPane/stop} -value {100ns} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 2]]
+[19:21:59.78] /i gi::pressButton {/ok} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 2]]
+[19:21:59.92] /i gi::setCurrentIndex {analysisPane} -index {0,0} -in [gi::getWindows 2]
+[19:22:01.84] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[19:22:01.84] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 2]]
+[19:22:07.27] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 2]
+[19:22:07.27] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 2] -mode [sa::_utils::findRunMode 2]
+[19:22:07.42] /r giWindowId 3
+[19:22:07.45] /r giWindowGeometry 800x600+55+105
+[19:22:08.90] /w Warning: Preference 'nlCDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlCDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:22:08.90] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[19:22:08.90] /w Warning: Preference 'nlVHDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVHDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:22:08.90] /w Warning: Preference 'nlSpectreAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:22:08.90] /w Warning: Preference 'nlSpectreShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:22:08.90] /w Warning: Preference 'nlEldoShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlEldoIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:22:08.90] /w Warning: Preference 'nlVerilogICCShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogICCIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:22:08.90] /w Warning: Preference 'nlVerilogShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:22:08.90] /w Warning: Preference 'nlHSPICEShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlHSPICEIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:22:08.90] /w Warning: Preference 'nlNanoSimShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlNanoSimIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:22:08.90] /w Warning: Preference 'nlCDLPromoteConnectDefsAtTop' is deprecated and scheduled for removal in a future release. Use 'nlCDLTopVirtualTerms' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:22:08.90] /w Warning: Preference 'nlAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:22:08.99] /m Information: Launching Background pw_shell Server Process "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III && primewave_st -gui 0  -log pw_shell_session0_job2 -libDefFile /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs"
+[19:22:08.99] /i gi::collapse {jobMonitorTable} -index {0.0.1,0} -in [gi::getWindows 3]
+[19:22:09.00] /m Information: Starting netlisting for the test suite 'saeSession0'...
+[19:22:09.02] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 507x64+42+230
+[19:22:09.04] /i gi::setActiveDialog [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]]
+[19:22:10.80] /m Information: Starting netlisting for the testbench: 'default'
+[19:22:11.10] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 515x64+42+230
+[19:22:12.10] /m Information: Netlisting finished successfully for the testbench: 'default'
+[19:22:12.12] /m Information: Netlisting finished successfully for the test suite 'saeSession0'.
+[19:22:12.59] /m Information: Starting PrimeSimHSPICE simulation for design: clk/clkx0x4/schematic
+[19:22:12.61] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 3]
+[19:22:12.76] /i gi::setActiveWindow 2
+[19:22:12.76] /i gi::setActiveWindow 2 -raise true
+[19:22:12.89] /r giWindowId 4
+[19:22:12.93] /r giWindowGeometry 1024x768+313+185
+[19:22:12.95] /r giWindowId 5
+[19:22:12.97] /r giWindowGeometry 1040x800
+[19:22:17.11] /m Information: Simulation completed successfully for design: clk/clkx0x4/schematic  (PW-651)
+[19:22:17.21] /m Information: Netlisting and simulation completed for testbench: default in 10s
+[19:22:17.22] /m Information: Evaluating and plotting outputs...
+[19:22:20.72] /m Information: Evaluating and plotting completed for testbench: default in 3s
+[19:22:20.72] /m Information: Received ready-for-commands signal from background job 'pw_shell_session0_job2' after 12 seconds.
+[19:22:20.80] /r giWindowId 6
+[19:22:20.82] /r giWindowGeometry 1910x1020+5+55
+[19:22:20.82] /i db::setAttr maximized -of [gi::getFrames 7] -value true
+[19:23:07.49] /i gi::executeAction giCloseWindow -in [gi::getWindows 6]
+[19:23:07.54] /i gi::setActiveWindow 4
+[19:23:07.54] /i gi::setActiveWindow 4 -raise true
+[19:23:08.31] /m Information: Waveform viewer exited normally.
+[19:23:08.50] /m Information: Launching Waveform Viewer "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom &&  /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_U00Lw7 -unique_string a9431b2239ea6720920fb9049262422141d71a20029f362b96d0a7b23157bcd726d156d08fbe33ef -lic_type 2    > /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/viewer.log 2>&1"
+[19:23:09.19] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[19:23:09.21] /i gi::setActiveWindow 2
+[19:23:09.21] /i gi::setActiveWindow 2 -raise true
+[19:23:10.49] /i db::setAttr iconified -of [gi::getFrames 2] -value true
+[19:23:10.52] /i gi::setActiveWindow 3
+[19:23:10.52] /i gi::setActiveWindow 3 -raise true
+[19:23:13.34] /i db::setAttr iconified -of [gi::getFrames 3] -value true
+[19:23:13.38] /i gi::setActiveWindow 1
+[19:23:13.38] /i gi::setActiveWindow 1 -raise true
+[19:23:16.91] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[19:23:16.91] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[19:23:16.91] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {1.76875 0.85} -index 0 -intent none]
+[19:23:16.92] /o oa:0x52682a80
+[19:23:17.15] /i ::se::internal::descendInst 1 [de::getActiveFigure [gi::getWindows 1] -point {1.76875 0.85} -index 0 -intent none] auto
+[19:23:17.18] /# ide::descend 1 -inPlace false -readOnly auto
+[19:23:17.30] /r giDialog gi::setActiveDialog [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 1]]
+[19:23:17.60] /r giDialog db::setAttr geometry -of [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 1]] -value 397x82+762+531
+[19:23:19.50] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 1]]
+[19:23:19.51] /# Navigating to analogLib/vpulse/hspice (V6)
+[19:23:19.57] /e Error: Could not set preference deActiveObjectToolbarProc to value 'printInfo' because that value is invalid. Tcl procedure with the given name doesn't exist. (PREFERENCE-043)
+[19:23:19.58] /r giWindowGeometry 1632x947
+[19:23:23.88] /# gi::executeAction {deReturnToTop} -in [gi::getWindows 1]
+[19:23:23.88] /i de::return [db::getNext [de::getContexts -window 1]] -levels -1 -errorOnFail false
+[19:23:23.89] /# Navigating to clk/clkx0x4/schematic
+[19:23:23.90] /r giWindowGeometry 1910x1020+5+55
+[19:23:26.59] /# gi::executeAction {dePropertyEditorToggle} -in [gi::getWindows 1]
+[19:23:26.59] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]] -value true
+[19:23:28.81] /i gi::setItemSelection {parameters} -index {pw,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:23:28.82] /i gi::setCurrentIndex {parameters} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:23:35.44] /i gi::setField {parameters} -value {2n} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:23:35.52] /i gi::setItemSelection {parameters} -index {per,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:23:35.52] /i gi::setCurrentIndex {parameters} -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:23:40.77] /i gi::setField {parameters} -value {4n} -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:23:40.86] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:23:51.81] /i gi::executeAction {seShowConsoleForWindow} -in [gi::getWindows 1]
+[19:23:51.82] /# db::setAttr iconified -of [gi::getFrames 2] -value false
+[19:23:54.36] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[19:23:54.36] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 2]]
+[19:23:55.79] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 2]
+[19:23:55.79] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 2] -mode [sa::_utils::findRunMode 2]
+[19:23:55.98] /r giDialog gi::setActiveDialog [gi::getDialogs {xtShowDesignsPrompt}]
+[19:23:55.98] /r giDialog gi::setCurrentIndex {target} -index {0,0} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[19:23:56.21] /r giDialog db::setAttr geometry -of [gi::getDialogs {xtShowDesignsPrompt}] -value 631x290+635+368
+[19:23:57.56] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[19:23:57.81] /m Information: 
+[19:23:57.81] /o Checking "clk/clkx0x4/schematic"
+[19:23:57.83] /o No rule violations found in "clk/clkx0x4/schematic"
+[19:23:57.83] /o No Design Integrity rule violations found in "clk/clkx0x4/schematic"
+[19:23:57.83] /m Information: Checking process is completed: marking the design violations
+[19:23:57.84] /m Information: Marking of designs is completed
+[19:23:57.90] /i db::setAttr iconified -of [gi::getFrames 3] -value false
+[19:23:58.33] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 507x64+42+230
+[19:23:58.34] /i gi::setActiveWindow 2
+[19:23:58.34] /i gi::setActiveWindow 2 -raise true
+[19:23:58.34] /i gi::setActiveWindow 3
+[19:23:58.34] /i gi::setActiveWindow 3 -raise true
+[19:23:58.35] /i gi::setActiveDialog [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]]
+[19:23:59.97] /w Warning: Preference 'nlCDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlCDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:23:59.97] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[19:23:59.97] /w Warning: Preference 'nlVHDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVHDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:23:59.97] /w Warning: Preference 'nlSpectreAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:23:59.97] /w Warning: Preference 'nlSpectreShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:23:59.97] /w Warning: Preference 'nlEldoShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlEldoIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:23:59.97] /w Warning: Preference 'nlVerilogICCShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogICCIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:23:59.97] /w Warning: Preference 'nlVerilogShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:23:59.97] /w Warning: Preference 'nlHSPICEShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlHSPICEIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:23:59.97] /w Warning: Preference 'nlNanoSimShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlNanoSimIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:23:59.97] /w Warning: Preference 'nlCDLPromoteConnectDefsAtTop' is deprecated and scheduled for removal in a future release. Use 'nlCDLTopVirtualTerms' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:23:59.97] /w Warning: Preference 'nlAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:24:00.04] /m Information: Starting netlisting for the test suite 'saeSession0'...
+[19:24:00.33] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 533x64+42+230
+[19:24:00.80] /m Information: Starting netlisting for the testbench: 'default'
+[19:24:01.10] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 515x64+42+230
+[19:24:01.60] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 501x64+42+230
+[19:24:01.80] /m Information: Netlisting finished successfully for the testbench: 'default'
+[19:24:01.82] /m Information: Netlisting finished successfully for the test suite 'saeSession0'.
+[19:24:02.28] /m Information: Starting PrimeSimHSPICE simulation for design: clk/clkx0x4/schematic
+[19:24:02.30] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 3]
+[19:24:02.48] /i gi::setActiveWindow 2
+[19:24:02.48] /i gi::setActiveWindow 2 -raise true
+[19:24:02.57] /r giWindowId 7
+[19:24:02.59] /r giWindowGeometry 1024x768+313+185
+[19:24:02.61] /r giWindowId 8
+[19:24:02.63] /r giWindowGeometry 1040x800
+[19:24:05.21] /m Information: Simulation completed successfully for design: clk/clkx0x4/schematic  (PW-651)
+[19:24:05.28] /m Information: Netlisting and simulation completed for testbench: default in 8s
+[19:24:05.28] /m Information: Evaluating and plotting outputs...
+[19:24:07.91] /m Information: Evaluating and plotting completed for testbench: default in 2s
+[19:24:08.00] /r giWindowId 9
+[19:24:08.02] /r giWindowGeometry 1910x1020+5+55
+[19:24:08.02] /i db::setAttr maximized -of [gi::getFrames 11] -value true
+[19:24:39.11] /i db::setAttr iconified -of [gi::getFrames 11] -value true
+[19:24:39.15] /i gi::setActiveWindow 7
+[19:24:39.15] /i gi::setActiveWindow 7 -raise true
+[19:24:41.40] /i db::setAttr iconified -of [gi::getFrames 8] -value true
+[19:24:41.43] /i gi::setActiveWindow 2
+[19:24:41.43] /i gi::setActiveWindow 2 -raise true
+[19:24:42.57] /i gi::setActiveWindow 1
+[19:24:42.57] /i gi::setActiveWindow 1 -raise true
+[19:24:42.68] /i gi::setItemSelection {parameters} -index {pw,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:24:42.68] /i gi::setCurrentIndex {parameters} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:24:47.39] /i gi::setField {parameters} -value {3n} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:24:47.48] /i gi::setItemSelection {parameters} -index {per,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:24:47.48] /i gi::setCurrentIndex {parameters} -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:24:50.31] /i gi::setField {parameters} -value {6n} -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:24:51.14] /# gi::executeAction {deSaveDesignAs} -in [gi::getWindows 1]
+[19:24:51.14] /i de::showSaveDesignAs -context [db::getNext [de::getContexts -window 1]]
+[19:24:51.25] /r giDialog gi::setActiveDialog [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 1]]
+[19:24:51.57] /r giDialog db::setAttr geometry -of [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 1]] -value 472x82+724+531
+[19:24:53.83] /r giDialog gi::pressButton {apply} -in [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 1]]
+[19:24:54.05] /r giDialog gi::setActiveDialog [gi::getDialogs {deSaveDesignAs} -parent [gi::getWindows 1]]
+[19:24:54.36] /r giDialog db::setAttr geometry -of [gi::getDialogs {deSaveDesignAs} -parent [gi::getWindows 1]] -value 411x128+755+508
+[19:24:57.52] /r giDialog gi::closeWindows [gi::getDialogs {deSaveDesignAs} -parent [gi::getWindows 1]]
+[19:24:58.50] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[19:24:58.50] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[19:24:58.50] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 1]]]}]
+[19:25:01.49] /i gi::executeAction {seShowConsoleForWindow} -in [gi::getWindows 1]
+[19:25:03.79] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[19:25:03.79] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 2]]
+[19:25:04.01] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[19:25:04.01] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 2]]
+[19:25:04.62] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[19:25:04.62] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 2]]
+[19:25:05.39] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 2]
+[19:25:05.39] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 2] -mode [sa::_utils::findRunMode 2]
+[19:25:05.56] /r giDialog gi::setActiveDialog [gi::getDialogs {xtShowDesignsPrompt}]
+[19:25:05.56] /r giDialog gi::setCurrentIndex {target} -index {0,0} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[19:25:05.80] /r giDialog db::setAttr geometry -of [gi::getDialogs {xtShowDesignsPrompt}] -value 631x290+635+368
+[19:25:06.64] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[19:25:06.68] /m Information: 
+[19:25:06.68] /o Checking "clk/clkx0x4/schematic"
+[19:25:06.69] /o No rule violations found in "clk/clkx0x4/schematic"
+[19:25:06.70] /o No Design Integrity rule violations found in "clk/clkx0x4/schematic"
+[19:25:06.70] /m Information: Checking process is completed: marking the design violations
+[19:25:06.70] /m Information: Marking of designs is completed
+[19:25:06.81] /i gi::setActiveWindow 2
+[19:25:06.81] /i gi::setActiveWindow 2 -raise true
+[19:25:06.82] /i gi::setActiveWindow 3
+[19:25:06.82] /i gi::setActiveWindow 3 -raise true
+[19:25:08.46] /w Warning: Preference 'nlCDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlCDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:08.46] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[19:25:08.46] /w Warning: Preference 'nlVHDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVHDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:08.46] /w Warning: Preference 'nlSpectreAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:08.46] /w Warning: Preference 'nlSpectreShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:08.46] /w Warning: Preference 'nlEldoShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlEldoIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:08.46] /w Warning: Preference 'nlVerilogICCShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogICCIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:08.46] /w Warning: Preference 'nlVerilogShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:08.46] /w Warning: Preference 'nlHSPICEShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlHSPICEIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:08.46] /w Warning: Preference 'nlNanoSimShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlNanoSimIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:08.46] /w Warning: Preference 'nlCDLPromoteConnectDefsAtTop' is deprecated and scheduled for removal in a future release. Use 'nlCDLTopVirtualTerms' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:08.46] /w Warning: Preference 'nlAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:08.52] /m Information: Starting netlisting for the test suite 'saeSession0'...
+[19:25:08.56] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 507x64+42+230
+[19:25:08.58] /i gi::setActiveDialog [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]]
+[19:25:09.29] /m Information: Starting netlisting for the testbench: 'default'
+[19:25:09.60] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 515x64+42+230
+[19:25:10.20] /m Information: Netlisting finished successfully for the testbench: 'default'
+[19:25:10.22] /m Information: Netlisting finished successfully for the test suite 'saeSession0'.
+[19:25:10.62] /m Information: Starting PrimeSimHSPICE simulation for design: clk/clkx0x4/schematic
+[19:25:10.63] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 3]
+[19:25:10.80] /i gi::setActiveWindow 2
+[19:25:10.80] /i gi::setActiveWindow 2 -raise true
+[19:25:13.52] /m Information: Simulation completed successfully for design: clk/clkx0x4/schematic  (PW-651)
+[19:25:13.59] /m Information: Netlisting and simulation completed for testbench: default in 7s
+[19:25:13.59] /m Information: Evaluating and plotting outputs...
+[19:25:15.27] /i gi::setActiveWindow 3
+[19:25:15.27] /i gi::setActiveWindow 3 -raise true
+[19:25:16.77] /m Information: Evaluating and plotting completed for testbench: default in 3s
+[19:25:21.60] /i db::setAttr geometry -of [gi::getFrames 3] -value 800x600+463+206
+[19:25:22.17] /i gi::setActiveWindow 2
+[19:25:22.17] /i gi::setActiveWindow 2 -raise true
+[19:25:22.70] /i db::setAttr geometry -of [gi::getFrames 2] -value 600x517+128+100
+[19:25:35.67] /i gi::setActiveWindow 9
+[19:25:35.67] /i gi::setActiveWindow 9 -raise true
+[19:25:35.71] /i db::setAttr maximized -of [gi::getFrames 11] -value true
+[19:25:35.71] /i db::setAttr iconified -of [gi::getFrames 11] -value false
+[19:25:38.81] /i gi::executeAction giCloseWindow -in [gi::getWindows 9]
+[19:25:38.82] /i gi::setActiveWindow 2
+[19:25:38.82] /i gi::setActiveWindow 2 -raise true
+[19:25:39.50] /m Information: Waveform viewer exited normally.
+[19:25:39.65] /m Information: Launching Waveform Viewer "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom &&  /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_CFN5Uh -unique_string a9431b2239ea6720920fb9049262422141d71a20029f362b96d0a7b23157bcd704b4353b740bfd3a -lic_type 2    > /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/viewer.log 2>&1"
+[19:25:41.33] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[19:25:41.33] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 2]]
+[19:25:42.12] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 2]
+[19:25:42.12] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 2] -mode [sa::_utils::findRunMode 2]
+[19:25:43.62] /w Warning: Preference 'nlCDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlCDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:43.62] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[19:25:43.62] /w Warning: Preference 'nlVHDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVHDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:43.62] /w Warning: Preference 'nlSpectreAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:43.62] /w Warning: Preference 'nlSpectreShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:43.62] /w Warning: Preference 'nlEldoShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlEldoIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:43.62] /w Warning: Preference 'nlVerilogICCShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogICCIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:43.62] /w Warning: Preference 'nlVerilogShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:43.62] /w Warning: Preference 'nlHSPICEShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlHSPICEIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:43.62] /w Warning: Preference 'nlNanoSimShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlNanoSimIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:43.62] /w Warning: Preference 'nlCDLPromoteConnectDefsAtTop' is deprecated and scheduled for removal in a future release. Use 'nlCDLTopVirtualTerms' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:43.62] /w Warning: Preference 'nlAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:25:43.67] /m Information: Starting netlisting for the test suite 'saeSession0'...
+[19:25:43.69] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 507x64+42+230
+[19:25:43.70] /i gi::setActiveDialog [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]]
+[19:25:44.40] /m Information: Starting netlisting for the testbench: 'default'
+[19:25:44.70] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 515x64+42+230
+[19:25:45.20] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 501x64+42+230
+[19:25:45.30] /m Information: Netlisting finished successfully for the testbench: 'default'
+[19:25:45.32] /m Information: Netlisting finished successfully for the test suite 'saeSession0'.
+[19:25:45.66] /m Information: Starting PrimeSimHSPICE simulation for design: clk/clkx0x4/schematic
+[19:25:45.68] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 3]
+[19:25:45.83] /i gi::setActiveWindow 2
+[19:25:45.83] /i gi::setActiveWindow 2 -raise true
+[19:25:48.41] /m Information: Simulation completed successfully for design: clk/clkx0x4/schematic  (PW-651)
+[19:25:48.47] /m Information: Netlisting and simulation completed for testbench: default in 6s
+[19:25:48.48] /m Information: Evaluating and plotting outputs...
+[19:25:51.67] /m Information: Evaluating and plotting completed for testbench: default in 3s
+[19:25:51.75] /r giWindowId 10
+[19:25:51.79] /r giWindowGeometry 1910x1020+5+55
+[19:25:51.79] /i db::setAttr maximized -of [gi::getFrames 13] -value true
+[19:26:20.67] /i gi::executeAction giCloseWindow -in [gi::getWindows 10]
+[19:26:20.71] /i gi::setActiveWindow 2
+[19:26:20.71] /i gi::setActiveWindow 2 -raise true
+[19:26:21.40] /m Information: Waveform viewer exited normally.
+[19:26:21.55] /m Information: Launching Waveform Viewer "cd /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom &&  /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/auxx/auxx_for_cc/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_cnUYMF -unique_string a9431b2239ea6720920fb9049262422141d71a20029f362b96d0a7b23157bcd74948d4adb027a12c -lic_type 2    > /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/viewer.log 2>&1"
+[19:26:47.63] /i db::setAttr iconified -of [gi::getFrames 2] -value true
+[19:26:47.67] /i gi::setActiveWindow 3
+[19:26:47.67] /i gi::setActiveWindow 3 -raise true
+[19:26:48.46] /i db::setAttr iconified -of [gi::getFrames 3] -value true
+[19:26:48.49] /i gi::setActiveWindow 1
+[19:26:48.49] /i gi::setActiveWindow 1 -raise true
+[19:27:22.71] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[19:27:22.71] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[19:27:22.71] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {1.775 0.8625} -index 0 -intent none]
+[19:27:22.71] /o oa:0x4d6cac30
+[19:27:27.04] /i gi::setItemSelection {parameters} -index {tr,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:27.04] /i gi::setCurrentIndex {parameters} -index {tr,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:29.32] /i gi::setField {parameters} -value {0.1} -index {tr,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:29.40] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:30.28] /i gi::setItemSelection {parameters} -index {tf,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:30.28] /i gi::setCurrentIndex {parameters} -index {tf,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:33.81] /i gi::setField {parameters} -value {0.1} -index {tf,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:33.90] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:34.99] /i gi::setItemSelection {parameters} -index {tr,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:34.99] /i gi::setCurrentIndex {parameters} -index {tr,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:36.56] /i gi::setField {parameters} -value {0.1n} -index {tr,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:36.65] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:37.41] /i gi::setItemSelection {parameters} -index {tf,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:37.42] /i gi::setCurrentIndex {parameters} -index {tf,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:41.28] /i gi::setField {parameters} -value {0.1n} -index {tf,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:41.35] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:43.52] /i gi::setItemSelection {parameters} -index {pw,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:43.53] /i gi::setCurrentIndex {parameters} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:45.81] /i gi::setField {parameters} -value {2n} -index {pw,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:45.88] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:46.46] /i gi::setItemSelection {parameters} -index {per,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:46.46] /i gi::setCurrentIndex {parameters} -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:51.22] /i gi::setField {parameters} -value {4.2n} -index {per,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:51.32] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]]
+[19:27:55.22] /# gi::executeAction {deSaveDesignAs} -in [gi::getWindows 1]
+[19:27:55.22] /i de::showSaveDesignAs -context [db::getNext [de::getContexts -window 1]]
+[19:27:55.37] /r giDialog gi::setActiveDialog [gi::getDialogs {deSaveDesignAs} -parent [gi::getWindows 1]]
+[19:27:55.68] /r giDialog db::setAttr geometry -of [gi::getDialogs {deSaveDesignAs} -parent [gi::getWindows 1]] -value 411x128+755+508
+[19:27:58.63] /r giDialog gi::closeWindows [gi::getDialogs {deSaveDesignAs} -parent [gi::getWindows 1]]
+[19:28:01.62] /i gi::executeAction {seShowConsoleForWindow} -in [gi::getWindows 1]
+[19:28:01.63] /# db::setAttr iconified -of [gi::getFrames 2] -value false
+[19:28:04.86] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[19:28:04.86] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 2]]
+[19:28:05.66] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 2]
+[19:28:05.66] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 2] -mode [sa::_utils::findRunMode 2]
+[19:28:05.82] /r giDialog gi::setActiveDialog [gi::getDialogs {xtShowDesignsPrompt}]
+[19:28:05.82] /r giDialog gi::setCurrentIndex {target} -index {0,0} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[19:28:06.08] /r giDialog db::setAttr geometry -of [gi::getDialogs {xtShowDesignsPrompt}] -value 631x290+635+368
+[19:28:06.94] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {xtShowDesignsPrompt}]
+[19:28:07.15] /m Information: 
+[19:28:07.15] /o Checking "clk/clkx0x4/schematic"
+[19:28:07.16] /o No rule violations found in "clk/clkx0x4/schematic"
+[19:28:07.17] /o No Design Integrity rule violations found in "clk/clkx0x4/schematic"
+[19:28:07.17] /m Information: Checking process is completed: marking the design violations
+[19:28:07.17] /m Information: Marking of designs is completed
+[19:28:07.22] /i db::setAttr iconified -of [gi::getFrames 3] -value false
+[19:28:07.65] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 507x64+42+230
+[19:28:07.66] /i gi::setActiveWindow 2
+[19:28:07.66] /i gi::setActiveWindow 2 -raise true
+[19:28:07.67] /i gi::setActiveWindow 3
+[19:28:07.67] /i gi::setActiveWindow 3 -raise true
+[19:28:07.67] /i gi::setActiveDialog [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]]
+[19:28:09.18] /w Warning: Preference 'nlCDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlCDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:28:09.18] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[19:28:09.18] /w Warning: Preference 'nlVHDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVHDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:28:09.18] /w Warning: Preference 'nlSpectreAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:28:09.18] /w Warning: Preference 'nlSpectreShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:28:09.18] /w Warning: Preference 'nlEldoShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlEldoIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:28:09.18] /w Warning: Preference 'nlVerilogICCShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogICCIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:28:09.18] /w Warning: Preference 'nlVerilogShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:28:09.18] /w Warning: Preference 'nlHSPICEShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlHSPICEIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:28:09.18] /w Warning: Preference 'nlNanoSimShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlNanoSimIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:28:09.18] /w Warning: Preference 'nlCDLPromoteConnectDefsAtTop' is deprecated and scheduled for removal in a future release. Use 'nlCDLTopVirtualTerms' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:28:09.18] /w Warning: Preference 'nlAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[19:28:09.24] /m Information: Starting netlisting for the test suite 'saeSession0'...
+[19:28:09.56] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 533x64+42+230
+[19:28:10.00] /m Information: Starting netlisting for the testbench: 'default'
+[19:28:10.30] /i db::setAttr geometry -of [gi::getDialogs {xtBgNRunProgress} -parent [gi::getWindows 2]] -value 515x64+42+230
+[19:28:10.90] /m Information: Netlisting finished successfully for the testbench: 'default'
+[19:28:10.92] /m Information: Netlisting finished successfully for the test suite 'saeSession0'.
+[19:28:11.30] /m Information: Starting PrimeSimHSPICE simulation for design: clk/clkx0x4/schematic
+[19:28:11.32] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 3]
+[19:28:11.50] /i gi::setActiveWindow 2
+[19:28:11.50] /i gi::setActiveWindow 2 -raise true
+[19:28:14.21] /m Information: Simulation completed successfully for design: clk/clkx0x4/schematic  (PW-651)
+[19:28:14.28] /m Information: Netlisting and simulation completed for testbench: default in 7s
+[19:28:14.28] /m Information: Evaluating and plotting outputs...
+[19:28:18.09] /m Information: Evaluating and plotting completed for testbench: default in 4s
+[19:28:18.17] /r giWindowId 11
+[19:28:18.21] /r giWindowGeometry 1910x1020+5+55
+[19:28:18.21] /i db::setAttr maximized -of [gi::getFrames 15] -value true
+[19:29:16.27] /i db::setAttr iconified -of [gi::getFrames 15] -value true
+[19:29:16.31] /i gi::setActiveWindow 2
+[19:29:16.31] /i gi::setActiveWindow 2 -raise true
+[19:47:37.83] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[19:47:37.94] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 2]]
+[19:47:38.28] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 2]] -value 281x82+288+325
+[19:47:39.47] /r giDialog gi::pressButton {save} -in [gi::getDialogs {giPrompt} -parent [gi::getWindows 2]]
+[19:47:39.98] /r giDialog gi::setActiveDialog [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 2]]
+[19:47:40.38] /r giDialog db::setAttr geometry -of [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 2]] -value 537x720+160+64
+[19:47:41.36] /r giDialog gi::closeWindows [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 2]]
+[19:47:43.81] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[19:47:43.90] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 2]]
+[19:47:44.21] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 2]] -value 281x82+288+325
+[19:47:45.04] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {giPrompt} -parent [gi::getWindows 2]]
+[19:47:45.06] /m Information: Sent exit command to WaveView.
+[19:47:45.06] /m Information: Sent exit command to CalculateEngine.
+[19:47:45.06] /m Information: Sent exit command to ResultsViewer.
+[19:47:45.25] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[19:47:45.25] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[19:47:45.25] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[19:47:45.37] /i gi::setActiveWindow 3
+[19:47:45.37] /i gi::setActiveWindow 3 -raise true
+[19:47:45.38] /i gi::setActiveWindow 1
+[19:47:45.38] /i gi::setActiveWindow 1 -raise true
+[19:47:45.68] /m Information: Waveform viewer exited normally.
+[19:47:45.78] /m Information: ResultsView exited normally.
+[19:47:46.96] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[19:47:46.96] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[19:47:46.96] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {3.98125 1.1375} -index 0 -intent none]
+[19:47:46.96] /o oa:0x569c4ba0
+[19:47:47.13] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[19:47:47.13] /i de::cycleActiveFigure [gi::getWindows 1] -direction next
+[19:47:47.14] /o oa:0x31b34e20
+[19:47:47.14] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[19:47:47.14] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {3.98125 1.1375} -index 1 -intent none]
+[19:47:47.14] /o oa:0x43d775b0
+[19:47:47.69] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[19:47:47.69] /i de::cycleActiveFigure [gi::getWindows 1] -direction next
+[19:47:47.69] /o oa:0x454da5d0
+[19:47:47.88] /i ::se::internal::descendInst 1 [de::getActiveFigure [gi::getWindows 1] -point {3.88125 1.175} -index 0 -intent none] auto
+[19:47:47.90] /# ide::descend 1 -inPlace false -readOnly auto
+[19:47:47.99] /r giDialog gi::setActiveDialog [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 1]]
+[19:47:48.42] /r giDialog db::setAttr geometry -of [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 1]] -value 482x82+719+531
+[19:47:49.43] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 1]]
+[19:47:49.45] /# Navigating to D_CELLS_HDLL/DFFHDLLX0/cmos_sch (I8)
+[19:47:49.51] /e Error: Could not set preference deActiveObjectToolbarProc to value 'printInfo' because that value is invalid. Tcl procedure with the given name doesn't exist. (PREFERENCE-043)
+[19:47:49.65] /r giWindowGeometry 1910x1020+5+55
+[19:47:57.37] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[19:47:57.37] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 1]]]}]
+[19:48:00.37] /i db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]] -value false
+[19:48:01.00] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 1]
+[19:48:01.00] /i de::zoom -window [gi::getWindows 1] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {6.25 5.25}
+[19:48:02.82] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 1]
+[19:48:02.82] /i de::pan -window [gi::getWindows 1] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:03.72] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 1]
+[19:48:03.72] /i de::pan -window [gi::getWindows 1] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:04.83] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 1]
+[19:48:04.83] /i de::zoom -window [gi::getWindows 1] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {13 4.60625}
+[19:48:05.84] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 1]
+[19:48:05.84] /i de::pan -window [gi::getWindows 1] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:06.84] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 1]
+[19:48:06.84] /i de::zoom -window [gi::getWindows 1] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {12.99375 6.225}
+[19:48:08.69] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 1]
+[19:48:08.69] /i de::pan -window [gi::getWindows 1] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:09.48] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 1]
+[19:48:09.48] /i de::pan -window [gi::getWindows 1] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:10.99] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 1]
+[19:48:10.99] /i de::zoom -window [gi::getWindows 1] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {9.525 7.8}
+[19:48:11.96] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 1]
+[19:48:11.96] /i de::pan -window [gi::getWindows 1] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:12.93] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 1]
+[19:48:12.93] /i de::zoom -window [gi::getWindows 1] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {10.41875 1.675}
+[19:48:13.92] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 1]
+[19:48:13.92] /i de::pan -window [gi::getWindows 1] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:14.83] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 1]
+[19:48:14.83] /i de::pan -window [gi::getWindows 1] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:15.68] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 1]
+[19:48:15.68] /i de::pan -window [gi::getWindows 1] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:16.30] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 1]
+[19:48:16.30] /i de::pan -window [gi::getWindows 1] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:17.06] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 1]
+[19:48:17.06] /i de::pan -window [gi::getWindows 1] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:17.69] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 1]
+[19:48:17.69] /i de::pan -window [gi::getWindows 1] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:18.34] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 1]
+[19:48:18.34] /i de::pan -window [gi::getWindows 1] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:21.06] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 1]
+[19:48:21.06] /i de::zoom -window [gi::getWindows 1] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {9.175 4.16875}
+[19:48:22.13] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 1]
+[19:48:22.13] /i de::zoom -window [gi::getWindows 1] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {8.875 -0.0375}
+[19:48:22.71] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 1]
+[19:48:22.71] /i de::pan -window [gi::getWindows 1] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:24.08] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 1]
+[19:48:24.08] /i de::zoom -window [gi::getWindows 1] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {8.875 3.21875}
+[19:48:25.60] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 1]
+[19:48:25.60] /i de::zoom -window [gi::getWindows 1] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {8.48125 1.91875}
+[19:48:26.28] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 1]
+[19:48:26.28] /i de::pan -window [gi::getWindows 1] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:27.45] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 1]
+[19:48:27.45] /i de::zoom -window [gi::getWindows 1] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {8.48125 5.18125}
+[19:48:29.80] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 1]
+[19:48:29.80] /i de::zoom -window [gi::getWindows 1] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {8.6875 10.90625}
+[19:48:30.26] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 1]
+[19:48:30.26] /i de::pan -window [gi::getWindows 1] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:31.99] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 1]
+[19:48:31.99] /i de::zoom -window [gi::getWindows 1] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {8.6875 7.2125}
+[19:48:33.23] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 1]
+[19:48:33.23] /i de::zoom -window [gi::getWindows 1] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {8.6 9.3}
+[19:48:33.89] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 1]
+[19:48:33.89] /i de::pan -window [gi::getWindows 1] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:35.02] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 1]
+[19:48:35.02] /i de::zoom -window [gi::getWindows 1] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {8.59375 5.9625}
+[19:48:36.91] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 1]
+[19:48:36.91] /i de::zoom -window [gi::getWindows 1] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {8.675 10.45}
+[19:48:37.91] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 1]
+[19:48:37.91] /i de::pan -window [gi::getWindows 1] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:38.85] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 1]
+[19:48:38.85] /i de::zoom -window [gi::getWindows 1] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {8.6375 6.975}
+[19:48:39.66] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 1]
+[19:48:39.66] /i de::zoom -window [gi::getWindows 1] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {8.6 5.29375}
+[19:48:39.72] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 1]
+[19:48:39.72] /i de::zoom -window [gi::getWindows 1] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {8.59375 5.29375}
+[19:48:41.33] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 1]
+[19:48:41.33] /i de::zoom -window [gi::getWindows 1] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {8.49375 1.725}
+[19:48:42.23] /w Warning: Nothing is bound to the 'Ñ' in the current active set. (WINDOW-015)
+[19:48:43.36] /w Warning: Nothing is bound to the 'Period' in the current active set. (WINDOW-015)
+[19:48:44.40] /w Warning: Nothing is bound to the 'Period' in the current active set. (WINDOW-015)
+[19:48:45.32] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[19:48:45.32] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 1]]]}]
+[19:48:45.90] /# gi::executeAction {deCanvasPanNorth} -in [gi::getWindows 1]
+[19:48:45.90] /i de::pan -window [gi::getWindows 1] -direction N -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:47.01] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 1]
+[19:48:47.01] /i de::zoom -window [gi::getWindows 1] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {8.775 5.05}
+[19:48:48.19] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 1]
+[19:48:48.19] /i de::zoom -window [gi::getWindows 1] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {8.84375 10.00625}
+[19:48:48.86] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 1]
+[19:48:48.86] /i de::pan -window [gi::getWindows 1] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[19:48:51.03] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 1]
+[19:48:51.03] /i de::zoom -window [gi::getWindows 1] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {12.14375 4.28125}
+[19:48:54.34] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 1]
+[19:48:54.34] /i de::zoom -window [gi::getWindows 1] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {8.50625 9.475}
+[19:48:54.93] /# gi::executeAction {deCanvasPanSouth} -in [gi::getWindows 1]
+[19:48:54.93] /i de::pan -window [gi::getWindows 1] -direction S -multiplier [db::getPrefValue deCanvasMousePanMultiplier]
+[20:20:41.66] /# gi::executeAction {deReturnToTop} -in [gi::getWindows 1]
+[20:20:41.66] /i de::return [db::getNext [de::getContexts -window 1]] -levels -1 -errorOnFail false
+[20:20:41.67] /# Navigating to clk/clkx0x4/schematic
+[20:20:41.68] /r giWindowGeometry 1910x1020+5+55
+[20:20:43.04] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[20:20:43.04] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[20:20:43.04] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 1]]]}]
+[20:20:48.79] /i gi::executeAction {lxSDL} -in [gi::getWindows 1]
+[20:20:48.94] /i gi::setActiveDialog [gi::getDialogs {lxDefinePhysicalTarget} -parent [gi::getWindows 1]]
+[20:20:49.28] /i db::setAttr geometry -of [gi::getDialogs {lxDefinePhysicalTarget} -parent [gi::getWindows 1]] -value 346x355+787+284
+[20:20:51.89] /i gi::pressButton {ok} -in [gi::getDialogs {lxDefinePhysicalTarget} -parent [gi::getWindows 1]]
+[20:20:52.11] /m Information: Feature 'SynopsysCustomLayoutAdvanced' checked out. (LICENSE-003)
+[20:20:55.46] /r giDialog gi::setActiveDialog [gi::getDialogs {lxLogicalSourceError} -parent [gi::getWindows 1]]
+[20:20:55.46] /r giDialog gi::setCurrentIndex {errors} -index {0,0} -in [gi::getDialogs {lxLogicalSourceError} -parent [gi::getWindows 1]]
+[20:20:55.78] /r giDialog db::setAttr geometry -of [gi::getDialogs {lxLogicalSourceError} -parent [gi::getWindows 1]] -value 647x194+637+365
+[20:20:57.83] /r giDialog gi::closeWindows [gi::getDialogs {lxLogicalSourceError} -parent [gi::getWindows 1]]
+[20:20:57.88] /i gi::setActiveDialog [gi::getDialogs {lxDefinePhysicalTarget} -parent [gi::getWindows 1]]
+[20:20:58.98] /i gi::pressButton {cancel} -in [gi::getDialogs {lxDefinePhysicalTarget} -parent [gi::getWindows 1]]
+[20:21:08.14] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[20:21:08.35] /i gi::setActiveWindow 3
+[20:21:08.35] /i gi::setActiveWindow 3 -raise true
+[20:21:10.26] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[20:21:10.28] /i gi::setActiveWindow 0
+[20:21:10.28] /i gi::setActiveWindow 0 -raise true
+[20:21:22.02] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 0]
+[20:21:22.02] /i de::showOpenDesign
+[20:21:22.11] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[20:21:22.37] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+628+268
+[20:21:26.82] /i gi::setCurrentIndex {designLibs} -index {D_CELLS_HD} -in [gi::getDialogs {deOpenDesign}]
+[20:21:26.89] /i gi::setItemSelection {designLibs} -index {D_CELLS_HD} -in [gi::getDialogs {deOpenDesign}]
+[20:21:27.41] /i gi::setCurrentIndex {designLibs} -index {D_CELLS_HDLL} -in [gi::getDialogs {deOpenDesign}]
+[20:21:27.46] /i gi::setItemSelection {designLibs} -index {D_CELLS_HDLL} -in [gi::getDialogs {deOpenDesign}]
+[20:21:29.16] /i gi::closeWindows [gi::getDialogs {deOpenDesign}]
+[20:21:35.77] /i gi::executeAction {dmShowNewCellView} -in [gi::getWindows 0]
+[20:21:35.86] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[20:21:36.10] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x285+656+371
+[20:21:38.56] /i gi::closeWindows [gi::getDialogs {dmNewCellView}]
+[20:21:41.20] /# gi::executeAction {dmShowNewLibrary} -in [gi::getWindows 0]
+[20:21:41.20] /i dm::showNewLibrary -parent 0
+[20:21:41.30] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary}]
+[20:21:41.56] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary}] -value 454x536+723+245
+[20:21:47.68] /i gi::setField {libName} -value {ffffff} -in [gi::getDialogs {dmNewLibrary}]
+[20:21:47.78] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewLibrary}]
+[20:21:47.80] /# dm::createLib ffffff -path {./ffffff} -dmSystem oaDMFileSys
+[20:21:47.98] /# db::attachTech [oa::LibFind [ oa::ScalarName [oa::CdbaNS] ffffff]] -refLib [oa::LibFind [ oa::ScalarName [oa::CdbaNS] TECH\_XT018]]
+[20:21:51.69] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 0]
+[20:21:51.69] /i de::showOpenDesign
+[20:21:51.78] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[20:21:52.00] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+628+268
+[20:21:53.62] /i gi::setCurrentIndex {designLibs} -index {ffffff} -in [gi::getDialogs {deOpenDesign}]
+[20:21:53.64] /i gi::setItemSelection {designLibs} -index {ffffff} -in [gi::getDialogs {deOpenDesign}]
+[20:21:54.66] /i gi::setCurrentIndex {designCellCategories} -index {Uncategorized} -in [gi::getDialogs {deOpenDesign}]
+[20:21:54.66] /i gi::setItemSelection {designCellCategories} -index {Uncategorized} -in [gi::getDialogs {deOpenDesign}]
+[20:21:55.39] /i gi::setCurrentIndex {designCellCategories} -index {All} -in [gi::getDialogs {deOpenDesign}]
+[20:21:55.39] /i gi::setItemSelection {designCellCategories} -index {All} -in [gi::getDialogs {deOpenDesign}]
+[20:22:11.99] /i gi::executeAction {dmShowNewCellView} -in [gi::getWindows 0]
+[20:22:12.06] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[20:22:12.30] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x285+656+371
+[20:22:13.52] /i gi::setCurrentIndex {libs} -index {ffffff} -in [gi::getDialogs {dmNewCellView}]
+[20:22:13.53] /i gi::setItemSelection {libs} -index {ffffff} -in [gi::getDialogs {dmNewCellView}]
+[20:22:17.65] /i gi::setField {cellName} -value {ffffff} -in [gi::getDialogs {dmNewCellView}]
+[20:22:24.15] /i gi::setField {cellViewName} -value {layout} -in [gi::getDialogs {dmNewCellView}]
+[20:22:26.05] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView}]
+[20:22:26.07] /# db::getAttr viewType -of [dm::findCellView layout -cell [dm::findCell ffffff -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] ffffff]]]]
+[20:22:26.07] /# dm::createCellView layout -cell [dm::findCell ffffff -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] ffffff]]] -viewType maskLayout
+[20:22:26.08] /# gi::setItemSelection {cells} -index {ffffff} -in [gi::getDialogs {dmNewCellView}]
+[20:22:26.08] /# de::open [dm::findCellView layout -cell [dm::findCell ffffff -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] ffffff]]]] -application leLayout
+[20:22:26.17] /r giWindowId 12
+[20:22:26.17] /r giWindowGeometry 1632x947
+[20:22:27.01] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 12]] -value 200x784
+[20:22:27.19] /i db::setAttr geometry -of [gi::getFrames 16] -value 1632x947+5+55
+[20:32:14.66] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 12]
+[20:32:14.66] /i de::showOpenDesign
+[20:32:14.74] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[20:32:14.98] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+628+268
+[20:32:27.76] /i gi::setCurrentIndex {designLibs} -index {D_CELLS_HDLL} -in [gi::getDialogs {deOpenDesign}]
+[20:32:27.82] /i gi::setItemSelection {designLibs} -index {D_CELLS_HDLL} -in [gi::getDialogs {deOpenDesign}]
+[20:32:36.70] /i gi::setItemSelection {designCells} -index {DFFHDLLX0} -in [gi::getDialogs {deOpenDesign}]
+[20:32:39.55] /i gi::setField {designCellsFilter} -value {DFFHDLLX0} -in [gi::getDialogs {deOpenDesign}]
+[20:32:39.55] /i gi::setCurrentIndex {designCells} -index {DFFHDLLX0} -in [gi::getDialogs {deOpenDesign}]
+[20:32:41.64] /i gi::setCurrentIndex {designViews} -index {layout} -in [gi::getDialogs {deOpenDesign}]
+[20:32:41.65] /i gi::setItemSelection {designViews} -index {layout} -in [gi::getDialogs {deOpenDesign}]
+[20:32:42.62] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[20:32:42.62] /# de::open [dm::findCellView {layout} -cellName {DFFHDLLX0} -libName {D_CELLS_HDLL}] -readOnly 1
+[20:32:42.71] /r giWindowId 13
+[20:32:42.73] /r giWindowGeometry 1632x947+5+55
+[20:32:43.20] /o 1
+[20:32:43.49] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]] -value 200x784
+[20:32:51.88] /i de::applyOLPPreset 0 -to [de::getContexts -window 13] -operation replace
+[20:32:51.90] /# gi::setItemSelection {sets} -index {Valid} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[20:32:51.90] /# gi::setItemSelection {lpps} -index {PWBLK drawing} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[20:32:51.90] /# gi::setItemSelection {lpps} -index {PWBLK drawing} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[20:32:55.65] /i db::setAttr visible -of [de::getLPPs -from [de::getContexts -window 13] -filter {%valid }] -value false
+[20:32:55.67] /i gi::setField {validVisible} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:32:56.59] /i db::setAttr visible -of [de::getLPPs -from [de::getContexts -window 13] -filter {%valid }] -value true
+[20:32:56.61] /i gi::setField {validVisible} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:32:57.65] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 13] -filter {%valid }] -value true
+[20:32:57.66] /i gi::setField {validSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:32:58.44] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 13] -filter {%valid }] -value false
+[20:32:58.45] /i gi::setField {validSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:32:59.42] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 13]] -value false
+[20:32:59.43] /i gi::setField {allSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:32:59.75] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 13]] -value true
+[20:32:59.77] /i gi::setField {allSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:32:59.97] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 13]] -value false
+[20:32:59.98] /i gi::setField {allSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:33:00.66] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 13]] -value true
+[20:33:00.67] /i gi::setField {allSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:33:01.51] /i db::setAttr visible -of [de::getLPPs -from [de::getContexts -window 13]] -value false
+[20:33:01.53] /i gi::setField {allVisible} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:33:02.26] /i db::setAttr visible -of [de::getLPPs -from [de::getContexts -window 13]] -value true
+[20:33:02.27] /i gi::setField {allVisible} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:33:07.00] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 13]] -value true
+[20:33:07.01] /i gi::setField {allSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:33:14.89] /# gi::executeAction {deReturnToTop} -in [gi::getWindows 13]
+[20:33:14.89] /i de::return [db::getNext [de::getContexts -window 13]] -levels -1 -errorOnFail false
+[20:33:16.00] /# gi::executeAction {deReturn} -in [gi::getWindows 13]
+[20:33:16.00] /i de::return [db::getNext [de::getContexts -window 13]] -errorOnFail false
+[20:33:16.01] /m Information: Context is already at top. (DESIGN-713)
+[20:33:16.74] /# gi::executeAction {deReturn} -in [gi::getWindows 13]
+[20:33:16.74] /i de::return [db::getNext [de::getContexts -window 13]] -errorOnFail false
+[20:33:16.74] /m Information: Context is already at top. (DESIGN-713)
+[20:33:17.33] /# gi::executeAction {deReturn} -in [gi::getWindows 13]
+[20:33:17.33] /i de::return [db::getNext [de::getContexts -window 13]] -errorOnFail false
+[20:33:17.33] /m Information: Context is already at top. (DESIGN-713)
+[20:33:17.69] /# gi::executeAction {deReturn} -in [gi::getWindows 13]
+[20:33:17.69] /i de::return [db::getNext [de::getContexts -window 13]] -errorOnFail false
+[20:33:17.69] /m Information: Context is already at top. (DESIGN-713)
+[20:33:18.04] /# gi::executeAction {deReturn} -in [gi::getWindows 13]
+[20:33:18.04] /i de::return [db::getNext [de::getContexts -window 13]] -errorOnFail false
+[20:33:18.04] /m Information: Context is already at top. (DESIGN-713)
+[20:33:18.56] /# gi::executeAction {deReturnToTop} -in [gi::getWindows 13]
+[20:33:18.56] /i de::return [db::getNext [de::getContexts -window 13]] -levels -1 -errorOnFail false
+[20:33:18.77] /# gi::executeAction {deReturnToTop} -in [gi::getWindows 13]
+[20:33:18.77] /i de::return [db::getNext [de::getContexts -window 13]] -levels -1 -errorOnFail false
+[20:33:18.95] /# gi::executeAction {deReturnToTop} -in [gi::getWindows 13]
+[20:33:18.95] /i de::return [db::getNext [de::getContexts -window 13]] -levels -1 -errorOnFail false
+[20:33:22.31] /i gi::setField {startLevel} -value {0} -in [gi::getToolbars {leHierarchy} -from [gi::getWindows 13]]
+[20:33:27.13] /i gi::setField {stopLevel} -value {0} -in [gi::getToolbars {leHierarchy} -from [gi::getWindows 13]]
+[20:33:32.79] /# gi::executeAction {leOLPMenuSetAllVisibleToSelectable} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[20:33:32.79] /i ::object_layer::setAllVisibleToSelectable
+[20:33:36.04] /i gi::executeAction {drReload} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[20:33:36.13] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 13]]
+[20:33:36.42] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 13]] -value 397x82+623+495
+[20:33:37.71] /r giDialog gi::closeWindows [gi::getDialogs {giPrompt} -parent [gi::getWindows 13]]
+[20:33:47.64] /# gi::executeAction {deSelectActive} -in [gi::getWindows 13]
+[20:33:50.18] /# gi::executeAction {deFitSelected} -in [gi::getWindows 13]
+[20:33:50.18] /i de::fit -window 13 -set [de::getSelected -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 13]]]]
+[20:33:51.30] /# gi::executeAction {deFitEdit} -in [gi::getWindows 13]
+[20:33:51.30] /i de::fit -window 13 -fitEdit true
+[20:33:52.56] /# gi::executeAction {deReturn} -in [gi::getWindows 13]
+[20:33:52.56] /i de::return [db::getNext [de::getContexts -window 13]] -errorOnFail false
+[20:33:52.56] /m Information: Context is already at top. (DESIGN-713)
+[20:33:53.08] /# gi::executeAction {deFitSelected} -in [gi::getWindows 13]
+[20:33:53.08] /i de::fit -window 13 -set [de::getSelected -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 13]]]]
+[20:33:54.03] /# gi::executeAction {deDescend} -in [gi::getWindows 13]
+[20:33:54.04] /i ide::descend 13 -inPlace false -readOnly auto
+[20:33:54.73] /# gi::executeAction {deDescendInPlace} -in [gi::getWindows 13]
+[20:33:54.73] /i ide::descend 13 -type instance -inPlace true -readOnly auto
+[20:33:58.29] /# gi::executeAction {deDescendInPlace} -in [gi::getWindows 13]
+[20:33:58.29] /i ide::descend 13 -type instance -inPlace true -readOnly auto
+[20:33:59.21] /# gi::executeAction {deReturn} -in [gi::getWindows 13]
+[20:33:59.21] /i de::return [db::getNext [de::getContexts -window 13]] -errorOnFail false
+[20:33:59.21] /m Information: Context is already at top. (DESIGN-713)
+[20:33:59.73] /# gi::executeAction {deReturnToTop} -in [gi::getWindows 13]
+[20:33:59.73] /i de::return [db::getNext [de::getContexts -window 13]] -levels -1 -errorOnFail false
+[20:34:02.16] /# gi::executeAction {deAddPoint} -in [gi::getWindows 13]
+[20:34:02.16] /i de::addPoint {8.609 6.202} -context [db::getNext [de::getContexts -window 13]]
+[20:34:05.26] /i gi::setField {highlightPacket} -value {highlight7} -in [gi::getToolbars {leAnnotation} -from [gi::getWindows 13]]
+[20:34:11.19] /# gi::executeAction {deHighlightClear} -in [gi::getWindows 13]
+[20:34:11.20] /i de::clearHighlights -context [db::getNext [de::getContexts -window 13]]
+[20:34:11.90] /# gi::executeAction {deHighlightClear} -in [gi::getWindows 13]
+[20:34:11.90] /i de::clearHighlights -context [db::getNext [de::getContexts -window 13]]
+[20:34:12.14] /# gi::executeAction {deHighlightClear} -in [gi::getWindows 13]
+[20:34:12.14] /i de::clearHighlights -context [db::getNext [de::getContexts -window 13]]
+[20:34:12.34] /# gi::executeAction {deHighlightClear} -in [gi::getWindows 13]
+[20:34:12.34] /i de::clearHighlights -context [db::getNext [de::getContexts -window 13]]
+[20:34:13.61] /# gi::executeAction {deAddPoint} -in [gi::getWindows 13]
+[20:34:13.61] /i de::addPoint {6.92 4.181} -context [db::getNext [de::getContexts -window 13]]
+[20:34:14.26] /# gi::executeAction {deAddPoint} -in [gi::getWindows 13]
+[20:34:14.26] /i de::addPoint {7.395 4.226} -context [db::getNext [de::getContexts -window 13]]
+[20:34:14.45] /# gi::executeAction {deCompleteShape} -in [gi::getWindows 13]
+[20:34:14.45] /i de::completeShape -context [db::getNext [de::getContexts -window 13]]
+[20:34:14.61] /# gi::executeAction {deAddPoint} -in [gi::getWindows 13]
+[20:34:14.61] /i de::addPoint {7.395 4.226} -context [db::getNext [de::getContexts -window 13]]
+[20:34:14.98] /# gi::executeAction {deAddPoint} -in [gi::getWindows 13]
+[20:34:14.98] /i de::addPoint {9.746 5.561} -context [db::getNext [de::getContexts -window 13]]
+[20:34:18.45] /i de::setActiveLPP [de::getLPPs "PWBLK drawing" -from [ed]]
+[20:34:18.98] /i gi::pressButton {selectorButton} -in [db::getAttr banner -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:34:22.85] /i db::setAttr visible -of [de::getLPPs -from [de::getContexts -window 13]] -value false
+[20:34:22.87] /i gi::setField {allVisible} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:34:23.85] /i db::setAttr visible -of [de::getLPPs -from [de::getContexts -window 13]] -value true
+[20:34:23.86] /i gi::setField {allVisible} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:34:25.50] /i db::setAttr visible -of [de::getLPPs -from [de::getContexts -window 13] -filter {%valid }] -value false
+[20:34:25.52] /i gi::setField {validVisible} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:34:26.50] /i db::setAttr visible -of [de::getLPPs -from [de::getContexts -window 13] -filter {%valid }] -value true
+[20:34:26.51] /i gi::setField {validVisible} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:34:36.35] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 13]] -value true
+[20:34:36.37] /i gi::setField {allSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:34:36.90] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 13] -filter {%valid }] -value false
+[20:34:36.90] /i gi::setField {validSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:34:37.53] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 13] -filter {%valid }] -value true
+[20:34:37.53] /i gi::setField {validSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]]
+[20:36:36.66] /# gi::executeAction {deAddPoint} -in [gi::getWindows 13]
+[20:36:36.66] /i de::addPoint {2.725 -0.289} -context [db::getNext [de::getContexts -window 13]]
+[20:36:37.24] /# gi::executeAction {deAddPoint} -in [gi::getWindows 13]
+[20:36:37.24] /i de::addPoint {3.023 -0.333} -context [db::getNext [de::getContexts -window 13]]
+[20:36:37.43] /# gi::executeAction {deAddPoint} -in [gi::getWindows 13]
+[20:36:37.43] /i de::addPoint {3.023 -0.333} -context [db::getNext [de::getContexts -window 13]]
+[20:36:37.76] /# gi::executeAction {deSelectActive} -in [gi::getWindows 13]
+[20:36:37.93] /# gi::executeAction {deEndDrag} -in [gi::getWindows 13]
+[20:36:37.93] /i de::endDrag {6.644 -0.565} -context [db::getNext [de::getContexts -window 13]]
+[20:36:44.34] /# gi::setItemSelection {lpps} -index {MET3 drawing} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[20:36:44.34] /# gi::setCurrentIndex {lpps} -index {MET3 drawing} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[20:36:44.44] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[20:36:44.44] /i de::setActiveLPP [de::getLPPs {MET3 drawing} -from [oa::DesignFind D_CELLS_HDLL DFFHDLLX0 layout]]
+[20:36:47.57] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[20:36:47.57] /i de::setActiveLPP [de::getLPPs {MET3 drawing} -from [oa::DesignFind D_CELLS_HDLL DFFHDLLX0 layout]]
+[20:36:47.79] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[20:36:47.79] /i de::setActiveLPP [de::getLPPs {MET3 drawing} -from [oa::DesignFind D_CELLS_HDLL DFFHDLLX0 layout]]
+[20:36:47.80] /# gi::executeAction {leShowLPPInDisplayResourceEditor} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[20:36:47.80] /i dr::showDisplayResourceEditor -parent 13 -lpp [db::getAttr lpp -of [de::getLPPs {MET3 drawing} -from [oa::DesignFind D_CELLS_HDLL DFFHDLLX0 layout]]]
+[20:36:47.80] /r giWindowId 14
+[20:36:47.84] /r giWindowGeometry 100x100
+[20:36:48.15] /i gi::setItemSelection {editorPackets} -index {A03_diff} -in [gi::getWindows 14]
+[20:36:48.15] /i gi::setCurrentIndex {editorPackets} -index {A03_diff} -in [gi::getWindows 14]
+[20:36:48.15] /i gi::setItemSelection {editorLPPView} -index {MET3 drawing} -in [gi::getWindows 14]
+[20:36:48.17] /i gi::setActiveWindow 13
+[20:36:48.17] /i gi::setActiveWindow 13 -raise true
+[20:36:48.18] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[20:36:48.18] /i de::setActiveLPP [de::getLPPs {MET3 drawing} -from [oa::DesignFind D_CELLS_HDLL DFFHDLLX0 layout]]
+[20:36:48.19] /i gi::setActiveWindow 14
+[20:36:48.19] /i gi::setActiveWindow 14 -raise true
+[20:36:48.50] /i db::setAttr geometry -of [gi::getFrames 18] -value 152x175+1698+206
+[20:36:49.39] /i gi::setActiveWindow 13
+[20:36:49.39] /i gi::setActiveWindow 13 -raise true
+[20:36:49.51] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 13]]
+[20:36:49.51] /i de::setActiveLPP [de::getLPPs {MET3 drawing} -from [oa::DesignFind D_CELLS_HDLL DFFHDLLX0 layout]]
+[20:36:50.77] /i gi::setActiveWindow 14
+[20:36:50.77] /i gi::setActiveWindow 14 -raise true
+[20:36:53.23] /i gi::executeAction {drChangeDisplayTodisplay} -in [gi::getWindows 14]
+[20:36:55.58] /i gi::executeAction {drChangeDisplayTodisplay} -in [gi::getWindows 14]
+[20:37:00.22] /i gi::setActiveWindow 13
+[20:37:00.22] /i gi::setActiveWindow 13 -raise true
+[20:37:00.29] /# gi::executeAction {deAddPoint} -in [gi::getWindows 13]
+[20:37:00.29] /i de::addPoint {1.655 4.877} -context [db::getNext [de::getContexts -window 13]]
+[20:37:00.66] /# gi::executeAction {deAddPoint} -in [gi::getWindows 13]
+[20:37:00.66] /i de::addPoint {1.92 4.678} -context [db::getNext [de::getContexts -window 13]]
+[20:37:01.02] /# gi::executeAction {deAddPoint} -in [gi::getWindows 13]
+[20:37:01.02] /i de::addPoint {2.427 4.711} -context [db::getNext [de::getContexts -window 13]]
+[20:37:01.24] /# gi::executeAction {deCompleteShape} -in [gi::getWindows 13]
+[20:37:01.24] /i de::completeShape -context [db::getNext [de::getContexts -window 13]]
+[20:37:06.32] /i gi::executeAction giCloseWindow -in [gi::getWindows 13]
+[20:37:06.55] /i gi::setActiveWindow 12
+[20:37:06.55] /i gi::setActiveWindow 12 -raise true
+[20:37:11.44] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 12]
+[20:37:11.44] /i de::showOpenDesign
+[20:37:11.52] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[20:37:11.73] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+628+268
+[20:37:18.22] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[20:37:18.22] /# de::open [dm::findCellView {layout} -cellName {DFFHDLLX0} -libName {D_CELLS_HDLL}] -readOnly 1
+[20:37:18.29] /r giWindowId 15
+[20:37:18.31] /r giWindowGeometry 1632x947+5+55
+[20:37:18.76] /o 1
+[20:37:19.03] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]] -value 200x784
+[20:37:21.35] /# gi::executeAction {deSelectActive} -in [gi::getWindows 15]
+[20:37:21.35] /i de::deselectAll [db::getNext [de::getContexts -window 15]]
+[20:37:21.35] /i de::select [de::getActiveFigure [gi::getWindows 15] -point {7.616 -0.322} -index 0 -intent none]
+[20:37:21.36] /o oa:0x44b9dd80
+[20:37:22.40] /# gi::executeAction {deSelectActive} -in [gi::getWindows 15]
+[20:37:22.40] /i de::cycleActiveFigure [gi::getWindows 15] -direction next
+[20:37:22.40] /o oa:0x31b11240
+[20:37:22.40] /i de::deselectAll [db::getNext [de::getContexts -window 15]]
+[20:37:22.40] /i de::select [de::getActiveFigure [gi::getWindows 15] -point {7.616 -0.322} -index 1 -intent none]
+[20:37:22.41] /o oa:0x4f002de0
+[20:37:25.20] /# gi::setItemSelection {sets} -index {MET2} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:25.20] /# gi::setCurrentIndex {sets} -index {MET2} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:25.30] /# gi::executeAction {leOLPApplySet} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:25.30] /i db::setPrefValue leLPPSet -value "{MET2}" -scope [de::getContexts -window 15]
+[20:37:25.32] /# gi::setItemSelection {sets} -index {MET2} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:25.32] /# gi::setItemSelection {lpps} -index {MET2 drawing} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:25.33] /# gi::setItemSelection {lpps} -index {MET2 drawing} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:25.33] /o oa:0x479f3a40
+[20:37:26.10] /# gi::setItemSelection {sets} -index {MET3} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:26.10] /# gi::setCurrentIndex {sets} -index {MET3} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:26.19] /# gi::executeAction {leOLPApplySet} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:26.19] /i db::setPrefValue leLPPSet -value "{MET3}" -scope [de::getContexts -window 15]
+[20:37:26.21] /# gi::setItemSelection {sets} -index {MET3} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:26.21] /# gi::setItemSelection {lpps} -index {MET3 drawing} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:26.21] /# gi::setItemSelection {lpps} -index {MET3 drawing} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:26.21] /o oa:0x4b7d3870
+[20:37:28.77] /# gi::executeAction {deSelectActive} -in [gi::getWindows 15]
+[20:37:28.77] /i de::deselectAll [db::getNext [de::getContexts -window 15]]
+[20:37:29.05] /# gi::executeAction {deSelectActive} -in [gi::getWindows 15]
+[20:37:29.05] /i de::deselectAll [db::getNext [de::getContexts -window 15]]
+[20:37:29.05] /i de::select [de::getActiveFigure [gi::getWindows 15] -point {8.731 -0.367} -index 0 -intent none]
+[20:37:29.05] /o oa:0x5074fc50
+[20:37:29.30] /# gi::executeAction {deSelectActive} -in [gi::getWindows 15]
+[20:37:29.30] /i de::cycleActiveFigure [gi::getWindows 15] -direction next
+[20:37:29.30] /o oa:0x520dc660
+[20:37:29.30] /i de::deselectAll [db::getNext [de::getContexts -window 15]]
+[20:37:29.30] /i de::select [de::getActiveFigure [gi::getWindows 15] -point {8.708 -0.356} -index 1 -intent none]
+[20:37:29.30] /o oa:0x458a53f0
+[20:37:29.49] /# gi::executeAction {deSelectActive} -in [gi::getWindows 15]
+[20:37:29.49] /i de::cycleActiveFigure [gi::getWindows 15] -direction next
+[20:37:29.49] /o oa:0x4adfda90
+[20:37:29.49] /i de::deselectAll [db::getNext [de::getContexts -window 15]]
+[20:37:29.49] /i de::select [de::getActiveFigure [gi::getWindows 15] -point {8.708 -0.356} -index 0 -intent none]
+[20:37:29.49] /o oa:0x52090b10
+[20:37:32.78] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 15]
+[20:37:32.79] /i gi::executeAction {menuPreShow} -in [gi::getWindows 15]
+[20:37:32.79] /r giMenuAccess db::getNext [gi::getMenus leRectContextMenu]
+[20:37:37.01] /i gi::executeAction {leClearHighlightShapesVias} -in [gi::getWindows 15]
+[20:37:38.46] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 15]
+[20:37:38.46] /i gi::executeAction {menuPreShow} -in [gi::getWindows 15]
+[20:37:38.46] /r giMenuAccess db::getNext [gi::getMenus leRectContextMenu]
+[20:37:39.75] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 15]
+[20:37:39.75] /i gi::executeAction {menuPreShow} -in [gi::getWindows 15]
+[20:37:39.75] /r giMenuAccess db::getNext [gi::getMenus lePolygonContextMenu]
+[20:37:41.40] /i gi::executeAction {leHideFlightlinesByNetFigure} -in [gi::getWindows 15]
+[20:37:41.41] /e Error: The Connectivity Engine is currently disabled and thus Flightline support is unavailable. Please enable the Connectivity Engine in order to display Flightlines. (FLIGHTLINE_COMMANDS-008)
+[20:37:48.59] /i gi::setActiveTab {tabs} -tabName {OLPLayerTab} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:50.08] /i gi::expand {layers} -index {MET3} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:50.65] /i gi::collapse {layers} -index {MET3} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:51.92] /i gi::expand {layers} -index {VIA2} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:52.94] /i gi::collapse {layers} -index {VIA2} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:54.41] /i gi::expand {layers} -index {VIA2} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:55.20] /# gi::setCurrentIndex {layers} -index {VIA2.blk} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:55.20] /# gi::setItemSelection {layers} -index {{VIA2.blk}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:55.20] /# gi::executeAction {leOLPSelect} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:55.20] /# gi::setItemSelection {layers} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:55.21] /# gi::setItemSelection {layers} -index {{VIA2.blk}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:55.21] /i de::setActiveLPP [de::getLPPs {VIA2 blockage} -from [ed]]
+[20:37:55.96] /# gi::setCurrentIndex {layers} -index {VIA2 , 4} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:55.96] /# gi::executeAction {leOLPToggleSelectable} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:56.59] /# gi::executeAction {leOLPToggleSelectable} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.04] /# gi::setCurrentIndex {layers} -index {VIA2.drawing} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.04] /# gi::setItemSelection {layers} -index {{VIA2.drawing} {VIA2.blk}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.04] /# gi::executeAction {leOLPSelect} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.04] /# gi::setItemSelection {layers} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.04] /# gi::setItemSelection {layers} -index {{VIA2.drawing}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.04] /i de::setActiveLPP [de::getLPPs {VIA2 drawing} -from [ed]]
+[20:37:57.48] /# gi::setCurrentIndex {layers} -index {VIA2.grid} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.48] /# gi::setItemSelection {layers} -index {{VIA2.drawing} {VIA2.grid}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.48] /# gi::executeAction {leOLPSelect} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.48] /# gi::setItemSelection {layers} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.48] /# gi::setItemSelection {layers} -index {{VIA2.grid}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.48] /i de::setActiveLPP [de::getLPPs {VIA2 grid} -from [ed]]
+[20:37:57.89] /# gi::setCurrentIndex {layers} -index {VIA2.blk} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.89] /# gi::setItemSelection {layers} -index {{VIA2.grid} {VIA2.blk}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.89] /# gi::executeAction {leOLPSelect} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.89] /# gi::setItemSelection {layers} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.89] /# gi::setItemSelection {layers} -index {{VIA2.blk}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:57.89] /i de::setActiveLPP [de::getLPPs {VIA2 blockage} -from [ed]]
+[20:37:58.23] /# gi::setCurrentIndex {layers} -index {VIA2.slot} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.23] /# gi::setItemSelection {layers} -index {{VIA2.blk} {VIA2.slot}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.23] /# gi::executeAction {leOLPSelect} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.23] /# gi::setItemSelection {layers} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.23] /# gi::setItemSelection {layers} -index {{VIA2.slot}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.23] /i de::setActiveLPP [de::getLPPs {VIA2 slot} -from [ed]]
+[20:37:58.53] /# gi::setCurrentIndex {layers} -index {VIA2.oaFillOPC} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.53] /# gi::setItemSelection {layers} -index {{VIA2.slot} {VIA2.oaFillOPC}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.53] /# gi::executeAction {leOLPSelect} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.53] /# gi::setItemSelection {layers} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.53] /# gi::setItemSelection {layers} -index {{VIA2.oaFillOPC}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.53] /i de::setActiveLPP [de::getLPPs {VIA2 oaFillOPC} -from [ed]]
+[20:37:58.91] /# gi::setCurrentIndex {layers} -index {VIA2.pin} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.91] /# gi::setItemSelection {layers} -index {{VIA2.oaFillOPC} {VIA2.pin}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.91] /# gi::executeAction {leOLPSelect} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.91] /# gi::setItemSelection {layers} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.91] /# gi::setItemSelection {layers} -index {{VIA2.pin}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:58.91] /i de::setActiveLPP [de::getLPPs {VIA2 pin} -from [ed]]
+[20:37:59.21] /# gi::setCurrentIndex {layers} -index {VIA2.bnd} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:59.21] /# gi::setItemSelection {layers} -index {{VIA2.pin} {VIA2.bnd}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:59.21] /# gi::executeAction {leOLPSelect} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:59.21] /# gi::setItemSelection {layers} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:59.21] /# gi::setItemSelection {layers} -index {{VIA2.bnd}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:37:59.21] /i de::setActiveLPP [de::getLPPs {VIA2 boundary} -from [ed]]
+[20:38:01.22] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 15]] -value false
+[20:38:01.24] /i gi::setField {allSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]]
+[20:38:01.99] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 15]] -value true
+[20:38:02.02] /i gi::setField {allSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]]
+[20:38:02.77] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 15]] -value false
+[20:38:02.78] /i gi::setField {allSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]]
+[20:38:03.93] /i db::setAttr selectable -of [de::getLPPs -from [de::getContexts -window 15]] -value true
+[20:38:03.94] /i gi::setField {allSelectable} -value {false} -in [db::getAttr toolbar -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]]
+[20:38:05.34] /i gi::expand {layers} -index {MET3} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:05.99] /# gi::setCurrentIndex {layers} -index {MET3.blk} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:05.99] /# gi::setItemSelection {layers} -index {{VIA2.bnd} {MET3.blk}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:05.99] /# gi::executeAction {leOLPSelect} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:05.99] /# gi::setItemSelection {layers} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:05.99] /# gi::setItemSelection {layers} -index {{MET3.blk}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:05.99] /i de::setActiveLPP [de::getLPPs {MET3 blockage} -from [ed]]
+[20:38:06.34] /# gi::setCurrentIndex {layers} -index {MET3.VER} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:06.34] /# gi::setItemSelection {layers} -index {{MET3.blk} {MET3.VER}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:06.34] /# gi::executeAction {leOLPSelect} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:06.34] /# gi::setItemSelection {layers} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:06.34] /# gi::setItemSelection {layers} -index {{MET3.VER}} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:06.34] /i de::setActiveLPP [de::getLPPs {MET3 VERIFICATION} -from [ed]]
+[20:38:07.16] /i gi::collapse {layers} -index {MET3} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:08.36] /i gi::collapse {layers} -index {VIA2} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:11.65] /i db::setPrefValue leOLPPresetsCount -value 7
+[20:38:11.65] /o oa:0x4af18f40
+[20:38:12.69] /i db::setPrefValue leOLPPresetsCount -value 8
+[20:38:12.69] /o oa:0x4893c320
+[20:38:14.57] /i de::applyOLPPreset 0 -to [de::getContexts -window 15] -operation replace
+[20:38:14.77] /i de::applyOLPPreset 0 -to [de::getContexts -window 15] -operation replace
+[20:38:15.11] /i de::applyOLPPreset 0 -to [de::getContexts -window 15] -operation replace
+[20:38:15.53] /# gi::executeAction {deSelectActive} -in [gi::getWindows 15]
+[20:38:15.53] /i de::deselectAll [db::getNext [de::getContexts -window 15]]
+[20:38:18.42] /# gi::setItemSelection {lpps} -index {MET3 VER} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:18.42] /i gi::setActiveTab {tabs} -tabName {OLPLPPTab} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:21.03] /# gi::setItemSelection {sets} -index {Design} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:21.03] /# gi::setCurrentIndex {sets} -index {Design} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:21.15] /# gi::executeAction {leOLPApplySet} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:21.15] /i db::setPrefValue leLPPSet -value "{Design}" -scope [de::getContexts -window 15]
+[20:38:21.16] /# gi::setItemSelection {sets} -index {Design} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:21.17] /# gi::setItemSelection {lpps} -index {NWELL drawing} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:21.17] /# gi::setItemSelection {lpps} -index {NWELL drawing} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:21.17] /o oa:0x5544fa00
+[20:38:23.95] /# gi::setItemSelection {lpps} -index {MET1 pin} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:23.95] /# gi::setCurrentIndex {lpps} -index {MET1 pin} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:24.06] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:24.06] /i de::setActiveLPP [de::getLPPs {MET1 pin} -from [oa::DesignFind D_CELLS_HDLL DFFHDLLX0 layout]]
+[20:38:24.97] /# gi::executeAction {leOLPToggleSelectable} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:24.97] /i db::setAttr selectable -of [de::getLPPs -filter {%lpp == "MET1 pin"} -from [de::getActiveContext] ] -value false
+[20:38:25.00] /# gi::executeAction {giPostContextMenu} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:25.81] /# gi::executeAction {leOLPToggleSelectable} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:25.81] /i db::setAttr selectable -of [de::getLPPs -filter {%lpp == "MET1 pin"} -from [de::getActiveContext] ] -value true
+[20:38:25.85] /# gi::executeAction {giPostContextMenu} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:26.13] /# gi::executeAction {leOLPToggleSelectable} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:26.13] /i db::setAttr selectable -of [de::getLPPs -filter {%lpp == "MET1 pin"} -from [de::getActiveContext] ] -value false
+[20:38:26.16] /# gi::executeAction {giPostContextMenu} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:26.34] /# gi::executeAction {leOLPToggleSelectable} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:26.34] /i db::setAttr selectable -of [de::getLPPs -filter {%lpp == "MET1 pin"} -from [de::getActiveContext] ] -value true
+[20:38:26.86] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]]
+[20:38:26.86] /i de::setActiveLPP [de::getLPPs {MET1 pin} -from [oa::DesignFind D_CELLS_HDLL DFFHDLLX0 layout]]
+[20:38:27.60] /# gi::executeAction {deSelectActive} -in [gi::getWindows 15]
+[20:38:50.63] /# gi::executeAction {deSelectByWindow} -in [gi::getWindows 15]
+[20:38:50.63] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 15]]]; ide::selectByRegion -region rectangle -point {-0.465 5.34} 
+[20:38:51.80] /# gi::executeAction {deEndDrag} -in [gi::getWindows 15]
+[20:38:51.80] /i de::endDrag {12.671 -1.073} -context [db::getNext [de::getContexts -window 15]]
+[20:38:53.97] /# gi::executeAction {leStartStretchDrag} -in [gi::getWindows 15]
+[20:38:53.97] /i layout_editor::directStretch [de::getActiveFigure [gi::getWindows 15] -point {9.956 1.367} -index 0 -intent none] 15
+[20:38:53.97] /i ile::stretch -point {9.955 1.365}
+[20:38:53.97] /e Error: The command 'ile::stretch' cannot operate on read-only designs. (INTERACTIVE_COMMAND-003)
+[20:38:55.40] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 15]
+[20:38:56.20] /# gi::executeAction {deSelectActive} -in [gi::getWindows 15]
+[20:38:56.20] /i de::deselectAll [db::getNext [de::getContexts -window 15]]
+[20:39:04.81] /# gi::executeAction {deSelectByWindow} -in [gi::getWindows 15]
+[20:39:04.81] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 15]]]; ide::selectByRegion -region rectangle -point {-0.75 5.485} 
+[20:39:07.40] /# gi::executeAction {deEndDrag} -in [gi::getWindows 15]
+[20:39:07.40] /i de::endDrag {13.698 -0.665} -context [db::getNext [de::getContexts -window 15]]
+[20:39:08.70] /# gi::executeAction {dePan} -in [gi::getWindows 15]
+[20:39:08.70] /i ide::pan [db::getNext [de::getContexts -window 15]]
+[20:39:10.36] /# gi::executeAction {deStartDrag} -in [gi::getWindows 15]
+[20:39:10.36] /i de::startDrag {4.172 4.601} -context [db::getNext [de::getContexts -window 15]]
+[20:39:13.56] /# gi::executeAction {deEndDrag} -in [gi::getWindows 15]
+[20:39:13.56] /i de::endDrag {4.205 4.601} -context [db::getNext [de::getContexts -window 15]]
+[20:39:13.56] /r dePanToPoint {7.124 2.514}
+[20:39:14.92] /# gi::executeAction {deAddPoint} -in [gi::getWindows 15]
+[20:39:14.92] /i de::addPoint {4.845 6.124} -context [db::getNext [de::getContexts -window 15]]
+[20:39:16.95] /# gi::executeAction {deAddPoint} -in [gi::getWindows 15]
+[20:39:16.95] /i de::addPoint {5.988 6.521} -context [db::getNext [de::getContexts -window 15]]
+[20:39:17.92] /# gi::executeAction {deAddPoint} -in [gi::getWindows 15]
+[20:39:17.92] /i de::addPoint {8.532 5.826} -context [db::getNext [de::getContexts -window 15]]
+[20:39:18.41] /# gi::executeAction {deAddPoint} -in [gi::getWindows 15]
+[20:39:18.41] /i de::addPoint {10.249 2.823} -context [db::getNext [de::getContexts -window 15]]
+[20:39:19.13] /# gi::executeAction {deAddPoint} -in [gi::getWindows 15]
+[20:39:19.13] /i de::addPoint {7.848 0.284} -context [db::getNext [de::getContexts -window 15]]
+[20:39:20.00] /# gi::executeAction {deAddPoint} -in [gi::getWindows 15]
+[20:39:20.00] /i de::addPoint {3.968 0.759} -context [db::getNext [de::getContexts -window 15]]
+[20:39:21.01] /# gi::executeAction {deAddPoint} -in [gi::getWindows 15]
+[20:39:21.01] /i de::addPoint {3.62 1.543} -context [db::getNext [de::getContexts -window 15]]
+[20:39:22.86] /i db::setAttr shown -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 15]] -value false
+[20:39:25.23] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 15]
+[20:39:25.23] /i de::abortCommand -context [db::getNext [de::getContexts -window 15]]
+[20:39:26.08] /# gi::executeAction {deSelectActive} -in [gi::getWindows 15]
+[20:39:26.08] /i de::deselectAll [db::getNext [de::getContexts -window 15]]
+[20:42:16.78] /i gi::executeAction giCloseWindow -in [gi::getWindows 15]
+[20:42:16.95] /i gi::setActiveWindow 12
+[20:42:16.95] /i gi::setActiveWindow 12 -raise true
+[20:42:18.04] /i gi::executeAction giCloseWindow -in [gi::getWindows 12]
+[20:42:18.19] /i gi::setActiveWindow 0
+[20:42:18.19] /i gi::setActiveWindow 0 -raise true
+[20:42:19.63] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[20:42:19.74] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[20:42:20.03] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]] -value 354x233+128+739
+[20:42:21.62] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[20:42:35.76] /o Shutdown time: Fri Nov 15 20:42:35 2024
+[20:42:35.76] /o Elapsed session real time: 1 hour 22 minutes
+[20:42:35.76] /o Session terminated. Log is at /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/logs/ccompiler.ORTIZ_ARIAS.2024_11_15_192031_392647.log
+[20:42:35.76] /o Error: X connection is broken. Error code: (APPLICATION_GUI-002)1
+[20:42:35.77] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

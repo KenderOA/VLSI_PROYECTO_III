@@ -1,0 +1,66 @@
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.48MB -*-
+  -*- CPU Time :     0.33s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.48MB -*-
+  -*- CPU Time :     0.33s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.44MB -*-
+  -*- CPU Time :     0.34s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.44MB -*-
+  -*- CPU Time :     0.34s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.44MB -*-
+  -*- CPU Time :     0.34s -*-
+sx_set_data_directory {/home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results}
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.84MB -*-
+  -*- CPU Time :     0.35s -*-
+[21:32:00.100] I| Created new database /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results/post_results.db
+[21:32:00.100] I| Setup simulation complete: 
+    results directory: /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results 
+    post database directory: /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results
+   *** loading waveform file /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results/resultsMap.xml ... ***
+   *** loading waveform file /home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results/hspice_wdf.tr0 ... ***
+   *** Loading waveform file finished ***
+   *** Evaluating Equations... ***
+Nominal: Start to call cckDBHandler to create handler
+Nominal: Start to integrate database
+Start to post process[21:32:01.180] I| Start generating post results database...
+[21:32:01.180] I| Clear post result data in database.
+[21:32:01.210] I| Create Post WDF File .../default/PrimeSimHSPICE/nominal/results/post1.wave
+[21:32:01.210] I| Generate post results database complete.
+sx_exit
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.49MB -*-
+  -*- CPU Time :     0.33s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.49MB -*-
+  -*- CPU Time :     0.33s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.45MB -*-
+  -*- CPU Time :     0.34s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.45MB -*-
+  -*- CPU Time :     0.34s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.45MB -*-
+  -*- CPU Time :     0.34s -*-
+sx_set_data_directory {/home/ORTIZ_ARIAS/simulation/clk,clkx0x4,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results}
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.84MB -*-
+  -*- CPU Time :     0.35s -*-
+sx_exit

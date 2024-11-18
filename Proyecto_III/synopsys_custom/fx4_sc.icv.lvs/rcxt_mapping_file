@@ -1,0 +1,401 @@
+conducting_layers
+
+p1trm POLY1 
+m1trm MET1 
+m2trm MET2 
+m3trm MET3 
+m4trm MET4 
+mttrm METTP 
+mltrm METTPL 
+ndiff DIFF precedence=9 
+pdiff DIFF precedence=9 
+d_dsdf DIFF precedence=9 
+ntap SUBSTRATE precedence=9 
+ptap SUBSTRATE precedence=9 
+npdtap SUBSTRATE precedence=9 
+nwtrm SUBSTRATE precedence=3 
+bulk SUBSTRATE precedence=2 
+dfwdn2_bulk SUBSTRATE precedence=2 
+pw4trm SUBSTRATE precedence=3 
+nisj_d SUBSTRATE precedence=3 
+nhv1_d SUBSTRATE precedence=3 
+phv1_d SUBSTRATE precedence=3 
+pdftrm SUBSTRATE precedence=3 
+pdfntrm SUBSTRATE precedence=3 
+ndftrm SUBSTRATE precedence=3 
+pdfmvtrm SUBSTRATE precedence=3 
+ndfmvtrm SUBSTRATE precedence=3 
+dfntrm SUBSTRATE precedence=3 
+dfptrm SUBSTRATE precedence=3 
+dfptrm1 SUBSTRATE precedence=3 
+dfwdnh_an SUBSTRATE precedence=3 
+nbase SUBSTRATE precedence=3 
+pbase SUBSTRATE precedence=3 
+hwptub SUBSTRATE precedence=2 
+hwntub SUBSTRATE precedence=2 
+tub1_hvnw_t SUBSTRATE precedence=2 
+hwafer_t SUBSTRATE precedence=1 
+hwafer_b SUBSTRATE precedence=1 
+hwc_bs SUBSTRATE precedence=1 
+dhw_nbur SUBSTRATE precedence=1 
+m1atrm MET1 
+m1btrm MET1 
+m1aftrm MET1 
+m1bftrm MET1 
+mosvc POLY1 
+mosvc5 POLY1 
+mosvcti POLY1 
+mosvcti5 POLY1 
+csp1m MET1 
+csp2m MET2 
+csp3m MET3 
+csp4m MET4 
+csptm METTP 
+csptlm METTPL 
+cspnsd SUBSTRATE precedence=9 
+mimvi2 MET3 
+mimvi3 MET4 
+mimvitp METTP 
+capm METTP 
+capmh METTP 
+capmh3_t METTP 
+capmh3_m MET4 
+capmh3_b MET3 
+capm3_t METTP 
+capm3_m MET4 
+capm3_b MET3 
+capmh2_t MET4 
+capmh2_b MET3 
+capm2_t MET4 
+capm2_b MET3 
+capmh2a_t METTP 
+capmh2a_b MET4 
+capm2a_t METTP 
+capm2a_b MET4 
+capm23f MET3 
+capmh23f MET3 
+capm34f MET4 
+capmh34f MET4 
+csf_p1 POLY1 
+csf_m1 MET1 
+csf_m2 MET2 
+d_csf2p MET1 
+csf_m3 MET3 
+d_csf3 MET1 
+d_csf3a MET1 
+d_csf3p MET1 
+csf_m4 MET4 
+d_csf4 MET1 
+d_csf4a MET1 
+csf_mt METTP 
+d_csft5 MET1 
+d_csft5a MET1 
+capswp1 POLY1 
+capswm1 MET1 
+capswm2 MET2 
+capswm3 MET3 
+capswm43 MET4 
+capswm44 MET2 
+ne POLY1 
+nesvt POLY1 
+nn POLY1 
+pe POLY1 
+pesvt POLY1 
+pel POLY1 
+nel POLY1 
+ndm POLY1 
+pe_5 POLY1 
+pel_5 POLY1 
+pem_5 POLY1 
+pesvt_5 POLY1 
+nem POLY1 
+pem POLY1 
+nnm POLY1 
+peti POLY1 
+pemti POLY1 
+nmva POLY1 
+pmva POLY1 
+nmvaa POLY1 
+pmvaa POLY1 
+nmvab POLY1 
+pmvab POLY1 
+nhsj1_7 POLY1 
+nhsj1_10 POLY1 
+nhsj1_16c POLY1 
+phsj1_7 POLY1 
+phsj1_10 POLY1 
+phsj1_16c POLY1 
+phsj1a_4 POLY1 
+phsj1a_5 POLY1 
+phsj1a_7 POLY1 
+phsj1a_8 POLY1 
+phsj1a_10 POLY1 
+phsj1a_13 POLY1 
+phsj1a_16 POLY1 
+phsj1a_20 POLY1 
+phsj1a_31 POLY1 
+phsj2b_7 POLY1 
+phsj2b_8 POLY1 
+phsj2b_10 POLY1 
+phsj2b_13 POLY1 
+phsj2b_16 POLY1 
+nhsj1b_2 POLY1 
+nhsj1b_4 POLY1 
+nhsj1b_5 POLY1 
+nhsj1b_7 POLY1 
+nhsj1b_8 POLY1 
+nhsj1b_10 POLY1 
+nhsj1a_13 POLY1 
+nhsj1a_16 POLY1 
+nhsj1a_20 POLY1 
+nhsj1a_28 POLY1 
+nhvta POLY1 
+nhvtaa POLY1 
+nhvtb POLY1 
+nhvu POLY1 
+ndhvt POLY1 
+ndhvta POLY1 
+ndhvtaa POLY1 
+phvta POLY1 
+phvtb POLY1 
+phvu POLY1 
+nisj1_16 POLY1 
+nhvra POLY1 
+nhvrb POLY1 
+nhvrc POLY1 
+nhvrd POLY1 
+nhvre POLY1 
+nhvrf POLY1 
+ndhvrd POLY1 
+ndhvrf POLY1 
+phvra POLY1 
+phvrb POLY1 
+phvrc POLY1 
+phvrd POLY1 
+phvre POLY1 
+phvrf POLY1 
+pmvb POLY1 
+pmvd POLY1 
+pmve POLY1 
+pmvf POLY1 
+nmvb POLY1 
+nmvc POLY1 
+nmvd POLY1 
+nmve POLY1 
+nmvf POLY1 
+ndmvd POLY1 
+ndmvf POLY1 
+rdn SUBSTRATE  precedence=9 
+rdn_g SUBSTRATE  precedence=9 
+rdp SUBSTRATE precedence=9 
+rdp_g SUBSTRATE precedence=9 
+rdnm SUBSTRATE precedence=9 
+rdnm_g SUBSTRATE precedence=9 
+rdpm SUBSTRATE precedence=9 
+rdpm_g SUBSTRATE precedence=9 
+rdnm_pw4 SUBSTRATE precedence=9 
+rdnm_dpc SUBSTRATE precedence=9 
+rnw SUBSTRATE precedence=8 
+rnwm SUBSTRATE precedence=8 
+rnw_scr SUBSTRATE precedence=8 
+rnwm_scr SUBSTRATE precedence=8 
+rxw2ti SUBSTRATE precedence=8 
+rnp1_1 POLY1 
+rnp1_3_pw POLY1 
+rnp1_3_nw POLY1 
+rnp1a_3 POLY1 
+rpp1_1 POLY1 
+rpp1_3 POLY1 
+rpp1nw_3 POLY1 
+rpp1s_1 POLY1 
+rpp1s_3_pw POLY1 
+rpp1s_3_nw POLY1 
+rnp1h_1 POLY1 
+rnp1h_3_pw POLY1 
+rnp1h_3_nw POLY1 
+rpp1k1_1 POLY1 
+rpp1k1_3_pw POLY1 
+rpp1k1_3_nw POLY1 
+rpp1k1a_1 POLY1 
+rpp1k1a_3_pw POLY1 
+rpp1k1a_3_nw POLY1 
+pfuse POLY1 
+p1_vlbl POLY1 
+df_vlbl DIFF 
+rm1 MET1 
+rm2 MET2 
+m1_vlbl MET1 
+m2_vlbl MET2 
+rm3 MET3 
+m3_vlbl MET3 
+rm4 MET4 
+m4_vlbl MET4 
+rmtp METTP 
+mt_vlbl METTP 
+rmtpl METTPL 
+ml_vlbl METTPL 
+d_cswt3 MET1 
+d_cswt4 MET1 
+d_csp5tl MET1 
+d_csp5tla MET2 
+
+via_layers
+
+dfcnt dfcnt 
+p1cnt p1cnt 
+d_dsc dfcnt 
+via1 VIA1 
+metvi2 VIA2 
+metvi3 VIA3 
+metvitp VIATP 
+viatpl VIATPL 
+
+marker_layers
+
+P1_marker 
+M1_marker 
+M2_marker 
+M3_marker 
+M4_marker 
+METTP_marker 
+METL_marker 
+hwc_bs_marker 
+
+remove_layers
+
+tiedtub_nbuf 
+
+viewonly_layers
+
+px_cmm5t 
+px_cmmh5t 
+px_cdmmh4 
+px_ctmmh5t 
+px_cdmm4 
+px_ctmm5t 
+px_cmm3 
+px_cmmh3 
+px_cmm4 
+px_cmmh4 
+px_cdmm5t 
+px_cdmmh5t 
+px_d_cswt3 
+px_d_cswt4 
+px_csp5tl 
+px_csp5tla 
+px_nhsj1_7 
+px_nhsj1_10 
+px_nhsj1_16c 
+px_phsj1_7 
+px_phsj1_10 
+px_phsj1_16c 
+px_phsj1a_4 
+px_phsj1a_5 
+px_phsj1a_7 
+px_phsj1a_8 
+px_phsj1a_10 
+px_phsj1a_13 
+px_phsj1a_16 
+px_phsj1a_20 
+px_phsj1a_31 
+px_phsj2b_7 
+px_phsj2b_8 
+px_phsj2b_10 
+px_phsj2b_13 
+px_phsj2b_16 
+px_nhsj1b_2 
+px_nhsj1b_4 
+px_nhsj1b_5 
+px_nhsj1b_7 
+px_nhsj1b_8 
+px_nhsj1b_10 
+px_nhsj1a_13 
+px_nhsj1a_16 
+px_nhsj1a_20 
+px_nhsj1a_28 
+px_dfwnsj1_7 
+px_dfwnsj1_10 
+px_dfwnsj1_16c 
+px_dfwnsj1a_13 
+px_dfwnsj1a_16 
+px_dfwnsj1a_20 
+px_dfwnsj1a_28 
+px_dfwnsj1b_2 
+px_dfwnsj1b_4 
+px_dfwnsj1b_5 
+px_dfwnsj1b_7 
+px_dfwnsj1b_8 
+px_dfwnsj1b_10 
+px_nhv1_d 
+px_phv1_d 
+px_nisj_d 
+px_nisj1_16 
+px_phvta 
+px_phvtb 
+px_phvu 
+px_pdftrm 
+px_nhvta 
+px_nhvtaa 
+px_nhvtb 
+px_nhvu 
+px_ndhvt 
+px_ndhvta 
+px_ndhvtaa 
+px_ndftrm 
+px_mosvc 
+px_mosvcm 
+px_mosvci 
+px_mosvcim 
+px_pmva 
+px_pmvaa 
+px_pmvab 
+px_pmvb 
+px_pmvd 
+px_pmve 
+px_pmvf 
+px_nmva 
+px_nmvaa 
+px_nmvab 
+px_nmvb 
+px_nmvc 
+px_nmvd 
+px_nmve 
+px_nmvf 
+px_ndmvd 
+px_ndmvf 
+px_nhvra 
+px_nhvrb 
+px_nhvrc 
+px_nhvrd 
+px_nhvre 
+px_nhvrf 
+px_ndhvrd 
+px_ndhvrf 
+px_phvra 
+px_phvrb 
+px_phvrc 
+px_phvrd 
+px_phvre 
+px_phvrf 
+px_dfntrm 
+px_dfptrm1 
+px_pdfmvtrm 
+px_ndfmvtrm 
+px_ndiff 
+px_pdiff 
+px_d_dsdf 
+px_hwafer_t 
+px_hwafer_b 
+
+ignore_cap_layers
+
+m1atrm m1btrm 
+m1aftrm m1bftrm 
+csf_p1 csf_p1 
+csf_m1 csf_m1 
+csf_m2 csf_m2 
+csf_p1 csf_m1 csf_m2 csf_m3 csf_m4 csf_mt 
+csf_m3 csf_m3 
+csf_m4 csf_m4 
+csf_mt csf_mt 
+

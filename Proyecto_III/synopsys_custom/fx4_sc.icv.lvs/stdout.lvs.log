@@ -1,0 +1,160 @@
+
+                                 IC Validator 
+
+          Version U-2022.12-SP4 for linux64 - Aug 28, 2023 cl#9133772
+
+                    Copyright (c) 1996 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Time Started: 2024-11-17 19:44:20
+Running on: redhatclon 4.18.0-553.27.1.el8_10.x86_64
+
+-------------
+
+Called as: icv -f openaccess -i fx4 -c fx4_sc -oa_view layout -oa_lib_defs /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs -oa_layer_map /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/strmInOut.layertable -I /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/./ICValidator -I /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/./StarRC -s /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/fx4_sc.icv.sp -sf SPICE -stc fx4_sc -oa_dm6 -I /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1 -vue /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs
+
+-------------
+
+Command Line Summary:
+icv
+-c fx4_sc
+-f openaccess
+-i fx4
+-oa_dm6
+-oa_layer_map /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/strmInOut.layertable
+-oa_lib_defs /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs
+-oa_view layout
+-s /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/fx4_sc.icv.sp
+-sf SPICE
+-stc fx4_sc
+-vue
+-I /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/./ICValidator
+-I /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/./StarRC
+-I /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs
+
+-------------
+
+
+WARNING: The environment variable ICV_RSH_COMMAND is deprecated. Please use -host_login.
+Using "ssh" as remote login program
+
+Parsing runset "/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs"
+
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs:1: warning: "VAR_ANT_RATIO" wasn't defined
+    #undef VAR_ANT_RATIO
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs:19: warning: "FloatingGate" wasn't defined
+    #undef FloatingGate
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs:20: warning: "FloatingWell" wasn't defined
+    #undef FloatingWell
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs:21: warning: "ParaDioAsDevDio" wasn't defined
+    #undef ParaDioAsDevDio
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs:22: warning: "DTINBOXCAP" wasn't defined
+    #undef DTINBOXCAP
+xt018_1243_LVS_LP5MOS_MET4_METMID_METTHK.rs:17: warning: "METAL5" wasn't defined
+    #undef METAL5
+    from /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs: 30:    #include <xt018_1243_LVS_LP5MOS_MET4_METMID_METTHK.rs>
+xt018_1243_LVS_LP5MOS_MET4_METMID_METTHK.rs:18: warning: "METAL6" wasn't defined
+    #undef METAL6
+    from /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs: 30:    #include <xt018_1243_LVS_LP5MOS_MET4_METMID_METTHK.rs>
+xt018_1243_LVS_LP5MOS_MET4_METMID_METTHK.rs:21: warning: "METCOP" wasn't defined
+    #undef METCOP
+    from /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs: 30:    #include <xt018_1243_LVS_LP5MOS_MET4_METMID_METTHK.rs>
+
+/mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018.rs:36255: warning: ICV LVS device settings currently use append mode. Use command line option '-D ICV_REVERT_DEVICE_SETTING_APPEND_MODE' or runset instruction '#define ICV_REVERT_DEVICE_SETTING_APPEND_MODE' to revert LVS device setting back to overwrite mode in this release.
+Loaded runset from cache: /home/ORTIZ_ARIAS/.icvrscache/b778f3fbaccd418dab2a2c3d597a2d9a-B234FCDD-85E7-42E5-B3DC-1525ECF5DA30-redhatclon-1060293.rscache
+Cached Runset Compile Time=0:00:07 User=6.29 Sys=0.22 Mem=0.600 GB
+
+Virtual Machine Init Time=0:00:01 User=0.07 Sys=0.04 Mem=0.600 GB
+
+/mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_icv_option.rs:66: warning: The error_limit_per_check in error_options is set to unlimited.  The user setting of unlimited will be honored but could result in very large error files and increased amount of time to process if the number of errors in a check is very large.
+
+Host startup begins.
+Host startup done: 2 successes, 0 failures.
+	redhatclon: 2 total cores, maximum 2 commands in parallel.
+Selecting "redhatclon" as Primary host
+
+System Startup Time=0:00:00 User=0.00 Sys=0.03 Mem=0.600 GB
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/run_details/fx4_sc.sum
+    /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/run_details/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.dp.log
+
+Running ...
+  [0:00:00][0%]   Total: 2 CPUs on 1 host
+  [0:00:06][1%]   Rules: 22/26, Rules with Violations: 0, Total Violations: 0
+  [0:00:06][2%]   
+  [0:00:06][3%]   
+  [0:00:06][4%]   
+  [0:00:06][5%]   
+  [0:00:06][10%]  
+  [0:00:06][15%]  
+  [0:00:06][20%]  
+  [0:00:07][25%]  
+  [0:00:07][30%]  
+  [0:00:07][35%]  
+  [0:00:07][40%]  
+  [0:00:07][45%]  
+  [0:00:07][50%]  
+  [0:00:08][55%]  Rules: 24/27, Rules with Violations: 0, Total Violations: 0
+  [0:00:10][60%]  Rules: 26/27, Rules with Violations: 0, Total Violations: 0
+  [0:00:10][65%]  
+  [0:00:10][70%]  
+  [0:00:12][75%]  
+  [0:00:12][80%]  
+  [0:00:12][85%]  
+  [0:00:12][90%]  
+  [0:00:13][95%]  
+Comparing schematic and layout netlists.
+LVS compare start time    : 2024-11-17 19:44:47
+  ICV_Compare [0:00:01][0%]
+  ICV_Compare [0:00:01][5%]
+  ICV_Compare [0:00:02][10%]
+  ICV_Compare [0:00:02][15%]
+  ICV_Compare [0:00:02][20%]
+  ICV_Compare [0:00:02][25%]
+  ICV_Compare [0:00:02][30%]
+  ICV_Compare [0:00:02][100%]
+LVS compare end time      : 2024-11-17 19:44:49
+Total runtime for LVS compare Time=0:00:02  User=0.03 Sys=0.07 Mem=0.016 GB
+   Check Time=0:00:01  User=0.01 Sys=0.00 Mem=0.035 GB
+
+  [0:00:20][100%] Rules: 27/27, Rules with Violations: 0, Total Violations: 0
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating fx4_sc.TOP_LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+
+
+-------------
+IC Validator Run: Time=0:00:30
+
+IC Validator Machine Memory Report
+redhatclon   : Average = 1.324 GB, Peak = 1.324 GB
+
+Overall Disk Usage Disk=0.023 GB
+Network Disk Usage Peak=0.022 GB (no group)
+Group File Disk Usage Peak=0.001 GB
+Overall engine Time=0:00:30 Highest command Mem=0.132 GB
+
+Overall Master Mem=1.372 GB
+
+Time Ended: 2024-11-17 19:44:51
+
+IC Validator is done.

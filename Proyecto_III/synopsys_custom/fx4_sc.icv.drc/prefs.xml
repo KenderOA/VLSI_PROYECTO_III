@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version U-2023.03-SP2-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtDRCICVControlVariablesTableConfig" value="1 222 0 100 0 100 1 727 1 100"/>
+	<pref name="xtDRCLayCell" value="fx4_sc"/>
+	<pref name="xtDRCLayLCV" value="fx4/fx4_sc/layout"/>
+	<pref name="xtDRCLayOasisFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/fx4_sc.custom_compiler.oas"/>
+	<pref name="xtDRCLayStreamFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/fx4_sc.custom_compiler.gds"/>
+	<pref name="xtDRCTool" value="IC Validator"/>
+</preferences>
+

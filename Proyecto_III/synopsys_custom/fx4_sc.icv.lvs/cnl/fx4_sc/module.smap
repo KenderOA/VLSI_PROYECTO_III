@@ -1,0 +1,37 @@
+<module name="vsl: fx4 fx4_sc schematic vl: auCdl cmos_sch schematic">
+<scope name="Instance">
+<forward>
+<mapping dst="MM1" src="M1"/>
+<mapping dst="MM0" src="M0"/>
+</forward>
+<reverse>
+<mapping dst="M1" src="MM1"/>
+<mapping dst="M0" src="MM0"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward/>
+<reverse/>
+</scope>
+<scope name="simInfo">
+<forward>
+<mapping dst="net7 net8" src="&lt;unmappedTermOrder>"/>
+<mapping dst="net7 net8" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="net7 net8"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="ne">
+<instance name="M0"/>
+</instance_header>
+<instance_header master="pe">
+<instance name="M1"/>
+</instance_header>
+</master_instances>
+</module>

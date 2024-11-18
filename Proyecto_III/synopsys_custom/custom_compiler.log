@@ -1,0 +1,179 @@
+[21:50:09.08] /o 
+              /c                                 Custom Compiler™ 
+              /c 
+              /c                Version U-2023.03-SP2 for linux64 - Aug 25, 2023 
+              /c 
+              /c                     Copyright (c) 2004 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9128410 compiled on Fri Aug 25 11:03:32 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/cdesigner -loadAll true
+              /c Execution time: Sun Nov 17 21:50:04 2024
+              /c Host: redhatclon
+              /c Working directory: /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III
+              /c 
+[21:50:21.82] /m Information: Registering ICV PERC package...
+[21:50:22.14] /o 
+[21:50:22.14] /o <> -------------------------------------------
+[21:50:22.14] /o <>
+[21:50:22.14] /o <> Loading XFAB PDK components
+[21:50:22.14] /o <>  basic                            O.K
+[21:50:22.16] /o <>  exports                          O.K
+[21:50:22.18] /o <>  custom                           O.K
+[21:50:22.19] /o <>  cdf                              O.K
+[21:50:22.19] /o <>  netlisting                       O.K
+[21:50:22.27] /o <>  useability                       O.K
+[21:50:22.27] /o <>  synopsys                         O.K
+[21:50:22.33] /o <>  pcellkit                         O.K
+[21:50:22.40] /o <>  trigger_callbacks                O.K
+[21:50:22.41] /o <> Loading XFAB PDK preferences
+[21:50:22.71] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[21:50:22.76] /w Warning: Preference 'xtStarTcadGrdFile' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[21:50:22.77] /o <> Loading Calibre presets for XFAB PDK
+[21:50:22.78] /o <> Loading .xfabrc user script
+[21:50:22.78] /o <>
+[21:50:22.78] /o <> -------------------------------------------
+[21:50:22.78] /o <>
+[21:50:22.78] /o <> Technology     xt018
+[21:50:22.78] /o <> Version        v12_1_1_1
+[21:50:22.78] /o <> LibCode        1243
+[21:50:22.78] /o <> Core           LP 1.8V
+[21:50:22.78] /o <> Metal          Thin4
+[21:50:22.78] /o <> TopMetal       METTP&METTPL
+[21:50:22.78] /o <>
+[21:50:22.78] /o <> -------------------------------------------
+[21:50:22.78] /o 
+[21:50:23.21] /r giShowFrameTabs false
+[21:50:41.10] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 0]
+[21:50:41.10] /i de::showOpenDesign
+[21:50:41.17] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[21:50:41.41] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+628+268
+[21:50:52.00] /i gi::closeWindows [gi::getDialogs {deOpenDesign}]
+[21:51:03.66] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 0]
+[21:51:03.66] /i de::showOpenDesign
+[21:51:03.71] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[21:51:03.98] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+628+268
+[21:51:15.00] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 642x491+628+268
+[21:52:05.40] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 0]
+[21:52:05.40] /i de::showOpenDesign
+[21:52:05.48] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[21:52:05.70] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 642x491+628+268
+[21:52:12.19] /i gi::setCurrentIndex {designLibs} -index {D_CELLS_HD} -in [gi::getDialogs {deOpenDesign}]
+[21:52:12.28] /i gi::setItemSelection {designLibs} -index {D_CELLS_HD} -in [gi::getDialogs {deOpenDesign}]
+[21:52:13.38] /i gi::sortItems {designCells} -column {Cells} -order {descending} -in [gi::getDialogs {deOpenDesign}]
+[21:52:17.98] /i gi::setField {designCellsFilter} -value {in} -in [gi::getDialogs {deOpenDesign}]
+[21:52:17.98] /i gi::setCurrentIndex {designCells} -index {INHDX0} -in [gi::getDialogs {deOpenDesign}]
+[21:52:18.03] /i gi::setItemSelection {designCells} -index {INHDX0} -in [gi::getDialogs {deOpenDesign}]
+[21:52:20.85] /i gi::setCurrentIndex {designViews} -index {layout} -in [gi::getDialogs {deOpenDesign}]
+[21:52:20.87] /i gi::setItemSelection {designViews} -index {layout} -in [gi::getDialogs {deOpenDesign}]
+[21:52:24.72] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[21:52:24.72] /# de::open [dm::findCellView {layout} -cellName {INHDX0} -libName {D_CELLS_HD}] -readOnly 1
+[21:52:24.93] /r giWindowId 1
+[21:52:24.93] /r giWindowGeometry 1910x1020+5+55
+[21:52:24.93] /# db::setAttr maximized -of [gi::getFrames 1] -value true
+[21:52:25.56] /o 1
+[21:52:29.72] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[21:52:29.72] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[21:52:29.73] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {0.829 4.231} -index 0 -intent none]
+[21:52:29.73] /o oa:0x4420c2f0
+[21:52:30.45] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[21:52:30.45] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[21:52:32.01] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[21:52:32.22] /i gi::setActiveWindow 0
+[21:52:32.22] /i gi::setActiveWindow 0 -raise true
+[21:52:34.80] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 0]
+[21:52:34.80] /i de::showOpenDesign
+[21:52:34.85] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[21:52:35.10] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 642x491+628+268
+[21:52:38.48] /i gi::setCurrentIndex {designLibs} -index {fx0} -in [gi::getDialogs {deOpenDesign}]
+[21:52:38.52] /i gi::setItemSelection {designLibs} -index {fx0} -in [gi::getDialogs {deOpenDesign}]
+[21:52:40.77] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[21:52:40.77] /# de::open [dm::findCellView {layout} -cellName {fx00} -libName {fx0}] -readOnly 0
+[21:52:40.78] /m Information: Feature 'SynopsysCustomLayout' checked out. (LICENSE-003)
+[21:52:40.90] /r giWindowId 2
+[21:52:40.91] /r giWindowGeometry 1910x1020+5+55
+[21:52:40.91] /# db::setAttr maximized -of [gi::getFrames 2] -value true
+[21:52:41.34] /o 1
+[21:52:45.34] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 2]
+[21:52:45.34] /i de::showOpenDesign
+[21:52:45.39] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[21:52:45.63] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 642x491+628+268
+[21:52:49.07] /i gi::setCurrentIndex {designLibs} -index {D_CELLS_HDLL} -in [gi::getDialogs {deOpenDesign}]
+[21:52:49.14] /i gi::setItemSelection {designLibs} -index {D_CELLS_HDLL} -in [gi::getDialogs {deOpenDesign}]
+[21:52:51.43] /i gi::setCurrentIndex {designLibs} -index {D_CELLS_HD} -in [gi::getDialogs {deOpenDesign}]
+[21:52:51.50] /i gi::setItemSelection {designLibs} -index {D_CELLS_HD} -in [gi::getDialogs {deOpenDesign}]
+[21:52:52.98] /i gi::setCurrentIndex {designLibs} -index {D_CELLS_HDLL} -in [gi::getDialogs {deOpenDesign}]
+[21:52:53.00] /i gi::setItemSelection {designLibs} -index {D_CELLS_HDLL} -in [gi::getDialogs {deOpenDesign}]
+[21:52:57.04] /i gi::setCurrentIndex {designCells} -index {INHDLLX0} -in [gi::getDialogs {deOpenDesign}]
+[21:52:57.09] /i gi::setItemSelection {designCells} -index {INHDLLX0} -in [gi::getDialogs {deOpenDesign}]
+[21:52:58.90] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[21:52:58.90] /# de::open [dm::findCellView {layout} -cellName {INHDLLX0} -libName {D_CELLS_HDLL}] -readOnly 1
+[21:52:59.01] /r giWindowId 3
+[21:52:59.02] /r giWindowGeometry 1910x1020+5+55
+[21:52:59.03] /# db::setAttr maximized -of [gi::getFrames 3] -value true
+[21:52:59.47] /o 1
+[21:54:27.96] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[21:54:29.54] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[21:54:29.71] /i gi::setActiveWindow 2
+[21:54:29.71] /i gi::setActiveWindow 2 -raise true
+[21:54:31.18] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[21:54:31.34] /i gi::setActiveWindow 0
+[21:54:31.34] /i gi::setActiveWindow 0 -raise true
+[21:54:35.58] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 0]
+[21:54:35.58] /i de::showOpenDesign
+[21:54:35.62] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[21:54:35.90] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 642x491+628+268
+[21:54:37.92] /i gi::setCurrentIndex {designLibs} -index {ffffff} -in [gi::getDialogs {deOpenDesign}]
+[21:54:37.97] /i gi::setItemSelection {designLibs} -index {ffffff} -in [gi::getDialogs {deOpenDesign}]
+[21:54:38.50] /i gi::setCurrentIndex {designLibs} -index {fx0} -in [gi::getDialogs {deOpenDesign}]
+[21:54:38.52] /i gi::setItemSelection {designLibs} -index {fx0} -in [gi::getDialogs {deOpenDesign}]
+[21:54:39.78] /i gi::setCurrentIndex {designViews} -index {layout\.config} -in [gi::getDialogs {deOpenDesign}]
+[21:54:39.79] /i gi::setItemSelection {designViews} -index {layout\.config} -in [gi::getDialogs {deOpenDesign}]
+[21:54:40.35] /i gi::setCurrentIndex {designViews} -index {schematic} -in [gi::getDialogs {deOpenDesign}]
+[21:54:42.03] /i gi::setItemSelection {designViews} -index {schematic} -in [gi::getDialogs {deOpenDesign}]
+[21:54:42.95] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[21:54:42.95] /# de::open [dm::findCellView {schematic} -cellName {fx00} -libName {fx0}] -readOnly 0
+[21:54:43.10] /r giWindowId 4
+[21:54:43.11] /r giWindowGeometry 1910x1020+5+55
+[21:54:43.11] /# db::setAttr maximized -of [gi::getFrames 4] -value true
+[21:54:43.41] /o oa:0x43fdd680
+[21:54:43.70] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]] -value 290x891
+[21:55:07.55] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 4]
+[21:55:07.55] /i de::showOpenDesign
+[21:55:07.61] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[21:55:07.87] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 642x491+628+268
+[21:55:09.36] /i gi::setCurrentIndex {designLibs} -index {fx4} -in [gi::getDialogs {deOpenDesign}]
+[21:55:09.39] /i gi::setItemSelection {designLibs} -index {fx4} -in [gi::getDialogs {deOpenDesign}]
+[21:55:11.09] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[21:55:11.10] /# de::open [dm::findCellView {schematic} -cellName {fx4_sc} -libName {fx4}] -readOnly 0
+[21:55:11.15] /r giWindowId 5
+[21:55:11.17] /r giWindowGeometry 1910x1020+5+55
+[21:55:11.17] /# db::setAttr maximized -of [gi::getFrames 5] -value true
+[21:55:11.43] /o oa:0x44c4ed00
+[21:55:11.70] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]] -value 290x891
+[21:55:27.61] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[21:55:27.74] /i gi::setActiveWindow 4
+[21:55:27.74] /i gi::setActiveWindow 4 -raise true
+[22:00:22.41] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[22:00:22.55] /i gi::setActiveWindow 0
+[22:00:22.55] /i gi::setActiveWindow 0 -raise true
+[22:00:26.97] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[22:00:27.09] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[22:00:27.40] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]] -value 354x207+128+752
+[22:00:30.37] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[22:00:44.28] /o Shutdown time: Sun Nov 17 22:00:44 2024
+[22:00:44.28] /o Elapsed session real time: 10.6 minutes
+[22:00:44.28] /o Session terminated. Log is at /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/logs/ccompiler.ORTIZ_ARIAS.2024_11_17_215004_1112863.log

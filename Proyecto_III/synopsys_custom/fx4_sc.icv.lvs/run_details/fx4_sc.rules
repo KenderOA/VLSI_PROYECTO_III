@@ -1,0 +1,61 @@
+
+                                  ICV_Manager 
+
+          Version U-2022.12-SP4 for linux64 - Aug 28, 2023 cl#9133772
+
+                    Copyright (c) 1996 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f openaccess -i fx4 -c fx4_sc -oa_view layout -oa_lib_defs /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/lib.defs -oa_layer_map /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/strmInOut.layertable -I /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/./ICValidator -I /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/./StarRC -s /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/fx4_sc.icv.sp -sf SPICE -stc fx4_sc -oa_dm6 -I /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1 -vue /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+User name:        ORTIZ_ARIAS
+Layout format:    OPENACCESS
+Input file name:  fx4
+Top cell name:    fx4_sc
+Time started:     2024/11/17 07:44:33PM
+
+--------------------------------------------------------------------------------
+                          Signoff Rules to be Executed                          
+--------------------------------------------------------------------------------
+
+           0 @ "Violation"
+           0 Q1NW @= { @ "Q1NW : NWELL should be contacted by NDIFF" }
+           0 drc_erc @= { @ "SOFTCHK_bulk_CONTACT" }
+           0 drc_erc @= { @ "SOFTCHK_dfntrm_CONTACT" }
+           0 drc_erc @= { @ "SOFTCHK_dfptrm_CONTACT" }
+           0 drc_erc @= { @ "SOFTCHK_hwptub_CONTACT" }
+           0 drc_erc @= { @ "SOFTCHK_nbase_CONTACT" }
+           0 drc_erc @= { @ "SOFTCHK_ndfmvtrm_CONTACT" }
+           0 drc_erc @= { @ "SOFTCHK_ndftrm_CONTACT" }
+           0 drc_erc @= { @ "SOFTCHK_nwtrm_CONTACT" }
+           0 drc_erc @= { @ "SOFTCHK_pdfmvtrm_CONTACT" }
+           0 drc_erc @= { @ "SOFTCHK_pdftrm_CONTACT" }
+           0 drc_erc @= { @ "SOFTCHK_pw4trm_CONTACT" }
+           0 drc_erc1 @= { @ "SOFTCHK_dhw_nbur_CONTACT" }
+           0 drc_erc1 @= { @ "SOFTCHK_pdfntrm_CONTACT" }
+           0 floating_DFN @= { @ "DFN should be contacted" }
+           0 floating_DFP @= { @ "DFP should be contacted" }
+           0 floating_DFP @= { @ "PDFNTRM should be contacted" }
+           0 floating_NBASE @= { @ "NBASE should be contacted" }
+           0 floating_NDF @= { @ "NDF should be contacted" }
+           0 floating_NDFMV @= { @ "NDFMV should be contacted" }
+           0 floating_PDF @= { @ "PDF should be contacted" }
+           0 floating_PDFMV @= { @ "PDFMV should be contacted" }
+           0 floating_PTUB @= { @ "PTUB should be contacted" }
+           0 floating_PWELL4 @= { @ "PWELL4 should be contacted" }
+           0 floating_TIEDTUB_NBUF @= { @ "tiedtub_nbuf area should be contacted by PDIFF" }

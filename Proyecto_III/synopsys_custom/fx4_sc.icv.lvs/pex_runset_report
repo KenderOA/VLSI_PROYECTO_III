@@ -1,0 +1,2089 @@
+version 1.2
+
+schematic fx4_sc.sch_out.gz
+compare_directory run_details/compare
+milkyway_database ./STARRC_XTR
+ndb_path run_details/.ndb
+
+layout_power VDD* DVDD VCC VDDA VDDB ADVDD VDDM
+layout_ground GND* GND? DVSS VSS GROUND AGND GND VSSM
+schematic_power VDD* DVDD VCC VDDA VDDB ADVDD VDDM
+schematic_ground GND* GND? DVSS VSS GROUND AGND GND VSSM
+
+device PMOS pe
+pins {pdiff DRN TERMINAL} {pe GATE TERMINAL} {pdiff SRC TERMINAL} {nwtrm BULK BULK} 
+x_card TRUE
+
+device PMOS pesvt
+pins {pdiff DRN TERMINAL} {pesvt GATE TERMINAL} {pdiff SRC TERMINAL} {nwtrm BULK BULK} 
+x_card TRUE
+
+device PMOS pel
+pins {pdiff DRN TERMINAL} {pel GATE TERMINAL} {pdiff SRC TERMINAL} {nwtrm BULK BULK} 
+x_card TRUE
+
+device NMOS ne
+pins {ndiff DRN TERMINAL} {ne GATE TERMINAL} {ndiff SRC TERMINAL} {bulk BULK BULK} 
+x_card TRUE
+
+device NMOS nesvt
+pins {ndiff DRN TERMINAL} {nesvt GATE TERMINAL} {ndiff SRC TERMINAL} {bulk BULK BULK} 
+x_card TRUE
+
+device NMOS nel
+pins {ndiff DRN TERMINAL} {nel GATE TERMINAL} {ndiff SRC TERMINAL} {bulk BULK BULK} 
+x_card TRUE
+
+device NMOS nn
+pins {ndiff DRN TERMINAL} {nn GATE TERMINAL} {ndiff SRC TERMINAL} {bulk BULK BULK} 
+x_card TRUE
+
+device PMOS pe5
+pins {pdiff DRN TERMINAL} {pem GATE TERMINAL} {pdiff SRC TERMINAL} {nwtrm BULK BULK} 
+x_card TRUE
+
+device NMOS ne5
+pins {ndiff DRN TERMINAL} {nem GATE TERMINAL} {ndiff SRC TERMINAL} {bulk BULK BULK} 
+x_card TRUE
+
+device NMOS nn5
+pins {ndiff DRN TERMINAL} {nnm GATE TERMINAL} {ndiff SRC TERMINAL} {bulk BULK BULK} 
+x_card TRUE
+
+device NMOS nd5
+pins {ndiff DRN TERMINAL} {ndm GATE TERMINAL} {ndiff SRC TERMINAL} {bulk BULK BULK} 
+x_card TRUE
+
+device PMOS peti
+pins {pdiff DRN TERMINAL} {peti GATE TERMINAL} {pdiff SRC TERMINAL} {nwtrm BULK BULK} 
+x_card TRUE
+
+device PMOS pe5ti
+pins {pdiff DRN TERMINAL} {pemti GATE TERMINAL} {pdiff SRC TERMINAL} {nwtrm BULK BULK} 
+x_card TRUE
+
+device NMOS nmva
+pins {nwtrm DRN TERMINAL} {nmva GATE TERMINAL} {ndiff SRC TERMINAL} {bulk BULK BULK} 
+x_card TRUE
+
+device PMOS pmva
+pins {bulk DRN TERMINAL} {pmva GATE TERMINAL} {pdiff SRC TERMINAL} {nwtrm BULK BULK} 
+x_card TRUE
+
+device NMOS nmvaa
+pins {nwtrm DRN TERMINAL} {nmvaa GATE TERMINAL} {ndiff SRC TERMINAL} {bulk BULK BULK} 
+x_card TRUE
+
+device PMOS pmvaa
+pins {bulk DRN TERMINAL} {pmvaa GATE TERMINAL} {pdiff SRC TERMINAL} {nwtrm BULK BULK} 
+x_card TRUE
+
+device NMOS nmvab
+pins {nwtrm DRN TERMINAL} {nmvab GATE TERMINAL} {ndiff SRC TERMINAL} {bulk BULK BULK} 
+x_card TRUE
+
+device PMOS pmvab
+pins {bulk DRN TERMINAL} {pmvab GATE TERMINAL} {pdiff SRC TERMINAL} {nwtrm BULK BULK} 
+x_card TRUE
+
+device RESISTOR rdn
+pins {ndiff A TERMINAL} {ndiff B TERMINAL} {bulk BULK BULK} 
+body rdn
+x_card TRUE
+
+device RESISTOR rdn
+pins {ndiff A TERMINAL} {ndiff B TERMINAL} {bulk BULK BULK} 
+body rdn_g
+x_card TRUE
+
+device RESISTOR rdp
+pins {pdiff A TERMINAL} {pdiff B TERMINAL} {nwtrm BULK BULK} 
+body rdp
+x_card TRUE
+
+device RESISTOR rdp
+pins {pdiff A TERMINAL} {pdiff B TERMINAL} {nwtrm BULK BULK} 
+body rdp_g
+x_card TRUE
+
+device RESISTOR rdn5
+pins {ndiff A TERMINAL} {ndiff B TERMINAL} {bulk BULK BULK} 
+body rdnm
+x_card TRUE
+
+device RESISTOR rdn5
+pins {ndiff A TERMINAL} {ndiff B TERMINAL} {bulk BULK BULK} 
+body rdnm_g
+x_card TRUE
+
+device RESISTOR rdn5_pw4
+pins {ndiff A TERMINAL} {ndiff B TERMINAL} {bulk BULK BULK} 
+body rdnm_pw4
+x_card TRUE
+
+device RESISTOR rdn5_dpc
+pins {ndiff A TERMINAL} {ndiff B TERMINAL} {bulk BULK BULK} 
+body rdnm_dpc
+x_card TRUE
+
+device RESISTOR rdp5
+pins {pdiff A TERMINAL} {pdiff B TERMINAL} {nwtrm BULK BULK} 
+body rdpm
+x_card TRUE
+
+device RESISTOR rdp5
+pins {pdiff A TERMINAL} {pdiff B TERMINAL} {nwtrm BULK BULK} 
+body rdpm_g
+x_card TRUE
+
+device RESISTOR rnw
+pins {nwtrm A TERMINAL} {nwtrm B TERMINAL} {bulk BULK BULK} 
+body rnw
+x_card TRUE
+
+device RESISTOR rnw5
+pins {nwtrm A TERMINAL} {nwtrm B TERMINAL} {bulk BULK BULK} 
+body rnwm
+x_card TRUE
+
+device RESISTOR rnw_scr
+pins {nwtrm A TERMINAL} {nwtrm B TERMINAL} {bulk BULK BULK} 
+body rnw_scr
+x_card TRUE
+
+device RESISTOR rnw5_scr
+pins {nwtrm A TERMINAL} {nwtrm B TERMINAL} {bulk BULK BULK} 
+body rnwm_scr
+x_card TRUE
+
+device RESISTOR rnp1
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} 
+body rnp1_1
+x_card TRUE
+
+device RESISTOR rnp1_3
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} {bulk BULK BULK} 
+body rnp1_3_pw
+x_card TRUE
+
+device RESISTOR rnp1_3
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} {nwtrm BULK BULK} 
+body rnp1_3_nw
+x_card TRUE
+
+device RESISTOR rnp1a_3
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} {bulk BULK BULK} 
+body rnp1a_3
+x_card TRUE
+
+device RESISTOR rpp1
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} 
+body rpp1_1
+x_card TRUE
+
+device RESISTOR rpp1_3
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} {bulk BULK BULK} 
+body rpp1_3
+x_card TRUE
+
+device RESISTOR rpp1nw_3
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} {nwtrm BULK BULK} 
+body rpp1nw_3
+x_card TRUE
+
+device RESISTOR rpp1s
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} 
+body rpp1s_1
+x_card TRUE
+
+device RESISTOR rpp1s_3
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} {bulk BULK BULK} 
+body rpp1s_3_pw
+x_card TRUE
+
+device RESISTOR rpp1s_3
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} {nwtrm BULK BULK} 
+body rpp1s_3_nw
+x_card TRUE
+
+device RESISTOR rnp1h
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} 
+body rnp1h_1
+x_card TRUE
+
+device RESISTOR rnp1h_3
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} {bulk BULK BULK} 
+body rnp1h_3_pw
+x_card TRUE
+
+device RESISTOR rnp1h_3
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} {nwtrm BULK BULK} 
+body rnp1h_3_nw
+x_card TRUE
+
+device RESISTOR rpp1k1
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} 
+body rpp1k1_1
+x_card TRUE
+
+device RESISTOR rpp1k1_3
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} {bulk BULK BULK} 
+body rpp1k1_3_pw
+x_card TRUE
+
+device RESISTOR rpp1k1_3
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} {nwtrm BULK BULK} 
+body rpp1k1_3_nw
+x_card TRUE
+
+device RESISTOR rpp1k1a
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} 
+body rpp1k1a_1
+x_card TRUE
+
+device RESISTOR rpp1k1a_3
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} {bulk BULK BULK} 
+body rpp1k1a_3_pw
+x_card TRUE
+
+device RESISTOR rpp1k1a_3
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} {nwtrm BULK BULK} 
+body rpp1k1a_3_nw
+x_card TRUE
+
+device RESISTOR rxw2ti
+pins {nwtrm A TERMINAL} {nwtrm B TERMINAL} {bulk BULK BULK} 
+body rxw2ti
+x_card TRUE
+
+device RESISTOR rm1
+pins {m1trm A TERMINAL} {m1trm B TERMINAL} 
+body rm1
+x_card TRUE
+
+device RESISTOR rm2
+pins {m2trm A TERMINAL} {m2trm B TERMINAL} 
+body rm2
+x_card TRUE
+
+device RESISTOR pfuse
+pins {p1trm A TERMINAL} {p1trm B TERMINAL} 
+body pfuse
+x_card TRUE
+
+device RESISTOR rm3
+pins {m3trm A TERMINAL} {m3trm B TERMINAL} 
+body rm3
+x_card TRUE
+
+device RESISTOR rm4
+pins {m4trm A TERMINAL} {m4trm B TERMINAL} 
+body rm4
+x_card TRUE
+
+device RESISTOR rmtp
+pins {mttrm A TERMINAL} {mttrm B TERMINAL} 
+body rmtp
+x_card TRUE
+
+device RESISTOR rmtpl
+pins {mltrm A TERMINAL} {mltrm B TERMINAL} 
+body rmtpl
+x_card TRUE
+
+device CAPACITOR p_cap
+pins {tub1_hvnw_t A TERMINAL} {hwafer_t B TERMINAL} 
+body pcap_tub1_hvnwt
+x_card TRUE
+
+device CAPACITOR p_cap
+pins {tub1_hvnw_t A TERMINAL} {hwafer_b B TERMINAL} 
+body pcap_tub1_hvnwb
+x_card TRUE
+
+device CAPACITOR p_cap
+pins {bulk A TERMINAL} {hwafer_t B TERMINAL} 
+body pcap_tub1_bulkt
+x_card TRUE
+
+device CAPACITOR p_cap
+pins {bulk A TERMINAL} {hwafer_b B TERMINAL} 
+body pcap_tub1_bulkb
+x_card TRUE
+
+device CAPACITOR csf2p
+pins {m1atrm A TERMINAL} {m1btrm B TERMINAL} 
+body d_csf2p
+x_card TRUE
+
+device CAPACITOR csf3
+pins {m1atrm A TERMINAL} {m1btrm B TERMINAL} 
+body d_csf3
+x_card TRUE
+
+device CAPACITOR csf3p
+pins {m1atrm A TERMINAL} {m1btrm B TERMINAL} 
+body d_csf3p
+x_card TRUE
+
+device CAPACITOR csf3a
+pins {m1atrm A TERMINAL} {m1btrm B TERMINAL} 
+body d_csf3a
+x_card TRUE
+
+device CAPACITOR csandwt3
+pins {m1trm A TERMINAL} {p1trm B TERMINAL} 
+body d_cswt3
+x_card TRUE
+
+device CAPACITOR cif3
+pins {m1aftrm A TERMINAL} {m1bftrm B TERMINAL} 
+body d_cif3
+x_card TRUE
+
+device CAPACITOR cif3a
+pins {m1aftrm A TERMINAL} {m1bftrm B TERMINAL} 
+body d_cif3a
+x_card TRUE
+
+device CAPACITOR csf4
+pins {m1atrm A TERMINAL} {m1btrm B TERMINAL} 
+body d_csf4
+x_card TRUE
+
+device CAPACITOR csf4a
+pins {m1atrm A TERMINAL} {m1btrm B TERMINAL} 
+body d_csf4a
+x_card TRUE
+
+device CAPACITOR csandwt4
+pins {m1trm A TERMINAL} {p1trm B TERMINAL} 
+body d_cswt4
+x_card TRUE
+
+device CAPACITOR cif4
+pins {m1aftrm A TERMINAL} {m1bftrm B TERMINAL} 
+body d_cif4
+x_card TRUE
+
+device CAPACITOR cif4a
+pins {m1aftrm A TERMINAL} {m1bftrm B TERMINAL} 
+body d_cif4a
+x_card TRUE
+
+device CAPACITOR csft5
+pins {m1atrm A TERMINAL} {m1btrm B TERMINAL} 
+body d_csft5
+x_card TRUE
+
+device CAPACITOR csft5a
+pins {m1atrm A TERMINAL} {m1btrm B TERMINAL} 
+body d_csft5a
+x_card TRUE
+
+device CAPACITOR cift5
+pins {m1aftrm A TERMINAL} {m1bftrm B TERMINAL} 
+body d_cift5
+x_card TRUE
+
+device CAPACITOR cift5a
+pins {m1aftrm A TERMINAL} {m1bftrm B TERMINAL} 
+body d_cift5a
+x_card TRUE
+
+device CAPACITOR cmm3
+pins {capm23f A TERMINAL} {m2trm B TERMINAL} 
+body cmim23f
+x_card TRUE
+
+device CAPACITOR cmmh3
+pins {capmh23f A TERMINAL} {m2trm B TERMINAL} 
+body cmimh23f
+x_card TRUE
+
+device CAPACITOR cmm4
+pins {capm34f A TERMINAL} {m3trm B TERMINAL} 
+body cmim34f
+x_card TRUE
+
+device CAPACITOR cmmh4
+pins {capmh34f A TERMINAL} {m3trm B TERMINAL} 
+body cmimh34f
+x_card TRUE
+
+device CAPACITOR cdmm4
+pins {capm2_b A TERMINAL} {m2trm B TERMINAL} 
+body cdmm
+x_card TRUE
+
+device CAPACITOR cdmmh4
+pins {capmh2_b A TERMINAL} {m2trm B TERMINAL} 
+body cdmmh
+x_card TRUE
+
+device CAPACITOR cmm5t
+pins {capm A TERMINAL} {m4trm B TERMINAL} 
+body cmim
+x_card TRUE
+
+device CAPACITOR cmmh5t
+pins {capmh A TERMINAL} {m4trm B TERMINAL} 
+body cmimh
+x_card TRUE
+
+device CAPACITOR ctmm5t
+pins {capm3_b A TERMINAL} {m2trm B TERMINAL} 
+body ctmm
+x_card TRUE
+
+device CAPACITOR ctmmh5t
+pins {capmh3_b A TERMINAL} {m2trm B TERMINAL} 
+body ctmmh
+x_card TRUE
+
+device CAPACITOR cdmm5t
+pins {capm2a_b A TERMINAL} {m3trm B TERMINAL} 
+body cdmma
+x_card TRUE
+
+device CAPACITOR cdmmh5t
+pins {capmh2a_b A TERMINAL} {m3trm B TERMINAL} 
+body cdmmha
+x_card TRUE
+
+device CAPACITOR csp5tl_3
+pins {m1trm A TERMINAL} {ndiff B TERMINAL} {dhw_nbur BULK BULK} 
+body d_csp5tl
+x_card TRUE
+
+device CAPACITOR csp5tla_3
+pins {m2trm A TERMINAL} {ndiff B TERMINAL} {dhw_nbur BULK BULK} 
+body d_csp5tla
+x_card TRUE
+
+device PNP qpva
+pins {bulk COLL TERMINAL} {nwtrm BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qpvb
+pins {bulk COLL TERMINAL} {nwtrm BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qpvc
+pins {bulk COLL TERMINAL} {nwtrm BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qpve
+pins {bulk COLL TERMINAL} {nwtrm BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qpvf
+pins {bulk COLL TERMINAL} {nwtrm BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qpvg
+pins {bulk COLL TERMINAL} {nwtrm BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qpva5
+pins {bulk COLL TERMINAL} {nwtrm BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qpvb5
+pins {bulk COLL TERMINAL} {nwtrm BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qpvc5
+pins {bulk COLL TERMINAL} {nwtrm BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qpve5
+pins {bulk COLL TERMINAL} {nwtrm BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qpvf5
+pins {bulk COLL TERMINAL} {nwtrm BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qpvg5
+pins {bulk COLL TERMINAL} {nwtrm BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qnv5
+pins {nwtrm COLL TERMINAL} {bulk BASE TERMINAL} {ndiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qpv5
+pins {bulk COLL TERMINAL} {nbase BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qnvha
+pins {nwtrm COLL TERMINAL} {bulk BASE TERMINAL} {ndiff EMIT TERMINAL} 
+x_card TRUE
+
+device PNP qpvha
+pins {bulk COLL TERMINAL} {nbase BASE TERMINAL} {pdiff EMIT TERMINAL} 
+x_card TRUE
+
+device NP dn
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body d_dn
+x_card TRUE
+
+device PN dp
+pins {pdiff ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body d_dp
+x_card TRUE
+
+device NP dnw
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body d_dnw
+x_card TRUE
+
+device NP dnn
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body d_dnn
+x_card TRUE
+
+device NP dn5
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body d_dnm
+x_card TRUE
+
+device PN dp5
+pins {pdiff ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body d_dpm
+x_card TRUE
+
+device NP dnw5
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body d_dnwm
+x_card TRUE
+
+device NP dn5ps
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body d_dn5ps
+x_card TRUE
+
+device NP dnn5
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body d_dnnm
+x_card TRUE
+
+device NP dnpa
+pins {pw4trm ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body dnpa
+x_card TRUE
+
+device NP dnpati
+pins {pw4trm ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body dnpati
+x_card TRUE
+
+device NP dza
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body dza
+x_card TRUE
+
+device NP dzati
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body dzati
+x_card TRUE
+
+device NP dfwdn5
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body dfwdn5
+x_card TRUE
+
+device NP dzbti
+pins {pdiff ANODE TERMINAL} {nwtrm CATHODE TERMINAL} {bulk BULK BULK} 
+body dzb
+x_card TRUE
+
+device NP dzcti
+pins {pdiff ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dzc
+x_card TRUE
+
+device NP dfwnsj1_7
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body dfwnsj1_7
+x_card TRUE
+
+device NP dfwnsj1_10
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body dfwnsj1_10
+x_card TRUE
+
+device NP dfwnsj1_16c
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body dfwnsj1_16c
+x_card TRUE
+
+device NP dfwnsj1a_13
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dfwnsj1a_13
+x_card TRUE
+
+device NP dfwnsj1a_16
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dfwnsj1a_16
+x_card TRUE
+
+device NP dfwnsj1a_20
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dfwnsj1a_20
+x_card TRUE
+
+device NP dfwnsj1a_28
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dfwnsj1a_28
+x_card TRUE
+
+device NP dfwnsj1b_2
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dfwnsj1b_2
+x_card TRUE
+
+device NP dfwnsj1b_4
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dfwnsj1b_4
+x_card TRUE
+
+device NP dfwnsj1b_5
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dfwnsj1b_5
+x_card TRUE
+
+device NP dfwnsj1b_7
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dfwnsj1b_7
+x_card TRUE
+
+device NP dfwnsj1b_8
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dfwnsj1b_8
+x_card TRUE
+
+device NP dfwnsj1b_10
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dfwnsj1b_10
+x_card TRUE
+
+device PN dfwdpa
+pins {pdiff ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dfwdp1f
+x_card TRUE
+
+device PN dfwdpa
+pins {pdiff ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dfwdp2f
+x_card TRUE
+
+device NP dhw2
+pins {hwafer_t ANODE TERMINAL} {dhw_nbur CATHODE TERMINAL} 
+body dhw2_dev
+x_card TRUE
+
+device NP dhw2a
+pins {hwafer_t ANODE TERMINAL} {dhw_nbur CATHODE TERMINAL} 
+body dhw2a_dev
+x_card TRUE
+
+device NP dhw3
+pins {hwafer_t ANODE TERMINAL} {dhw_nbur CATHODE TERMINAL} 
+body dhw3_dev
+x_card TRUE
+
+device NP dhw2b
+pins {hwafer_t ANODE TERMINAL} {dhw_nbur CATHODE TERMINAL} 
+body dhw2b
+x_card TRUE
+
+device NP dhw2c
+pins {hwafer_t ANODE TERMINAL} {dhw_nbur CATHODE TERMINAL} 
+body dhw2c
+x_card TRUE
+
+device NP dhw3c
+pins {hwafer_t ANODE TERMINAL} {dhw_nbur CATHODE TERMINAL} 
+body dhw3c
+x_card TRUE
+
+device NP dhw4c
+pins {hwafer_t ANODE TERMINAL} {dhw_nbur CATHODE TERMINAL} 
+body dhw4c
+x_card TRUE
+
+device NP dhw4d
+pins {hwafer_t ANODE TERMINAL} {dhw_nbur CATHODE TERMINAL} 
+body dhw4d
+x_card TRUE
+
+device NP dhw5d
+pins {hwafer_t ANODE TERMINAL} {dhw_nbur CATHODE TERMINAL} 
+body dhw5d
+x_card TRUE
+
+device NP dfwdnt
+pins {pw4trm ANODE TERMINAL} {ndftrm CATHODE TERMINAL} 
+body dfwdnt
+x_card TRUE
+
+device NP dfwdnu
+pins {pw4trm ANODE TERMINAL} {ndftrm CATHODE TERMINAL} 
+body dfwdnu
+x_card TRUE
+
+device NP dfwdnhc
+pins {dfwdnh_an ANODE TERMINAL} {dfntrm CATHODE TERMINAL} 
+body dfwdnhc
+x_card TRUE
+
+device NP dfwdnhd
+pins {dfwdnh_an ANODE TERMINAL} {dfntrm CATHODE TERMINAL} 
+body dfwdnhd
+x_card TRUE
+
+device NP dfwdnhe
+pins {dfwdnh_an ANODE TERMINAL} {dfntrm CATHODE TERMINAL} 
+body dfwdnhe
+x_card TRUE
+
+device NP dfwdnhf
+pins {dfwdnh_an ANODE TERMINAL} {dfntrm CATHODE TERMINAL} 
+body dfwdnhf
+x_card TRUE
+
+device NP dfwdnb
+pins {bulk ANODE TERMINAL} {ndfmvtrm CATHODE TERMINAL} 
+body dfwdnb
+x_card TRUE
+
+device NP dfwdnc
+pins {bulk ANODE TERMINAL} {ndfmvtrm CATHODE TERMINAL} 
+body dfwdnc
+x_card TRUE
+
+device NP dfwdnd
+pins {bulk ANODE TERMINAL} {ndfmvtrm CATHODE TERMINAL} 
+body dfwdnd
+x_card TRUE
+
+device PN dpp6
+pins {pdiff ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dpp6
+x_card TRUE
+
+device PN dpp7
+pins {pdiff ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body dpp7
+x_card TRUE
+
+device PN dnp7
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body dnp7
+x_card TRUE
+
+device PN ds5a
+pins {d_dsdf ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body ds5a
+x_card TRUE
+
+device PN ds5b
+pins {d_dsdf ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body ds5b
+x_card TRUE
+
+device NP p_dn
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body p_dn
+x_card TRUE
+
+device NP p_dnn
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body p_dnn
+x_card TRUE
+
+device NP p_dnw
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body p_dnw
+x_card TRUE
+
+device PN p_dp
+pins {pdiff ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body p_dp
+x_card TRUE
+
+device NP p_dn5
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body p_dnm
+x_card TRUE
+
+device NP p_dnn5
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body p_dnnm
+x_card TRUE
+
+device PN p_dp5
+pins {pdiff ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body p_dpm
+x_card TRUE
+
+device NP p_dnw5
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body p_dnwm
+x_card TRUE
+
+device NP p_dn5ps
+pins {bulk ANODE TERMINAL} {ndiff CATHODE TERMINAL} 
+body p_dn5ps
+x_card TRUE
+
+device NP p_dnw5mva
+pins {bulk ANODE TERMINAL} {nwtrm CATHODE TERMINAL} 
+body p_dnwmmva
+x_card TRUE
+
+device GENERIC nhsj1_7
+pins {nhv1_d D TERMINAL} {nhsj1_7 G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nhsj1_7
+x_card TRUE
+schematic_devices {nhsj1_7 D G S B HW} 
+
+device GENERIC nhsj1_10
+pins {nhv1_d D TERMINAL} {nhsj1_10 G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nhsj1_10
+x_card TRUE
+schematic_devices {nhsj1_10 D G S B HW} 
+
+device GENERIC nhsj1_16c
+pins {nhv1_d D TERMINAL} {nhsj1_16c G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nhsj1_16c
+x_card TRUE
+schematic_devices {nhsj1_16c D G S B HW} 
+
+device GENERIC phsj1_7
+pins {phv1_d D TERMINAL} {phsj1_7 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj1_7
+x_card TRUE
+schematic_devices {phsj1_7 D G S B HW} 
+
+device GENERIC phsj1_10
+pins {phv1_d D TERMINAL} {phsj1_10 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj1_10
+x_card TRUE
+schematic_devices {phsj1_10 D G S B HW} 
+
+device GENERIC phsj1_16c
+pins {phv1_d D TERMINAL} {phsj1_16c G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj1_16c
+x_card TRUE
+schematic_devices {phsj1_16c D G S B HW} 
+
+device GENERIC phsj1a_4
+pins {phv1_d D TERMINAL} {phsj1a_4 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj1a_4
+x_card TRUE
+schematic_devices {phsj1a_4 D G S B HW} 
+
+device GENERIC phsj1a_5
+pins {phv1_d D TERMINAL} {phsj1a_5 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj1a_5
+x_card TRUE
+schematic_devices {phsj1a_5 D G S B HW} 
+
+device GENERIC phsj1a_7
+pins {phv1_d D TERMINAL} {phsj1a_7 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj1a_7
+x_card TRUE
+schematic_devices {phsj1a_7 D G S B HW} 
+
+device GENERIC phsj1a_8
+pins {phv1_d D TERMINAL} {phsj1a_8 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj1a_8
+x_card TRUE
+schematic_devices {phsj1a_8 D G S B HW} 
+
+device GENERIC phsj1a_10
+pins {phv1_d D TERMINAL} {phsj1a_10 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj1a_10
+x_card TRUE
+schematic_devices {phsj1a_10 D G S B HW} 
+
+device GENERIC phsj1a_13
+pins {phv1_d D TERMINAL} {phsj1a_13 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj1a_13
+x_card TRUE
+schematic_devices {phsj1a_13 D G S B HW} 
+
+device GENERIC phsj1a_16
+pins {phv1_d D TERMINAL} {phsj1a_16 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj1a_16
+x_card TRUE
+schematic_devices {phsj1a_16 D G S B HW} 
+
+device GENERIC phsj1a_20
+pins {phv1_d D TERMINAL} {phsj1a_20 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj1a_20
+x_card TRUE
+schematic_devices {phsj1a_20 D G S B HW} 
+
+device GENERIC phsj1a_31
+pins {phv1_d D TERMINAL} {phsj1a_31 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj1a_31
+x_card TRUE
+schematic_devices {phsj1a_31 D G S B HW} 
+
+device GENERIC phsj2b_7
+pins {bulk D BULK} {phsj2b_7 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj2b_7
+x_card TRUE
+schematic_devices {phsj2b_7 D G S B HW} 
+
+device GENERIC phsj2b_8
+pins {bulk D BULK} {phsj2b_8 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj2b_8
+x_card TRUE
+schematic_devices {phsj2b_8 D G S B HW} 
+
+device GENERIC phsj2b_10
+pins {bulk D BULK} {phsj2b_10 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj2b_10
+x_card TRUE
+schematic_devices {phsj2b_10 D G S B HW} 
+
+device GENERIC phsj2b_13
+pins {bulk D BULK} {phsj2b_13 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj2b_13
+x_card TRUE
+schematic_devices {phsj2b_13 D G S B HW} 
+
+device GENERIC phsj2b_16
+pins {bulk D BULK} {phsj2b_16 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phsj2b_16
+x_card TRUE
+schematic_devices {phsj2b_16 D G S B HW} 
+
+device GENERIC nhsj1b_2
+pins {nhv1_d D TERMINAL} {nhsj1b_2 G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nhsj1b_2
+x_card TRUE
+schematic_devices {nhsj1b_2 D G S B HW} 
+
+device GENERIC nhsj1b_4
+pins {nhv1_d D TERMINAL} {nhsj1b_4 G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nhsj1b_4
+x_card TRUE
+schematic_devices {nhsj1b_4 D G S B HW} 
+
+device GENERIC nhsj1b_5
+pins {nhv1_d D TERMINAL} {nhsj1b_5 G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nhsj1b_5
+x_card TRUE
+schematic_devices {nhsj1b_5 D G S B HW} 
+
+device GENERIC nhsj1b_7
+pins {nhv1_d D TERMINAL} {nhsj1b_7 G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nhsj1b_7
+x_card TRUE
+schematic_devices {nhsj1b_7 D G S B HW} 
+
+device GENERIC nhsj1b_8
+pins {nhv1_d D TERMINAL} {nhsj1b_8 G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nhsj1b_8
+x_card TRUE
+schematic_devices {nhsj1b_8 D G S B HW} 
+
+device GENERIC nhsj1b_10
+pins {nhv1_d D TERMINAL} {nhsj1b_10 G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nhsj1b_10
+x_card TRUE
+schematic_devices {nhsj1b_10 D G S B HW} 
+
+device GENERIC nhsj1a_13
+pins {nhv1_d D TERMINAL} {nhsj1a_13 G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nhsj1a_13
+x_card TRUE
+schematic_devices {nhsj1a_13 D G S B HW} 
+
+device GENERIC nhsj1a_16
+pins {nhv1_d D TERMINAL} {nhsj1a_16 G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nhsj1a_16
+x_card TRUE
+schematic_devices {nhsj1a_16 D G S B HW} 
+
+device GENERIC nhsj1a_20
+pins {nhv1_d D TERMINAL} {nhsj1a_20 G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nhsj1a_20
+x_card TRUE
+schematic_devices {nhsj1a_20 D G S B HW} 
+
+device GENERIC nhsj1a_28
+pins {nhv1_d D TERMINAL} {nhsj1a_28 G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nhsj1a_28
+x_card TRUE
+schematic_devices {nhsj1a_28 D G S B HW} 
+
+device GENERIC pe_5
+pins {pdiff D TERMINAL} {pe_5 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {bulk SB BULK} 
+body pe_5
+x_card TRUE
+schematic_devices {pe_5 D G S B SB} 
+
+device GENERIC pel_5
+pins {pdiff D TERMINAL} {pel_5 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {bulk SB BULK} 
+body pel_5
+x_card TRUE
+schematic_devices {pel_5 D G S B SB} 
+
+device GENERIC pe5_5
+pins {pdiff D TERMINAL} {pem_5 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {bulk SB BULK} 
+body pem_5
+x_card TRUE
+schematic_devices {pe5_5 D G S B SB} 
+
+device GENERIC pesvt_5
+pins {pdiff D TERMINAL} {pesvt_5 G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {bulk SB BULK} 
+body pesvt_5
+x_card TRUE
+schematic_devices {pesvt_5 D G S B SB} 
+
+device GENERIC nisj1_16
+pins {nisj_d C TERMINAL} {nisj1_16 G TERMINAL} {ndiff E TERMINAL} {hwafer_t HW BULK} 
+body nisj1_16
+x_card TRUE
+schematic_devices {nisj1_16 C G E HW} 
+
+device GENERIC nhvta
+pins {ndftrm D TERMINAL} {nhvta G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body nhvta
+x_card TRUE
+schematic_devices {nhvta D G S B HW} 
+
+device GENERIC nhvtaa
+pins {ndftrm D TERMINAL} {nhvtaa G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body nhvtaa
+x_card TRUE
+schematic_devices {nhvtaa D G S B HW} 
+
+device GENERIC nhvtb
+pins {ndftrm D TERMINAL} {nhvtb G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body nhvtb
+x_card TRUE
+schematic_devices {nhvtb D G S B HW} 
+
+device GENERIC nhvu
+pins {ndftrm D TERMINAL} {nhvu G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body nhvu
+x_card TRUE
+schematic_devices {nhvu D G S B HW} 
+
+device GENERIC ndhvt
+pins {ndftrm D TERMINAL} {ndhvt G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body ndhvt
+x_card TRUE
+schematic_devices {ndhvt D G S B HW} 
+
+device GENERIC ndhvta
+pins {ndftrm D TERMINAL} {ndhvta G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body ndhvta
+x_card TRUE
+schematic_devices {ndhvta D G S B HW} 
+
+device GENERIC ndhvtaa
+pins {ndftrm D TERMINAL} {ndhvtaa G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body ndhvtaa
+x_card TRUE
+schematic_devices {ndhvtaa D G S B HW} 
+
+device GENERIC phvta
+pins {pdftrm D TERMINAL} {phvta G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_b HW BULK} 
+body phvta
+x_card TRUE
+schematic_devices {phvta D G S B HW} 
+
+device GENERIC phvtb
+pins {pdftrm D TERMINAL} {phvtb G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_b HW BULK} 
+body phvtb
+x_card TRUE
+schematic_devices {phvtb D G S B HW} 
+
+device GENERIC phvu
+pins {pdftrm D TERMINAL} {phvu G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_b HW BULK} 
+body phvu
+x_card TRUE
+schematic_devices {phvu D G S B HW} 
+
+device GENERIC nhvta
+pins {ndftrm D TERMINAL} {nhvta G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body nhvta
+x_card TRUE
+schematic_devices {nhvta D G S B HW} 
+
+device GENERIC nhvtaa
+pins {ndftrm D TERMINAL} {nhvtaa G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body nhvtaa
+x_card TRUE
+schematic_devices {nhvtaa D G S B HW} 
+
+device GENERIC nhvtb
+pins {ndftrm D TERMINAL} {nhvtb G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body nhvtb
+x_card TRUE
+schematic_devices {nhvtb D G S B HW} 
+
+device GENERIC nhvu
+pins {ndftrm D TERMINAL} {nhvu G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body nhvu
+x_card TRUE
+schematic_devices {nhvu D G S B HW} 
+
+device GENERIC ndhvt
+pins {ndftrm D TERMINAL} {ndhvt G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body ndhvt
+x_card TRUE
+schematic_devices {ndhvt D G S B HW} 
+
+device GENERIC ndhvta
+pins {ndftrm D TERMINAL} {ndhvta G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body ndhvta
+x_card TRUE
+schematic_devices {ndhvta D G S B HW} 
+
+device GENERIC ndhvtaa
+pins {ndftrm D TERMINAL} {ndhvtaa G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body ndhvtaa
+x_card TRUE
+schematic_devices {ndhvtaa D G S B HW} 
+
+device GENERIC phvta
+pins {pdftrm D TERMINAL} {phvta G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phvta
+x_card TRUE
+schematic_devices {phvta D G S B HW} 
+
+device GENERIC phvtb
+pins {pdftrm D TERMINAL} {phvtb G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phvtb
+x_card TRUE
+schematic_devices {phvtb D G S B HW} 
+
+device GENERIC phvu
+pins {pdftrm D TERMINAL} {phvu G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phvu
+x_card TRUE
+schematic_devices {phvu D G S B HW} 
+
+device GENERIC nmvb
+pins {ndfmvtrm D TERMINAL} {nmvb G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nmvb
+x_card TRUE
+schematic_devices {nmvb D G S B HW} 
+
+device GENERIC nmvb
+pins {ndfmvtrm D TERMINAL} {nmvb G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_b HW BULK} 
+body nmvb
+x_card TRUE
+schematic_devices {nmvb D G S B HW} 
+
+device GENERIC nmvc
+pins {ndfmvtrm D TERMINAL} {nmvc G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nmvc
+x_card TRUE
+schematic_devices {nmvc D G S B HW} 
+
+device GENERIC nmvc
+pins {ndfmvtrm D TERMINAL} {nmvc G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_b HW BULK} 
+body nmvc
+x_card TRUE
+schematic_devices {nmvc D G S B HW} 
+
+device GENERIC nmvd
+pins {ndfmvtrm D TERMINAL} {nmvd G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nmvd
+x_card TRUE
+schematic_devices {nmvd D G S B HW} 
+
+device GENERIC nmvd
+pins {ndfmvtrm D TERMINAL} {nmvd G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_b HW BULK} 
+body nmvd
+x_card TRUE
+schematic_devices {nmvd D G S B HW} 
+
+device GENERIC nmve
+pins {ndfmvtrm D TERMINAL} {nmve G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nmve
+x_card TRUE
+schematic_devices {nmve D G S B HW} 
+
+device GENERIC nmve
+pins {ndfmvtrm D TERMINAL} {nmve G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_b HW BULK} 
+body nmve
+x_card TRUE
+schematic_devices {nmve D G S B HW} 
+
+device GENERIC nmvf
+pins {ndfmvtrm D TERMINAL} {nmvf G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body nmvf
+x_card TRUE
+schematic_devices {nmvf D G S B HW} 
+
+device GENERIC nmvf
+pins {ndfmvtrm D TERMINAL} {nmvf G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_b HW BULK} 
+body nmvf
+x_card TRUE
+schematic_devices {nmvf D G S B HW} 
+
+device GENERIC ndmvd
+pins {ndfmvtrm D TERMINAL} {ndmvd G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body ndmvd
+x_card TRUE
+schematic_devices {ndmvd D G S B HW} 
+
+device GENERIC ndmvd
+pins {ndfmvtrm D TERMINAL} {ndmvd G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_b HW BULK} 
+body ndmvd
+x_card TRUE
+schematic_devices {ndmvd D G S B HW} 
+
+device GENERIC ndmvf
+pins {ndfmvtrm D TERMINAL} {ndmvf G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_t HW BULK} 
+body ndmvf
+x_card TRUE
+schematic_devices {ndmvf D G S B HW} 
+
+device GENERIC ndmvf
+pins {ndfmvtrm D TERMINAL} {ndmvf G TERMINAL} {ndiff S TERMINAL} {bulk B BULK} {hwafer_b HW BULK} 
+body ndmvf
+x_card TRUE
+schematic_devices {ndmvf D G S B HW} 
+
+device GENERIC pmvb
+pins {pdfmvtrm D TERMINAL} {pmvb G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body pmvb
+x_card TRUE
+schematic_devices {pmvb D G S B HW} 
+
+device GENERIC pmvb
+pins {pdfmvtrm D TERMINAL} {pmvb G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_b HW BULK} 
+body pmvb
+x_card TRUE
+schematic_devices {pmvb D G S B HW} 
+
+device GENERIC pmvd
+pins {pdfmvtrm D TERMINAL} {pmvd G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body pmvd
+x_card TRUE
+schematic_devices {pmvd D G S B HW} 
+
+device GENERIC pmvd
+pins {pdfmvtrm D TERMINAL} {pmvd G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_b HW BULK} 
+body pmvd
+x_card TRUE
+schematic_devices {pmvd D G S B HW} 
+
+device GENERIC pmve
+pins {pdfmvtrm D TERMINAL} {pmve G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body pmve
+x_card TRUE
+schematic_devices {pmve D G S B HW} 
+
+device GENERIC pmve
+pins {pdfmvtrm D TERMINAL} {pmve G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_b HW BULK} 
+body pmve
+x_card TRUE
+schematic_devices {pmve D G S B HW} 
+
+device GENERIC pmvf
+pins {pdfmvtrm D TERMINAL} {pmvf G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body pmvf
+x_card TRUE
+schematic_devices {pmvf D G S B HW} 
+
+device GENERIC pmvf
+pins {pdfmvtrm D TERMINAL} {pmvf G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_b HW BULK} 
+body pmvf
+x_card TRUE
+schematic_devices {pmvf D G S B HW} 
+
+device GENERIC nhvra
+pins {dfntrm D TERMINAL} {nhvra G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body nhvra
+x_card TRUE
+schematic_devices {nhvra D G S B HW} 
+
+device GENERIC nhvra
+pins {dfntrm D TERMINAL} {nhvra G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body nhvra
+x_card TRUE
+schematic_devices {nhvra D G S B HW} 
+
+device GENERIC nhvrb
+pins {dfntrm D TERMINAL} {nhvrb G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body nhvrb
+x_card TRUE
+schematic_devices {nhvrb D G S B HW} 
+
+device GENERIC nhvrb
+pins {dfntrm D TERMINAL} {nhvrb G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body nhvrb
+x_card TRUE
+schematic_devices {nhvrb D G S B HW} 
+
+device GENERIC nhvrc
+pins {dfntrm D TERMINAL} {nhvrc G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body nhvrc
+x_card TRUE
+schematic_devices {nhvrc D G S B HW} 
+
+device GENERIC nhvrc
+pins {dfntrm D TERMINAL} {nhvrc G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body nhvrc
+x_card TRUE
+schematic_devices {nhvrc D G S B HW} 
+
+device GENERIC nhvrd
+pins {dfntrm D TERMINAL} {nhvrd G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body nhvrd
+x_card TRUE
+schematic_devices {nhvrd D G S B HW} 
+
+device GENERIC nhvrd
+pins {dfntrm D TERMINAL} {nhvrd G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body nhvrd
+x_card TRUE
+schematic_devices {nhvrd D G S B HW} 
+
+device GENERIC nhvre
+pins {dfntrm D TERMINAL} {nhvre G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body nhvre
+x_card TRUE
+schematic_devices {nhvre D G S B HW} 
+
+device GENERIC nhvre
+pins {dfntrm D TERMINAL} {nhvre G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body nhvre
+x_card TRUE
+schematic_devices {nhvre D G S B HW} 
+
+device GENERIC nhvrf
+pins {dfntrm D TERMINAL} {nhvrf G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body nhvrf
+x_card TRUE
+schematic_devices {nhvrf D G S B HW} 
+
+device GENERIC nhvrf
+pins {dfntrm D TERMINAL} {nhvrf G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body nhvrf
+x_card TRUE
+schematic_devices {nhvrf D G S B HW} 
+
+device GENERIC ndhvrd
+pins {dfntrm D TERMINAL} {ndhvrd G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body ndhvrd
+x_card TRUE
+schematic_devices {ndhvrd D G S B HW} 
+
+device GENERIC ndhvrd
+pins {dfntrm D TERMINAL} {ndhvrd G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body ndhvrd
+x_card TRUE
+schematic_devices {ndhvrd D G S B HW} 
+
+device GENERIC ndhvrf
+pins {dfntrm D TERMINAL} {ndhvrf G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_t HW BULK} 
+body ndhvrf
+x_card TRUE
+schematic_devices {ndhvrf D G S B HW} 
+
+device GENERIC ndhvrf
+pins {dfntrm D TERMINAL} {ndhvrf G TERMINAL} {ndiff S TERMINAL} {pw4trm B BULK} {hwafer_b HW BULK} 
+body ndhvrf
+x_card TRUE
+schematic_devices {ndhvrf D G S B HW} 
+
+device GENERIC phvra
+pins {dfptrm1 D TERMINAL} {phvra G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phvra
+x_card TRUE
+schematic_devices {phvra D G S B HW} 
+
+device GENERIC phvra
+pins {dfptrm1 D TERMINAL} {phvra G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_b HW BULK} 
+body phvra
+x_card TRUE
+schematic_devices {phvra D G S B HW} 
+
+device GENERIC phvrb
+pins {dfptrm1 D TERMINAL} {phvrb G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phvrb
+x_card TRUE
+schematic_devices {phvrb D G S B HW} 
+
+device GENERIC phvrb
+pins {dfptrm1 D TERMINAL} {phvrb G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_b HW BULK} 
+body phvrb
+x_card TRUE
+schematic_devices {phvrb D G S B HW} 
+
+device GENERIC phvrc
+pins {dfptrm1 D TERMINAL} {phvrc G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phvrc
+x_card TRUE
+schematic_devices {phvrc D G S B HW} 
+
+device GENERIC phvrc
+pins {dfptrm1 D TERMINAL} {phvrc G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_b HW BULK} 
+body phvrc
+x_card TRUE
+schematic_devices {phvrc D G S B HW} 
+
+device GENERIC phvrd
+pins {dfptrm1 D TERMINAL} {phvrd G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phvrd
+x_card TRUE
+schematic_devices {phvrd D G S B HW} 
+
+device GENERIC phvrd
+pins {dfptrm1 D TERMINAL} {phvrd G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_b HW BULK} 
+body phvrd
+x_card TRUE
+schematic_devices {phvrd D G S B HW} 
+
+device GENERIC phvre
+pins {dfptrm1 D TERMINAL} {phvre G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phvre
+x_card TRUE
+schematic_devices {phvre D G S B HW} 
+
+device GENERIC phvre
+pins {dfptrm1 D TERMINAL} {phvre G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_b HW BULK} 
+body phvre
+x_card TRUE
+schematic_devices {phvre D G S B HW} 
+
+device GENERIC phvrf
+pins {dfptrm1 D TERMINAL} {phvrf G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_t HW BULK} 
+body phvrf
+x_card TRUE
+schematic_devices {phvrf D G S B HW} 
+
+device GENERIC phvrf
+pins {dfptrm1 D TERMINAL} {phvrf G TERMINAL} {pdiff S TERMINAL} {nwtrm B BULK} {hwafer_b HW BULK} 
+body phvrf
+x_card TRUE
+schematic_devices {phvrf D G S B HW} 
+
+device GENERIC mosvc
+pins {mosvc G TERMINAL} {nwtrm NW TERMINAL} {bulk SB BULK} 
+body mosvc
+x_card TRUE
+
+device GENERIC mosvcti
+pins {mosvcti G TERMINAL} {bulk PW BULK} 
+body mosvcti
+x_card TRUE
+
+device GENERIC mosvc5
+pins {mosvc5 G TERMINAL} {nwtrm NW TERMINAL} {bulk SB BULK} 
+body mosvc5
+x_card TRUE
+
+device GENERIC mosvc5ti
+pins {mosvcti5 G TERMINAL} {bulk PW BULK} 
+body mosvcti5
+x_card TRUE
+
+device GENERIC tag_400v
+pins {df_vlbl N1 TERMINAL} 
+body tdf_400
+x_card TRUE
+
+device GENERIC tag_300v
+pins {df_vlbl N1 TERMINAL} 
+body tdf_300
+x_card TRUE
+
+device GENERIC tag_200v
+pins {df_vlbl N1 TERMINAL} 
+body tdf_200
+x_card TRUE
+
+device GENERIC tag_100v
+pins {df_vlbl N1 TERMINAL} 
+body tdf_100
+x_card TRUE
+
+device GENERIC tag_60v
+pins {df_vlbl N1 TERMINAL} 
+body tdf_60
+x_card TRUE
+
+device GENERIC tag_25v
+pins {df_vlbl N1 TERMINAL} 
+body tdf_25
+x_card TRUE
+
+device GENERIC tag_m400v
+pins {df_vlbl N1 TERMINAL} 
+body tdf_m400
+x_card TRUE
+
+device GENERIC tag_m300v
+pins {df_vlbl N1 TERMINAL} 
+body tdf_m300
+x_card TRUE
+
+device GENERIC tag_m200v
+pins {df_vlbl N1 TERMINAL} 
+body tdf_m200
+x_card TRUE
+
+device GENERIC tag_m100v
+pins {df_vlbl N1 TERMINAL} 
+body tdf_m100
+x_card TRUE
+
+device GENERIC tag_m60v
+pins {df_vlbl N1 TERMINAL} 
+body tdf_m60
+x_card TRUE
+
+device GENERIC tag_m25v
+pins {df_vlbl N1 TERMINAL} 
+body tdf_m25
+x_card TRUE
+
+device GENERIC tag_400v
+pins {p1_vlbl N1 TERMINAL} 
+body tp1_400
+x_card TRUE
+
+device GENERIC tag_300v
+pins {p1_vlbl N1 TERMINAL} 
+body tp1_300
+x_card TRUE
+
+device GENERIC tag_200v
+pins {p1_vlbl N1 TERMINAL} 
+body tp1_200
+x_card TRUE
+
+device GENERIC tag_100v
+pins {p1_vlbl N1 TERMINAL} 
+body tp1_100
+x_card TRUE
+
+device GENERIC tag_60v
+pins {p1_vlbl N1 TERMINAL} 
+body tp1_60
+x_card TRUE
+
+device GENERIC tag_25v
+pins {p1_vlbl N1 TERMINAL} 
+body tp1_25
+x_card TRUE
+
+device GENERIC tag_m400v
+pins {p1_vlbl N1 TERMINAL} 
+body tp1_m400
+x_card TRUE
+
+device GENERIC tag_m300v
+pins {p1_vlbl N1 TERMINAL} 
+body tp1_m300
+x_card TRUE
+
+device GENERIC tag_m200v
+pins {p1_vlbl N1 TERMINAL} 
+body tp1_m200
+x_card TRUE
+
+device GENERIC tag_m100v
+pins {p1_vlbl N1 TERMINAL} 
+body tp1_m100
+x_card TRUE
+
+device GENERIC tag_m60v
+pins {p1_vlbl N1 TERMINAL} 
+body tp1_m60
+x_card TRUE
+
+device GENERIC tag_m25v
+pins {p1_vlbl N1 TERMINAL} 
+body tp1_m25
+x_card TRUE
+
+device GENERIC tag_400v
+pins {m1_vlbl N1 TERMINAL} 
+body tm1_400
+x_card TRUE
+
+device GENERIC tag_300v
+pins {m1_vlbl N1 TERMINAL} 
+body tm1_300
+x_card TRUE
+
+device GENERIC tag_200v
+pins {m1_vlbl N1 TERMINAL} 
+body tm1_200
+x_card TRUE
+
+device GENERIC tag_100v
+pins {m1_vlbl N1 TERMINAL} 
+body tm1_100
+x_card TRUE
+
+device GENERIC tag_60v
+pins {m1_vlbl N1 TERMINAL} 
+body tm1_60
+x_card TRUE
+
+device GENERIC tag_25v
+pins {m1_vlbl N1 TERMINAL} 
+body tm1_25
+x_card TRUE
+
+device GENERIC tag_m400v
+pins {m1_vlbl N1 TERMINAL} 
+body tm1_m400
+x_card TRUE
+
+device GENERIC tag_m300v
+pins {m1_vlbl N1 TERMINAL} 
+body tm1_m300
+x_card TRUE
+
+device GENERIC tag_m200v
+pins {m1_vlbl N1 TERMINAL} 
+body tm1_m200
+x_card TRUE
+
+device GENERIC tag_m100v
+pins {m1_vlbl N1 TERMINAL} 
+body tm1_m100
+x_card TRUE
+
+device GENERIC tag_m60v
+pins {m1_vlbl N1 TERMINAL} 
+body tm1_m60
+x_card TRUE
+
+device GENERIC tag_m25v
+pins {m1_vlbl N1 TERMINAL} 
+body tm1_m25
+x_card TRUE
+
+device GENERIC tag_400v
+pins {m2_vlbl N1 TERMINAL} 
+body tm2_400
+x_card TRUE
+
+device GENERIC tag_300v
+pins {m2_vlbl N1 TERMINAL} 
+body tm2_300
+x_card TRUE
+
+device GENERIC tag_200v
+pins {m2_vlbl N1 TERMINAL} 
+body tm2_200
+x_card TRUE
+
+device GENERIC tag_100v
+pins {m2_vlbl N1 TERMINAL} 
+body tm2_100
+x_card TRUE
+
+device GENERIC tag_60v
+pins {m2_vlbl N1 TERMINAL} 
+body tm2_60
+x_card TRUE
+
+device GENERIC tag_25v
+pins {m2_vlbl N1 TERMINAL} 
+body tm2_25
+x_card TRUE
+
+device GENERIC tag_m400v
+pins {m2_vlbl N1 TERMINAL} 
+body tm2_m400
+x_card TRUE
+
+device GENERIC tag_m300v
+pins {m2_vlbl N1 TERMINAL} 
+body tm2_m300
+x_card TRUE
+
+device GENERIC tag_m200v
+pins {m2_vlbl N1 TERMINAL} 
+body tm2_m200
+x_card TRUE
+
+device GENERIC tag_m100v
+pins {m2_vlbl N1 TERMINAL} 
+body tm2_m100
+x_card TRUE
+
+device GENERIC tag_m60v
+pins {m2_vlbl N1 TERMINAL} 
+body tm2_m60
+x_card TRUE
+
+device GENERIC tag_m25v
+pins {m2_vlbl N1 TERMINAL} 
+body tm2_m25
+x_card TRUE
+
+device GENERIC tag_400v
+pins {m3_vlbl N1 TERMINAL} 
+body tm3_400
+x_card TRUE
+
+device GENERIC tag_300v
+pins {m3_vlbl N1 TERMINAL} 
+body tm3_300
+x_card TRUE
+
+device GENERIC tag_200v
+pins {m3_vlbl N1 TERMINAL} 
+body tm3_200
+x_card TRUE
+
+device GENERIC tag_100v
+pins {m3_vlbl N1 TERMINAL} 
+body tm3_100
+x_card TRUE
+
+device GENERIC tag_60v
+pins {m3_vlbl N1 TERMINAL} 
+body tm3_60
+x_card TRUE
+
+device GENERIC tag_25v
+pins {m3_vlbl N1 TERMINAL} 
+body tm3_25
+x_card TRUE
+
+device GENERIC tag_m400v
+pins {m3_vlbl N1 TERMINAL} 
+body tm3_m400
+x_card TRUE
+
+device GENERIC tag_m300v
+pins {m3_vlbl N1 TERMINAL} 
+body tm3_m300
+x_card TRUE
+
+device GENERIC tag_m200v
+pins {m3_vlbl N1 TERMINAL} 
+body tm3_m200
+x_card TRUE
+
+device GENERIC tag_m100v
+pins {m3_vlbl N1 TERMINAL} 
+body tm3_m100
+x_card TRUE
+
+device GENERIC tag_m60v
+pins {m3_vlbl N1 TERMINAL} 
+body tm3_m60
+x_card TRUE
+
+device GENERIC tag_m25v
+pins {m3_vlbl N1 TERMINAL} 
+body tm3_m25
+x_card TRUE
+
+device GENERIC tag_400v
+pins {m4_vlbl N1 TERMINAL} 
+body tm4_400
+x_card TRUE
+
+device GENERIC tag_300v
+pins {m4_vlbl N1 TERMINAL} 
+body tm4_300
+x_card TRUE
+
+device GENERIC tag_200v
+pins {m4_vlbl N1 TERMINAL} 
+body tm4_200
+x_card TRUE
+
+device GENERIC tag_100v
+pins {m4_vlbl N1 TERMINAL} 
+body tm4_100
+x_card TRUE
+
+device GENERIC tag_60v
+pins {m4_vlbl N1 TERMINAL} 
+body tm4_60
+x_card TRUE
+
+device GENERIC tag_25v
+pins {m4_vlbl N1 TERMINAL} 
+body tm4_25
+x_card TRUE
+
+device GENERIC tag_m400v
+pins {m4_vlbl N1 TERMINAL} 
+body tm4_m400
+x_card TRUE
+
+device GENERIC tag_m300v
+pins {m4_vlbl N1 TERMINAL} 
+body tm4_m300
+x_card TRUE
+
+device GENERIC tag_m200v
+pins {m4_vlbl N1 TERMINAL} 
+body tm4_m200
+x_card TRUE
+
+device GENERIC tag_m100v
+pins {m4_vlbl N1 TERMINAL} 
+body tm4_m100
+x_card TRUE
+
+device GENERIC tag_m60v
+pins {m4_vlbl N1 TERMINAL} 
+body tm4_m60
+x_card TRUE
+
+device GENERIC tag_m25v
+pins {m4_vlbl N1 TERMINAL} 
+body tm4_m25
+x_card TRUE
+
+device GENERIC tag_400v
+pins {mt_vlbl N1 TERMINAL} 
+body tmt_400
+x_card TRUE
+
+device GENERIC tag_300v
+pins {mt_vlbl N1 TERMINAL} 
+body tmt_300
+x_card TRUE
+
+device GENERIC tag_200v
+pins {mt_vlbl N1 TERMINAL} 
+body tmt_200
+x_card TRUE
+
+device GENERIC tag_100v
+pins {mt_vlbl N1 TERMINAL} 
+body tmt_100
+x_card TRUE
+
+device GENERIC tag_60v
+pins {mt_vlbl N1 TERMINAL} 
+body tmt_60
+x_card TRUE
+
+device GENERIC tag_25v
+pins {mt_vlbl N1 TERMINAL} 
+body tmt_25
+x_card TRUE
+
+device GENERIC tag_m400v
+pins {mt_vlbl N1 TERMINAL} 
+body tmt_m400
+x_card TRUE
+
+device GENERIC tag_m300v
+pins {mt_vlbl N1 TERMINAL} 
+body tmt_m300
+x_card TRUE
+
+device GENERIC tag_m200v
+pins {mt_vlbl N1 TERMINAL} 
+body tmt_m200
+x_card TRUE
+
+device GENERIC tag_m100v
+pins {mt_vlbl N1 TERMINAL} 
+body tmt_m100
+x_card TRUE
+
+device GENERIC tag_m60v
+pins {mt_vlbl N1 TERMINAL} 
+body tmt_m60
+x_card TRUE
+
+device GENERIC tag_m25v
+pins {mt_vlbl N1 TERMINAL} 
+body tmt_m25
+x_card TRUE
+
+device GENERIC tag_400v
+pins {ml_vlbl N1 TERMINAL} 
+body tml_400
+x_card TRUE
+
+device GENERIC tag_300v
+pins {ml_vlbl N1 TERMINAL} 
+body tml_300
+x_card TRUE
+
+device GENERIC tag_200v
+pins {ml_vlbl N1 TERMINAL} 
+body tml_200
+x_card TRUE
+
+device GENERIC tag_100v
+pins {ml_vlbl N1 TERMINAL} 
+body tml_100
+x_card TRUE
+
+device GENERIC tag_60v
+pins {ml_vlbl N1 TERMINAL} 
+body tml_60
+x_card TRUE
+
+device GENERIC tag_25v
+pins {ml_vlbl N1 TERMINAL} 
+body tml_25
+x_card TRUE
+
+device GENERIC tag_m400v
+pins {ml_vlbl N1 TERMINAL} 
+body tml_m400
+x_card TRUE
+
+device GENERIC tag_m300v
+pins {ml_vlbl N1 TERMINAL} 
+body tml_m300
+x_card TRUE
+
+device GENERIC tag_m200v
+pins {ml_vlbl N1 TERMINAL} 
+body tml_m200
+x_card TRUE
+
+device GENERIC tag_m100v
+pins {ml_vlbl N1 TERMINAL} 
+body tml_m100
+x_card TRUE
+
+device GENERIC tag_m60v
+pins {ml_vlbl N1 TERMINAL} 
+body tml_m60
+x_card TRUE
+
+device GENERIC tag_m25v
+pins {ml_vlbl N1 TERMINAL} 
+body tml_m25
+x_card TRUE
+
+connect m2trm by csf_m2
+connect m2trm m1trm csf_m1 by via1
+connect csf_m2 m1trm csf_m1 by via1
+connect m1trm by csf_m1
+connect m1trm ndiff pdiff by dfcnt
+connect m1trm p1trm csf_p1 by p1cnt
+connect csf_m1 ndiff pdiff by dfcnt
+connect csf_m1 p1trm csf_p1 by p1cnt
+connect p1trm by csf_p1
+connect m1trm d_dsdf by d_dsc
+connect ndiff by npdtap
+connect pdiff by npdtap
+connect ndiff by ntap
+connect pdiff by ptap
+connect hwptub by ptap
+connect mttrm by csf_mt
+connect m4trm by csf_m4
+connect m3trm by csf_m3
+connect m2trm by csf_m2
+connect m1trm by csf_m1
+connect m2_vlbl by csf_m2
+connect m2_vlbl by m2trm
+connect m3_vlbl by csf_m3
+connect m3_vlbl by m3trm
+connect m4_vlbl by csf_m4
+connect m4_vlbl by m4trm
+connect mttrm capmh3_t capm3_t capmh capm capm2a_t capmh2a_t by mimvitp
+connect mttrm csf_mt m4trm csf_m4 by metvitp
+connect m4trm capm34f capmh34f capmh3_m capmh2_t capm3_m capm2_t capm2a_b capmh2a_b by mimvi3
+connect m4trm csf_m4 m3trm csf_m3 by metvi3
+connect m3trm capm23f capmh23f capmh3_b capmh2_b capm3_b capm2_b by mimvi2
+connect m3trm csf_m3 m2trm csf_m2 by metvi2
+connect mt_vlbl by csf_mt
+connect mt_vlbl by mttrm
+connect mltrm mttrm csf_mt by viatpl
+connect mt_vlbl by csf_mt
+connect mt_vlbl by mttrm
+connect ml_vlbl by mltrm
+connect csf_m1 by m1bftrm
+connect csf_m1 by m1aftrm
+connect csf_m1 by m1btrm
+connect csf_m1 by m1atrm
+connect hwafer_t by hwptub
+connect pw4trm by ptap
+connect ndftrm by ndiff
+connect pdftrm by pdiff
+connect hwafer_b by hwc_bs
+connect nbase by ndiff
+connect pbase by pdiff
+connect tiedtub_nbuf by pdiff
+connect ndfmvtrm by ndiff
+connect pdfmvtrm by pdiff
+connect dfntrm by ndiff
+connect dfptrm by pdiff
+connect bulk by ptap
+connect nwtrm by ntap
+connect nwtrm by hwntub
+connect pdfntrm by nwtrm
+connect capswp1 by p1trm
+connect capswm1 by m1trm
+connect capswm2 by m2trm
+connect capswm3 by m3trm
+connect nmvb nmvc nmvd nmve nmvf ndmvd ndmvf by p1trm
+connect nhvra nhvrb nhvrc nhvrd nhvre nhvrf ndhvrd ndhvrf phvra phvrb phvrc phvrd phvre phvrf pmvb pmvd pmve pmvf by p1trm
+connect nisj1_16 nhsj1_7 nhsj1_10 nhsj1_16c phsj1_7 phsj1_10 phsj1_16c phsj1a_4 phsj1a_5 phsj1a_7 phsj1a_8 phsj1a_10 phsj1a_13 phsj1a_16 phsj1a_20 phsj1a_31 phsj2b_7 phsj2b_8 phsj2b_10 phsj2b_13 phsj2b_16 nhsj1b_2 nhsj1b_4 nhsj1b_5 nhsj1b_7 nhsj1b_8 nhsj1b_10 nhsj1a_13 nhsj1a_16 nhsj1a_20 nhsj1a_28 nhvta nhvtaa nhvtb nhvu ndhvt ndhvta ndhvtaa phvta phvtb phvu nmva pmva nmvaa pmvaa nmvab pmvab by p1trm
+connect nem pem nnm pemti pem_5 by p1trm
+connect ne nesvt pe pesvt nn peti pel nel ndm pe_5 pel_5 pesvt_5 by p1trm
+connect mosvc mosvcti mosvc5 mosvcti5 by p1trm
+connect pdiff by nisj_d
+connect pdiff by phv1_d
+connect ndiff by nhv1_d
+connect hwntub by dhw_nbur
+connect capswm2 by capswm44
+connect m4trm by capswm43
+connect csp1m by m1trm
+connect csp2m by m2trm
+connect csp3m by m3trm
+connect csp4m by m4trm
+connect csptm by mttrm
+connect csptlm by mltrm
+connect cspnsd by m4trm
+connect bulk by dfwdn2_bulk
+connect dfwdnh_an bulk by pw4trm
+connect hwafer_b by hwc_bs_marker
+connect mltrm by METL_marker
+connect mttrm by METTP_marker
+connect m4trm by M4_marker
+connect m3trm by M3_marker
+connect m2trm by M2_marker
+connect m1trm by M1_marker
+connect p1trm by P1_marker
+connect tub1_hvnw_t by nwtrm
+connect df_vlbl by pdiff
+connect df_vlbl by ndiff
+connect p1_vlbl by csf_p1
+connect p1_vlbl by p1trm
+connect m2_vlbl by csf_m2
+connect m2_vlbl by m2trm
+connect m1_vlbl by csf_m1
+connect m1_vlbl by m1trm
+connect dfptrm1 by dfptrm
+
+compare
+detect_permutable_ports FALSE
+memory_array_comparison TRUE
+end compare
+
+process_map_file rcxt_mapping_file
+
+lpp_map_file OA_LAYER_MAP
+
+pex_tagname_required TRUE

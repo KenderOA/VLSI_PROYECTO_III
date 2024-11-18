@@ -1,0 +1,15 @@
+#!/bin/sh
+ulimit -c 0
+total=0
+pathsize=`/usr/bin/du -s --block-size=1 /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/run_details --exclude=group | awk '{print $1}'`
+total=$(($total+$pathsize))
+group=0
+group=`/usr/bin/du -s --block-size=1 /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/run_details/group | awk '{print $1}'`
+echo $group > /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/run_details/group/duse_group.tmp && \
+mv /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/run_details/group/duse_group.tmp /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/run_details/group/duse_group
+pathsize=`/usr/bin/du -s --block-size=1 /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/fx4_sc.TOP_LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`/usr/bin/du -s --block-size=1 /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/pydb | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/run_details/duse_manager_res.tmp && \
+mv /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/run_details/duse_manager_res.tmp /mnt/vol_NFS_rh003/Est_VLSI_II_2024/kortiz/Proyecto_III/synopsys_custom/fx4_sc.icv.drc/run_details/duse_manager_res
