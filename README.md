@@ -13,15 +13,21 @@ Se construyó un circuito para la generación realista del reloj con dos inverso
 Se realizaron las conexiones del reloj con MET3 en los respectivos layouts. En cada uno se extrajeron las capacitancias parásitas como se muestra en las siguientes figuras:
 
 Flip-Flop:
+
 ![esq_ff](https://github.com/user-attachments/assets/11baa464-3f31-40fb-a236-aec291cfe7b1)
+
 ![lay_ff](https://github.com/user-attachments/assets/406548f8-f8a4-47a6-837a-123c92a298cf)
 
 Inversor unitario:
+
 ![esx0](https://github.com/user-attachments/assets/e053309a-e118-4ff0-b9f7-4bf6c391dc99)
+
 ![fx0](https://github.com/user-attachments/assets/448de7d5-eaeb-4f59-b6ce-9733b256944d)
 
 Inversor 4x:
+
 ![esx4](https://github.com/user-attachments/assets/d768b8f6-c863-4a47-a9dc-e6cbd3566bc9)
+
 ![fx4](https://github.com/user-attachments/assets/5ba033ff-55c1-45d3-972e-26922c7c5536)
 
 Tanto las fuentes como el FO4 se simularon a nivel de esquemático.
