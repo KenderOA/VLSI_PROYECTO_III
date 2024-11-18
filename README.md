@@ -31,21 +31,15 @@ Inversor 4x:
 
 Tanto las fuentes como el FO4 se simularon a nivel de esquemático.
 
-  
-
-En el deck de spice se realizaron las conexiones con el metal y se automatizaron los cálculos de tiempos.
-
-  
-
 Se realizó la determinación de los parámetros de $t_{setup}$, $t_{hold}$ y $t_{pcq}$ con el reloj listo. Posteriormente, se verificaron estos parámetros mediante simulación en Hspice a nivel de trazado (LPE).
 
 Se utilizó la técnica de variación de tcd (tiempo de retardo de reloj) para medir los tiempos de tsetup y thold, así como el tiempo de propagación del flanco de reloj al dato de salida (tpcq).
 
 Finalmente, se compararon los valores obtenidos en la simulación con los tiempos de tsetup y thold que se listan para este flip-flop a través de la herramienta LibertyDisplayer. Este análisis permitió evaluar cuán cercanos o alejados se encuentran los valores simulados en relación con los proporcionados por la herramienta, validando así el comportamiento temporal del flip-flop y asegurando su conformidad con los requisitos de tiempo especificados en la documentación.
-  
-![Imagen de WhatsApp 2024-11-16 a las 23 59 45_3c58d35b](https://github.com/user-attachments/assets/1c4c2343-7a7a-4931-9236-76bb357d5475)
 
-![Imagen de WhatsApp 2024-11-17 a las 00 00 20_1afcce93](https://github.com/user-attachments/assets/e3b151a3-69eb-431f-b714-5fe95f0df58d)
+![wave](https://github.com/user-attachments/assets/d5fe59b6-a542-42ac-8cfa-d02a4968fb9f)
+![ff_setup_hold](https://github.com/user-attachments/assets/95bf1316-ee68-4714-84e4-148d07acfa19)
+
 
 Se comprueba que estos tienen un sesgo mínimo y aunque hacer las pruebas para cada uno de los casos seria lo óptimo estas son demasiadas y lo relevante del análisis es caracterizar el comportamiento del registro lo cual se realizó comparando solo los puntos críticos con los parámetros brindados por el fabricante. Estos se muestran en la siguiente tabla:
 
