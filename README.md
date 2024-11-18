@@ -6,6 +6,8 @@ Caracterización de un Flip-Flop Estático Amo-Esclavo XT018 para el Curso de In
 
 Se realizó una instancia del modelo de flip-flop DFFHDLLX0 en Custom Compiler. Este modelo no incluye una entrada de reset, lo que significa que su funcionamiento depende únicamente de las entradas D y CN. Las salidas del flip-flop son Q y QN, que representan el estado almacenado y su complemento, respectivamente. A continuación, se presenta el esquema que ilustra su configuración y conexiones.
 
+file:///C:/TEC/Semestre%20II%202024/VLSI/clk3.png
+
 ## Parte 2. Circuito de pruebas
 
 Se construyó un circuito para la generación realista del clk con dos inversores instanciados. El primero un inversor unitario INHDLLX0 y el segundo un inversor de 4 unitarios INHDLLX4. También se agregaron las fuentes respectivas y una carga de un FO4 a la salida de Q. El circuito completo se muestra a continuación:
