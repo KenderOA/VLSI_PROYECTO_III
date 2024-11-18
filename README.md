@@ -16,18 +16,18 @@ Se construyó un circuito para la generación realista del clk con dos inversore
 
 Se realizaron las conexiones del clk con MET3 en los respectivos layouts, en cada uno se extrajeron las capacitancias parásitas como se muestra en las siguientes figuras:
 
-  
-
 Flip-Flop
-  
+![esq_ff](https://github.com/user-attachments/assets/11baa464-3f31-40fb-a236-aec291cfe7b1)
+
+![lay_ff](https://github.com/user-attachments/assets/406548f8-f8a4-47a6-837a-123c92a298cf)
 
 Inversor unitario:
 
 
-  
 
 Inversor 4x:
 
+![fx4](https://github.com/user-attachments/assets/5ba033ff-55c1-45d3-972e-26922c7c5536)
 
 Tanto las fuentes como el FO4 se simularon a nivel de esquemático.
 
