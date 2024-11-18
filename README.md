@@ -23,9 +23,16 @@ Flip-Flop
 
 Inversor unitario:
 
+![esx0](https://github.com/user-attachments/assets/e053309a-e118-4ff0-b9f7-4bf6c391dc99)
+
+
+![fx0](https://github.com/user-attachments/assets/448de7d5-eaeb-4f59-b6ce-9733b256944d)
 
 
 Inversor 4x:
+
+
+![esx4](https://github.com/user-attachments/assets/d768b8f6-c863-4a47-a9dc-e6cbd3566bc9)
 
 ![fx4](https://github.com/user-attachments/assets/5ba033ff-55c1-45d3-972e-26922c7c5536)
 
