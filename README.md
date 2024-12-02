@@ -1,3 +1,7 @@
+# VLSI_PROYECTO_III
+
+Kender Ortiz y Josué Quirós
+
 ### Parte 1: Instanciación del registro a caracterizar
 
 Se realizó una instancia del modelo de flip-flop DFFHDLLX0 en Custom Compiler. Este modelo no incluye una entrada de reset, lo que significa que su funcionamiento depende únicamente de las entradas D y CN. Las salidas del flip-flop son Q y QN, que representan el estado almacenado y su complemento, respectivamente. A continuación, se presenta el esquema que ilustra su configuración y conexiones.
